@@ -1,14 +1,12 @@
 ---
 name: container-security-hardening
-description: >
-  Harden Docker/container images and runtime deployments with secure base images,
-  non-root users, CVE scanning, SBOM/signing, seccomp/AppArmor, and Kubernetes
-  pod security controls. Use for Dockerfile security reviews, container CVEs,
-  image scanning, distroless images, or production hardening.
+description: Harden Docker/container images and runtime deployments with secure base
+  images, non-root users, CVE scanning, SBOM/signing, seccomp/AppArmor, and Kubernetes
+  pod security controls. Use for Dockerfile…
 category: security
 risk: safe
 source: community
-date_added: "2026-05-30"
+date_added: '2026-05-30'
 ---
 
 # Container Security Hardening Skill
@@ -19,7 +17,7 @@ A production-focused guide for building, scanning, and running containers secure
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

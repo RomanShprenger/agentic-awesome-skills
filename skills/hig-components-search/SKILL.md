@@ -1,6 +1,7 @@
 ---
 name: hig-components-search
-description: Apple HIG guidance for navigation-related components including search fields, page controls, and path controls.
+description: Apple HIG guidance for navigation-related components including search
+  fields, page controls, and path controls.
 risk: safe
 source: community
 date_added: '2026-02-27'
@@ -32,9 +33,9 @@ Check for `.claude/apple-design-context.md` before asking questions. Use existin
 
 | Reference | Topic | Key content |
 |---|---|---|
-| [search-fields.md](references/search-fields.md) | Search fields | Scopes, tokens, instant results, placement |
-| [page-controls.md](references/page-controls.md) | Page controls | Dot indicators, flat page sequences |
-| [path-controls.md](references/path-controls.md) | Path controls | Breadcrumbs, ancestor navigation |
+| [search-fields.md] | Search fields | Scopes, tokens, instant results, placement |
+| [page-controls.md] | Page controls | Dot indicators, flat page sequences |
+| [path-controls.md] | Path controls | Breadcrumbs, ancestor navigation |
 
 ## Output Format
 

@@ -1,9 +1,10 @@
 ---
 name: spline-3d-integration
-description: "Use when adding interactive 3D scenes from Spline.design to web projects, including React embedding and runtime control API."
+description: Use when adding interactive 3D scenes from Spline.design to web projects,
+  including React embedding and runtime control API.
 risk: safe
 source: community
-date_added: "2026-03-07"
+date_added: '2026-03-07'
 ---
 
 # Spline 3D Integration Skill
@@ -21,18 +22,18 @@ Master guide for embedding interactive 3D scenes from [Spline.design](https://sp
 
 | Task                              | Guide                                                          |
 | --------------------------------- | -------------------------------------------------------------- |
-| Vanilla HTML/JS embed             | [guides/VANILLA_INTEGRATION.md](guides/VANILLA_INTEGRATION.md) |
-| React / Next.js / Vue embed       | [guides/REACT_INTEGRATION.md](guides/REACT_INTEGRATION.md)     |
-| Performance & mobile optimization | [guides/PERFORMANCE.md](guides/PERFORMANCE.md)                 |
-| Debugging & common problems       | [guides/COMMON_PROBLEMS.md](guides/COMMON_PROBLEMS.md)         |
+| Vanilla HTML/JS embed             | [guides/VANILLA_INTEGRATION.md |
+| React / Next.js / Vue embed       | [guides/REACT_INTEGRATION.md     |
+| Performance & mobile optimization | [guides/PERFORMANCE.md                 |
+| Debugging & common problems       | [guides/COMMON_PROBLEMS.md         |
 
 ## Working Examples
 
 | File                                                                   | What it shows                                            |
 | ---------------------------------------------------------------------- | -------------------------------------------------------- |
-| [examples/vanilla-embed.html](examples/vanilla-embed.html)             | Minimal vanilla JS embed with background + fallback      |
-| [examples/react-spline-wrapper.tsx](examples/react-spline-wrapper.tsx) | Production-ready lazy-loaded React wrapper with fallback |
-| [examples/interactive-scene.tsx](examples/interactive-scene.tsx)       | Full interactive example: events, object control, camera |
+| [examples/vanilla-embed.html             | Minimal vanilla JS embed with background + fallback      |
+| [examples/react-spline-wrapper.tsx | Production-ready lazy-loaded React wrapper with fallback |
+| [examples/interactive-scene.tsx       | Full interactive example: events, object control, camera |
 
 ---
 

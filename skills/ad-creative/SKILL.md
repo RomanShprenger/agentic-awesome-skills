@@ -1,9 +1,11 @@
 ---
 name: ad-creative
-description: "Create, iterate, and scale paid ad creative for Google Ads, Meta, LinkedIn, TikTok, and similar platforms. Use when generating headlines, descriptions, primary text, or large sets of ad variations for testing and performance optimization."
+description: Create, iterate, and scale paid ad creative for Google Ads, Meta, LinkedIn,
+  TikTok, and similar platforms. Use when generating headlines, descriptions, primary
+  text, or large sets of ad variations fo…
 risk: critical
-source: "https://github.com/coreyhaines31/marketingskills"
-date_added: "2026-03-21"
+source: https://github.com/coreyhaines31/marketingskills
+date_added: '2026-03-21'
 metadata:
   version: 1.1.0
 ---
@@ -121,13 +123,13 @@ Platforms reject or truncate creative that exceeds these limits, so verify every
 | Headline | 70 characters | Card headline |
 | Description | 200 characters | Card description |
 
-For detailed specs and format variations, see [references/platform-specs.md](references/platform-specs.md).
+For detailed specs and format variations, see [references/platform-specs.md].
 
 ---
 
 ## Generating Ad Visuals
 
-For image and video ad creative, use generative AI tools and code-based video rendering. See [references/generative-tools.md](references/generative-tools.md) for the complete guide covering:
+For image and video ad creative, use generative AI tools and code-based video rendering. See [references/generative-tools.md] for the complete guide covering:
 
 - **Image generation** — Nano Banana Pro (Gemini), Flux, Ideogram for static ad images
 - **Video generation** — Veo, Kling, Runway, Sora, Seedance, Higgsfield for video ads

@@ -1,6 +1,7 @@
 ---
 name: developer-onboarding
-description: "Get developers to \"Hello World\" fast with optimized quickstarts, tutorials, and sample apps."
+description: Get developers to "Hello World" fast with optimized quickstarts, tutorials,
+  and sample apps.
 risk: critical
 source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/developer-onboarding
 source_repo: jonathimer/devmarketing-skills
@@ -14,10 +15,9 @@ license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICE
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
-
 Use this skill when you need get developers to "Hello World" fast with optimized quickstarts, tutorials, and sample apps. Trigger phrases: developer onboarding, time to first value, quickstart guide, hello world tutorial, developer activation, onboarding checklist, sample apps, getting started experience, reduce...
 
 

@@ -1,24 +1,34 @@
 ---
 name: codex-fable5
-description: "Apply Fable-inspired discipline to Codex work: inspect first, track goals and findings, ground conclusions in evidence, verify before completion, and adapt Claude/Fable prompt guidance without identity or provider claims."
+description: 'Apply Fable-inspired discipline to Codex work: inspect first, track
+  goals and findings, ground conclusions in evidence, verify before completion, and
+  adapt Claude/Fable prompt guidance without identi…'
 category: agent-behavior
 risk: critical
 source: community
 source_repo: baskduf/FableCodex
 source_type: community
-date_added: "2026-06-15"
+date_added: '2026-06-15'
 author: baskduf
-tags: [codex, fable-style, agent-workflow, verification, prompt-adaptation]
-tools: [codex, antigravity]
-license: "AGPL-3.0-or-later"
-license_source: "https://github.com/baskduf/FableCodex/blob/main/LICENSE"
+tags:
+- codex
+- fable-style
+- agent-workflow
+- verification
+- prompt-adaptation
+tools:
+- codex
+- antigravity
+license: AGPL-3.0-or-later
+license_source: https://github.com/baskduf/FableCodex/blob/main/LICENSE
 plugin:
   targets:
     codex: blocked
     claude: blocked
   setup:
     type: manual
-    summary: "Optional external plugin/helper setup executes mutable third-party code; keep out of plugin-safe bundles."
+    summary: Optional external plugin/helper setup executes mutable third-party code;
+      keep out of plugin-safe bundles.
     docs: SKILL.md
 ---
 

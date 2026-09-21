@@ -1,6 +1,8 @@
 ---
 name: developer-churn
-description: When the user wants to understand, reduce, or recover from developer churn. Trigger phrases include "why developers leave," "churn rate," "win-back campaign," "at-risk users," "developer retention," "preventing churn," or "competitor switching."
+description: When the user wants to understand, reduce, or recover from developer
+  churn. Trigger phrases include "why developers leave," "churn rate," "win-back campaign,"
+  "at-risk users," "developer retention,"…
 risk: critical
 source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/developer-churn
 source_repo: jonathimer/devmarketing-skills
@@ -14,10 +16,9 @@ license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICE
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
-
 Use this skill when you need when the user wants to understand, reduce, or recover from developer churn. Trigger phrases include "why developers leave," "churn rate," "win-back campaign," "at-risk users," "developer retention," "preventing churn," or "competitor switching.".
 
 

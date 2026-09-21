@@ -1,21 +1,35 @@
 ---
 name: agents-generator
-description: "Generate project-specific AGENTS.md and companion rules by analyzing a codebase. Supports full, minimal, update, and dry-run modes with package-manager detection, monorepos, backups, managed blocks, confidence scoring, and command validation."
+description: Generate project-specific AGENTS.md and companion rules by analyzing
+  a codebase. Supports full, minimal, update, and dry-run modes with package-manager
+  detection, monorepos, backups, managed blocks,…
 category: developer-tools
 risk: critical
 source: https://github.com/OJPalenzuela/agents-generator/tree/7a3201208a01bd25e69ad11e665efc1392f5356a
 source_repo: OJPalenzuela/agents-generator
 source_type: community
-date_added: "2026-08-02"
+date_added: '2026-08-02'
 author: OJPalenzuela
-tags: [agents-md, project-conventions, developer-tools, codebase-analysis, ai-agents]
-tools: [claude, cursor, copilot, opencode, codex, gemini]
+tags:
+- agents-md
+- project-conventions
+- developer-tools
+- codebase-analysis
+- ai-agents
+tools:
+- claude
+- cursor
+- copilot
+- opencode
+- codex
+- gemini
 license: MIT
 license_source: https://github.com/OJPalenzuela/agents-generator/blob/7a3201208a01bd25e69ad11e665efc1392f5356a/LICENSE
-allowed-tools: Read Write Edit Bash(ls:*) Bash(git:*) Bash(tree:*) Bash(find:*) Grep Glob WebFetch
+allowed-tools: Read Write Edit Bash(ls:*) Bash(git:*) Bash(tree:*) Bash(find:*) Grep
+  Glob WebFetch
 metadata:
   author: OJPalenzuela
-  version: "1.2.3"
+  version: 1.2.3
 ---
 
 # Skill: agents-generator
@@ -24,7 +38,6 @@ metadata:
 > **[Authorized Use Only]** This skill writes or updates `AGENTS.md`, `.agents/rules/`, optional platform instruction files, and timestamped backups in the target project. Read the detected inputs and proposed outputs first, obtain approval before changing target files, and use it only inside the user's intended project scope.
 
 ## When to Use
-
 Use this skill when the user wants to:
 
 - create a complete, project-specific `AGENTS.md` instead of generic agent rules;

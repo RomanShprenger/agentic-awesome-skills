@@ -1,16 +1,17 @@
 ---
 name: ai-md
-description: "Convert human-written CLAUDE.md into AI-native structured-label format. Battle-tested across 4 models. Same rules, fewer tokens, higher compliance."
+description: Convert human-written CLAUDE.md into AI-native structured-label format.
+  Battle-tested across 4 models. Same rules, fewer tokens, higher compliance.
 risk: safe
 source: community
-date_added: "2026-03-11"
+date_added: '2026-03-11'
 ---
 
 # AI.MD v4 — The Complete AI-Native Conversion System
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

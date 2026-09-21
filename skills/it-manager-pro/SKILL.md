@@ -1,20 +1,21 @@
 ---
 name: it-manager-pro
-description: Elite IT Management Advisor specializing in data-driven strategy, executive communication, and human-centric leadership for the 2026 digital era.
+description: Elite IT Management Advisor specializing in data-driven strategy, executive
+  communication, and human-centric leadership for the 2026 digital era.
 risk: safe
 source: community
-date_added: "2026-04-18"
+date_added: '2026-04-18'
 triggers:
-  - "it manager pro"
-  - "it management advice"
-  - "ti management"
-  - "gestão de ti"
-  - "finops strategy"
-  - "leadership coaching ti"
-  - "ai governance roadmap"
-  - "cobit 2019 governance"
-  - "togaf architecture advice"
-  - "it framework selection"
+- it manager pro
+- it management advice
+- ti management
+- gestão de ti
+- finops strategy
+- leadership coaching ti
+- ai governance roadmap
+- cobit 2019 governance
+- togaf architecture advice
+- it framework selection
 ---
 
 # IT Manager Pro (Elite Leadership Advisor)
@@ -84,9 +85,9 @@ Leadership in a VUCA environment requires radical empathy and adaptability.
 - **Crisis Communication:** Drafting stakeholder updates during a critical P1 outage.
 
 ## References
-- [IT Manager's Handbook (2026 Edition)](./references/it-manager-handbook.md)
-- [Real-World Management Scenarios](./examples/management-scenarios.md)
-- [IT Management Frameworks (COBIT, TOGAF, NIST)](./references/it-management-frameworks.md)
+- [IT Manager's Handbook (2026 Edition)]
+- [Real-World Management Scenarios
+- [IT Management Frameworks (COBIT, TOGAF, NIST)]
 - ITIL 5 Strategic Integration (See itil-expert skill)
 
 ## Limitations

@@ -1,10 +1,10 @@
 ---
 name: writing-skills
-description: "Use when creating, updating, or improving agent skills."
+description: Use when creating, updating, or improving agent skills.
 category: meta
 risk: critical
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # Writing Skills (Excellence)
@@ -16,34 +16,34 @@ Dispatcher for skill creation excellence. Use the decision tree below to find th
 ### What do you need to do?
 
 1. **Create a NEW skill:**
-   - Is it simple (single file, <200 lines)? → [Tier 1 Architecture](references/tier-1-simple/README.md)
-   - Is it complex (multi-concept, 200-1000 lines)? → [Tier 2 Architecture](references/tier-2-expanded/README.md)
-   - Is it a massive platform (10+ products, AWS, Convex)? → [Tier 3 Architecture](references/tier-3-platform/README.md)
+   - Is it simple (single file, <200 lines)? → [Tier 1 Architecture]
+   - Is it complex (multi-concept, 200-1000 lines)? → [Tier 2 Architecture]
+   - Is it a massive platform (10+ products, AWS, Convex)? → [Tier 3 Architecture]
 
 2. **Improve an EXISTING skill:**
-   - Fix "it's too long" -> [Modularize (Tier 3)](references/templates/tier-3-platform.md)
-   - Fix "AI ignores rules" -> [Anti-Rationalization](references/anti-rationalization/README.md)
-   - Fix "users can't find it" -> [CSO (Search Optimization)](references/cso/README.md)
+   - Fix "it's too long" -> [Modularize (Tier 3)]
+   - Fix "AI ignores rules" -> [Anti-Rationalization]
+   - Fix "users can't find it" -> [CSO (Search Optimization)]
 
 3. **Verify Compliance:**
-   - Check metadata/naming -> [Standards](references/standards/README.md)
-   - Add tests -> [Testing Guide](references/testing/README.md)
+   - Check metadata/naming -> [Standards]
+   - Add tests -> [Testing Guide]
 
 ## 📚 Component Index
 
 | Component | Purpose |
 |-----------|---------|
-| **[CSO](references/cso/README.md)** | "SEO for LLMs". How to write descriptions that trigger. |
-| **[Standards](references/standards/README.md)** | File naming, YAML frontmatter, directory structure. |
-| **[Anti-Rationalization](references/anti-rationalization/README.md)**| How to write rules that agents won't ignore. |
-| **[Testing](references/testing/README.md)** | How to ensure your skill actually works. |
+| **[CSO]** | "SEO for LLMs". How to write descriptions that trigger. |
+| **[Standards]** | File naming, YAML frontmatter, directory structure. |
+| **[Anti-Rationalization]**| How to write rules that agents won't ignore. |
+| **[Testing]** | How to ensure your skill actually works. |
 
 ## 🛠️ Templates
 
-- [Technique Skill](references/templates/technique.md) (How-to)
-- [Reference Skill](references/templates/reference.md) (Docs)
-- [Discipline Skill](references/templates/discipline.md) (Rules)
-- [Pattern Skill](references/templates/pattern.md) (Design Patterns)
+- [Technique Skill] (How-to)
+- [Reference Skill] (Docs)
+- [Discipline Skill] (Rules)
+- [Pattern Skill] (Design Patterns)
 
 ## When to Use
 - Creating a NEW skill from scratch
@@ -86,7 +86,7 @@ metadata:
 | Generic name ("helper") | Use gerund (`creating-skills`) |
 | Long monolithic SKILL.md | Split into `references/` |
 
-See [gotchas.md](gotchas.md) for more.
+See [gotchas.md for more.
 
 ## ✅ Pre-Deploy Checklist
 

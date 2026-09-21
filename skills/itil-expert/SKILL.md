@@ -1,16 +1,17 @@
 ---
 name: itil-expert
-description: Expert advisor for ITIL 4 and ITIL 5 (2026 digital product paradigm), specialized in AI-native governance, sustainability, and value co-creation.
+description: Expert advisor for ITIL 4 and ITIL 5 (2026 digital product paradigm),
+  specialized in AI-native governance, sustainability, and value co-creation.
 risk: safe
 source: community
-date_added: "2026-04-18"
+date_added: '2026-04-18'
 triggers:
-  - "itil expert"
-  - "itil 5 guidance"
-  - "itil 4 process"
-  - "design service value stream"
-  - "ai governance guidance"
-  - "digital product management itil"
+- itil expert
+- itil 5 guidance
+- itil 4 process
+- design service value stream
+- ai governance guidance
+- digital product management itil
 ---
 
 # ITIL Expert (ITIL 4 & 5)
@@ -83,6 +84,6 @@ Sustainability is a primary metric of success in ITIL 5.
 - Best used in conjunction with "Agile," "Lean," and "DevOps" expert skills.
 
 ## References
-- [ITIL 5 Evolution Guide](./references/itil-5-evolution.md)
-- [Real-World Usage Scenarios](./examples/itil-usage.md)
+- [ITIL 5 Evolution Guide]
+- [Real-World Usage Scenarios
 - [ITIL 5 Extension Modules (2026 Edition)](https://www.peoplecert.org)

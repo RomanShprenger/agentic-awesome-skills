@@ -1,6 +1,8 @@
 ---
 name: usage-based-pricing
-description: "Design pricing models that developers understand, accept, and can predict. Trigger phrases: usage-based pricing, API pricing, metered billing, developer pricing, pricing page, cost calculator, pay as you go, pricing transparency, competitive pricing, developer billing"
+description: 'Design pricing models that developers understand, accept, and can predict.
+  Trigger phrases: usage-based pricing, API pricing, metered billing, developer pricing,
+  pricing page, cost calculator, pay as…'
 risk: critical
 source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/usage-based-pricing
 source_repo: jonathimer/devmarketing-skills
@@ -14,10 +16,9 @@ license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICE
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
-
 Use this skill when you need design pricing models that developers understand, accept, and can predict. Trigger phrases: usage-based pricing, API pricing, metered billing, developer pricing, pricing page, cost calculator, pay as you go, pricing transparency, competitive pricing, developer billing.
 
 

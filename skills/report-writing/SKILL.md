@@ -401,14 +401,13 @@ Each YES raises severity:
 
 ## Contents
 
-- [CVSS 4.0 QUICK REFERENCE (newer programs)](references/details.md)
-- [HUMAN TONE GUIDELINES](references/details.md)
-- [STEPS TO REPRODUCE FORMAT (triager-optimized)](references/details.md)
-- [Related Skills & Chains](references/details.md)
-- [Operator Notes (Claude-BugHunter)](references/details.md)
+- [CVSS 4.0 QUICK REFERENCE (newer programs)]
+- [HUMAN TONE GUIDELINES]
+- [STEPS TO REPRODUCE FORMAT (triager-optimized)]
+- [Related Skills & Chains]
+- [Operator Notes (Claude-BugHunter)]
 
 ## When to Use
-
 - You need this skill's process guidance (reporting format, evidence handling, detection notes, or scope triage) during an authorized engagement.
 - No active probing is involved in this step.
 

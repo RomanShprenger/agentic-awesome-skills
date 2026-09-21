@@ -1,20 +1,29 @@
 ---
 name: k6-load-testing
-description: "Comprehensive k6 load testing skill for API, browser, and scalability testing. Write realistic load scenarios, analyze results, and integrate with CI/CD."
+description: Comprehensive k6 load testing skill for API, browser, and scalability
+  testing. Write realistic load scenarios, analyze results, and integrate with CI/CD.
 category: testing
 risk: safe
 source: community
-date_added: "2026-03-13"
+date_added: '2026-03-13'
 author: Kairo Official
-tags: [k6, load-testing, performance, api-testing, ci-cd]
-tools: [claude, cursor, gemini]
+tags:
+- k6
+- load-testing
+- performance
+- api-testing
+- ci-cd
+tools:
+- claude
+- cursor
+- gemini
 ---
 
 # k6 Load Testing
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

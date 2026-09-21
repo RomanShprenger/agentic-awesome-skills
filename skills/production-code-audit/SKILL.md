@@ -1,16 +1,18 @@
 ---
 name: production-code-audit
-description: "Autonomously deep-scan entire codebase line-by-line, understand architecture and patterns, then systematically transform it to production-grade, corporate-level professional quality with optimizations"
+description: Autonomously deep-scan entire codebase line-by-line, understand architecture
+  and patterns, then systematically transform it to production-grade, corporate-level
+  professional quality with optimizations
 risk: critical
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # Production Code Audit
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

@@ -1,8 +1,8 @@
 ---
 name: hubspot-integration
-description: Expert patterns for HubSpot CRM integration including OAuth
-  authentication, CRM objects, associations, batch operations, webhooks, and
-  custom objects. Covers Node.js and Python SDKs.
+description: Expert patterns for HubSpot CRM integration including OAuth authentication,
+  CRM objects, associations, batch operations, webhooks, and custom objects. Covers
+  Node.js and Python SDKs.
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -16,7 +16,7 @@ Covers Node.js and Python SDKs.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - User mentions or implies: hubspot

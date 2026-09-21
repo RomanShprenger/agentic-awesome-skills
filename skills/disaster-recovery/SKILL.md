@@ -347,13 +347,12 @@ EOF
 
 ## Contents
 
-- [DR Testing Procedures](references/details.md)
-- [Terraform DR Infrastructure](references/details.md)
-- [DR Compliance Checklist](references/details.md)
-- [Best Practices](references/details.md)
+- [DR Testing Procedures]
+- [Terraform DR Infrastructure]
+- [DR Compliance Checklist]
+- [Best Practices]
 
 ## When to Use
-
 - Defining RTO and RPO targets for critical systems
 - Designing multi-region or multi-cloud disaster recovery architectures
 - Implementing automated failover and failback procedures

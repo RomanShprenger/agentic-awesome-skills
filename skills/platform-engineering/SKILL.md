@@ -309,17 +309,16 @@ spec:
 
 ## Contents
 
-- [4. Golden Paths](references/details.md)
-- [5. Service Catalog](references/details.md)
-- [6. Developer Portal -- Backstage Plugins](references/details.md)
-- [7. Score Specification](references/details.md)
-- [8. Self-Service Workflows](references/details.md)
-- [9. Platform Metrics](references/details.md)
-- [10. Governance -- Policy Enforcement](references/details.md)
-- [Summary](references/details.md)
+- [4. Golden Paths]
+- [5. Service Catalog]
+- [6. Developer Portal -- Backstage Plugins]
+- [7. Score Specification]
+- [8. Self-Service Workflows]
+- [9. Platform Metrics]
+- [10. Governance -- Policy Enforcement]
+- [Summary]
 
 ## When to Use
-
 Adopt platform engineering practices when your organization experiences:
 
 - **Cognitive overload on dev teams** -- developers spend more time on infrastructure wiring than writing business logic.

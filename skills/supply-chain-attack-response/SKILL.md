@@ -403,12 +403,12 @@ kubectl run test --image=ghcr.io/myorg/unsigned-image:latest
 
 ## Contents
 
-- [7. CI/CD Pipeline Hardening](references/details.md)
-- [8. SLSA Framework Implementation](references/details.md)
-- [9. Dependency Firewall](references/details.md)
-- [10. Monitoring and Alerting](references/details.md)
-- [11. Post-Incident Response](references/details.md)
-- [Quick Reference](references/details.md)
+- [7. CI/CD Pipeline Hardening]
+- [8. SLSA Framework Implementation]
+- [9. Dependency Firewall]
+- [10. Monitoring and Alerting]
+- [11. Post-Incident Response]
+- [Quick Reference]
 
 ## When to Use This Skill
 

@@ -1,9 +1,11 @@
 ---
 name: site-architecture
-description: "Plan or restructure website hierarchy, navigation, URL patterns, breadcrumbs, and internal linking. Use when mapping pages, sections, and site structure, but not for XML sitemap auditing or schema markup."
+description: Plan or restructure website hierarchy, navigation, URL patterns, breadcrumbs,
+  and internal linking. Use when mapping pages, sections, and site structure, but
+  not for XML sitemap auditing or schema ma…
 risk: safe
-source: "https://github.com/coreyhaines31/marketingskills"
-date_added: "2026-03-21"
+source: https://github.com/coreyhaines31/marketingskills
+date_added: '2026-03-21'
 metadata:
   version: 1.1.0
 ---
@@ -60,7 +62,7 @@ Gather this context (ask if not provided):
 | Hybrid SaaS+content | 3-4 levels | Home, Product, Blog, Resources, Docs | `/product/feature`, `/blog/slug` |
 | Small business | 1-2 levels | Home, Services, About, Contact | `/services/name` |
 
-**For full page hierarchy templates**: See [references/site-type-templates.md](references/site-type-templates.md)
+**For full page hierarchy templates**: See [references/site-type-templates.md]
 
 ---
 
@@ -158,7 +160,7 @@ Home > Blog > SEO Category > Post Title
 
 Breadcrumbs should mirror the URL hierarchy. Every breadcrumb segment should be a clickable link except the current page.
 
-**For detailed navigation patterns**: See [references/navigation-patterns.md](references/navigation-patterns.md)
+**For detailed navigation patterns**: See [references/navigation-patterns.md]
 
 ---
 
@@ -260,7 +262,7 @@ graph TD
     FEAT --> F2[Automation]
 ```
 
-**For more Mermaid templates**: See [references/mermaid-templates.md](references/mermaid-templates.md)
+**For more Mermaid templates**: See [references/mermaid-templates.md]
 
 ---
 

@@ -1,9 +1,11 @@
 ---
 name: seo-aeo-content-quality-auditor
-description: "Audits a website, codebase, page, or content set for technical SEO, search intent, AEO, conversion paths, and publishing readiness, then produces prioritised fixes that can be implemented and verified."
+description: Audits a website, codebase, page, or content set for technical SEO, search
+  intent, AEO, conversion paths, and publishing readiness, then produces prioritised
+  fixes that can be implemented and verifie…
 risk: safe
 source: community
-date_added: "2026-04-01"
+date_added: '2026-04-01'
 ---
 
 
@@ -34,7 +36,7 @@ a website, codebase, URL, page, or content set for SEO and AEO performance. Trig
 
 For a new project, default to a full website/codebase audit before recommending new content. If the user has not supplied target keywords, identify candidate keywords from the site and ask which ones matter before finalizing the content strategy. If the user does not know, continue with a clearly labelled fallback strategy based on observed search intent.
 
-Read [references/seo-audit-checklist.md](references/seo-audit-checklist.md) for the audit dimensions, evidence rules, and audit-to-implementation loop.
+Read [references/seo-audit-checklist.md] for the audit dimensions, evidence rules, and audit-to-implementation loop.
 
 ---
 
@@ -247,7 +249,6 @@ Work through these in order:
 - Feeds output to: `seo-aeo-internal-linking`, `seo-aeo-schema-generator`
 
 ## When to Use
-
 Use before implementing SEO/AEO changes on a website, codebase, URL, page, or content set, and again when verifying the fixes.
 
 ## Limitations

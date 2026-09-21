@@ -4,7 +4,7 @@ description: 分析健康目标数据、识别目标模式、评估目标进度,
 allowed-tools: Read, Grep, Glob, Write
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # 健康目标分析器技能
@@ -13,7 +13,7 @@ date_added: "2026-09-04"
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - 你需要评估健康目标是否符合 SMART 原则，并识别目标设定中的薄弱点。

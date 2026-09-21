@@ -1,10 +1,12 @@
 ---
 name: html-injection-testing
-description: "Identify and exploit HTML injection vulnerabilities that allow attackers to inject malicious HTML content into web applications. This vulnerability enables attackers to modify page appearance, create phishing pages, and steal user credentials through injected forms."
+description: Identify and exploit HTML injection vulnerabilities that allow attackers
+  to inject malicious HTML content into web applications. This vulnerability enables
+  attackers to modify page appearance, create…
 risk: offensive
 source: community
 author: zebbern
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 > **⚠️ AUTHORIZED USE ONLY**
@@ -27,7 +29,7 @@ date_added: "2026-02-27"
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Prerequisites
 

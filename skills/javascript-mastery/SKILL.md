@@ -1,9 +1,10 @@
 ---
 name: javascript-mastery
-description: "33+ essential JavaScript concepts every developer should know, inspired by [33-js-concepts](https://github.com/leonardomso/33-js-concepts)."
+description: 33+ essential JavaScript concepts every developer should know, inspired
+  by [33-js-concepts](https://github.com/leonardomso/33-js-concepts).
 risk: critical
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # 🧠 JavaScript Mastery
@@ -12,7 +13,7 @@ date_added: "2026-02-27"
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

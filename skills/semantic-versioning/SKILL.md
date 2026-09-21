@@ -405,10 +405,10 @@ if __name__ == '__main__':
 
 ## Contents
 
-- [Multi-Package Versioning](references/details.md)
-- [Common Issues](references/details.md)
-- [Best Practices](references/details.md)
-- [Related Skills](references/details.md)
+- [Multi-Package Versioning]
+- [Common Issues]
+- [Best Practices]
+- [Related Skills]
 
 ## When to Use This Skill
 

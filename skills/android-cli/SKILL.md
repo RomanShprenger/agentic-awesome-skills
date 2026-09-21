@@ -1,21 +1,33 @@
 ---
 name: android-cli
-description: Orchestrates Android development tasks including project creation, deployment, SDK management, and environment diagnostics using the `android` command-line tool.
+description: Orchestrates Android development tasks including project creation, deployment,
+  SDK management, and environment diagnostics using the `android` command-line tool.
 category: tools
 risk: critical
 source: self
 source_type: self
-date_added: "2026-06-15"
+date_added: '2026-06-15'
 author: Owais
-tags: [android, cli, adb, mobile, build, emulator]
-tools: [claude, cursor, gemini, antigravity]
+tags:
+- android
+- cli
+- adb
+- mobile
+- build
+- emulator
+tools:
+- claude
+- cursor
+- gemini
+- antigravity
 plugin:
   targets:
     codex: blocked
     claude: blocked
   setup:
     type: manual
-    summary: "Installer guidance executes remote Android CLI setup scripts; keep out of plugin-safe bundles."
+    summary: Installer guidance executes remote Android CLI setup scripts; keep out
+      of plugin-safe bundles.
     docs: SKILL.md
 ---
 
@@ -24,7 +36,6 @@ plugin:
 This skill provides instructions for using the `android` CLI tool. The tool includes various commands for creating projects, running applications, interacting with devices, and managing the CLI environment.
 
 ## When to Use
-
 - Use when you need to create, configure, or analyze Android projects from the command line.
 - Use when interacting with, deploying to, or taking screenshots of running Android devices.
 - Use when managing Android SDK components, versions, or virtual devices (emulators).
@@ -64,11 +75,11 @@ android create empty-activity --name="My App" --output=./my-app
 
 ## Interacting with Devices
 
-For more information on interacting with running devices, see [here](references/interact.md).
+For more information on interacting with running devices, see [here].
 
 ## Running Journey Tests
 
-For more information on running journeys, see [here](references/journeys.md).
+For more information on running journeys, see [here].
 
 ## Doc Searching
 

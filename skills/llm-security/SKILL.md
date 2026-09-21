@@ -1,13 +1,15 @@
 ---
 name: llm-security
-description: "Authorized security assessment of LLM applications and AI agents: prompt injection, tool abuse, RAG exposure, memory poisoning, system-prompt extraction, and agent-compliance engineering per OWASP LLM/ASI Top 10."
+description: 'Authorized security assessment of LLM applications and AI agents: prompt
+  injection, tool abuse, RAG exposure, memory poisoning, system-prompt extraction,
+  and agent-compliance engineering per OWASP LL…'
 risk: offensive
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
+source: https://github.com/zhaoxuya520/reverse-skill
+source_repo: zhaoxuya520/reverse-skill
 source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+date_added: '2026-08-25'
+license: MIT
+license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
@@ -25,7 +27,6 @@ license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
 
 # LLM / AI 安全测试
 ## When to Use
-
 - Red-teaming an LLM-based application within an approved scope.
 - Mapping agent tool permissions against abuse scenarios.
 

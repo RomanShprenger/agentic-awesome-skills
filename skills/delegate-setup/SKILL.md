@@ -19,7 +19,6 @@ metadata:
 # Delegate Setup
 
 ## When to Use
-
 - You want to configure which implementer CLI handles which kind of work (fleet lanes).
 - You need to discover installed implementers and write lane config after user approval.
 
@@ -41,7 +40,7 @@ Example lane: **feature** → implementer `opencode`, model `opencode/grok`, var
 ## Hard rules
 
 1. Every lane **must** include `implementer`.
-2. Put dials on the same object (`model`, `effort` or `variant`, …) only if that implementer supports them — see [references/schema.md](references/schema.md).
+2. Put dials on the same object (`model`, `effort` or `variant`, …) only if that implementer supports them — see [references/schema.md].
 3. Show a human-readable lane table **and** the full JSON before every write; re-show after every tweak.
 4. Write **only** after an explicit approval (“yes”, “approve”, “write it”).
 5. Ask scope unless already clear: **global** (all projects) vs **this repo only**. Never create a project file just because cwd is a git repo. If there is no git repo, default to global and say so.
@@ -92,7 +91,7 @@ anything — one question, three options, not a wizard:
 
 - **Quick defaults** → propose immediately.
 - **Interview** → the four questions (allocation policy, never model rankings) and how to ask them
-  (one medium per round) live in [references/setup-dialogue.md](references/setup-dialogue.md) — read
+  (one medium per round) live in [references/setup-dialogue.md] — read
   it before you ask.
 - **Usage scan** → `node "<skill-dir>/scripts/discover.mjs" --usage`. Tell the user it is metadata
   only before running it. Each discovered CLI gains `usage: { sessions, lastUsed }`; `null` means no
@@ -112,7 +111,7 @@ decide:
   is their standing choice, better evidence than your priors. Choosing which installed implementer
   gets a lane is still yours — Basis `my opinion` — but a dial that raises spend is not: offer your
   dial picks only as an addendum after the proposal, see
-  [references/setup-dialogue.md](references/setup-dialogue.md).
+  [references/setup-dialogue.md].
 - **An unanswered question shrinks the map; it never licenses a substitution.** Propose fewer, more
   conservative lanes, name the axis you are blind on (no quota answer → say the map is quota-blind),
   and invite the answer anytime. Re-ask once at most; never backfill silence with priors.
@@ -141,7 +140,7 @@ quality gate, so optimize total cost, not implementer prestige:
   conflicts with.
 
 Question phrasings for the burn/spare and trust interview live in
-[references/setup-dialogue.md](references/setup-dialogue.md).
+[references/setup-dialogue.md].
 
 Then propose the lanes. Name them after the work the user described; fall back to `feature`, `tests`,
 `ui`, `fast`, `complex`. Installed implementers only.
@@ -159,12 +158,12 @@ Show:
 picked from model-quality priors is `my opinion` — never present it as something the tooling
 determined, and “installed and authenticated” is capability, not evidence of fit. When a lane’s
 implementer and its dials come from different places, split the label — see
-[references/setup-dialogue.md](references/setup-dialogue.md).
+[references/setup-dialogue.md].
 
 Then the **complete** JSON (`version`: `delegate-fleet.v1`). One line of why per lane; flag auth or
 model uncertainty.
 
-Schema and dial table: [references/schema.md](references/schema.md).
+Schema and dial table: [references/schema.md].
 
 ### 4. Scope
 

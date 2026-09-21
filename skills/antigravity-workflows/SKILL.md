@@ -1,9 +1,11 @@
 ---
 name: antigravity-workflows
-description: "Use when asked to ship a SaaS MVP, audit application security, build an AI agent, run browser QA, or design a domain model with multiple skills and verified checkpoints."
+description: Use when asked to ship a SaaS MVP, audit application security, build
+  an AI agent, run browser QA, or design a domain model with multiple skills and verified
+  checkpoints.
 risk: none
 source: self
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # Antigravity Workflows
@@ -29,7 +31,7 @@ Read workflows in this order:
 
 Those paths belong to the AAS repository, not necessarily the user's project.
 When they are absent from a standalone installation, use the bundled
-[workflow cards](references/workflow-cards.md). Do not invent missing files,
+[workflow cards]. Do not invent missing files,
 fetch a moving replacement silently, or create AAS documentation in the project.
 
 ## How to Run This Skill
@@ -64,7 +66,7 @@ fetch a moving replacement silently, or create AAS documentation in the project.
 - Domain-driven design request -> `design-ddd-core-domain`
 
 For a concrete selection and installer command, see the
-[reviewed-selection handoff](references/workflow-cards.md#reviewed-selection-handoff).
+[reviewed-selection handoff].
 
 ## Copy-Paste Prompts
 

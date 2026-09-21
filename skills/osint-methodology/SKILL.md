@@ -411,36 +411,35 @@ Stage and asset count drive how long a recon takes. Rough estimates (single oper
 
 ## Contents
 
-- [8. Asset Graph Discipline](references/details.md)
-- [9. Findings Rubric & Severity Mapping](references/details.md)
-- [10. Bug-Bounty / Red-Team Pivot Modes](references/details.md)
-- [11. Identity Fabric Mapping](references/details.md)
-- [12. API & Auth-Map Methodology](references/details.md)
-- [13. JavaScript Deep Analysis](references/details.md)
-- [14. Mobile Attack Surface](references/details.md)
-- [15. Cloud Attack Surface](references/details.md)
-- [16. Cryptocurrency Investigation](references/details.md)
-- [17. Image Analysis](references/details.md)
-- [18. Video Analysis](references/details.md)
-- [19. Chronolocation and Time Analysis](references/details.md)
-- [20. Threat Actor Investigation](references/details.md)
-- [21. People & Social Media Investigation](references/details.md)
-- [22. Breach × Identity Correlation](references/details.md)
-- [23. Infrastructure OSINT](references/details.md)
-- [24. Automation & Case Management](references/details.md)
-- [25. Synthetic Media Verification](references/details.md)
-- [26. Anti-Patterns & Common Failure Modes](references/details.md)
-- [27. WAF / CDN Bypass & Origin Discovery](references/details.md)
-- [28. Vulnerability Prioritization (CVE / EPSS / KEV)](references/details.md)
-- [29. Phishing Infrastructure & Pretext Development](references/details.md)
-- [30. Bug Bounty Submission & Responsible Disclosure](references/details.md)
-- [31. Client Deliverable Templates](references/details.md)
-- [32. Skill Self-Test](references/details.md)
-- [33. Changelog](references/details.md)
-- [Related Skills & Chains](references/details.md)
+- [8. Asset Graph Discipline]
+- [9. Findings Rubric & Severity Mapping]
+- [10. Bug-Bounty / Red-Team Pivot Modes]
+- [11. Identity Fabric Mapping]
+- [12. API & Auth-Map Methodology]
+- [13. JavaScript Deep Analysis]
+- [14. Mobile Attack Surface]
+- [15. Cloud Attack Surface]
+- [16. Cryptocurrency Investigation]
+- [17. Image Analysis]
+- [18. Video Analysis]
+- [19. Chronolocation and Time Analysis]
+- [20. Threat Actor Investigation]
+- [21. People & Social Media Investigation]
+- [22. Breach × Identity Correlation]
+- [23. Infrastructure OSINT]
+- [24. Automation & Case Management]
+- [25. Synthetic Media Verification]
+- [26. Anti-Patterns & Common Failure Modes]
+- [27. WAF / CDN Bypass & Origin Discovery]
+- [28. Vulnerability Prioritization (CVE / EPSS / KEV)]
+- [29. Phishing Infrastructure & Pretext Development]
+- [30. Bug Bounty Submission & Responsible Disclosure]
+- [31. Client Deliverable Templates]
+- [32. Skill Self-Test]
+- [33. Changelog]
+- [Related Skills & Chains]
 
 ## When to Use
-
 - You have explicit, written authorization to assess the target in scope, and the task matches this skill's vulnerability class or technique within a bug-bounty or penetration-test engagement.
 - You need the recon, exploitation, or validation workflow described below — executed strictly inside the approved scope.
 

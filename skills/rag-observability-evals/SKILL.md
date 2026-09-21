@@ -415,11 +415,11 @@ spec:
 
 ## Contents
 
-- [Alerting Strategy](references/details.md)
-- [Practical Guardrails](references/details.md)
-- [Incident Triage Checklist](references/details.md)
-- [Troubleshooting](references/details.md)
-- [Related Skills](references/details.md)
+- [Alerting Strategy]
+- [Practical Guardrails]
+- [Incident Triage Checklist]
+- [Troubleshooting]
+- [Related Skills]
 
 ## When to Use This Skill
 

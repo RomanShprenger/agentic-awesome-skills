@@ -1,9 +1,10 @@
 ---
-name: "orchestrate-batch-refactor"
-description: "Plan and execute large refactors with dependency-aware work packets and parallel analysis."
+name: orchestrate-batch-refactor
+description: Plan and execute large refactors with dependency-aware work packets and
+  parallel analysis.
 risk: safe
-source: "Dimillian/Skills (MIT)"
-date_added: "2026-03-25"
+source: Dimillian/Skills (MIT)
+date_added: '2026-03-25'
 ---
 
 # Orchestrate Batch Refactor
@@ -70,11 +71,11 @@ Every packet must include:
 5. Required checks.
 6. Integration notes for main thread.
 
-Use [`references/work-packet-template.md`](references/work-packet-template.md) for the exact shape.
+Use [`references/work-packet-template.md`] for the exact shape.
 
 ## Agent Prompting Contract
 
-- Use the prompt templates in [`references/agent-prompt-templates.md`](references/agent-prompt-templates.md).
+- Use the prompt templates in [`references/agent-prompt-templates.md`].
 - Explorer prompts focus on analysis and decomposition.
 - Worker prompts focus on implementation and validation with strict ownership boundaries.
 

@@ -1,6 +1,8 @@
 ---
 name: code-review-and-quality
-description: Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch.
+description: Conducts multi-axis code review. Use before merging any change. Use when
+  reviewing code written by yourself, another agent, or a human. Use when you need
+  to assess code quality across multiple dimens…
 risk: critical
 source: https://github.com/addyosmani/agent-skills/tree/main/skills/code-review-and-quality
 source_repo: addyosmani/agent-skills
@@ -19,7 +21,6 @@ Multi-dimensional code review with quality gates. Every change gets reviewed bef
 **The approval standard:** Approve a change when it definitely improves overall code health, even if it isn't perfect. Perfect code doesn't exist — the goal is continuous improvement. Don't block a change because it isn't exactly how you would have written it. If it improves the codebase and follows the project's conventions, approve it.
 
 ## When to Use
-
 - Before merging any PR or change
 - After completing a feature implementation
 - When another agent or model produced code you need to evaluate

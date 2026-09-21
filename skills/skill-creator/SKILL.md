@@ -1,11 +1,13 @@
 ---
 name: skill-creator
-description: "To create new CLI skills following Anthropic's official best practices with zero manual configuration. This skill automates brainstorming, template application, validation, and installation processes while maintaining progressive disclosure patterns and writing style standards."
+description: To create new CLI skills following Anthropic's official best practices
+  with zero manual configuration. This skill automates brainstorming, template application,
+  validation, and installation processes…
 category: meta
 risk: safe
 source: community
-tags: "[automation, scaffolding, skill-creation, meta-skill]"
-date_added: "2026-02-27"
+tags: '[automation, scaffolding, skill-creation, meta-skill]'
+date_added: '2026-02-27'
 plugin:
   targets:
     codex: supported
@@ -16,7 +18,7 @@ plugin:
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

@@ -427,11 +427,10 @@ resource "google_monitoring_alert_policy" "iam_changes" {
 
 ## Contents
 
-- [Setup Checklist](references/details.md)
-- [Best Practices](references/details.md)
+- [Setup Checklist]
+- [Best Practices]
 
 ## When to Use
-
 - Enabling organization-wide audit logging across GCP projects
 - Meeting compliance requirements for SOC 2, HIPAA, PCI DSS, or FedRAMP
 - Investigating unauthorized access or suspicious API activity

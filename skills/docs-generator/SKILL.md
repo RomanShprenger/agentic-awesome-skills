@@ -1,17 +1,18 @@
 ---
 name: docs-generator
-description: "Generate technical deliverables from completed analysis: reverse-engineering reports, penetration-test reports, CTF write-ups, and signature-analysis documentation with evidence-backed structure."
+description: 'Generate technical deliverables from completed analysis: reverse-engineering
+  reports, penetration-test reports, CTF write-ups, and signature-analysis documentation
+  with evidence-backed structure.'
 risk: safe
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
+source: https://github.com/zhaoxuya520/reverse-skill
+source_repo: zhaoxuya520/reverse-skill
 source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+date_added: '2026-08-25'
+license: MIT
+license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 # Technical Documentation
 ## When to Use
-
 - A finished analysis needs a structured, shareable report.
 - Standardizing write-ups across multiple cases.
 
@@ -143,7 +144,7 @@ Every concept needs a concrete example.
 
 ## Templates
 
-For README, API endpoint, and file organization templates, see [references/templates.md](references/templates.md).
+For README, API endpoint, and file organization templates, see [references/templates.md].
 
 ## Related Skills
 

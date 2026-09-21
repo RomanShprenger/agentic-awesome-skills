@@ -1,9 +1,8 @@
 ---
 name: interactive-portfolio
-description: Expert in building portfolios that actually land jobs and clients -
-  not just showing work, but creating memorable experiences. Covers developer
-  portfolios, designer portfolios, creative portfolios, and portfolios that
-  convert visitors into opportunities.
+description: Expert in building portfolios that actually land jobs and clients - not
+  just showing work, but creating memorable experiences. Covers developer portfolios,
+  designer portfolios, creative portfolios, a…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -34,7 +33,7 @@ seconds count. You help people stand out without being gimmicky.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - User mentions or implies: portfolio

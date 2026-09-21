@@ -1,6 +1,8 @@
 ---
 name: technical-tutorials
-description: When the user wants to create step-by-step technical tutorials, quickstarts, or code walkthroughs. Trigger phrases include "tutorial," "quickstart," "getting started guide," "walkthrough," "step by step," "how to guide," "hands-on guide," or "code tutorial."
+description: When the user wants to create step-by-step technical tutorials, quickstarts,
+  or code walkthroughs. Trigger phrases include "tutorial," "quickstart," "getting
+  started guide," "walkthrough," "step by s…
 risk: critical
 source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/technical-tutorials
 source_repo: jonathimer/devmarketing-skills
@@ -14,10 +16,9 @@ license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICE
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
-
 Use this skill when you need when the user wants to create step-by-step technical tutorials, quickstarts, or code walkthroughs. Trigger phrases include "tutorial," "quickstart," "getting started guide," "walkthrough," "step by step," "how to guide," "hands-on guide," or "code tutorial.".
 
 

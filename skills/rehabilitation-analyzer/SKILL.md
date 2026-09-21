@@ -4,14 +4,14 @@ description: 分析康复训练数据、识别康复模式、评估康复进展�
 allowed-tools: Read, Grep, Glob, Write, Edit
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # 康复训练分析技能
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - 需要分析康复训练记录、功能恢复趋势或康复阶段进展时使用。

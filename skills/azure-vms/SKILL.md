@@ -383,12 +383,11 @@ az vm resize \
 
 ## Contents
 
-- [Terraform Configuration](references/details.md)
-- [Troubleshooting](references/details.md)
-- [Related Skills](references/details.md)
+- [Terraform Configuration]
+- [Troubleshooting]
+- [Related Skills]
 
 ## When to Use
-
 - You need full control over the operating system and runtime environment.
 - Your application requires specific OS configurations or kernel modules.
 - You are running legacy applications that cannot be containerized.

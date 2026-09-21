@@ -1,17 +1,27 @@
 ---
 name: famulor-skill
-description: "Operate Famulor assistants, communication history, campaigns, knowledge, automations, telephony, and workspace administration through its hosted MCP server."
+description: Operate Famulor assistants, communication history, campaigns, knowledge,
+  automations, telephony, and workspace administration through its hosted MCP server.
 category: api-integration
 risk: critical
-source: "https://github.com/bekservice/Famulor-Skill"
+source: https://github.com/bekservice/Famulor-Skill
 source_repo: bekservice/Famulor-Skill
 source_type: official
-date_added: "2026-08-23"
+date_added: '2026-08-23'
 author: bekservice
-tags: [famulor, mcp, voice-ai, communication, automation]
-tools: [claude, codex, cursor, gemini]
+tags:
+- famulor
+- mcp
+- voice-ai
+- communication
+- automation
+tools:
+- claude
+- codex
+- cursor
+- gemini
 license: MIT
-license_source: "https://github.com/bekservice/Famulor-Skill/blob/main/LICENSE"
+license_source: https://github.com/bekservice/Famulor-Skill/blob/main/LICENSE
 ---
 
 # Famulor
@@ -27,7 +37,6 @@ This skills-only package does not install or configure the MCP connection. Add t
 If the Famulor MCP server is unavailable in the current client, help the user connect it and stop before claiming to have read or changed their account. Do not substitute an undocumented REST endpoint.
 
 ## When to Use
-
 - Use when a request needs real Famulor workspace data or an authenticated Famulor action.
 - Use when configuring or operating assistants, communication history, campaigns, knowledge, automations, telephony, billing, or workspace settings.
 - Do not use for generic voice-agent advice that does not require Famulor.
@@ -51,19 +60,19 @@ Read the linked reference only for the relevant group. Each reference contains e
 
 | Toolset | Use for | Current tools | Reference |
 | --- | --- | ---: | --- |
-| `assistants` | Assistants, versions, models, voices, reusable tools, bookings, tests, and integrations | 56 | [assistants](references/toolsets/assistants.md) |
-| `calls` | Calls, unified history, transcripts, QA, callbacks, and live control | 15 | [calls](references/toolsets/calls.md) |
-| `campaigns` | Campaigns, Audience contacts, leads, segments, consent, suppression, and outbound limits | 34 | [campaigns](references/toolsets/campaigns.md) |
-| `messaging` | WhatsApp, Messenger, email, Slack, connectors, templates, and sender profiles | 44 | [messaging](references/toolsets/messaging.md) |
-| `telephony` | Phone numbers, SIP trunks, caller IDs, carriers, and number verification | 27 | [telephony](references/toolsets/telephony.md) |
-| `knowledge` | Knowledge bases, documents, FAQs, websites, and connected drives | 20 | [knowledge](references/toolsets/knowledge.md) |
-| `dashboards` | Dashboards, analytics, widgets, and layout | 19 | [dashboards](references/toolsets/dashboards.md) |
-| `automations` | Automations, connections, CRM sync, routines, and runs | 28 | [automations](references/toolsets/automations.md) |
-| `billing` | Balance, usage, transactions, invoices, billing recovery, and referrals | 7 | [billing](references/toolsets/billing.md) |
-| `settings` | Account, workspaces, API keys, retention, memory, domains, and sessions | 20 | [settings](references/toolsets/settings.md) |
-| `platform` | Authorized white-label reseller customer administration | 6 | [platform](references/toolsets/platform.md) |
-| `migration` | Previewing and importing supported Famulor 1.0 resources | 2 | [migration](references/toolsets/migration.md) |
-| `tasks` | Durable exports, simulations, crawls, and campaign preparation | 4 | [tasks](references/toolsets/tasks.md) |
+| `assistants` | Assistants, versions, models, voices, reusable tools, bookings, tests, and integrations | 56 | [assistants] |
+| `calls` | Calls, unified history, transcripts, QA, callbacks, and live control | 15 | [calls] |
+| `campaigns` | Campaigns, Audience contacts, leads, segments, consent, suppression, and outbound limits | 34 | [campaigns] |
+| `messaging` | WhatsApp, Messenger, email, Slack, connectors, templates, and sender profiles | 44 | [messaging] |
+| `telephony` | Phone numbers, SIP trunks, caller IDs, carriers, and number verification | 27 | [telephony] |
+| `knowledge` | Knowledge bases, documents, FAQs, websites, and connected drives | 20 | [knowledge] |
+| `dashboards` | Dashboards, analytics, widgets, and layout | 19 | [dashboards] |
+| `automations` | Automations, connections, CRM sync, routines, and runs | 28 | [automations] |
+| `billing` | Balance, usage, transactions, invoices, billing recovery, and referrals | 7 | [billing] |
+| `settings` | Account, workspaces, API keys, retention, memory, domains, and sessions | 20 | [settings] |
+| `platform` | Authorized white-label reseller customer administration | 6 | [platform] |
+| `migration` | Previewing and importing supported Famulor 1.0 resources | 2 | [migration] |
+| `tasks` | Durable exports, simulations, crawls, and campaign preparation | 4 | [tasks] |
 
 The full snapshot contains 282 tools. `list_mcp_toolsets` can report the groups visible to the current credential. The public `assistant-history` directory profile is intentionally limited to 11 read-only tools; use it only when the user specifically wants that restricted connection.
 
@@ -76,7 +85,7 @@ The full snapshot contains 282 tools. `list_mcp_toolsets` can report the groups 
 5. Before an external or difficult-to-reverse effect, ensure the user has explicitly authorized the exact target and action. If the current request already supplies that authorization, do not ask again.
 6. Verify the result with the corresponding read tool or returned status. For asynchronous work, follow the MCP task handle until it completes or needs user input.
 
-For assistant onboarding or prompt design, read [assistant design](references/assistant-design.md). Use live models, voices, languages, prompt templates, and tool schemas instead of fixed IDs or provider assumptions.
+For assistant onboarding or prompt design, read [assistant design]. Use live models, voices, languages, prompt templates, and tool schemas instead of fixed IDs or provider assumptions.
 
 ## Safety and authorization
 

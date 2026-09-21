@@ -1,9 +1,11 @@
 ---
 name: content-strategy
-description: "Plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program."
+description: Plan a content strategy, topic clusters, editorial roadmap, and content
+  mix for traffic, authority, and lead generation. Use when deciding what to publish,
+  what topics to prioritize, or how to struct…
 risk: critical
-source: "https://github.com/coreyhaines31/marketingskills"
-date_added: "2026-03-21"
+source: https://github.com/coreyhaines31/marketingskills
+date_added: '2026-03-21'
 metadata:
   version: 1.1.0
 ---
@@ -358,7 +360,7 @@ Visual or structured representation of how content interconnects.
 
 ## References
 
-- **[Headless CMS Guide](references/headless-cms.md)**: CMS selection, content modeling for marketing, editorial workflows, platform comparison (Sanity, Contentful, Strapi)
+- **[Headless CMS Guide]**: CMS selection, content modeling for marketing, editorial workflows, platform comparison (Sanity, Contentful, Strapi)
 
 ---
 

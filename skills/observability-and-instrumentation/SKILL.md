@@ -1,6 +1,8 @@
 ---
 name: observability-and-instrumentation
-description: "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works."
+description: Instruments code so production behavior is visible and diagnosable. Use
+  when adding logging, metrics, tracing, or alerting. Use when shipping any feature
+  that runs in production and you need evidence…
 risk: critical
 source: https://github.com/addyosmani/agent-skills/tree/main/skills/observability-and-instrumentation
 source_repo: addyosmani/agent-skills
@@ -17,7 +19,6 @@ license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 Code you can't observe is code you can't operate. Observability is the ability to answer "what is the system doing and why?" from the outside, using the telemetry the code emits. Instrumentation is not a post-launch add-on — it's written alongside the feature, the same way tests are. If a feature ships without telemetry, the first user-reported bug becomes archaeology instead of a query.
 
 ## When to Use
-
 - Building any feature that will run in production
 - Adding a new service, endpoint, background job, or external integration
 - A production incident took too long to diagnose ("we couldn't tell what happened")

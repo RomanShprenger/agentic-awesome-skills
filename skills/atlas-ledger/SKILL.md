@@ -1,15 +1,17 @@
 ---
 name: atlas-ledger
-description: "Companion to atlas-contract. Auto-invoked by its Final Audit on caught drift; also use after Post Reviews or user requests to record a mistake. Distills drift into WHEN/DON'T/INSTEAD clauses, writes to Atlas.md after confirmation."
+description: Companion to atlas-contract. Auto-invoked by its Final Audit on caught
+  drift; also use after Post Reviews or user requests to record a mistake. Distills
+  drift into WHEN/DON'T/INSTEAD clauses, writes…
 risk: critical
 source: community
 source_repo: wede-wx/atlas
 source_type: community
-date_added: "2026-06-12"
+date_added: '2026-06-12'
 license: MIT
-license_source: "https://github.com/wede-wx/atlas/blob/main/LICENSE"
+license_source: https://github.com/wede-wx/atlas/blob/main/LICENSE
 metadata:
-  version: "2.2.0"
+  version: 2.2.0
   author: wede-wx
   repository: https://github.com/wede-wx/atlas
 plugin:
@@ -18,7 +20,8 @@ plugin:
     claude: blocked
   setup:
     type: manual
-    summary: "Writes durable Atlas.md project memory after confirmation; keep out of plugin-safe bundles."
+    summary: Writes durable Atlas.md project memory after confirmation; keep out of
+      plugin-safe bundles.
     docs: SKILL.md
 ---
 
@@ -82,7 +85,6 @@ Chinese label mapping (process labels — localize these):
 ---
 
 ## When to Use
-
 # 2. When To Run
 
 Run distillation only when a drift has been **caught**. Triggers, in order of how they usually arrive:

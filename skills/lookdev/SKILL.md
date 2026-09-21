@@ -1,30 +1,31 @@
 ---
 name: lookdev
-description: "Human-in-the-loop web studio to tune AI-generated output by eye. Stand up a local interactive studio (sliders, pickers, drag handles) or an inline edit/highlight/comment annotation studio for prose & media, instead of guessing values or shipping a static comparison grid."
+description: Human-in-the-loop web studio to tune AI-generated output by eye. Stand
+  up a local interactive studio (sliders, pickers, drag handles) or an inline edit/highlight/comment
+  annotation studio for prose &…
 risk: safe
 source: community
 source_type: community
 source_repo: connerkward/lookdev-studio-skill
-date_added: "2026-06-16"
+date_added: '2026-06-16'
 author: Conner K Ward
 license: MIT
 tags:
-  - lookdev
-  - design
-  - ui
-  - tuning
-  - studio
-  - visual-eval
-  - annotation
+- lookdev
+- design
+- ui
+- tuning
+- studio
+- visual-eval
+- annotation
 tools:
-  - claude-code
-  - antigravity
-  - cursor
-  - gemini-cli
-  - codex-cli
+- claude-code
+- antigravity
+- cursor
+- gemini-cli
+- codex-cli
 ---
 ## When to Use
-
 Use when the user says "lookdev", or asks to tune / dial in / iterate on the look of something, compare variations by feel, or review / edit / annotate a blog post, doc, copy, or media set. Use whenever "show me, I'll pick" beats asking the user to specify a number, and whenever you'd otherwise hand back a static grid or a wall of prose for review.
 
 _Source: [connerkward/lookdev-studio-skill](https://github.com/connerkward/lookdev-studio-skill) (MIT)._

@@ -1,17 +1,33 @@
 ---
 name: socialclaw
-description: "Agent-first social media publishing skill — schedule and publish posts across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, Pinterest) via a single workspace API key."
+description: Agent-first social media publishing skill — schedule and publish posts
+  across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord, Telegram,
+  YouTube, Reddit, WordPress, Pinterest) v…
 category: marketing
 risk: critical
 source: community
 source_repo: ndesv21/socialclaw
 source_type: community
-date_added: "2026-05-25"
+date_added: '2026-05-25'
 author: ndesv21
-tags: [social-media, publishing, scheduling, marketing, twitter, linkedin, instagram, tiktok, discord, telegram, reddit, wordpress, pinterest]
-tools: [claude]
-license: "MIT"
-license_source: "https://github.com/ndesv21/socialclaw/blob/main/LICENSE"
+tags:
+- social-media
+- publishing
+- scheduling
+- marketing
+- twitter
+- linkedin
+- instagram
+- tiktok
+- discord
+- telegram
+- reddit
+- wordpress
+- pinterest
+tools:
+- claude
+license: MIT
+license_source: https://github.com/ndesv21/socialclaw/blob/main/LICENSE
 plugin:
   targets:
     codex: blocked
@@ -25,7 +41,6 @@ plugin:
 SocialClaw is an agent-first social media publishing skill that lets you schedule and publish posts across 13 platforms using a single workspace API key. No per-platform OAuth setup required — one key covers everything.
 
 ## When to Use
-
 - Use when the user wants to plan, schedule, or publish a social media campaign across multiple platforms.
 - Use when the user has a SocialClaw workspace API key and wants one workflow for X, LinkedIn, Instagram, Facebook, TikTok, Discord, Telegram, YouTube, Reddit, WordPress, or Pinterest.
 - Use when the user asks for social publishing automation that can validate schedules, attach media, and retrieve post performance metrics.

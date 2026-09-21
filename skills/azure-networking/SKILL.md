@@ -428,12 +428,11 @@ az network application-gateway waf-policy managed-rule rule-set add \
 
 ## Contents
 
-- [Terraform Configuration](references/details.md)
-- [Troubleshooting](references/details.md)
-- [Related Skills](references/details.md)
+- [Terraform Configuration]
+- [Troubleshooting]
+- [Related Skills]
 
 ## When to Use
-
 - You are designing the network foundation for Azure workloads.
 - You need to isolate environments with VNets and NSGs.
 - You are connecting on-premises networks to Azure via VPN or ExpressRoute.

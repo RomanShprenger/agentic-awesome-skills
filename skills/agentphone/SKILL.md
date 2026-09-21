@@ -1,13 +1,16 @@
 ---
 name: agentphone
 version: 0.3.0
-description: Build AI phone agents with AgentPhone API. Use when the user wants to make phone calls, send/receive SMS, manage phone numbers, create voice agents, set up webhooks, or check usage — anything related to telephony, phone numbers, or voice AI.
+description: Build AI phone agents with AgentPhone API. Use when the user wants to
+  make phone calls, send/receive SMS, manage phone numbers, create voice agents, set
+  up webhooks, or check usage — anything related…
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 homepage: https://agentphone.to
 docs: https://docs.agentphone.to
-metadata: {"api_base": "https://api.agentphone.to/v1"}
+metadata:
+  api_base: https://api.agentphone.to/v1
 ---
 
 # AgentPhone
@@ -16,7 +19,7 @@ AgentPhone is an API-first telephony platform for AI agents. Give your agents ph
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - Use when the user wants to create or manage AI phone agents, voice agents, or telephony automations

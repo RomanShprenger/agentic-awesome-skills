@@ -1,9 +1,11 @@
 ---
 name: n8n-node-configuration
-description: Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determining required fields, choosing between get_node detail levels, or learning common configuration patterns by node type.
+description: Operation-aware node configuration guidance. Use when configuring nodes,
+  understanding property dependencies, determining required fields, choosing between
+  get_node detail levels, or learning common…
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # n8n Node Configuration
@@ -12,7 +14,7 @@ Expert guidance for operation-aware node configuration with property dependencie
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - You need to configure an n8n node correctly for a specific resource and operation.

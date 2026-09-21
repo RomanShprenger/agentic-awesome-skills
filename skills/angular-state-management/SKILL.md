@@ -1,9 +1,11 @@
 ---
 name: angular-state-management
-description: "Master modern Angular state management with Signals, NgRx, and RxJS. Use when setting up global state, managing component stores, choosing between state solutions, or migrating from legacy patterns."
+description: Master modern Angular state management with Signals, NgRx, and RxJS.
+  Use when setting up global state, managing component stores, choosing between state
+  solutions, or migrating from legacy patterns.
 risk: safe
 source: self
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # Angular State Management
@@ -12,7 +14,7 @@ Comprehensive guide to modern Angular state management patterns, from Signal-bas
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

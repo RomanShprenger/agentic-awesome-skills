@@ -1,9 +1,8 @@
 ---
 name: voice-ai-development
-description: Expert in building voice AI applications - from real-time voice
-  agents to voice-enabled apps. Covers OpenAI Realtime API, Vapi for voice
-  agents, Deepgram for transcription, ElevenLabs for synthesis, LiveKit for
-  real-time infrastructure, and WebRTC fundamentals.
+description: Expert in building voice AI applications - from real-time voice agents
+  to voice-enabled apps. Covers OpenAI Realtime API, Vapi for voice agents, Deepgram
+  for transcription, ElevenLabs for synthesis,…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -33,7 +32,7 @@ for each use case and optimize relentlessly for perceived responsiveness.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Prerequisites
 

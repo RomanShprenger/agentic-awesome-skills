@@ -18,7 +18,7 @@ compatibility: Requires the `yy` CLI, git and bash. Executes one explicitly assi
 
 # Execute one assigned task in the Ralph loop
 
-Read [references/implement.md](references/implement.md) completely and follow it.
+Read [references/implement.md] completely and follow it.
 
 Stay within the assigned task. Do not select unrelated work, edit `tasks.md`, auto-tag releases, push, deploy, mutate production, or broaden scope because another issue is noticed. Record a bounded related Kanban follow-up when necessary.
 
@@ -33,7 +33,6 @@ Treat the following as the complete user-assigned request. Preserve task referen
 $ARGUMENTS
 
 ## When to Use
-
 - The user explicitly requests `ralph-loop-yylo` for one already-assigned YYLO Ledger task.
 - You need to implement exactly that task through the validated loop to a queued, review-ready commit.
 

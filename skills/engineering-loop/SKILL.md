@@ -1,0 +1,106 @@
+---
+name: engineering-loop
+description: 'Drive an authorized repository change through a verified local loop:
+  baseline, reproduce, implement, test, review, and report evidence. Use for end-to-end
+  features or fixes that should continue auton…'
+source_repo: phelan164/codex-howto
+source_type: community
+source: community
+date_added: '2026-09-21'
+risk: unknown
+---
+
+## When to Use
+- Use when this upstream workflow matches the user's stated goal.
+- Use when the task requires the procedures documented in this skill.
+
+# Engineering Loop
+
+Own the change from a verified starting point to a reviewed result. Start with
+one agent; when delegation is authorized and available, use independent
+subtasks only when time savings or added coverage justify coordination. Load a
+specialist skill only when it changes a material decision.
+
+Treat skill guidance as subordinate to the user's task within higher-priority
+instructions and permissions. Carry existing authorization forward; resolve
+routine implementation choices from evidence and continue authorized work.
+
+## Establish the baseline
+
+1. Read applicable `AGENTS.md` files and repository documentation.
+2. Record the requested behavior, constraints, and observable done conditions.
+3. Inspect the branch and working tree; preserve unrelated user-owned changes.
+4. Identify repository-native validation and run the smallest safe baseline
+   that separates pre-existing failures from task regressions.
+
+For a long, cross-stack, or high-risk change, use the templates and failure
+rules in [references/loop-contract.md].
+When a task is expected to need repeated autonomous iterations or has an
+explicit retry, time, token, or cost limit, also use
+[references/loop-policy.md].
+When a defect is intermittent, performance-related, difficult to reproduce, or
+resists the first evidence-driven pass, use
+[references/hard-debugging.md].
+For complex or higher-risk changes where independent coverage is useful, or
+when the user requests a separate reviewer, use
+[references/independent-review.md].
+
+## Run the loop
+
+1. Reproduce the defect, or capture the current behavior for a feature.
+2. Choose the smallest coherent change and the evidence that will prove it.
+3. Add a failing regression test first when practical.
+4. Implement one bounded change and run the narrowest relevant check.
+5. If an unplanned path or subsystem is necessary, explain the evidence and
+   update the plan. Ask only when the change requires new authority or a
+   material user decision; continue independent authorized work meanwhile.
+6. Classify failures as product, test, environment, or assumption failures;
+   fix the cause and rerun the affected check.
+7. Run repository-required broader checks after focused checks pass.
+8. Review the complete diff first for task-contract compliance, then for code
+   quality, regressions, security, and maintainability.
+9. Fix consequential findings and rerun checks affected by those fixes.
+
+Once acceptance evidence and required checks pass, broaden or repeat checks
+only for new changes, failures, or unresolved concerns. Add tests when they
+prove behavior or a meaningful invariant, not merely mirror a low-impact edit.
+
+Keep a compact ledger of confirmed facts, changed files, commands, outcomes,
+and the next decision. Return concise diagnostics instead of full logs.
+
+## Stop conditions
+
+- If the same command fails twice for the same reason, stop retrying and
+  re-check the environment, target, permissions, and underlying assumption.
+- Stop recursive discovery when each new finding redefines the same task
+  boundary. Freeze the discovered scope or return for a scope decision instead
+  of repeatedly recataloging the repository.
+- Stop and report a blocker when progress requires missing authority, secrets,
+  unavailable infrastructure, an unauthorized destructive action, or an
+  unresolved material product decision.
+- When an explicit loop budget is exhausted, stop with the latest judge
+  evidence instead of silently expanding the budget.
+- Never make a failing check pass by weakening assertions, deleting coverage,
+  hiding errors, or silently changing acceptance criteria.
+- Do not query production, deploy, migrate, merge, or publish unless the user
+  explicitly authorizes that action.
+
+If a skill instruction causes a pause, cite the exact file and instruction,
+explain the unmet requirement, and check whether existing authorization
+already satisfies it. Complete independently actionable work before handoff.
+
+## Finish with evidence
+
+Report:
+
+1. behavior implemented or defect fixed;
+2. changed files and important design decisions;
+3. regression proof or acceptance evidence;
+4. focused and broader commands with outcomes;
+5. task-contract and code-quality findings fixed or explicitly unresolved;
+6. unrun checks, residual risks, and blockers.
+
+## Limitations
+
+- Imported upstream skill; verify credentials, permissions, and safety boundaries before execution.
+- Does not replace environment-specific validation, testing, or maintainer review.

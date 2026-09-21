@@ -1,6 +1,8 @@
 ---
 name: fixing-accessibility
-description: Audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.
+description: Audit and fix HTML accessibility issues including ARIA labels, keyboard
+  navigation, focus management, color contrast, and form errors. Use when adding interactive
+  controls, forms, dialogs, or reviewi…
 risk: critical
 source: https://github.com/ibelick/ui-skills/tree/main/skills/fixing-accessibility
 source_repo: ibelick/ui-skills
@@ -12,7 +14,6 @@ license_source: https://github.com/ibelick/ui-skills/blob/main/LICENSE
 
 # fixing-accessibility
 ## When to Use
-
 Use this skill when you need audit and fix HTML accessibility issues including ARIA labels, keyboard navigation, focus management, color contrast, and form errors. Use when adding interactive controls, forms, dialogs, or reviewing WCAG compliance.
 
 
@@ -31,8 +32,7 @@ Fix accessibility issues.
 
 Do not rewrite large parts of the UI. Prefer minimal, targeted fixes.
 
-## when to apply
-
+## When to Use
 Reference these guidelines when:
 - adding or changing buttons, links, inputs, menus, dialogs, tabs, dropdowns
 - building forms, validation, error states, helper text

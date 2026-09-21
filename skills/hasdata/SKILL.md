@@ -6,8 +6,8 @@ source: official
 source_type: official
 source_repo: HasData/hasdata-cli
 license: MIT
-license_source: "https://github.com/HasData/hasdata-cli/blob/main/LICENSE"
-date_added: "2026-06-04"
+license_source: https://github.com/HasData/hasdata-cli/blob/main/LICENSE
+date_added: '2026-06-04'
 ---
 
 # HasData
@@ -23,7 +23,6 @@ curl -G 'https://api.hasdata.com/scrape/google/serp' \
 `401` invalid key, `403` quota exhausted, `429` concurrency cap, `500` server error (retry).
 
 ## When to Use
-
 Use this skill when:
 
 - The user needs web scraping.
@@ -80,16 +79,16 @@ See `references/code-recipes.md` for ready-to-paste Python and TypeScript client
 
 ## References
 
-- [`references/web-scraping.md`](references/web-scraping.md) — `POST /scrape/web` parameters, JS scenarios, AI extraction, cookie auth.
-- [`references/search.md`](references/search.md) — Google SERP / Light / AI Mode / News / Shopping / Bing / Trends + pagination.
-- [`references/ecommerce.md`](references/ecommerce.md) — Amazon (product, search, seller, seller-products) and Shopify.
-- [`references/real-estate.md`](references/real-estate.md) — Zillow, Redfin (bracketed filters).
-- [`references/travel.md`](references/travel.md) — Airbnb, Booking, Google Flights (occupancy rules, token pagination, IATA codes).
-- [`references/local-business.md`](references/local-business.md) — Maps (search/place/reviews/photos/posts), Yelp, YellowPages.
-- [`references/jobs.md`](references/jobs.md) — Indeed and Glassdoor.
-- [`references/youtube.md`](references/youtube.md) — YouTube search / video / channel / transcript.
-- [`references/scraper-jobs.md`](references/scraper-jobs.md) — async submit/poll/results, Crawler, Contacts, SEC EDGAR, webhook receiver.
-- [`references/code-recipes.md`](references/code-recipes.md) — Python / TypeScript clients with retry, backoff, concurrency, polling.
+- [`references/web-scraping.md`] — `POST /scrape/web` parameters, JS scenarios, AI extraction, cookie auth.
+- [`references/search.md`] — Google SERP / Light / AI Mode / News / Shopping / Bing / Trends + pagination.
+- [`references/ecommerce.md`] — Amazon (product, search, seller, seller-products) and Shopify.
+- [`references/real-estate.md`] — Zillow, Redfin (bracketed filters).
+- [`references/travel.md`] — Airbnb, Booking, Google Flights (occupancy rules, token pagination, IATA codes).
+- [`references/local-business.md`] — Maps (search/place/reviews/photos/posts), Yelp, YellowPages.
+- [`references/jobs.md`] — Indeed and Glassdoor.
+- [`references/youtube.md`] — YouTube search / video / channel / transcript.
+- [`references/scraper-jobs.md`] — async submit/poll/results, Crawler, Contacts, SEC EDGAR, webhook receiver.
+- [`references/code-recipes.md`] — Python / TypeScript clients with retry, backoff, concurrency, polling.
 
 ## Resources
 

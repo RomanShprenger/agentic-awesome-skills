@@ -1,15 +1,16 @@
 ---
 name: antigravity-maintainer-batch-release
-description: "Run protected AAS maintainer sweeps, PR merge batches, canonical sync, Core preview checks, and scripted releases. Use for repository maintenance, main alignment, CLI/MCP/Workbench changes, or release work; not ordinary contribution tasks."
+description: Run protected AAS maintainer sweeps, PR merge batches, canonical sync,
+  Core preview checks, and scripted releases. Use for repository maintenance, main
+  alignment, CLI/MCP/Workbench changes, or releas…
 risk: critical
 source: self
-date_added: "2026-07-18"
+date_added: '2026-07-18'
 ---
 
 # Antigravity Maintainer Batch Release
 
 ## When to Use
-
 Use this skill for repository-wide AAS maintenance, maintainer-side PR repair or merge batches, canonical synchronization, AAS Core or Workbench changes, protected releases, and hosted catalog or legacy redirect infrastructure. Do not use it for ordinary contribution work that does not require maintainer privileges or canonical convergence.
 
 ## Protected-Main Contract

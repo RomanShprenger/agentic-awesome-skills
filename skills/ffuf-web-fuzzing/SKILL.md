@@ -1,9 +1,10 @@
 ---
 name: ffuf-web-fuzzing
-description: Expert guidance for ffuf web fuzzing during penetration testing, including authenticated fuzzing with raw requests, auto-calibration, and result analysis
+description: Expert guidance for ffuf web fuzzing during penetration testing, including
+  authenticated fuzzing with raw requests, auto-calibration, and result analysis
 risk: offensive
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 > **⚠️ AUTHORIZED USE ONLY**
@@ -24,7 +25,7 @@ date_added: "2026-09-04"
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - You are fuzzing web targets with `ffuf` during authorized security testing or penetration testing.

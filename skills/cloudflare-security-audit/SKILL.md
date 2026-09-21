@@ -1,12 +1,13 @@
 ---
-name: "cloudflare-security-audit"
-description: "Audit authorized codebases for exploitable vulnerabilities using scoped reconnaissance, adversarial review, validation, and structured reporting."
-risk: "offensive"
-source: "community"
-source_repo: "cloudflare/security-audit-skill"
-source_type: "community"
+name: cloudflare-security-audit
+description: Audit authorized codebases for exploitable vulnerabilities using scoped
+  reconnaissance, adversarial review, validation, and structured reporting.
+risk: offensive
+source: community
+source_repo: cloudflare/security-audit-skill
+source_type: community
 date_added: 2026-07-13
-author: "community"
+author: community
 tags: []
 tools: []
 ---
@@ -40,7 +41,6 @@ Agent: I will confirm the repository scope, map trust boundaries, validate each 
 You are a security auditor. Your job is to find **exploitable vulnerabilities with real impact**.
 
 ## When to Use
-
 Use this skill when asked to perform a security audit, find security bugs, do a security review, audit for vulnerabilities, or pen-test a codebase. Activate it for web apps, APIs, services, CLI tools, libraries, daemons, and more.
 
 ## Platform terminology
@@ -117,18 +117,18 @@ The key distinction between HIGH and MEDIUM for business logic findings: **does 
 
 If you cannot describe the concrete damage an attacker achieves, the severity is probably lower than you think.
 
-These principles are enforced operationally by the **validation rules in [HUNTING.md](references/HUNTING.md)** — the canonical bar every hunter applies before reporting a finding, and that Phase 3 re-applies adversarially. The domain companion files add domain-specific checks on top of that bar; they do not replace it.
+These principles are enforced operationally by the **validation rules in [HUNTING.md]** — the canonical bar every hunter applies before reporting a finding, and that Phase 3 re-applies adversarially. The domain companion files add domain-specific checks on top of that bar; they do not replace it.
 
 ## Workflow overview
 
 Follow all six phases in order:
 
-1. **Recon** — Run Phase 1 from [RECONNAISSANCE.md](references/RECONNAISSANCE.md) to map the application's architecture, trust boundaries, and input surfaces.
-2. **Hunt** — Use [HUNTING.md](references/HUNTING.md) for Phase 2 orchestration, methodology, and validation rules; select scopes from [ATTACK-CLASSES.md](references/ATTACK-CLASSES.md), which routes native, AI/LLM, HTTP-protocol/auth, and client-side targets to specialized companion files ([MEMORY-SAFETY-AND-BINARY.md](references/MEMORY-SAFETY-AND-BINARY.md), [AI-AND-LLM.md](references/AI-AND-LLM.md), [WEB-PROTOCOL-AND-AUTH.md](references/WEB-PROTOCOL-AND-AUTH.md), [CLIENT-SIDE.md](references/CLIENT-SIDE.md)).
-3. **Validate** — Use Phase 3 in [VALIDATION-AND-REPORTING.md](references/VALIDATION-AND-REPORTING.md) to consolidate duplicates and independently try to disprove every finding.
-4. **Report** — Use Phase 4 in [VALIDATION-AND-REPORTING.md](references/VALIDATION-AND-REPORTING.md) to write `REPORT.md` and `FINDINGS-DETAIL.md`.
-5. **Structured output** — Use Phase 5 in [VALIDATION-AND-REPORTING.md](references/VALIDATION-AND-REPORTING.md) and `resources/report-schema.json` to write `findings.json`, then validate it with a trusted JSON Schema validator already available in the user's environment.
-6. **Independent verification** — Use Phase 6 in [VALIDATION-AND-REPORTING.md](references/VALIDATION-AND-REPORTING.md) to verify every factual claim and reconcile all outputs.
+1. **Recon** — Run Phase 1 from [RECONNAISSANCE.md] to map the application's architecture, trust boundaries, and input surfaces.
+2. **Hunt** — Use [HUNTING.md] for Phase 2 orchestration, methodology, and validation rules; select scopes from [ATTACK-CLASSES.md], which routes native, AI/LLM, HTTP-protocol/auth, and client-side targets to specialized companion files ([MEMORY-SAFETY-AND-BINARY.md], [AI-AND-LLM.md], [WEB-PROTOCOL-AND-AUTH.md], [CLIENT-SIDE.md]).
+3. **Validate** — Use Phase 3 in [VALIDATION-AND-REPORTING.md] to consolidate duplicates and independently try to disprove every finding.
+4. **Report** — Use Phase 4 in [VALIDATION-AND-REPORTING.md] to write `REPORT.md` and `FINDINGS-DETAIL.md`.
+5. **Structured output** — Use Phase 5 in [VALIDATION-AND-REPORTING.md] and `resources/report-schema.json` to write `findings.json`, then validate it with a trusted JSON Schema validator already available in the user's environment.
+6. **Independent verification** — Use Phase 6 in [VALIDATION-AND-REPORTING.md] to verify every factual claim and reconcile all outputs.
 
 ## Limitations
 

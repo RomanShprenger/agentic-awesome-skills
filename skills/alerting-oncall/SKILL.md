@@ -427,12 +427,12 @@ Users may experience errors when accessing the application.
 
 ## Contents
 
-- [Remediation](references/details.md)
-- [Escalation](references/details.md)
-- [Alert Fatigue Reduction](references/details.md)
-- [Common Issues](references/details.md)
-- [Best Practices](references/details.md)
-- [Related Skills](references/details.md)
+- [Remediation]
+- [Escalation]
+- [Alert Fatigue Reduction]
+- [Common Issues]
+- [Best Practices]
+- [Related Skills]
 
 ## When to Use This Skill
 

@@ -20,7 +20,6 @@ metadata:
 # Oh My Pi Delegate
 
 ## When to Use
-
 - You want to delegate a bounded coding task to a separate `omp` implementer (`Oh My Pi`) and then review its diff yourself.
 - The user explicitly asked for delegation to this implementer.
 
@@ -92,7 +91,7 @@ shared context. Include the goal, current state, what to change, what to leave u
 project's **actual** gates, and a report contract. Tell omp not to commit. Keep one task per brief.
 omp auto-loads `AGENTS.md`/`CLAUDE.md` context files from the workspace and its parents, so repo
 instructions reach it without inlining. See
-[references/writing-the-brief.md](references/writing-the-brief.md).
+[references/writing-the-brief.md].
 
 ### 2. Dispatch
 
@@ -115,7 +114,7 @@ node "<skill-dir>/scripts/relay.mjs" --brief brief.txt --cd /path/to/repo
 ```
 
 The child process's cwd pins the workspace. The relay writes artifacts under the system temp dir
-by default and never commits. See [references/dispatch-and-poll.md](references/dispatch-and-poll.md).
+by default and never commits. See [references/dispatch-and-poll.md].
 
 ### 3. Wait for completion
 
@@ -136,7 +135,7 @@ Treat omp's final message and gate claims as claims:
 - Run relevant guard skills if installed.
 - Round-trip migrations and grep for dangling references after removals or renames.
 
-See [references/review-and-land.md](references/review-and-land.md).
+See [references/review-and-land.md].
 
 ### 5. Land it
 
@@ -164,17 +163,17 @@ Delegation is something the human opts into. Once they have ("run this queue", "
 committing verified, gate-passing work is the agreed contract. Two limits remain: **surface, don't
 absorb** (report omp's design decisions, defensible-but-unasked turns, and non-blocking nitpicks)
 and **stop for scope changes** (if correct completion needs going beyond the brief, ask instead of
-expanding the mandate). See [references/review-and-land.md](references/review-and-land.md).
+expanding the mandate). See [references/review-and-land.md].
 
 ## References
 
-- [references/writing-the-brief.md](references/writing-the-brief.md) - structure, report contract,
+- [references/writing-the-brief.md] - structure, report contract,
   real gates, stdin delivery, model listing, and delta briefs.
-- [references/dispatch-and-poll.md](references/dispatch-and-poll.md) - flags, artifacts,
+- [references/dispatch-and-poll.md] - flags, artifacts,
   `result.json`, polling, and failure recovery.
-- [references/review-and-land.md](references/review-and-land.md) - review checklist, commit
+- [references/review-and-land.md] - review checklist, commit
   boundary, and rework through omp sessions.
-- [references/multi-task-queues.md](references/multi-task-queues.md) - sequential queues,
+- [references/multi-task-queues.md] - sequential queues,
   constraint carry-forward, progress tracking, and the final coherence pass.
 
 

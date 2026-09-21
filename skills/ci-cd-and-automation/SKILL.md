@@ -1,6 +1,8 @@
 ---
 name: ci-cd-and-automation
-description: Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.
+description: Automates CI/CD pipeline setup. Use when setting up or modifying build
+  and deployment pipelines. Use when you need to automate quality gates, configure
+  test runners in CI, or establish deployment str…
 risk: critical
 source: https://github.com/addyosmani/agent-skills/tree/main/skills/ci-cd-and-automation
 source_repo: addyosmani/agent-skills
@@ -21,7 +23,6 @@ Automate quality gates so that no change reaches production without passing test
 **Faster is Safer:** Smaller batches and more frequent releases reduce risk, not increase it. A deployment with 3 changes is easier to debug than one with 30. Frequent releases build confidence in the release process itself.
 
 ## When to Use
-
 - Setting up a new project's CI pipeline
 - Adding or modifying automated checks
 - Configuring deployment pipelines

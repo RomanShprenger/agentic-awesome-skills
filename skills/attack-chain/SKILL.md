@@ -1,13 +1,15 @@
 ---
 name: attack-chain
-description: "Authorized multi-stage attack-path planning and orchestration spanning reconnaissance, initial access, privilege escalation, lateral movement, and reporting. Entry point for full engagements and cross-phase operations."
+description: Authorized multi-stage attack-path planning and orchestration spanning
+  reconnaissance, initial access, privilege escalation, lateral movement, and reporting.
+  Entry point for full engagements and cros…
 risk: offensive
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
+source: https://github.com/zhaoxuya520/reverse-skill
+source_repo: zhaoxuya520/reverse-skill
 source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+date_added: '2026-08-25'
+license: MIT
+license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
@@ -25,7 +27,6 @@ license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
 
 # Attack Chain Orchestration Skill
 ## When to Use
-
 - An authorized engagement spans multiple kill-chain phases.
 - Coordinating several specialist skills into one coherent attack path.
 
@@ -103,7 +104,7 @@ attack-chain/SKILL.md（本文件）
 
 
 For detailed phase methodology, toolchains, and playbooks, refer to:
-- [Attack Chain Phases & Playbooks](references/phases.md)
+- [Attack Chain Phases & Playbooks]
 
 ## 红队行动铁律
 

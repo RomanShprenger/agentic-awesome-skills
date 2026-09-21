@@ -1,17 +1,18 @@
 ---
 name: dotnet-reverse
-description: ".NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging, de4dot deobfuscation (ConfuserEx/SmartAssembly/Babel), IL patching, NativeAOT targets, and analysis of red-team Sharp* tooling."
+description: '.NET/C# binary reverse engineering: managed PE analysis, dnSpyEx debugging,
+  de4dot deobfuscation (ConfuserEx/SmartAssembly/Babel), IL patching, NativeAOT targets,
+  and analysis of red-team Sharp* tool…'
 risk: safe
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
+source: https://github.com/zhaoxuya520/reverse-skill
+source_repo: zhaoxuya520/reverse-skill
 source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+date_added: '2026-08-25'
+license: MIT
+license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 # .NET / C# 逆向作业规范
 ## When to Use
-
 - Analyzing a .NET assembly, obfuscated C# product, or native-AOT binary.
 - Understanding the internals of Sharp* red-team tools before use or defense.
 
@@ -177,9 +178,9 @@ File → Save Module → 替换原文件
 
 ## 参考文档
 
-- [references/obfuscators.md](references/obfuscators.md) — ConfuserEx / SmartAssembly / Babel / Eazfuscator / .NET Reactor 脱混淆详解 + anti-tamper 绕过
-- [references/common-workflow.md](references/common-workflow.md) — 完整工作流、IL patch 可靠性、字符串解密器提取、状态机识别
-- [references/sharp-tools.md](references/sharp-tools.md) — 红队 Sharp* 工具分析、工具安装矩阵、dnSpy MCP 集成、社区资源索引
+- [references/obfuscators.md] — ConfuserEx / SmartAssembly / Babel / Eazfuscator / .NET Reactor 脱混淆详解 + anti-tamper 绕过
+- [references/common-workflow.md] — 完整工作流、IL patch 可靠性、字符串解密器提取、状态机识别
+- [references/sharp-tools.md] — 红队 Sharp* 工具分析、工具安装矩阵、dnSpy MCP 集成、社区资源索引
 
 ## 任务完成自检
 

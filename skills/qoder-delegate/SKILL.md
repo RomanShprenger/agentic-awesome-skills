@@ -16,7 +16,6 @@ metadata:
 # Qoder Delegate
 
 ## When to Use
-
 - You want to delegate a bounded coding task to a separate `qoder` implementer (`Qoder`) and then review its diff yourself.
 - The user explicitly asked for delegation to this implementer.
 
@@ -64,7 +63,7 @@ Run these five steps per task. Steps 1, 4, and 5 require judgment; 2 and 3 are m
 Qoder sees the brief plus what it can inspect in the workspace, not this chat. Include the goal,
 current state, what to change, what to leave untouched, the project's **actual** gates, and a closing
 report contract. Tell Qoder not to commit. Keep one task per brief. See
-[references/writing-the-brief.md](references/writing-the-brief.md).
+[references/writing-the-brief.md].
 
 ### 2. Dispatch
 
@@ -82,7 +81,7 @@ node "<skill-dir>/scripts/relay.mjs" --brief brief.txt --cd /path/to/repo
 
 Implementation runs default to Qoder's `auto` permission mode. The relay never bypasses permissions
 unless the caller explicitly requests it, and it never commits. See
-[references/dispatch-and-poll.md](references/dispatch-and-poll.md).
+[references/dispatch-and-poll.md].
 
 ### 3. Wait for completion
 
@@ -105,7 +104,7 @@ Treat Qoder's final message and gate outcomes as claims:
 - Run relevant guard skills if installed.
 - Round-trip migrations and grep for dangling references after removals or renames.
 
-See [references/review-and-land.md](references/review-and-land.md).
+See [references/review-and-land.md].
 
 ### 5. Land it
 
@@ -129,17 +128,17 @@ Qoder falls back to `default` when a non-default mode is requested outside a tru
 Delegation is something the human opts into. Once they ask for it, landing verified, gate-passing work
 is the contract. Two limits remain: **surface, do not absorb** (report Qoder's design decisions and
 non-blocking deviations) and **stop for scope changes** (ask before expanding beyond the brief). See
-[references/review-and-land.md](references/review-and-land.md).
+[references/review-and-land.md].
 
 ## References
 
-- [references/writing-the-brief.md](references/writing-the-brief.md) - brief structure, real gates,
+- [references/writing-the-brief.md] - brief structure, real gates,
   report contract, secrets, and delta briefs.
-- [references/dispatch-and-poll.md](references/dispatch-and-poll.md) - flags, model/context controls,
+- [references/dispatch-and-poll.md] - flags, model/context controls,
   artifacts, result fields, sessions, and failure recovery.
-- [references/review-and-land.md](references/review-and-land.md) - independent review, commit boundary,
+- [references/review-and-land.md] - independent review, commit boundary,
   and rework.
-- [references/multi-task-queues.md](references/multi-task-queues.md) - sequential queues, constraint
+- [references/multi-task-queues.md] - sequential queues, constraint
   carry-forward, progress tracking, and final coherence.
 
 

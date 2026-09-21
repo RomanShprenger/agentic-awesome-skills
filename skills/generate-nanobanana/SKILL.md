@@ -1,17 +1,29 @@
 ---
 name: generate-nanobanana
-description: "Generate and edit images/video with Google's Gemini media models (Nano Banana 2/Pro, Gemini Omni Flash), with cost-approval gates, reference-image support, and a prompt/output log per call."
+description: Generate and edit images/video with Google's Gemini media models (Nano
+  Banana 2/Pro, Gemini Omni Flash), with cost-approval gates, reference-image support,
+  and a prompt/output log per call.
 category: media
 risk: critical
 source: community
 source_repo: AntonioCardenas/generate-nanobanana
 source_type: community
-date_added: "2026-08-04"
+date_added: '2026-08-04'
 author: antonio
-tags: [nanobanana, gemini, google-ai-studio, image-generation, video-generation]
-tools: [claude, cursor, gemini, codex, antigravity]
-license: "MIT"
-license_source: "https://github.com/AntonioCardenas/generate-nanobanana/blob/main/LICENSE"
+tags:
+- nanobanana
+- gemini
+- google-ai-studio
+- image-generation
+- video-generation
+tools:
+- claude
+- cursor
+- gemini
+- codex
+- antigravity
+license: MIT
+license_source: https://github.com/AntonioCardenas/generate-nanobanana/blob/main/LICENSE
 ---
 
 # Generate Nanobanana
@@ -33,14 +45,14 @@ This skill adapts the workflow (model routing, reference-image handling, sidecar
 
 ### Step 1: Route to a model
 
-Pick the model for the job and read its reference file under [`references/`](references/) before calling anything — each file holds the current, verified request shape for that model.
+Pick the model for the job and read its reference file under [`references/`] before calling anything — each file holds the current, verified request shape for that model.
 
 | Task | Model | Model ID | Reference |
 | --- | --- | --- | --- |
-| Image (draft) | Nano Banana 2 Lite | `gemini-3.1-flash-lite-image` | [`references/gemini-3.1-flash-lite-image.md`](references/gemini-3.1-flash-lite-image.md) |
-| Image (standard) | Nano Banana 2 | `gemini-3.1-flash-image` | [`references/gemini-3.1-flash-image.md`](references/gemini-3.1-flash-image.md) |
-| Image (quality, multi-image fusion) | Nano Banana Pro | `gemini-3-pro-image` | [`references/gemini-3-pro-image.md`](references/gemini-3-pro-image.md) |
-| Video | Gemini Omni Flash | `gemini-omni-flash-preview` | [`references/gemini-omni-flash-preview.md`](references/gemini-omni-flash-preview.md) |
+| Image (draft) | Nano Banana 2 Lite | `gemini-3.1-flash-lite-image` | [`references/gemini-3.1-flash-lite-image.md`] |
+| Image (standard) | Nano Banana 2 | `gemini-3.1-flash-image` | [`references/gemini-3.1-flash-image.md`] |
+| Image (quality, multi-image fusion) | Nano Banana Pro | `gemini-3-pro-image` | [`references/gemini-3-pro-image.md`] |
+| Video | Gemini Omni Flash | `gemini-omni-flash-preview` | [`references/gemini-omni-flash-preview.md`] |
 
 All four models are called through the **Interactions API** (`client.interactions.create(...)`, REST `POST /v1beta/interactions`) — see each reference file for the exact shape, including reference-image input and, for video, large-output retrieval. Every call is billable; see Step 3.
 

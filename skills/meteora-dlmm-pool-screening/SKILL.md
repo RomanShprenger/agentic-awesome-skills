@@ -4,16 +4,17 @@ risk: safe
 source: community
 source_repo: romankurnovskii/etemaro
 source_type: community
-date_added: "2026-09-17"
-description: >
-  Screen and rank Meteora DLMM pools for LP quality using public Meteora APIs (fee/TVL,
-  bin step, organic score). Read-only: never deploys, swaps, or signs.
+date_added: '2026-09-17'
+description: 'Screen and rank Meteora DLMM pools for LP quality using public Meteora
+  APIs (fee/TVL, bin step, organic score). Read-only: never deploys, swaps, or signs.
+
+  '
 metadata:
-  version: "1.0.0"
+  version: 1.0.0
   author: etemaro
 license: MIT
-compatibility: Network access to public Meteora datapi. No API key. The bundled Python 3
-  stdlib screener is embedded in this file under "Screener script".
+compatibility: Network access to public Meteora datapi. No API key. The bundled Python
+  3 stdlib screener is embedded in this file under "Screener script".
 ---
 
 # Meteora DLMM pool screening
@@ -24,7 +25,7 @@ windowed fee / active TVL**. Public APIs only. No keys, no transactions.
 The embedded screener script below encodes the gates so every run uses the same numbers.
 Save it to a scratch directory (for example `mktemp -d`), run it with `python3`, and
 delete the copy when done. It only ever **GET**s the public endpoints documented in
-[references/meteora-apis.md](references/meteora-apis.md).
+[references/meteora-apis.md].
 
 ```bash
 python3 screen.py                  # trending volatile (default)
@@ -35,11 +36,10 @@ python3 screen.py --json --limit 8
 ```
 
 If you do not materialize the script, curl the same endpoints in
-[references/meteora-apis.md](references/meteora-apis.md).
+[references/meteora-apis.md].
 Always send a `User-Agent` — unauthenticated requests without one get `403`.
 
-## When to use
-
+## When to Use
 - User wants a ranked Meteora DLMM candidate list (trending or a token/pair).
 - User asks which bin step / pool to LP for a pair.
 - User wants a fee/TVL screen, not a single-pool deep dive.
@@ -153,10 +153,10 @@ dex-pool-screening on Meteora, volatile preset, top 8
 ## Screener script
 
 Standard library only. Read-only GET. The full source lives in
-[references/meteora-screener.md](references/meteora-screener.md); copy it into a scratch
+[references/meteora-screener.md]; copy it into a scratch
 directory (for example via `mktemp -d`), run it with Python 3.10+, and delete the
 copy when done. It only ever GETs the public endpoints documented in
-[references/meteora-apis.md](references/meteora-apis.md).
+[references/meteora-apis.md].
 
 
 ```python

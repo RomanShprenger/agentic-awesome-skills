@@ -1,9 +1,9 @@
 ---
 name: n8n-validation-expert
-description: "Expert guide for interpreting and fixing n8n validation errors."
+description: Expert guide for interpreting and fixing n8n validation errors.
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # n8n Validation Expert
@@ -12,7 +12,7 @@ Expert guide for interpreting and fixing n8n validation errors.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - You need to interpret or fix validation errors in an n8n workflow.

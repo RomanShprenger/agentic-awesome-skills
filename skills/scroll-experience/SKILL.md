@@ -1,9 +1,8 @@
 ---
 name: scroll-experience
-description: Expert in building immersive scroll-driven experiences - parallax
-  storytelling, scroll animations, interactive narratives, and cinematic web
-  experiences. Like NY Times interactives, Apple product pages, and
-  award-winning web experiences.
+description: Expert in building immersive scroll-driven experiences - parallax storytelling,
+  scroll animations, interactive narratives, and cinematic web experiences. Like NY
+  Times interactives, Apple product pag…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -34,7 +33,7 @@ make websites feel like movies you control with your thumb.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - User mentions or implies: scroll animation

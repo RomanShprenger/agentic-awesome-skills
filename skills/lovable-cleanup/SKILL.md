@@ -1,16 +1,31 @@
 ---
 name: lovable-cleanup
-description: "Audits and strips Lovable scaffolding from Vite + React projects — removes lovable-tagger, swaps placeholder assets, prunes unused Radix deps, cleans generated docs, and neutralizes stale favicon/CDN caching so the codebase ships as yours."
+description: Audits and strips Lovable scaffolding from Vite + React projects — removes
+  lovable-tagger, swaps placeholder assets, prunes unused Radix deps, cleans generated
+  docs, and neutralizes stale favicon/CDN…
 risk: safe
 source: community
 source_repo: whoisabhishekadhikari/lovable-cleanup
 source_type: community
 author: whoisabhishekadhikari
-date_added: "2026-06-13"
-date_updated: "2026-08-31"
-version: "2.0.0"
-tags: [lovable, cleanup, vite, react, shadcn, devtools, vercel, favicon]
-tools: [claude, cursor, codex, antigravity, gemini-cli]
+date_added: '2026-06-13'
+date_updated: '2026-08-31'
+version: 2.0.0
+tags:
+- lovable
+- cleanup
+- vite
+- react
+- shadcn
+- devtools
+- vercel
+- favicon
+tools:
+- claude
+- cursor
+- codex
+- antigravity
+- gemini-cli
 ---
 
 # lovable-cleanup
@@ -303,7 +318,7 @@ and that can remain visible after cleanup through browser or CDN caching. Handle
 the four steps — replace the path, link all icon flavours, keep unversioned icon
 URLs revalidatable, and verify after deploy — then purge the confirmed Vercel
 project cache only if the live response stays stale. Full commands/JSON live in
-[references/favicon-vercel-cleanup.md](references/favicon-vercel-cleanup.md).
+[references/favicon-vercel-cleanup.md].
 
 ---
 

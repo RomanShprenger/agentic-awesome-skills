@@ -17,7 +17,6 @@ metadata:
 ---
 
 ## When to Use
-
 - Provisioning, hardening, or operating the infrastructure described in this skill within an authorized environment.
 
 
@@ -386,15 +385,14 @@ New-NetFirewallRule -DisplayName "Allow RDP from VPN" `
 
 ## Contents
 
-- [6. Security Policies — Cross-Platform](references/details.md)
-- [7. Software Deployment](references/details.md)
-- [8. Compliance Checks with osquery](references/details.md)
-- [9. Remote Wipe & Lock](references/details.md)
-- [10. Onboarding Automation — Zero-Touch Enrollment](references/details.md)
-- [Quick Reference](references/details.md)
+- [6. Security Policies — Cross-Platform]
+- [7. Software Deployment]
+- [8. Compliance Checks with osquery]
+- [9. Remote Wipe & Lock]
+- [10. Onboarding Automation — Zero-Touch Enrollment]
+- [Quick Reference]
 
 ## When to Use
-
 - You are provisioning, configuring, or troubleshooting the infrastructure component covered by this skill (servers, storage, databases, networking, cloud, local AI).
 
 ## Limitations

@@ -1,6 +1,8 @@
 ---
 name: security-and-hardening
-description: Hardens code against vulnerabilities. Use when handling user input, authentication, data storage, or external integrations. Use when building any feature that accepts untrusted data, manages user sessions, or interacts with third-party services.
+description: Hardens code against vulnerabilities. Use when handling user input, authentication,
+  data storage, or external integrations. Use when building any feature that accepts
+  untrusted data, manages user ses…
 risk: critical
 source: https://github.com/addyosmani/agent-skills/tree/main/skills/security-and-hardening
 source_repo: addyosmani/agent-skills
@@ -17,7 +19,6 @@ license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 Security-first development practices for web applications. Treat every external input as hostile, every secret as sacred, and every authorization check as mandatory. Security isn't a phase — it's a constraint on every line of code that touches user data, authentication, or external systems.
 
 ## When to Use
-
 - Building anything that accepts user input
 - Implementing authentication or authorization
 - Storing or transmitting sensitive data

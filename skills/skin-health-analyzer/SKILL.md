@@ -1,16 +1,18 @@
 ---
 name: skin-health-analyzer
-description: Analyze skin health data, identify skin problem patterns, assess skin health status. Supports correlation analysis with nutrition, chronic diseases, and medication data.
+description: Analyze skin health data, identify skin problem patterns, assess skin
+  health status. Supports correlation analysis with nutrition, chronic diseases, and
+  medication data.
 risk: safe
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # 皮肤健康分析技能
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 Use this skill when tackling tasks related to its primary domain or functionality as described above.

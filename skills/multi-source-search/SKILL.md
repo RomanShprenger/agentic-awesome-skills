@@ -1,17 +1,27 @@
 ---
 name: multi-source-search
-description: "Cross-validate web research and produce an offline-checkable evidence ledger with explicit source diversity, confidence, conflicts, and gaps."
+description: Cross-validate web research and produce an offline-checkable evidence
+  ledger with explicit source diversity, confidence, conflicts, and gaps.
 category: research
 risk: safe
 source: community
 source_repo: sandbaseai/sandbase-skills
 source_type: community
-date_added: "2026-08-20"
+date_added: '2026-08-20'
 author: sandbaseai
-tags: [research, fact-checking, citations, evidence, verification]
-tools: [claude, cursor, gemini, codex]
+tags:
+- research
+- fact-checking
+- citations
+- evidence
+- verification
+tools:
+- claude
+- cursor
+- gemini
+- codex
 license: Apache-2.0
-license_source: "https://github.com/sandbaseai/sandbase-skills/blob/fc25b2ed4548b1bb91621661e82d07d4bbd285a1/LICENSE"
+license_source: https://github.com/sandbaseai/sandbase-skills/blob/fc25b2ed4548b1bb91621661e82d07d4bbd285a1/LICENSE
 ---
 
 # Multi-Source Search
@@ -75,7 +85,7 @@ for high. A conflicting claim cannot be high confidence.
 
 ### Step 4: Validate before presenting
 
-Create a JSON report using [`references/report-schema.md`](references/report-schema.md),
+Create a JSON report using [`references/report-schema.md`],
 then run the bundled zero-dependency validator from the skill directory:
 
 ```bash

@@ -30,8 +30,7 @@ report_count: 6
 >
 > Without that confirmation, remain read-only and provide defensive guidance only. Prefer a sandbox, disposable VM, or controlled lab.
 
-## When to use
-
+## When to Use
 Trigger when:
 - A cloud credential surfaces (key, secret, token, JSON file)
 - SSRF chain reaches IMDS / metadata endpoint
@@ -431,8 +430,8 @@ Cloud activity is trivially auditable; the client WILL find it post-engagement. 
 
 ## Contents
 
-- [AWS Cognito Identity Pool — Unauthenticated-Role Attack Chain (2024-2026 surface)](references/details.md)
-- [Related Skills & Chains](references/details.md)
+- [AWS Cognito Identity Pool — Unauthenticated-Role Attack Chain (2024-2026 surface)]
+- [Related Skills & Chains]
 
 ## Limitations
 

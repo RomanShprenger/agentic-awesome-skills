@@ -20,7 +20,6 @@ metadata:
 # debate-review
 
 ## When to Use
-
 - You have a GitHub PR or GitLab MR that needs a thorough pre-merge review.
 - You want a two-model debate (main reviewer vs. debate reviewer) to catch blind spots before posting inline comments.
 
@@ -59,8 +58,8 @@ node "<skill-dir>/scripts/review-pr.mjs" <pr-url | number> [--dry-run]
 - A run takes minutes, since it is two or three implementer sessions back to back. Run it in the
   background and report the printed URL when it finishes. Don't poll tightly.
 
-All flags: `--help`. Contracts: [references/schema.md](references/schema.md). What gets posted:
-[references/comment-format.md](references/comment-format.md). The reviewer briefs live in `assets/prompts/`
+All flags: `--help`. Contracts: [references/schema.md]. What gets posted:
+[references/comment-format.md]. The reviewer briefs live in `assets/prompts/`
 and the script fills them in; you don't need to read them.
 
 ## After it posts

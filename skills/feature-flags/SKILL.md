@@ -397,10 +397,10 @@ def test_new_checkout(feature_flags):
 
 ## Contents
 
-- [Monitoring and Analytics](references/details.md)
-- [Common Issues](references/details.md)
-- [Best Practices](references/details.md)
-- [Related Skills](references/details.md)
+- [Monitoring and Analytics]
+- [Common Issues]
+- [Best Practices]
+- [Related Skills]
 
 ## When to Use This Skill
 

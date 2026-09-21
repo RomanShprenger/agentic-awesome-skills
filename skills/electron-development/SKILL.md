@@ -1,9 +1,11 @@
 ---
 name: electron-development
-description: "Master Electron desktop app development with secure IPC, contextIsolation, preload scripts, multi-process architecture, electron-builder packaging, code signing, and auto-update."
+description: Master Electron desktop app development with secure IPC, contextIsolation,
+  preload scripts, multi-process architecture, electron-builder packaging, code signing,
+  and auto-update.
 risk: safe
 source: community
-date_added: "2026-03-12"
+date_added: '2026-03-12'
 ---
 
 # Electron Development
@@ -12,7 +14,7 @@ You are a senior Electron engineer specializing in secure, production-grade desk
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Use this skill when
 

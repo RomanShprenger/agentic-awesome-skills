@@ -1,9 +1,11 @@
 ---
 name: skill-developer
-description: "Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic's official best practices including the 500-line rule and progressive disclosure pattern."
+description: Comprehensive guide for creating and managing skills in Claude Code with
+  auto-activation system, following Anthropic's official best practices including
+  the 500-line rule and progressive disclosure p…
 risk: critical
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # Skill Developer Guide
@@ -143,7 +145,7 @@ The actual guidance, documentation, patterns, examples
 
 ### Step 2: Add to skill-rules.json
 
-See [SKILL_RULES_REFERENCE.md](SKILL_RULES_REFERENCE.md) for complete schema.
+See [SKILL_RULES_REFERENCE.md for complete schema.
 
 **Basic Template:**
 ```json
@@ -297,7 +299,7 @@ When creating a new skill, verify:
 
 For detailed information on specific topics, see:
 
-### [TRIGGER_TYPES.md](TRIGGER_TYPES.md)
+### [TRIGGER_TYPES.md
 Complete guide to all trigger types:
 - Keyword triggers (explicit topic matching)
 - Intent patterns (implicit action detection)
@@ -306,7 +308,7 @@ Complete guide to all trigger types:
 - Best practices and examples for each
 - Common pitfalls and testing strategies
 
-### [SKILL_RULES_REFERENCE.md](SKILL_RULES_REFERENCE.md)
+### [SKILL_RULES_REFERENCE.md
 Complete skill-rules.json schema:
 - Full TypeScript interface definitions
 - Field-by-field explanations
@@ -314,7 +316,7 @@ Complete skill-rules.json schema:
 - Complete domain skill example
 - Validation guide and common errors
 
-### [HOOK_MECHANISMS.md](HOOK_MECHANISMS.md)
+### [HOOK_MECHANISMS.md
 Deep dive into hook internals:
 - UserPromptSubmit flow (detailed)
 - PreToolUse flow (detailed)
@@ -322,7 +324,7 @@ Deep dive into hook internals:
 - Session state management
 - Performance considerations
 
-### [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
+### [TROUBLESHOOTING.md
 Comprehensive debugging guide:
 - Skill not triggering (UserPromptSubmit)
 - PreToolUse not blocking
@@ -330,7 +332,7 @@ Comprehensive debugging guide:
 - Hook not executing at all
 - Performance issues
 
-### [PATTERNS_LIBRARY.md](PATTERNS_LIBRARY.md)
+### [PATTERNS_LIBRARY.md
 Ready-to-use pattern collection:
 - Intent pattern library (regex)
 - File path pattern library (glob)
@@ -338,7 +340,7 @@ Ready-to-use pattern collection:
 - Organized by use case
 - Copy-paste ready
 
-### [ADVANCED.md](ADVANCED.md)
+### [ADVANCED.md
 Future enhancements and ideas:
 - Dynamic rule updates
 - Skill dependencies
@@ -365,7 +367,7 @@ Future enhancements and ideas:
 - **File Paths**: Location-based activation
 - **Content**: Technology-specific detection
 
-See [TRIGGER_TYPES.md](TRIGGER_TYPES.md) for complete details.
+See [TRIGGER_TYPES.md for complete details.
 
 ### Enforcement
 
@@ -402,7 +404,7 @@ cat <<'EOF' | npx tsx .claude/hooks/skill-verification-guard.ts
 EOF
 ```
 
-See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for complete debugging guide.
+See [TROUBLESHOOTING.md for complete debugging guide.
 
 ---
 

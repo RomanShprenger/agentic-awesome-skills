@@ -1,17 +1,29 @@
 ---
 name: linkedin-post-writer
-description: "Draft LinkedIn posts from 16 tested hook formulas mapped to engagement goals (comments, reposts, likes, saves), with 2026 algorithm formatting rules and an AI-tell scrub pass before publishing."
+description: Draft LinkedIn posts from 16 tested hook formulas mapped to engagement
+  goals (comments, reposts, likes, saves), with 2026 algorithm formatting rules and
+  an AI-tell scrub pass before publishing.
 category: marketing
 risk: none
 source: community
 source_repo: sergebulaev/linkedin-skills
 source_type: community
-date_added: "2026-07-06"
+date_added: '2026-07-06'
 author: sergebulaev
-tags: [linkedin, copywriting, hooks, social-media, personal-brand, content-marketing]
-tools: [claude, codex, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/sergebulaev/linkedin-skills/blob/main/LICENSE"
+tags:
+- linkedin
+- copywriting
+- hooks
+- social-media
+- personal-brand
+- content-marketing
+tools:
+- claude
+- codex
+- cursor
+- gemini
+license: MIT
+license_source: https://github.com/sergebulaev/linkedin-skills/blob/main/LICENSE
 ---
 
 # LinkedIn Post Writer
@@ -70,11 +82,11 @@ The full set of 16, with reference engagement:
 
 Important caveat: F1-F10 references are engagement counts or format multipliers against the author's own baseline; F11-F16 references are raw corpus reach, often inflated by a famous author or a reshare. The two groups measure different things, so never rank formulas across groups by number.
 
-The full skeletons for all 16 formulas are bundled with this skill in [references/hook-formulas.md](references/hook-formulas.md), along with per-formula warnings and the "Never do" list.
+The full skeletons for all 16 formulas are bundled with this skill in [references/hook-formulas.md], along with per-formula warnings and the "Never do" list.
 
 ### Step 3: Draft the post
 
-Read the chosen formula's skeleton from the bundled [references/hook-formulas.md](references/hook-formulas.md) and fill it with the user's voice and material, respecting the 2026 formatting rules:
+Read the chosen formula's skeleton from the bundled [references/hook-formulas.md] and fill it with the user's voice and material, respecting the 2026 formatting rules:
 
 - Hook lands in the first 210 characters (before the "... see more" fold)
 - 900-1,300 characters is the sweet spot for text posts

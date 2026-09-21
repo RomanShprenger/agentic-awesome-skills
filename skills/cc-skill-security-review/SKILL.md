@@ -1,9 +1,11 @@
 ---
 name: cc-skill-security-review
-description: "This skill ensures all code follows security best practices and identifies potential vulnerabilities. Use when implementing authentication or authorization, handling user input or file uploads, or creating new API endpoints."
+description: This skill ensures all code follows security best practices and identifies
+  potential vulnerabilities. Use when implementing authentication or authorization,
+  handling user input or file uploads, or cr…
 risk: critical
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # Security Review Skill
@@ -12,7 +14,7 @@ This skill ensures all code follows security best practices and identifies poten
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - Implementing authentication or authorization

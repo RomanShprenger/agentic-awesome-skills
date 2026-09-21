@@ -21,7 +21,6 @@ metadata:
 # Claude Delegate
 
 ## When to Use
-
 - You want to delegate a bounded coding task to a separate `claude` implementer (`Claude Code`) and then review its diff yourself.
 - The user explicitly asked for delegation to this implementer.
 
@@ -65,7 +64,7 @@ configuration because the relay does not use `--bare`. It does **not** generical
 `AGENTS.md`. Read `AGENTS.md` yourself and copy every load-bearing constraint and the real gate
 commands into the brief. Tell the implementer not to commit. Keep one task per brief.
 
-Template and details: [references/writing-the-brief.md](references/writing-the-brief.md).
+Template and details: [references/writing-the-brief.md].
 
 ### 2. Dispatch
 
@@ -83,7 +82,7 @@ node "<skill-dir>/scripts/relay.mjs" --brief brief.txt --cd /path/to/repo
 
 The relay runs `claude -p --output-format stream-json --verbose`, sends the brief through stdin, and
 writes artifacts under the system temp directory by default. It never uses `--bg` or `--bare`, and it
-never commits. See [references/dispatch-and-poll.md](references/dispatch-and-poll.md).
+never commits. See [references/dispatch-and-poll.md].
 
 ### 3. Wait
 
@@ -107,7 +106,7 @@ Treat the implementer's report and gate outcomes as claims:
 - Inspect untracked and staged content as well as the ordinary diff.
 - Run relevant guard skills if installed.
 
-Full checklist: [references/review-and-land.md](references/review-and-land.md).
+Full checklist: [references/review-and-land.md].
 
 ### 5. Land
 
@@ -164,13 +163,13 @@ provides a cross-orchestrator contract — self-contained brief → dispatch →
 
 ## References
 
-- [references/writing-the-brief.md](references/writing-the-brief.md) — context, `CLAUDE.md` versus
+- [references/writing-the-brief.md] — context, `CLAUDE.md` versus
   `AGENTS.md`, real gates, report contract, and delta briefs.
-- [references/dispatch-and-poll.md](references/dispatch-and-poll.md) — flags, profiles, artifacts,
+- [references/dispatch-and-poll.md] — flags, profiles, artifacts,
   `result.json`, polling, and failure recovery.
-- [references/review-and-land.md](references/review-and-land.md) — generated-code review, the commit
+- [references/review-and-land.md] — generated-code review, the commit
   boundary, and session rework.
-- [references/multi-task-queues.md](references/multi-task-queues.md) — sequential queues, progress
+- [references/multi-task-queues.md] — sequential queues, progress
   tracking, constraint carry-forward, and final coherence.
 
 

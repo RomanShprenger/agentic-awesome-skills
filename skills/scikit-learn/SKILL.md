@@ -1,19 +1,20 @@
 ---
 name: scikit-learn
-description: Machine learning in Python with scikit-learn. Use for classification, regression, clustering, model evaluation, and ML pipelines.
+description: Machine learning in Python with scikit-learn. Use for classification,
+  regression, clustering, model evaluation, and ML pipelines.
 license: BSD-3-Clause license
 metadata:
-    skill-author: K-Dense Inc.
+  skill-author: K-Dense Inc.
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # Scikit-learn
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

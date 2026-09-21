@@ -1,17 +1,19 @@
 ---
 name: wordpress-woocommerce-development
-description: "WooCommerce store development workflow covering store setup, payment integration, shipping configuration, customization, and WordPress 7.0 features: AI connectors, DataViews, and collaboration tools."
+description: 'WooCommerce store development workflow covering store setup, payment
+  integration, shipping configuration, customization, and WordPress 7.0 features:
+  AI connectors, DataViews, and collaboration tools.'
 category: granular-workflow-bundle
 risk: safe
 source: personal
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # WordPress WooCommerce Development Workflow
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Workflow
 

@@ -1,10 +1,12 @@
 ---
 name: nestjs-expert
-description: "You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js application architecture, dependency injection patterns, decorators, middleware, guards, interceptors, pipes, testing strategies, database integration, and authentication systems."
+description: You are an expert in Nest.js with deep knowledge of enterprise-grade
+  Node.js application architecture, dependency injection patterns, decorators, middleware,
+  guards, interceptors, pipes, testing stra…
 category: framework
 risk: critical
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # Nest.js Expert
@@ -28,7 +30,7 @@ You are an expert in Nest.js with deep knowledge of enterprise-grade Node.js app
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.

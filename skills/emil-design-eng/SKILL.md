@@ -1,27 +1,36 @@
 ---
 name: emil-design-eng
-description: "Use when designing or reviewing polished product UI with Emil Kowalski-inspired animation, interaction, and component craft guidance."
+description: Use when designing or reviewing polished product UI with Emil Kowalski-inspired
+  animation, interaction, and component craft guidance.
 category: frontend
 risk: safe
 source: community
 source_repo: emilkowalski/skills
 source_type: community
-date_added: "2026-06-25"
+date_added: '2026-06-25'
 author: Emil Kowalski
 license: MIT
-license_source: "https://github.com/emilkowalski/skills/blob/main/LICENSE.txt"
-tags: [frontend, design, ui, animation, motion]
-tools: [claude, cursor, codex, antigravity]
+license_source: https://github.com/emilkowalski/skills/blob/main/LICENSE.txt
+tags:
+- frontend
+- design
+- ui
+- animation
+- motion
+tools:
+- claude
+- cursor
+- codex
+- antigravity
 ---
 
 # Design Engineering
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
-
 - Use when the user asks for UI polish, product design critique, animation direction, or high-craft component decisions.
 - Use when reviewing frontend code for motion quality, easing, duration, physicality, interaction feedback, or subtle interface details.
 - Use when building or refining React, Tailwind, CSS, or Framer Motion interfaces where taste and perceived quality matter.

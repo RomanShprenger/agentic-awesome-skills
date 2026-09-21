@@ -411,14 +411,14 @@ async def chat_completions(
 
 ## Contents
 
-- [Rate Limiting with Envoy](references/details.md)
-- [Billing Integration](references/details.md)
-- [Noisy-Neighbor Controls](references/details.md)
-- [Per-Tenant Monitoring](references/details.md)
-- [Security Baseline](references/details.md)
-- [Operational Runbook](references/details.md)
-- [Troubleshooting](references/details.md)
-- [Related Skills](references/details.md)
+- [Rate Limiting with Envoy]
+- [Billing Integration]
+- [Noisy-Neighbor Controls]
+- [Per-Tenant Monitoring]
+- [Security Baseline]
+- [Operational Runbook]
+- [Troubleshooting]
+- [Related Skills]
 
 ## When to Use This Skill
 

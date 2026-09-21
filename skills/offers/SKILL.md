@@ -1,6 +1,8 @@
 ---
 name: offers
-description: "When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure."
+description: When the user wants to design, construct, or improve an offer — the thing
+  they actually sell — including value framing, bonus stacking, guarantee design,
+  scarcity/urgency, naming, and payment structu…
 risk: safe
 source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/offers
 source_repo: coreyhaines31/marketingskills
@@ -12,7 +14,6 @@ license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICEN
 
 # Offer Design
 ## When to Use
-
 Use this skill when you need when the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Also use when the user mentions 'offer,' 'offer design,' 'build an offer,' 'grand...
 
 
@@ -72,7 +73,7 @@ You move the four levers like this:
 
 **Implication for offer construction**: most "lower the price" requests are actually "raise the numerator or lower the denominator" requests. Price is the comparison, not the value.
 
-**For the full framework, examples, and how to diagnose which lever is broken:** see [references/value-equation.md](references/value-equation.md)
+**For the full framework, examples, and how to diagnose which lever is broken:** see [references/value-equation.md]
 
 ---
 
@@ -91,7 +92,7 @@ A complete offer has six components. Skip any one and conversion suffers.
 
 Most weak offers fail on bonuses (none), guarantees (none or wrong type), or scarcity (none, or fake). Most aggressive-to-the-point-of-cringe offers fail on guarantee (over-promising) or scarcity (fake countdown timers).
 
-**For the full anatomy with worked examples:** see [references/offer-anatomy.md](references/offer-anatomy.md)
+**For the full anatomy with worked examples:** see [references/offer-anatomy.md]
 
 ---
 
@@ -99,13 +100,13 @@ Most weak offers fail on bonuses (none), guarantees (none or wrong type), or sca
 
 | Reference | When to read |
 |-----------|--------------|
-| [value-equation.md](references/value-equation.md) | Diagnosing which lever is broken on a stuck offer |
-| [offer-anatomy.md](references/offer-anatomy.md) | Building a complete offer from scratch |
-| [guarantee-design.md](references/guarantee-design.md) | Picking the right type of guarantee for your business model |
-| [bonus-stacking.md](references/bonus-stacking.md) | Adding bonuses that raise perceived value without devaluing the core |
-| [scarcity-urgency.md](references/scarcity-urgency.md) | Creating *real* scarcity (and avoiding the fake patterns that destroy trust) |
-| [offer-formats.md](references/offer-formats.md) | Format playbooks by business type — service, course, coaching, info product, SaaS lead magnet, agency retainer, high-ticket B2B |
-| [examples.md](references/examples.md) | Anonymized worked examples — before/after for each business type |
+| [value-equation.md] | Diagnosing which lever is broken on a stuck offer |
+| [offer-anatomy.md] | Building a complete offer from scratch |
+| [guarantee-design.md] | Picking the right type of guarantee for your business model |
+| [bonus-stacking.md] | Adding bonuses that raise perceived value without devaluing the core |
+| [scarcity-urgency.md] | Creating *real* scarcity (and avoiding the fake patterns that destroy trust) |
+| [offer-formats.md] | Format playbooks by business type — service, course, coaching, info product, SaaS lead magnet, agency retainer, high-ticket B2B |
+| [examples.md] | Anonymized worked examples — before/after for each business type |
 
 ---
 

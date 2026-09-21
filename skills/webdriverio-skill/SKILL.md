@@ -1,6 +1,8 @@
 ---
 name: webdriverio-skill
-description: 'Generates WebdriverIO (WDIO) automation tests in JavaScript or TypeScript. Supports local and TestMu AI cloud. Use when user mentions "WebdriverIO", "WDIO", "wdio.conf", "browser.url", "$", "$$". Triggers on: "WebdriverIO", "WDIO", "wdio", "browser.$".'
+description: Generates WebdriverIO (WDIO) automation tests in JavaScript or TypeScript.
+  Supports local and TestMu AI cloud. Use when user mentions "WebdriverIO", "WDIO",
+  "wdio.conf", "browser.url", "$", "$$". Tri…
 risk: critical
 source: https://github.com/LambdaTest/agent-skills/tree/main/webdriverio-skill
 source_repo: LambdaTest/agent-skills
@@ -12,7 +14,6 @@ license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 
 # WebdriverIO Automation Skill
 ## When to Use
-
 Use this skill when you need generates WebdriverIO (WDIO) automation tests in JavaScript or TypeScript. Supports local and TestMu AI cloud. Use when user mentions "WebdriverIO", "WDIO", "wdio.conf", "browser.url", "$", "$$". Triggers on: "WebdriverIO", "WDIO", "wdio", "browser.$".
 
 

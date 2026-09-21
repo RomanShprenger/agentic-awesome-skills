@@ -1,21 +1,22 @@
 ---
 name: fp-data-transforms
-description: Everyday data transformations using functional patterns - arrays, objects, grouping, aggregation, and null-safe access
+description: Everyday data transformations using functional patterns - arrays, objects,
+  grouping, aggregation, and null-safe access
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 version: 1.0.0
 author: Claude
 tags:
-  - functional-programming
-  - typescript
-  - data-transformation
-  - fp-ts
-  - arrays
-  - objects
-  - grouping
-  - aggregation
-  - null-safety
+- functional-programming
+- typescript
+- data-transformation
+- fp-ts
+- arrays
+- objects
+- grouping
+- aggregation
+- null-safety
 ---
 
 # Practical Data Transformations
@@ -24,7 +25,7 @@ This skill covers the data transformations you do every day: working with arrays
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - You need to transform arrays, objects, grouped data, or nested values in TypeScript.

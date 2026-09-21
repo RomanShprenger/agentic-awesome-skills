@@ -1,34 +1,34 @@
 ---
 name: llm-council
-description: "Run Fireworks-hosted open-weight model councils that compare responses and synthesize a final answer."
+description: Run Fireworks-hosted open-weight model councils that compare responses
+  and synthesize a final answer.
 allowed-tools: Read, Write, Bash, AskUserQuestion
-category: "ai-agents"
-risk: "safe"
-source: "official"
-source_repo: "dair-ai/dair-academy-plugins"
-source_type: "official"
-date_added: "2026-06-19"
-author: "DAIR.AI"
-license: "MIT"
-license_source: "https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license"
+category: ai-agents
+risk: safe
+source: official
+source_repo: dair-ai/dair-academy-plugins
+source_type: official
+date_added: '2026-06-19'
+author: DAIR.AI
+license: MIT
+license_source: https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license
 tags:
-  - dair-academy
-  - ai
-  - workflow
+- dair-academy
+- ai
+- workflow
 tools:
-  - claude-code
-  - codex-cli
-  - cursor
+- claude-code
+- codex-cli
+- cursor
 ---
 
 # LLM Council (Fireworks AI)
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
-
 Use when this workflow matches the user request: Use this skill for its documented workflow.
 
 

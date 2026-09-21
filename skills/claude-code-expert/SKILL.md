@@ -1,6 +1,8 @@
 ---
 name: claude-code-expert
-description: "Especialista profundo em Claude Code - CLI da Anthropic. Maximiza produtividade com atalhos, hooks, MCPs, configuracoes avancadas, workflows, CLAUDE.md, memoria, sub-agentes, permissoes e integracao com ecossistemas."
+description: Especialista profundo em Claude Code - CLI da Anthropic. Maximiza produtividade
+  com atalhos, hooks, MCPs, configuracoes avancadas, workflows, CLAUDE.md, memoria,
+  sub-agentes, permissoes e integracao…
 risk: none
 source: community
 date_added: '2026-03-06'
@@ -22,7 +24,7 @@ tools:
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

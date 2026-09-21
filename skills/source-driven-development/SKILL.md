@@ -1,6 +1,8 @@
 ---
 name: source-driven-development
-description: Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.
+description: Grounds every implementation decision in official documentation. Use
+  when you want authoritative, source-cited code free from outdated patterns. Use
+  when building with any framework or library where…
 risk: critical
 source: https://github.com/addyosmani/agent-skills/tree/main/skills/source-driven-development
 source_repo: addyosmani/agent-skills
@@ -17,7 +19,6 @@ license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 Every framework-specific code decision must be backed by official documentation. Don't implement from memory — verify, cite, and let the user see your sources. Training data goes stale, APIs get deprecated, best practices evolve. This skill ensures the user gets code they can trust because every pattern traces back to an authoritative source they can check.
 
 ## When to Use
-
 - The user wants code that follows current best practices for a given framework
 - Building boilerplate, starter code, or patterns that will be copied across a project
 - The user explicitly asks for documented, verified, or "correct" implementation

@@ -1,6 +1,8 @@
 ---
 name: incremental-implementation
-description: Delivers changes incrementally. Use when implementing any feature or change that touches more than one file. Use when you're about to write a large amount of code at once, or when a task feels too big to land in one step.
+description: Delivers changes incrementally. Use when implementing any feature or
+  change that touches more than one file. Use when you're about to write a large amount
+  of code at once, or when a task feels too bi…
 risk: critical
 source: https://github.com/addyosmani/agent-skills/tree/main/skills/incremental-implementation
 source_repo: addyosmani/agent-skills
@@ -17,7 +19,6 @@ license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 Build in thin vertical slices — implement one piece, test it, verify it, then expand. Avoid implementing an entire feature in one pass. Each increment should leave the system in a working, testable state. This is the execution discipline that makes large features manageable.
 
 ## When to Use
-
 - Implementing any multi-file change
 - Building a new feature from a task breakdown
 - Refactoring existing code

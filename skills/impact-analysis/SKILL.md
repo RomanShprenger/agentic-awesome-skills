@@ -1,0 +1,76 @@
+---
+name: impact-analysis
+description: Analyze change impact using Ontoly dependency and dependent traversal.
+  Use when asked what breaks if a symbol, service, route, package, or repository node
+  changes or is removed.
+license: AGPL-3.0-only
+compatibility: Portable Agent Skills format; requires Ontoly CLI and MCP-capable or
+  CLI-capable coding agent.
+metadata:
+  ontoly.skill.version: 1.3.3
+  ontoly.min.version: 1.3.3
+  ontoly.capabilities: ImpactAnalysis, FindDependents, FindDependencies, FindNode,
+    EvidencePack
+  ontoly.category: change-analysis
+  ontoly.enhancement: LLM Enhancement
+  ontoly.deprecated: 'false'
+source_repo: 0xsarwagya/ontoly
+source_type: community
+source: community
+date_added: '2026-09-21'
+risk: unknown
+---
+
+## When to Use
+- Use when this upstream workflow matches the user's stated goal.
+- Use when the task requires the procedures documented in this skill.
+
+# Impact Analysis
+
+Use this skill when the user asks for impact analysis using Ontoly evidence.
+
+## Required Workflow
+
+Follow [the shared Ontoly workflow. Also read [graph evidence rules, [MCP usage, [best practices, and [fallback rules when the task requires detail.
+
+## Ontoly Capabilities
+
+Use these capabilities first: `ImpactAnalysis`, `FindDependents`, `FindDependencies`, `FindNode`, `EvidencePack`.
+
+Pass the user's concept phrase directly to Ontoly first, for example
+`Plan Definition Resource`. Do not fan out manual spelling variants such as
+camelCase, kebab-case, or snake_case. If Ontoly returns multiple matches or no
+match, report that ambiguity or not-found result as graph evidence before using
+a narrow file fallback.
+
+## Output Contract
+
+Return:
+
+- answer or plan
+- capabilities invoked
+- graph evidence with node ids, edge types, source spans, and graph hash when available
+- confidence: high, medium, or low
+- fallback reason if repository files were inspected
+
+## Boundaries
+
+Do not implement compiler, query, MCP, SDK, or business logic in the skill. Do not search repository files until Ontoly cannot answer or evidence must be confirmed.
+
+## Resources
+
+- [Examples
+- [Prompt template
+- [Capability notes
+
+## Learn more
+
+- Documentation: https://ontoly.xyz/docs
+- This skill on the web: https://ontoly.xyz/skills#impact-analysis
+- All Ontoly Agent Skills: https://ontoly.xyz/skills
+- Install via skills.sh: https://www.skills.sh/?q=0xsarwagya/ontoly
+
+## Limitations
+
+- Imported upstream skill; verify credentials, permissions, and safety boundaries before execution.
+- Does not replace environment-specific validation, testing, or maintainer review.

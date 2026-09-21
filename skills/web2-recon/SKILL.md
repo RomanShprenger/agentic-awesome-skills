@@ -413,14 +413,13 @@ python3 ~/tools/GitDorker/GitDorker.py -t GITHUB_TOKEN -d ~/tools/GitDorker/Dork
 
 ## Contents
 
-- [30-MINUTE RECON PROTOCOL](references/details.md)
-- [Toolchain fallback (when `dnsx` / `httpx` crash)](references/details.md)
-- [API Spec / Swagger / OpenAPI Discovery (2024-2026 surface)](references/details.md)
-- [Related Skills & Chains](references/details.md)
-- [Operator Notes (Claude-BugHunter)](references/details.md)
+- [30-MINUTE RECON PROTOCOL]
+- [Toolchain fallback (when `dnsx` / `httpx` crash)]
+- [API Spec / Swagger / OpenAPI Discovery (2024-2026 surface)]
+- [Related Skills & Chains]
+- [Operator Notes (Claude-BugHunter)]
 
 ## When to Use
-
 - You have explicit, written authorization to assess the target in scope, and the task matches this skill's vulnerability class or technique within a bug-bounty or penetration-test engagement.
 - You need the recon, exploitation, or validation workflow described below — executed strictly inside the approved scope.
 

@@ -1,17 +1,19 @@
 ---
 name: wireshark-analysis
-description: "Execute comprehensive network traffic analysis using Wireshark to capture, filter, and examine network packets for security investigations, performance optimization, and troubleshooting."
+description: Execute comprehensive network traffic analysis using Wireshark to capture,
+  filter, and examine network packets for security investigations, performance optimization,
+  and troubleshooting.
 risk: critical
 source: community
 author: zebbern
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # Wireshark Network Traffic Analysis
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Constraints and Guardrails
 

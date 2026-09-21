@@ -1,6 +1,7 @@
 ---
 name: angular
-description: Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless applications, SSR/Hydration, and reactive patterns.
+description: Modern Angular (v20+) expert with deep knowledge of Signals, Standalone
+  Components, Zoneless applications, SSR/Hydration, and reactive patterns.
 risk: safe
 source: self
 date_added: '2026-02-27'
@@ -12,7 +13,7 @@ Master modern Angular development with Signals, Standalone Components, Zoneless 
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

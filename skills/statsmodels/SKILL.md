@@ -1,19 +1,21 @@
 ---
 name: statsmodels
-description: "Statsmodels is Python's premier library for statistical modeling, providing tools for estimation, inference, and diagnostics across a wide range of statistical methods."
+description: Statsmodels is Python's premier library for statistical modeling, providing
+  tools for estimation, inference, and diagnostics across a wide range of statistical
+  methods.
 license: BSD-3-Clause license
 metadata:
-    skill-author: K-Dense Inc.
+  skill-author: K-Dense Inc.
 risk: safe
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # Statsmodels: Statistical Modeling and Econometrics
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

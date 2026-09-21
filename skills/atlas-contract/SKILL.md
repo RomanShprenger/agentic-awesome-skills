@@ -1,15 +1,17 @@
 ---
 name: atlas-contract
-description: "Goal-integrity skill. Use for backend/API/persistence, preserve/do-not-change, tests/validation, mocks, rework, multi-part requests. Emits Goal Contracts, Deviation Notices, Phase Checks, Final Audits. Skip for Q&A or trivial edits."
+description: Goal-integrity skill. Use for backend/API/persistence, preserve/do-not-change,
+  tests/validation, mocks, rework, multi-part requests. Emits Goal Contracts, Deviation
+  Notices, Phase Checks, Final Audit…
 risk: critical
 source: community
 source_repo: wede-wx/atlas
 source_type: community
-date_added: "2026-06-12"
+date_added: '2026-06-12'
 license: MIT
-license_source: "https://github.com/wede-wx/atlas/blob/main/LICENSE"
+license_source: https://github.com/wede-wx/atlas/blob/main/LICENSE
 metadata:
-  version: "6.2.0"
+  version: 6.2.0
   author: wede-wx
   repository: https://github.com/wede-wx/atlas
 plugin:
@@ -18,7 +20,8 @@ plugin:
     claude: blocked
   setup:
     type: manual
-    summary: "Reads workspace Atlas.md as untrusted project memory; keep out of plugin-safe bundles."
+    summary: Reads workspace Atlas.md as untrusted project memory; keep out of plugin-safe
+      bundles.
     docs: SKILL.md
 ---
 
@@ -46,10 +49,9 @@ importing it. Never fabricate clauses.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
-
 # 2. When To Use Atlas, and How Much
 
 First decide **whether** Atlas applies, then **how heavily**.

@@ -21,7 +21,6 @@ metadata:
 # Warp Delegate
 
 ## When to Use
-
 - You want to delegate a bounded coding task to a separate `warp` implementer (`Warp Agent CLI`) and then review its diff yourself.
 - The user explicitly asked for delegation to this implementer.
 
@@ -89,7 +88,7 @@ shared context. Include the goal, current state, what to change, what to leave u
 project's **actual** gates, and a report contract. Tell it not to commit. Keep one task per brief.
 The brief is delivered as the `--prompt` value on argv, so it is visible in the host process list -
 keep secrets out of it and reference workspace files instead. See
-[references/writing-the-brief.md](references/writing-the-brief.md).
+[references/writing-the-brief.md].
 
 ### 2. Dispatch
 
@@ -111,7 +110,7 @@ node "<skill-dir>/scripts/relay.mjs" --brief brief.txt --cd /path/to/repo
 
 The relay pins the workspace with both the child process's cwd and Warp's own `--cwd`. It writes
 artifacts under the system temp dir by default and never commits. See
-[references/dispatch-and-poll.md](references/dispatch-and-poll.md).
+[references/dispatch-and-poll.md].
 
 ### 3. Wait for completion
 
@@ -135,7 +134,7 @@ Treat Warp's final message and gate claims as claims:
 Because there is no read-only mode to fall back on, the diff is the **only** record you get - and it
 records what git can see in the workspace afterward, not everything the run did. Dispatch from a
 clean tree so the two are as close as they can be. See
-[references/review-and-land.md](references/review-and-land.md).
+[references/review-and-land.md].
 
 ### 5. Land it
 
@@ -153,7 +152,7 @@ would imply an enforcement that does not exist. The controls you actually have a
 1. **Scope by directory.** `--cd` pins the workspace, and the relay passes it to Warp's own `--cwd`.
    Treat this as *aim*, not a fence: on oz 0.2026.05.27 shell commands did run in the pinned
    workspace, but the agent's file tool resolved bare relative paths against `$HOME`. Name absolute
-   paths in the brief - see [references/writing-the-brief.md](references/writing-the-brief.md).
+   paths in the brief - see [references/writing-the-brief.md].
 2. **Review the diff.** `touchedFiles` is `git status --porcelain` taken after the run - post-run,
    git-visible worktree state, not a log of what the agent did. It cannot show an ignored file, an
    edit the run made and then reverted, or a write outside the repository (see item 1), and it
@@ -170,17 +169,17 @@ Delegation is something the human opts into. Once they have ("run this queue", "
 committing verified, gate-passing work is the agreed contract. Two limits remain: **surface, don't
 absorb** (report Warp's design decisions, defensible-but-unasked turns, and non-blocking nitpicks)
 and **stop for scope changes** (if correct completion needs going beyond the brief, ask instead of
-expanding the mandate). See [references/review-and-land.md](references/review-and-land.md).
+expanding the mandate). See [references/review-and-land.md].
 
 ## References
 
-- [references/writing-the-brief.md](references/writing-the-brief.md) - structure, report contract,
+- [references/writing-the-brief.md] - structure, report contract,
   real gates, argv delivery, and delta briefs.
-- [references/dispatch-and-poll.md](references/dispatch-and-poll.md) - flags, artifacts,
+- [references/dispatch-and-poll.md] - flags, artifacts,
   `result.json`, polling, and failure recovery.
-- [references/review-and-land.md](references/review-and-land.md) - review checklist, commit
+- [references/review-and-land.md] - review checklist, commit
   boundary, and rework through Warp conversations.
-- [references/multi-task-queues.md](references/multi-task-queues.md) - sequential queues,
+- [references/multi-task-queues.md] - sequential queues,
   constraint carry-forward, progress tracking, and the final coherence pass.
 
 

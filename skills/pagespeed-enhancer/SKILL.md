@@ -1,9 +1,11 @@
 ---
 name: pagespeed-enhancer
-description: "Scan, audit, and fix web performance issues across all four Lighthouse/PageSpeed Insights pillars — Performance, Accessibility, Best Practices, and SEO — in structured batches."
+description: Scan, audit, and fix web performance issues across all four Lighthouse/PageSpeed
+  Insights pillars — Performance, Accessibility, Best Practices, and SEO — in structured
+  batches.
 risk: safe
 source: personal
-date_added: "2026-06-14"
+date_added: '2026-06-14'
 author: WHOISABHISHEKADHIKARI
 ---
 
@@ -15,7 +17,7 @@ A structured, batch-wise audit-and-fix workflow for all four Lighthouse pillars.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

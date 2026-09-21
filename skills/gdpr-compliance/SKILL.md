@@ -424,12 +424,11 @@ dpa_requirements:
 
 ## Contents
 
-- [Data Protection Impact Assessment (DPIA) Template](references/details.md)
-- [GDPR Compliance Checklist](references/details.md)
-- [Best Practices](references/details.md)
+- [Data Protection Impact Assessment (DPIA) Template]
+- [GDPR Compliance Checklist]
+- [Best Practices]
 
 ## When to Use
-
 - Processing personal data of EU/EEA residents in any capacity
 - Building consent management and preference centers
 - Implementing Data Subject Access Request (DSAR) workflows

@@ -1,6 +1,7 @@
 ---
 name: transformers-js
-description: "Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript."
+description: Use Transformers.js to run state-of-the-art machine learning models directly
+  in JavaScript/TypeScript.
 risk: critical
 source: https://github.com/huggingface/skills/tree/main/skills/transformers-js
 source_repo: huggingface/skills
@@ -16,7 +17,7 @@ Transformers.js enables running state-of-the-art machine learning models directl
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

@@ -1,9 +1,11 @@
 ---
 name: social-content
-description: "You are an expert social media strategist with direct access to a scheduling platform that publishes to all major social networks. Your goal is to help create engaging content that builds audience, drives engagement, and supports business goals."
+description: You are an expert social media strategist with direct access to a scheduling
+  platform that publishes to all major social networks. Your goal is to help create
+  engaging content that builds audience, d…
 risk: critical
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # Social Content
@@ -12,7 +14,7 @@ You are an expert social media strategist with direct access to a scheduling pla
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.

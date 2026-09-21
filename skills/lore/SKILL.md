@@ -1,17 +1,35 @@
 ---
 name: lore
-description: "Markdown project memory for AI agents. Use for decisions, architecture, conventions, monorepo scopes, `.lore/`, or `lore` commands; not native `/init`/`/compact` or generic init/compress/audit/query."
+description: Markdown project memory for AI agents. Use for decisions, architecture,
+  conventions, monorepo scopes, `.lore/`, or `lore` commands; not native `/init`/`/compact`
+  or generic init/compress/audit/query.
 category: development
 risk: safe
 source: community
 source_repo: TheaDust/lore
 source_type: community
-date_added: "2026-07-12"
+date_added: '2026-07-12'
 author: TheaDust
-tags: [memory, knowledge-base, project-context, monorepo, markdown, conventions, adr, agent-skills]
-tools: [claude, cursor, gemini, codex, copilot, opencode, cline, aider]
+tags:
+- memory
+- knowledge-base
+- project-context
+- monorepo
+- markdown
+- conventions
+- adr
+- agent-skills
+tools:
+- claude
+- cursor
+- gemini
+- codex
+- copilot
+- opencode
+- cline
+- aider
 license: MIT
-license_source: "https://github.com/TheaDust/lore/blob/25111dead1b54053d65124e43c35d307951c1844/LICENSE"
+license_source: https://github.com/TheaDust/lore/blob/25111dead1b54053d65124e43c35d307951c1844/LICENSE
 ---
 
 # lore — Framework-agnostic Memory Management
@@ -27,7 +45,6 @@ A long-term knowledge base for a software project, maintained by AI agents. It i
 This knowledge is persisted as **plain Markdown files** in `.lore/` at the project root. Any agent that can read files can consume them.
 
 ## When to Use
-
 The skill uses a **two-tier trigger model**.
 
 ### Tier 1 — Loading the skill
@@ -53,22 +70,22 @@ Once the skill is loaded for this session, certain commands may proactively prop
 - `sync` emits `[ALERT]` markers when an active entry conflicts with current code or with a candidate change.
 - `mirror` regenerates automatically during `compress` if `auto_mirror: true` is set in `.lore/.config.json`.
 
-Other commands (`init`, `query`, `history`) are always explicit — they need user intent. See [`references/workflows.md`](references/workflows.md) for when each workflow is used.
+Other commands (`init`, `query`, `history`) are always explicit — they need user intent. See [`references/workflows.md`] for when each workflow is used.
 
 ## Which command do I need?
 
 | User goal | Command | When | Procedure |
 |---|---|---|---|
-| First-time setup, or start over | `init` | One-time setup | [`references/workflows.md#init`](references/workflows.md#init--initialize-the-memory-bank), then `references/platform-mirrors.md` + `references/monorepo-detection.md` |
-| "Remember this change" after a feature / refactor / bug fix | `sync` | After a non-trivial change | [`references/workflows.md#sync`](references/workflows.md#sync--update-after-a-change), then `references/stale-new-markers.md` |
-| "What is the project convention / why was X chosen?" | `query` | Answer from memory | [`references/workflows.md#query`](references/workflows.md#query--answer-from-memory) |
-| "Is memory still accurate?" | `audit` | Memory may have drifted from reality | [`references/workflows.md#audit`](references/workflows.md#audit--check-memory-vs-reality), then `references/audit-template.md` |
-| "Summarize the memory bank" | `compress` | SUMMARY.md stale, or entries > 500 | [`references/workflows.md#compress`](references/workflows.md#compress--build-the-top-level-summary), then `references/summary-template.md` |
-| "Update CLAUDE.md / AGENTS.md / mirrors" | `mirror` | Explicit publish of mirror changes | [`references/workflows.md#mirror`](references/workflows.md#mirror--regenerate-platform-mirrors), then `references/platform-mirrors.md` |
-| "Why does this decision exist?" / "show the commits behind this" | `history` | Git story behind an entry | [`references/workflows.md#history`](references/workflows.md#history--show-git-commits-related-to-a-memory-entry), then `references/history-command.md` |
+| First-time setup, or start over | `init` | One-time setup | [`references/workflows.md#init`], then `references/platform-mirrors.md` + `references/monorepo-detection.md` |
+| "Remember this change" after a feature / refactor / bug fix | `sync` | After a non-trivial change | [`references/workflows.md#sync`], then `references/stale-new-markers.md` |
+| "What is the project convention / why was X chosen?" | `query` | Answer from memory | [`references/workflows.md#query`] |
+| "Is memory still accurate?" | `audit` | Memory may have drifted from reality | [`references/workflows.md#audit`], then `references/audit-template.md` |
+| "Summarize the memory bank" | `compress` | SUMMARY.md stale, or entries > 500 | [`references/workflows.md#compress`], then `references/summary-template.md` |
+| "Update CLAUDE.md / AGENTS.md / mirrors" | `mirror` | Explicit publish of mirror changes | [`references/workflows.md#mirror`], then `references/platform-mirrors.md` |
+| "Why does this decision exist?" / "show the commits behind this" | `history` | Git story behind an entry | [`references/workflows.md#history`], then `references/history-command.md` |
 | Agent-native `/init` or `/compact` | do **not** trigger lore | — | Relationship to agent native commands |
 
-The step-by-step procedures for all seven commands live in [`references/workflows.md`](references/workflows.md) — load that file before executing any command.
+The step-by-step procedures for all seven commands live in [`references/workflows.md`] — load that file before executing any command.
 
 **Already have `.lore/`?** Adding a new scope is still `sync` — `init` is only for first-time setup or an explicit start-over. A change that introduces a new scope does not reinitialize the memory bank; `sync` creates the scope directories directly (see `references/workflows.md` sync step 2).
 
@@ -254,6 +271,6 @@ lore mirror    # Regenerate platform mirrors; content-based dedup skips unchange
 lore history   # Read-only. Git commits behind an entry / file / scope.
 ```
 
-Mirror regenerations validate each target's two-section structure first and report anomalies instead of overwriting; My notes is preserved verbatim (a user-requested wipe archives it to `.lore/.archive/` first). Full step-by-step procedures: [`references/workflows.md`](references/workflows.md).
+Mirror regenerations validate each target's two-section structure first and report anomalies instead of overwriting; My notes is preserved verbatim (a user-requested wipe archives it to `.lore/.archive/` first). Full step-by-step procedures: [`references/workflows.md`].
 
 Only `query` and `history` are pure read; the other five write files (`init`/`sync` → `.lore/*.md`, `compress` → `SUMMARY.md`, `mirror` → platform files, `audit` → `.lore/audit/audit-<date>.md`). Canonical writes follow `sync_trust`; mirror writes follow `auto_mirror` (compress) or `sync_updates_mirror` (sync), otherwise requiring confirmation.

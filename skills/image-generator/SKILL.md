@@ -1,34 +1,35 @@
 ---
 name: image-generator
-description: Generate and edit images using Gemini's Nano Banana Pro model (gemini-3-pro-image-preview). Use this skill when the user asks you to generate images, create visuals, edit photos, create logos, generate product mockups, or perform any image generation/editing task.
+description: Generate and edit images using Gemini's Nano Banana Pro model (gemini-3-pro-image-preview).
+  Use this skill when the user asks you to generate images, create visuals, edit photos,
+  create logos, genera…
 allowed-tools: Read, Write, Bash, WebFetch
-category: "media"
-risk: "safe"
-source: "official"
-source_repo: "dair-ai/dair-academy-plugins"
-source_type: "official"
-date_added: "2026-06-19"
-author: "DAIR.AI"
-license: "MIT"
-license_source: "https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license"
+category: media
+risk: safe
+source: official
+source_repo: dair-ai/dair-academy-plugins
+source_type: official
+date_added: '2026-06-19'
+author: DAIR.AI
+license: MIT
+license_source: https://github.com/dair-ai/dair-academy-plugins/blob/main/README.md#license
 tags:
-  - dair-academy
-  - ai
-  - workflow
+- dair-academy
+- ai
+- workflow
 tools:
-  - claude-code
-  - codex-cli
-  - cursor
+- claude-code
+- codex-cli
+- cursor
 ---
 
 # Image Generator
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
-
 Use when this workflow matches the user request: Generate and edit images using Gemini's Nano Banana Pro model (gemini-3-pro-image-preview). Use this skill when the user asks you to generate images, create visuals, edit photos, create logos, generate product mockups, or perform any image generation/editing task.
 
 

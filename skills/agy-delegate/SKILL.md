@@ -20,7 +20,6 @@ metadata:
 # Antigravity Delegate
 
 ## When to Use
-
 - You want to delegate a bounded coding task to a separate `agy` implementer (`Google Antigravity`) and then review its diff yourself.
 - The user explicitly asked for delegation to this implementer.
 
@@ -67,7 +66,7 @@ Antigravity sees only the text you send plus what it can inspect in the workspac
 shared context. Everything the task needs goes in the brief: the goal, the current state, what to
 change, what to leave untouched, the project's **actual** gate commands, and a report contract. Tell
 Antigravity it will **not** commit (you will). Keep one task per brief. Full guidance and a template:
-[references/writing-the-brief.md](references/writing-the-brief.md).
+[references/writing-the-brief.md].
 
 ### 2. Dispatch
 
@@ -87,7 +86,7 @@ node "<skill-dir>/scripts/relay.mjs" --brief brief.txt --cd /path/to/repo
 
 The helper starts a fresh Antigravity project by default and passes `--add-dir <repo>` (the `--cd`
 path, absolute) so `agy` has an explicit workspace. It does **not** pass `--dangerously-skip-permissions` by default.
-Mechanics, flags, and the `result.json` shape: [references/dispatch-and-poll.md](references/dispatch-and-poll.md).
+Mechanics, flags, and the `result.json` shape: [references/dispatch-and-poll.md].
 
 ### 3. Wait for completion
 
@@ -113,7 +112,7 @@ accept:**
 - **Run the relevant guard skills** on the diff if you have them installed.
 - For schema/migration changes, round-trip them; for removals, grep for dangling references.
 
-Full checklist: [references/review-and-land.md](references/review-and-land.md).
+Full checklist: [references/review-and-land.md].
 
 ### 5. Land it
 
@@ -146,17 +145,17 @@ verified, gate-passing work is the agreed contract. Two limits on that mandate: 
 absorb** (report Antigravity's design decisions, defensible-but-unasked turns, and non-blocking
 nitpicks rather than silently keeping them) and **stop for scope changes** (if correct completion needs
 going beyond the brief, ask - don't expand the mandate yourself). The full treatment is in
-[references/review-and-land.md](references/review-and-land.md).
+[references/review-and-land.md].
 
 ## References
 
-- [references/writing-the-brief.md](references/writing-the-brief.md) - how to write a brief Antigravity
+- [references/writing-the-brief.md] - how to write a brief Antigravity
   can execute blind: structure, XML blocks, the report contract, and real gate commands.
-- [references/dispatch-and-poll.md](references/dispatch-and-poll.md) - `relay.mjs` flags, the
+- [references/dispatch-and-poll.md] - `relay.mjs` flags, the
   `result.json` contract, backgrounding per orchestrator, and recovery when a run misbehaves.
-- [references/review-and-land.md](references/review-and-land.md) - the review checklist, the commit
+- [references/review-and-land.md] - the review checklist, the commit
   boundary, and the rework cycle via `--resume-last`.
-- [references/multi-task-queues.md](references/multi-task-queues.md) - running a sequential queue:
+- [references/multi-task-queues.md] - running a sequential queue:
   carrying constraints forward, progress tracking, and the end-of-run coherence check.
 
 

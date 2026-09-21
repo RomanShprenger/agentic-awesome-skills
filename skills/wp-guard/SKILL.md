@@ -1,12 +1,13 @@
 ---
-name: "wp-guard"
-description: "Review generated or changed WordPress plugins, themes, and blocks for security, internationalization, performance, and API correctness."
-risk: "offensive"
-source: "community"
-source_repo: "amElnagdy/guard-skills"
-source_type: "community"
+name: wp-guard
+description: Review generated or changed WordPress plugins, themes, and blocks for
+  security, internationalization, performance, and API correctness.
+risk: offensive
+source: community
+source_repo: amElnagdy/guard-skills
+source_type: community
 date_added: 2026-07-13
-author: "community"
+author: community
 tags: []
 tools: []
 ---
@@ -35,7 +36,6 @@ You are reviewing generated or changed WordPress code before it ships. Apply the
 These rules exist because AI agents produce WordPress code with systematic failures: raw `echo` of request data, AJAX handlers with neither nonce nor capability check, SQL built by string interpolation, English hardcoded into user-facing strings, `posts_per_page => -1` on sites with a million posts, and hand-rolled replacements for APIs core already ships. Each one looks fine in a demo and fails in production.
 
 ## When to Use
-
 Use this skill when reviewing generated or changed WordPress code — plugins, themes, and blocks — before it ships. Activate it reactively after an agent writes, edits, or reviews code touching WordPress APIs: hooks, custom post types, REST endpoints, database queries, and block editor integrations.
 
 ## How to use this skill
@@ -44,7 +44,7 @@ Use this skill when reviewing generated or changed WordPress code — plugins, t
 
 **Live mode** (explicit): when the user invokes this skill before writing WordPress code, apply the same rules while writing, then run the self-check before delivery.
 
-**Review mode** (the user asks you to review, audit, or rate WordPress code): walk [references/review-checklist.md](references/review-checklist.md) against the target files and produce a structured findings report. Do not edit code in review mode unless asked.
+**Review mode** (the user asks you to review, audit, or rate WordPress code): walk [references/review-checklist.md] against the target files and produce a structured findings report. Do not edit code in review mode unless asked.
 
 Pair this skill with clean-code-guard when both are installed: clean-code-guard owns generic code quality; wp-guard owns the WordPress layer.
 
@@ -79,11 +79,11 @@ Pair this skill with clean-code-guard when both are installed: clean-code-guard 
 
 ### Internationalization
 
-9. **Every user-facing string is translation-ready.** The correct wrapper for the context (`__()`, `_e()`, `_x()`, `_n()`, or the escaping combos `esc_html__()`, `esc_attr__()`), a literal text domain matching the plugin slug — never a variable or constant — translator comments on every placeholder, `_n()` for plurals (never `sprintf` with a hardcoded singular/plural choice), and no sentence assembly by concatenation. Dates and numbers through `date_i18n()`/`wp_date()` and `number_format_i18n()`. Details and JS i18n: [references/i18n.md](references/i18n.md).
+9. **Every user-facing string is translation-ready.** The correct wrapper for the context (`__()`, `_e()`, `_x()`, `_n()`, or the escaping combos `esc_html__()`, `esc_attr__()`), a literal text domain matching the plugin slug — never a variable or constant — translator comments on every placeholder, `_n()` for plurals (never `sprintf` with a hardcoded singular/plural choice), and no sentence assembly by concatenation. Dates and numbers through `date_i18n()`/`wp_date()` and `number_format_i18n()`. Details and JS i18n: [references/i18n.md].
 
 ### Performance
 
-10. **Query discipline.** No `posts_per_page => -1` and no `query_posts()`, ever. Use `'fields' => 'ids'` when only IDs are needed, `'no_found_rows' => true` when not paginating, and never query inside a loop what could be primed once (meta/term caches). Details: [references/performance.md](references/performance.md).
+10. **Query discipline.** No `posts_per_page => -1` and no `query_posts()`, ever. Use `'fields' => 'ids'` when only IDs are needed, `'no_found_rows' => true` when not paginating, and never query inside a loop what could be primed once (meta/term caches). Details: [references/performance.md].
 
 11. **Cache expensive work, load assets where used.** Remote calls and heavy computations go behind transients or the object cache with a deliberate TTL. Options that are large or rarely read register with `autoload => false`. Scripts and styles enqueue only on the screens that use them.
 
@@ -119,11 +119,11 @@ Group by file, lead with security findings. If a file is clean, don't mention it
 
 ## References
 
-- [references/security.md](references/security.md) — escaping/sanitization function tables, nonce lifecycle, REST permissions, `$wpdb->prepare` details, file uploads
-- [references/i18n.md](references/i18n.md) — wrapper selection, text domain rules, plurals, translator comments, JS translations, RTL, multilingual-plugin gotchas
-- [references/performance.md](references/performance.md) — WP_Query flags, transients vs object cache, autoload hygiene, asset loading, cron, scaling traps
-- [references/review-checklist.md](references/review-checklist.md) — structured walk-through for review mode
-- [references/sources.md](references/sources.md) — handbook and research URLs; read only when citing a source
+- [references/security.md] — escaping/sanitization function tables, nonce lifecycle, REST permissions, `$wpdb->prepare` details, file uploads
+- [references/i18n.md] — wrapper selection, text domain rules, plurals, translator comments, JS translations, RTL, multilingual-plugin gotchas
+- [references/performance.md] — WP_Query flags, transients vs object cache, autoload hygiene, asset loading, cron, scaling traps
+- [references/review-checklist.md] — structured walk-through for review mode
+- [references/sources.md] — handbook and research URLs; read only when citing a source
 
 ## What this skill does not do
 

@@ -1,16 +1,31 @@
 ---
 name: runaway-guard
-description: "Cost-safety discipline for paid AI / inference APIs: treat $-cost as a third complexity dimension alongside time and space. Forces a written per-run $-cap, per-day $-cap, max-iterations bound, concurrency limit, and a matching provider-dashboard hard cap BEFORE any call site is written."
+description: 'Cost-safety discipline for paid AI / inference APIs: treat $-cost as
+  a third complexity dimension alongside time and space. Forces a written per-run
+  $-cap, per-day $-cap, max-iterations bound, concur…'
 risk: safe
 source: community
 source_repo: morsechimwai/lemmaly
 source_type: community
-date_added: "2026-05-28"
+date_added: '2026-05-28'
 author: morsechimwai
-tags: [cost-safety, finops, ai-apis, agents, retries, concurrency, wallet-invariant, gateway]
-tools: [claude-code, antigravity, cursor, gemini-cli, codex-cli]
-license: "Apache-2.0"
-license_source: "https://github.com/morsechimwai/lemmaly/blob/main/LICENSE"
+tags:
+- cost-safety
+- finops
+- ai-apis
+- agents
+- retries
+- concurrency
+- wallet-invariant
+- gateway
+tools:
+- claude-code
+- antigravity
+- cursor
+- gemini-cli
+- codex-cli
+license: Apache-2.0
+license_source: https://github.com/morsechimwai/lemmaly/blob/main/LICENSE
 ---
 
 # runaway-guard — $-Cost is the Third Complexity Dimension

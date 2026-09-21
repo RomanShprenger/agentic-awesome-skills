@@ -1,9 +1,8 @@
 ---
 name: agent-tool-builder
-description: Tools are how AI agents interact with the world. A well-designed
-  tool is the difference between an agent that works and one that hallucinates,
-  fails silently, or costs 10x more tokens than necessary. This skill covers
-  tool design from schema to error handling.
+description: Tools are how AI agents interact with the world. A well-designed tool
+  is the difference between an agent that works and one that hallucinates, fails silently,
+  or costs 10x more tokens than necessary.…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -24,7 +23,7 @@ The LLM never sees your code - it only sees the schema and description.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Python Example
 """

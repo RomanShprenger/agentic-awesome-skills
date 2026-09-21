@@ -1,9 +1,11 @@
 ---
 name: n8n-code-javascript
-description: Write JavaScript code in n8n Code nodes. Use when writing JavaScript in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working with dates using DateTime, troubleshooting Code node errors, or choosing between Code node modes.
+description: Write JavaScript code in n8n Code nodes. Use when writing JavaScript
+  in n8n, using $input/$json/$node syntax, making HTTP requests with $helpers, working
+  with dates using DateTime, troubleshooting Co…
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # JavaScript Code Node
@@ -14,7 +16,7 @@ Expert guidance for writing JavaScript code in n8n Code nodes.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use Code Node
 

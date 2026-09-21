@@ -1,19 +1,35 @@
 ---
 name: 2slides-ppt-generator
-description: "AI-powered presentation generation via the 2slides API — create slides from text, match a reference image style, summarize documents into decks, add AI voice narration, and export pages/audio. Use for any \"make slides\", \"create a deck\", or \"slides from this document\" request."
+description: AI-powered presentation generation via the 2slides API — create slides
+  from text, match a reference image style, summarize documents into decks, add AI
+  voice narration, and export pages/audio. Use fo…
 category: api-integration
 risk: safe
 source: community
 source_repo: 2slides/slides-generation-2slides-skills
 source_type: community
-date_added: "2026-06-05"
+date_added: '2026-06-05'
 author: 2slides
-tags: [presentations, slides, powerpoint, ai, api-integration, pdf, narration, document-summarization]
-tools: [claude, cursor, gemini, codex, antigravity]
+tags:
+- presentations
+- slides
+- powerpoint
+- ai
+- api-integration
+- pdf
+- narration
+- document-summarization
+tools:
+- claude
+- cursor
+- gemini
+- codex
+- antigravity
 plugin:
   setup:
     type: manual
-    summary: "Install Python requirements and configure a 2slides API key before running generation scripts."
+    summary: Install Python requirements and configure a 2slides API key before running
+      generation scripts.
     docs: SKILL.md
 ---
 
@@ -21,7 +37,7 @@ plugin:
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

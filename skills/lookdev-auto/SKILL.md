@@ -1,28 +1,29 @@
 ---
 name: lookdev-auto
-description: "Automated visual tuning: a vision or video model rates rendered variants in a loop. Render several labeled variants into one artifact, ask the model to rate them and suggest better values, render the suggestions, ask it to pick the best, repeat until good — the model is the eye, you run the loop."
+description: 'Automated visual tuning: a vision or video model rates rendered variants
+  in a loop. Render several labeled variants into one artifact, ask the model to rate
+  them and suggest better values, render the…'
 risk: safe
 source: community
 source_type: community
 source_repo: connerkward/lookdev-auto-skill
-date_added: "2026-06-16"
+date_added: '2026-06-16'
 author: Conner K Ward
 license: MIT
 tags:
-  - visual-eval
-  - vision-model
-  - tuning
-  - automation
-  - render-loop
+- visual-eval
+- vision-model
+- tuning
+- automation
+- render-loop
 tools:
-  - claude-code
-  - antigravity
-  - cursor
-  - gemini-cli
-  - codex-cli
+- claude-code
+- antigravity
+- cursor
+- gemini-cli
+- codex-cli
 ---
 ## When to Use
-
 Use whenever "looks/feels right" is the success criterion and there's no cheap numeric metric — animation easing/timing, zoom/camera feel, color grade, layout/spacing, design params, render/encoder settings, prompt params. Use the automated counterpart to lookdev when there's no human to sit the loop.
 
 _Source: [connerkward/lookdev-auto-skill](https://github.com/connerkward/lookdev-auto-skill) (MIT)._

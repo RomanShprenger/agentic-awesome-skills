@@ -1,6 +1,8 @@
 ---
 name: agent-evaluation
-description: "Evaluate agent behavior with versioned cases and explicit verifiers. Use when comparing agent or prompt changes, reproducing failures, or running agent regression tests."
+description: Evaluate agent behavior with versioned cases and explicit verifiers.
+  Use when comparing agent or prompt changes, reproducing failures, or running agent
+  regression tests.
 risk: safe
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -11,7 +13,6 @@ date_added: 2026-02-27
 Evaluate observable agent behavior against task-specific cases. Modified by AAS maintainers on 2026-09-05 to remove unsupported benchmark claims, correct uncertainty/error reporting and separate optional architecture sketches from the operating procedure.
 
 ## When to Use
-
 Use when comparing a changed agent, prompt or tool configuration, reproducing an observed failure, or estimating reliability on a declared task distribution. Do not infer product readiness from a public benchmark percentage or a generic score threshold.
 
 ## Prerequisites
@@ -67,13 +68,13 @@ Expected checks: 0/10 has a positive upper bound; 10/10 has a lower bound below 
 
 ## Optional architecture patterns
 
-Read the corresponding section in the bundled [architecture sketches](references/architecture-sketches.md) only when designing a custom harness:
+Read the corresponding section in the bundled [architecture sketches] only when designing a custom harness:
 
-- [Statistical evaluation](references/architecture-sketches.md#statistical-test-evaluation): repeated stochastic runs and descriptive reports.
-- [Behavioral contracts](references/architecture-sketches.md#behavioral-contract-testing): expected behavior and invariants.
-- [Adversarial tests](references/architecture-sketches.md#adversarial-testing): synthetic, authorized boundary cases; keyword detectors need reviewed false-positive and false-negative examples.
-- [Regression pipeline](references/architecture-sketches.md#regression-testing-pipeline): baseline/candidate artifact comparison.
-- [Sharp edges](references/architecture-sketches.md#sharp-edges): dataset mismatch, flakiness, proxy metrics and possible leakage.
+- [Statistical evaluation]: repeated stochastic runs and descriptive reports.
+- [Behavioral contracts]: expected behavior and invariants.
+- [Adversarial tests]: synthetic, authorized boundary cases; keyword detectors need reviewed false-positive and false-negative examples.
+- [Regression pipeline]: baseline/candidate artifact comparison.
+- [Sharp edges]: dataset mismatch, flakiness, proxy metrics and possible leakage.
 
 The classes require application-specific adapters and are not copy-and-run implementations. No listed tool, related skill or delegate is a required dependency.
 

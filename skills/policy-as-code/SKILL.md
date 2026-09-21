@@ -407,13 +407,12 @@ checkov -d ./terraform \
 
 ## Contents
 
-- [CI/CD Pipeline Integration](references/details.md)
-- [Policy Exception Management](references/details.md)
-- [Policy Testing](references/details.md)
-- [Best Practices](references/details.md)
+- [CI/CD Pipeline Integration]
+- [Policy Exception Management]
+- [Policy Testing]
+- [Best Practices]
 
 ## When to Use
-
 - Enforcing security and compliance policies on infrastructure-as-code changes
 - Preventing misconfigured Kubernetes workloads from deploying
 - Automating guardrails in CI/CD pipelines for Terraform, CloudFormation, or Helm

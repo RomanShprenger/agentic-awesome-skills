@@ -4,7 +4,7 @@ description: 分析中医体质数据、识别体质类型、评估体质特征,
 allowed-tools: Read, Grep, Glob, Write
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # 中医体质辨识分析器技能
@@ -13,7 +13,7 @@ date_added: "2026-09-04"
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - 你需要根据中医体质分类标准评估用户体质，并识别主导体质与兼夹体质。

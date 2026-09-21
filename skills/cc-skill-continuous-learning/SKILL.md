@@ -1,9 +1,11 @@
 ---
 name: cc-skill-continuous-learning
-description: "Turn a completed debugging session or repeated user correction into a small, evidence-backed procedure. Use for explicit requests to capture reusable lessons; does not automatically extract or save memories."
+description: Turn a completed debugging session or repeated user correction into a
+  small, evidence-backed procedure. Use for explicit requests to capture reusable
+  lessons; does not automatically extract or save m…
 risk: none
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # Continuous Learning from a Completed Session
@@ -18,7 +20,7 @@ Use after a resolved failure, a repeated project-specific correction, or an expl
 - An authorized session summary or transcript, affected code or configuration, and the command or observation that confirmed the fix.
 - The scope of the lesson: this repository, this tool version, or a more general procedure.
 - An existing authorized documentation destination. If saving was not requested, return a draft in the conversation; do not update user memory, install skills, or modify agent configuration automatically.
-- The optional [session-length helper](evaluate-session.sh) requires Bash and Python 3. Its only setting is `min_session_length` in [config.json](config.json).
+- The optional [session-length helper requires Bash and Python 3. Its only setting is `min_session_length` in [config.json.
 
 ## Procedure
 

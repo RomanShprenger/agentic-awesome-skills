@@ -1,17 +1,28 @@
 ---
 name: boost-asio-pro
-description: "Use when writing asynchronous C++ networking code with Boost.Asio or standalone Asio — TCP/UDP servers and clients, SSL/TLS, timers, strands, composed async ops. Covers io_context, co_spawn, awaitable, async_read/async_write, asio::spawn, yield_context, and pre-C++20 callback styles."
+description: Use when writing asynchronous C++ networking code with Boost.Asio or
+  standalone Asio — TCP/UDP servers and clients, SSL/TLS, timers, strands, composed
+  async ops. Covers io_context, co_spawn, awaitabl…
 category: development
 risk: safe
 source: community
 source_repo: alexprivalov/boost-asio-skill
 source_type: community
-date_added: "2026-08-18"
+date_added: '2026-08-18'
 author: alexprivalov
-tags: [cpp, boost, asio, async, networking, coroutines]
-tools: [claude, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/alexprivalov/boost-asio-skill/blob/main/LICENSE"
+tags:
+- cpp
+- boost
+- asio
+- async
+- networking
+- coroutines
+tools:
+- claude
+- cursor
+- gemini
+license: MIT
+license_source: https://github.com/alexprivalov/boost-asio-skill/blob/main/LICENSE
 ---
 
 # Boost.Asio / standalone Asio
@@ -37,12 +48,12 @@ Determine the Boost (or Asio) version and the C++ standard actually in use — `
 
 | Boost | C++ std | Style | Read |
 |-------|---------|-------|------|
-| ≥ 1.77 | C++20 | Coroutines (`co_await` + `awaitable<T>`) — preferred | [references/coroutines.md](references/coroutines.md) |
-| ≥ 1.74 | C++11–17 | Completion handlers (callbacks) — the portable baseline | [references/pre-cpp20.md](references/pre-cpp20.md) |
-| ≥ 1.80 | C++11–17 | Stackful `asio::spawn` + `yield_context` (links Boost.Coroutine — not header-only) | [references/pre-cpp20.md](references/pre-cpp20.md) |
-| 1.62–1.65 | C++11 | Classic `io_service` / `strand.wrap` / `expires_from_now` | [references/classic-boost.md](references/classic-boost.md) |
+| ≥ 1.77 | C++20 | Coroutines (`co_await` + `awaitable<T>`) — preferred | [references/coroutines.md] |
+| ≥ 1.74 | C++11–17 | Completion handlers (callbacks) — the portable baseline | [references/pre-cpp20.md] |
+| ≥ 1.80 | C++11–17 | Stackful `asio::spawn` + `yield_context` (links Boost.Coroutine — not header-only) | [references/pre-cpp20.md] |
+| 1.62–1.65 | C++11 | Classic `io_service` / `strand.wrap` / `expires_from_now` | [references/classic-boost.md] |
 
-SSL/TLS in any style: [references/ssl.md](references/ssl.md). CMake for any style: [references/build.md](references/build.md).
+SSL/TLS in any style: [references/ssl.md]. CMake for any style: [references/build.md].
 
 `io_context`, `make_strand`, `bind_executor`, `steady_timer`, `signal_set`, `async_read`/`async_write`/`async_read_until`, buffers and `resolver` are **library** features — identical in the coroutine and callback styles. Only the suspension mechanism differs.
 

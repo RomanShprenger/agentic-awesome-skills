@@ -1,9 +1,8 @@
 ---
 name: workflow-automation
-description: Workflow automation is the infrastructure that makes AI agents
-  reliable. Without durable execution, a network hiccup during a 10-step payment
-  flow means lost money and angry customers. With it, workflows resume exactly
-  where they left off.
+description: Workflow automation is the infrastructure that makes AI agents reliable.
+  Without durable execution, a network hiccup during a 10-step payment flow means
+  lost money and angry customers. With it, workf…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -26,7 +25,7 @@ Pick based on your actual needs, not hype.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Inngest Example (TypeScript)
 """

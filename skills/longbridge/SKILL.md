@@ -1,17 +1,28 @@
 ---
 name: longbridge
-description: "125+ agent skills for Longbridge Securities — real-time quotes, charts, fundamentals, portfolio analysis, options, and more for HK/US/A-share/SG markets. Trilingual: Simplified Chinese, Traditional Chinese, English."
+description: '125+ agent skills for Longbridge Securities — real-time quotes, charts,
+  fundamentals, portfolio analysis, options, and more for HK/US/A-share/SG markets.
+  Trilingual: Simplified Chinese, Traditional C…'
 category: finance
 risk: critical
 source: official
 source_repo: longbridge/skills
 source_type: official
-date_added: "2026-05-29"
+date_added: '2026-05-29'
 author: longbridge
-tags: [finance, stocks, trading, portfolio, market-data]
-tools: [claude, cursor, gemini, codex]
-license: "MIT"
-license_source: "https://github.com/longbridge/skills/blob/main/LICENSE"
+tags:
+- finance
+- stocks
+- trading
+- portfolio
+- market-data
+tools:
+- claude
+- cursor
+- gemini
+- codex
+license: MIT
+license_source: https://github.com/longbridge/skills/blob/main/LICENSE
 plugin:
   targets:
     codex: blocked

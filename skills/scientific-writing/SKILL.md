@@ -1,19 +1,21 @@
 ---
 name: scientific-writing
-description: "This is the core skill for the deep research and writing tool—combining AI-driven deep research with well-formatted written outputs. Every document produced is backed by comprehensive literature search and verified citations through the research-lookup skill."
+description: This is the core skill for the deep research and writing tool—combining
+  AI-driven deep research with well-formatted written outputs. Every document produced
+  is backed by comprehensive literature sear…
 license: MIT license
 metadata:
-    skill-author: K-Dense Inc.
+  skill-author: K-Dense Inc.
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # Scientific Writing
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

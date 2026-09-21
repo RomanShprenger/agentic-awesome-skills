@@ -1,9 +1,8 @@
 ---
 name: langfuse
-description: Expert in Langfuse - the open-source LLM observability platform.
-  Covers tracing, prompt management, evaluation, datasets, and integration with
-  LangChain, LlamaIndex, and OpenAI. Essential for debugging, monitoring, and
-  improving LLM applications in production.
+description: Expert in Langfuse - the open-source LLM observability platform. Covers
+  tracing, prompt management, evaluation, datasets, and integration with LangChain,
+  LlamaIndex, and OpenAI. Essential for debuggi…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -14,7 +13,6 @@ date_added: 2026-02-27
 Instrument an existing LLM application with traceable, minimized observations and versioned evaluation inputs. Modified by AAS maintainers on 2026-09-05 to replace mixed legacy SDK examples with a current, bounded setup procedure; existing source attribution is preserved.
 
 ## When to Use
-
 Use when an application already needs Langfuse tracing, prompt management or evaluation, or when debugging missing/duplicated spans. Do not add an observability service merely because an LLM is present; start from the incident or product decision the data must support.
 
 ## Inputs and prerequisites

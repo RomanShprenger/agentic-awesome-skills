@@ -1,17 +1,32 @@
 ---
 name: fsi-compliance-checker
-description: "Maps code, architecture, and infrastructure changes to specific control IDs in PCI-DSS v4.0 and MAS TRM (Singapore financial regulator), producing an audit-traceable findings report with per-control remediation."
+description: Maps code, architecture, and infrastructure changes to specific control
+  IDs in PCI-DSS v4.0 and MAS TRM (Singapore financial regulator), producing an audit-traceable
+  findings report with per-control…
 category: security
 risk: safe
 source: community
 source_repo: timwukp/agent-skills-best-practice
 source_type: community
-date_added: "2026-06-12"
+date_added: '2026-06-12'
 author: timwukp
-tags: [compliance, pci-dss, mas-trm, fintech, banking, security-review, audit, financial-services]
-tools: [claude, cursor, gemini, codex, antigravity]
-license: "MIT"
-license_source: "https://github.com/timwukp/agent-skills-best-practice/blob/main/LICENSE"
+tags:
+- compliance
+- pci-dss
+- mas-trm
+- fintech
+- banking
+- security-review
+- audit
+- financial-services
+tools:
+- claude
+- cursor
+- gemini
+- codex
+- antigravity
+license: MIT
+license_source: https://github.com/timwukp/agent-skills-best-practice/blob/main/LICENSE
 ---
 
 # FSI Compliance Checker
@@ -35,8 +50,8 @@ Load only the reference file(s) the engagement needs:
 
 | Situation | Load |
 |-----------|------|
-| Payment card data is stored, processed, or transmitted | [pci-dss.md](pci-dss.md) |
-| Singapore-regulated financial institution (bank, insurer, capital markets, major payment institution) | [mas-trm.md](mas-trm.md) |
+| Payment card data is stored, processed, or transmitted | [pci-dss.md |
+| Singapore-regulated financial institution (bank, insurer, capital markets, major payment institution) | [mas-trm.md |
 | Both apply (e.g. Singapore bank handling cards) | Both files |
 | Other jurisdictions/frameworks (SOX, GDPR, HKMA, APRA) | State they are out of scope; offer general secure-engineering review instead |
 

@@ -1,9 +1,11 @@
 ---
 name: ai-seo
-description: "Optimize content for AI search and LLM citations across AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and similar systems. Use when improving AI visibility, answer engine optimization, or citation readiness."
+description: Optimize content for AI search and LLM citations across AI Overviews,
+  ChatGPT, Perplexity, Claude, Gemini, and similar systems. Use when improving AI
+  visibility, answer engine optimization, or citati…
 risk: critical
-source: "https://github.com/coreyhaines31/marketingskills"
-date_added: "2026-03-21"
+source: https://github.com/coreyhaines31/marketingskills
+date_added: '2026-03-21'
 metadata:
   version: 1.1.0
 ---
@@ -59,7 +61,7 @@ Gather this context (ask if not provided):
 | **Copilot** | Bing-powered AI search | Bing index + authoritative sources |
 | **Claude** | Brave Search (when enabled) | Training data + Brave search results |
 
-For a deep dive on how each platform selects sources and what to optimize per platform, see [references/platform-ranking-factors.md](references/platform-ranking-factors.md).
+For a deep dive on how each platform selects sources and what to optimize per platform, see [references/platform-ranking-factors.md].
 
 ### Key Difference from Traditional SEO
 
@@ -134,7 +136,7 @@ Verify your robots.txt allows AI crawlers. Each AI platform has its own bot, and
 
 Check your robots.txt for `Disallow` rules targeting any of these. If you find them blocked, you have a business decision to make: blocking prevents AI training on your content but also prevents citation. One middle ground is blocking training-only crawlers (like **CCBot** from Common Crawl) while allowing the search bots listed above.
 
-See [references/platform-ranking-factors.md](references/platform-ranking-factors.md) for the full robots.txt configuration.
+See [references/platform-ranking-factors.md] for the full robots.txt configuration.
 
 ---
 
@@ -160,7 +162,7 @@ AI systems extract passages, not pages. Every key claim should work as a standal
 - **FAQ blocks** for common questions
 - **Statistic blocks** with cited sources
 
-For detailed templates for each block type, see [references/content-patterns.md](references/content-patterns.md).
+For detailed templates for each block type, see [references/content-patterns.md].
 
 **Structural rules:**
 - Lead every section with a direct answer (don't bury it)

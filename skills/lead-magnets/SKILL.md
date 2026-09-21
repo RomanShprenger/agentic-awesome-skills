@@ -1,9 +1,11 @@
 ---
 name: lead-magnets
-description: "Plan and optimize lead magnets for email capture and lead generation. Use when designing gated content, checklists, templates, downloadable resources, or other offers that convert visitors into subscribers."
+description: Plan and optimize lead magnets for email capture and lead generation.
+  Use when designing gated content, checklists, templates, downloadable resources,
+  or other offers that convert visitors into subsc…
 risk: safe
-source: "https://github.com/coreyhaines31/marketingskills"
-date_added: "2026-03-21"
+source: https://github.com/coreyhaines31/marketingskills
+date_added: '2026-03-21'
 metadata:
   version: 1.0.0
 ---
@@ -90,7 +92,7 @@ Gather this context (ask if not provided):
 | Resource library | Ongoing value, return visits | High | Ongoing |
 | Free trial/community access | Product experience | Varies | Varies |
 
-**For detailed creation guidance per format**: See [references/format-guide.md](references/format-guide.md)
+**For detailed creation guidance per format**: See [references/format-guide.md]
 
 ---
 
@@ -242,7 +244,7 @@ Don't waste the thank you page. After they've converted:
 | **Email engagement** | Content relevance | 30-50% open, 2-5% click |
 | **Time to conversion** | Nurture effectiveness | Track by lead magnet source |
 
-**For detailed benchmarks by format and industry**: See [references/benchmarks.md](references/benchmarks.md)
+**For detailed benchmarks by format and industry**: See [references/benchmarks.md]
 
 ### A/B Testing Ideas
 

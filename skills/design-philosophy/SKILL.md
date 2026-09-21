@@ -1,6 +1,8 @@
 ---
 name: design-philosophy
-description: Visual philosophy and art-direction for frontend. Use when creating high-concept work, campaigns, or when the user asks for a visual philosophy, manifesto, or unmistakable art-like aesthetic.
+description: Visual philosophy and art-direction for frontend. Use when creating high-concept
+  work, campaigns, or when the user asks for a visual philosophy, manifesto, or unmistakable
+  art-like aesthetic.
 risk: none
 source: https://github.com/connerkward/ckw-design-skill/tree/main/design-philosophy
 source_repo: connerkward/ckw-design-skill
@@ -13,7 +15,6 @@ author: Conner K Ward
 
 # Design philosophy
 ## When to Use
-
 Use this skill when you need visual philosophy and art-direction for frontend. Use when creating high-concept work, campaigns, or when the user asks for a visual philosophy, manifesto, or unmistakable art-like aesthetic.
 
 
@@ -27,7 +28,7 @@ Apply with **design** for high-concept work, campaigns, or when the user asks fo
 4. **Minimal text**: Information lives in design, not paragraphs. Text sparse and essential; integrated as visual element.
 5. **Creative space**: Be specific about direction but concise so the executor can make high-level interpretive choices with the same level of craft.
 
-For philosophy examples, see [reference.md](reference.md). The numbered checklist above is the canonical generation procedure.
+For philosophy examples, see [reference.md. The numbered checklist above is the canonical generation procedure.
 
 ## Deducing the subtle reference
 

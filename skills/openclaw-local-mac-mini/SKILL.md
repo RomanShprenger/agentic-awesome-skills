@@ -405,14 +405,13 @@ tail -f /var/log/openclaw/stderr.log
 
 ## Contents
 
-- [Networking](references/details.md)
-- [Monitoring](references/details.md)
-- [Validation Checklist](references/details.md)
-- [Troubleshooting](references/details.md)
-- [Related Skills](references/details.md)
+- [Networking]
+- [Monitoring]
+- [Validation Checklist]
+- [Troubleshooting]
+- [Related Skills]
 
 ## When to Use
-
 - Running OpenClaw as a private, always-on local AI agent
 - Setting up a dedicated Mac mini as a home-lab AI server
 - Deploying OpenClaw with Docker Compose for reproducible environments

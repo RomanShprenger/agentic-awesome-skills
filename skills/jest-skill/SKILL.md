@@ -1,6 +1,8 @@
 ---
 name: jest-skill
-description: "Generates Jest unit and integration tests in JavaScript or TypeScript. Covers mocking, snapshots, async testing, and React component testing. Use when user mentions \"Jest\", \"describe/it/expect\", \"jest.mock\", \"toMatchSnapshot\"."
+description: Generates Jest unit and integration tests in JavaScript or TypeScript.
+  Covers mocking, snapshots, async testing, and React component testing. Use when
+  user mentions "Jest", "describe/it/expect", "jes…
 risk: critical
 source: https://github.com/LambdaTest/agent-skills/tree/main/jest-skill
 source_repo: LambdaTest/agent-skills
@@ -12,7 +14,6 @@ license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 
 # Jest Testing Skill
 ## When to Use
-
 Use this skill when you need generates Jest unit and integration tests in JavaScript or TypeScript. Covers mocking, snapshots, async testing, and React component testing. Use when user mentions "Jest", "describe/it/expect", "jest.mock", "toMatchSnapshot". Triggers on: "Jest", "expect().toBe()", "jest.mock",...
 
 

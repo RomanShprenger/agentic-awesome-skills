@@ -1,6 +1,8 @@
 ---
 name: documentation-and-adrs
-description: Records decisions and documentation. Use when making architectural decisions, changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.
+description: Records decisions and documentation. Use when making architectural decisions,
+  changing public APIs, shipping features, or when you need to record context that
+  future engineers and agents will need to…
 risk: critical
 source: https://github.com/addyosmani/agent-skills/tree/main/skills/documentation-and-adrs
 source_repo: addyosmani/agent-skills
@@ -17,7 +19,6 @@ license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 Document decisions, not just code. The most valuable documentation captures the *why* — the context, constraints, and trade-offs that led to a decision. Code shows *what* was built; documentation explains *why it was built this way* and *what alternatives were considered*. This context is essential for future humans and agents working in the codebase.
 
 ## When to Use
-
 - Making a significant architectural decision
 - Choosing between competing approaches
 - Adding or changing a public API

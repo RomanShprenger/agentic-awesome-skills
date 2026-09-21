@@ -1,6 +1,7 @@
 ---
 name: hugging-face-gradio
-description: Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.
+description: Build Gradio web UIs and demos in Python. Use when creating or editing
+  Gradio apps, components, event listeners, layouts, or chatbots.
 risk: critical
 source: https://github.com/huggingface/skills/tree/main/skills/huggingface-gradio
 source_repo: huggingface/skills
@@ -12,7 +13,6 @@ license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 
 # Gradio
 ## When to Use
-
 Use this skill when you need build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.
 
 
@@ -306,7 +306,7 @@ Both commands accept `--token` for accessing private Spaces.
 
 ## Additional Reference
 
-- [End-to-End Examples](examples.md) — complete working apps
+- [End-to-End Examples — complete working apps
 
 ## Limitations
 

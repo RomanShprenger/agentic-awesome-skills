@@ -21,7 +21,6 @@ metadata:
 # ZCode Delegate
 
 ## When to Use
-
 - You want to delegate a bounded coding task to a separate `zcode` implementer (`Z.AI ZCode`) and then review its diff yourself.
 - The user explicitly asked for delegation to this implementer.
 
@@ -116,7 +115,7 @@ in the brief: the goal, the current state, what to change, what to leave untouch
 assume), and a report contract. Tell ZCode it will **not** commit. One task per brief. The relay
 delivers the brief as an attached file, so the command line no longer bounds its length — the
 model's context window still does. Full guidance and a template:
-[references/writing-the-brief.md](references/writing-the-brief.md).
+[references/writing-the-brief.md].
 
 ### 2. Dispatch
 
@@ -135,7 +134,7 @@ node "<skill-dir>/scripts/relay.mjs" --brief brief.txt --cd /path/to/repo
 
 The relay writes its artifacts to a temp dir, so the repo under review stays clean. It **never
 commits** — see step 5. Mechanics, flags, and the `result.json` shape:
-[references/dispatch-and-poll.md](references/dispatch-and-poll.md).
+[references/dispatch-and-poll.md].
 
 ### 3. Wait for completion
 
@@ -157,7 +156,7 @@ Do not trust progress trackers over reality: read the working tree, not a status
 - **On a `--read-only` run, check `readOnlyViolation` and confirm `touchedFiles` is empty.**
 - Run the relevant guard skills on the diff if you have them installed.
 
-Full checklist: [references/review-and-land.md](references/review-and-land.md).
+Full checklist: [references/review-and-land.md].
 
 ### 5. Land it
 
@@ -180,17 +179,17 @@ Delegation is something the human opts into. Once they have, committing verified
 is the agreed contract. Two limits: **surface, don't absorb** (report ZCode's design decisions and
 defensible-but-unasked turns rather than silently keeping them) and **stop for scope changes** (if
 correct completion needs going beyond the brief, ask). The full treatment is in
-[references/review-and-land.md](references/review-and-land.md).
+[references/review-and-land.md].
 
 ## References
 
-- [references/writing-the-brief.md](references/writing-the-brief.md) — how to write a brief ZCode can
+- [references/writing-the-brief.md] — how to write a brief ZCode can
   execute blind: structure, the report contract, embedding the real gate commands.
-- [references/dispatch-and-poll.md](references/dispatch-and-poll.md) — `relay.mjs` flags, the
+- [references/dispatch-and-poll.md] — `relay.mjs` flags, the
   `result.json` contract, how the CLI is resolved, backgrounding, and recovery.
-- [references/review-and-land.md](references/review-and-land.md) — the review checklist, the commit
+- [references/review-and-land.md] — the review checklist, the commit
   boundary, and the exact-session rework cycle.
-- [references/multi-task-queues.md](references/multi-task-queues.md) — running a sequential queue:
+- [references/multi-task-queues.md] — running a sequential queue:
   carrying constraints forward, progress tracking, and the end-of-run coherence check.
 
 

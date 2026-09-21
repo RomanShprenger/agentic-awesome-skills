@@ -1,8 +1,8 @@
 ---
 name: email-systems
-description: Email has the highest ROI of any marketing channel. $36 for every
-  $1 spent. Yet most startups treat it as an afterthought - bulk blasts, no
-  personalization, landing in spam folders.
+description: Email has the highest ROI of any marketing channel. $36 for every $1
+  spent. Yet most startups treat it as an afterthought - bulk blasts, no personalization,
+  landing in spam folders.
 risk: none
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -20,7 +20,7 @@ that scale.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 Use this skill when the request clearly matches the capabilities and patterns described above.

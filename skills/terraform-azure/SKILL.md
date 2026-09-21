@@ -393,15 +393,14 @@ resource "azurerm_key_vault_secret" "sql_password" {
 
 ## Contents
 
-- [SQL Database](references/details.md)
-- [Outputs](references/details.md)
-- [Terraform Workflow Commands](references/details.md)
-- [Module Structure](references/details.md)
-- [Troubleshooting](references/details.md)
-- [Related Skills](references/details.md)
+- [SQL Database]
+- [Outputs]
+- [Terraform Workflow Commands]
+- [Module Structure]
+- [Troubleshooting]
+- [Related Skills]
 
 ## When to Use
-
 - You need multi-cloud or cloud-agnostic Infrastructure as Code.
 - Your team standardizes on Terraform across AWS, Azure, and GCP.
 - You need plan/apply workflows with change preview before deployment.

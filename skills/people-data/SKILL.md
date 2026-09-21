@@ -1,17 +1,27 @@
 ---
 name: people-data
-description: "Research LinkedIn professional profiles and public business-contact data, including email/phone lookup, people search, and YouTube channel business-email discovery."
+description: Research LinkedIn professional profiles and public business-contact data,
+  including email/phone lookup, people search, and YouTube channel business-email
+  discovery.
 category: research
 risk: safe
 source: https://github.com/agentbody/skills/blob/main/skills/people-data/SKILL.md
 source_repo: agentbody/skills
 source_type: community
-date_added: "2026-08-07"
+date_added: '2026-08-07'
 author: agentbody
-tags: [linkedin, youtube, people-search, business-contacts, research]
-tools: [claude, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/agentbody/skills/blob/main/LICENSE"
+tags:
+- linkedin
+- youtube
+- people-search
+- business-contacts
+- research
+tools:
+- claude
+- cursor
+- gemini
+license: MIT
+license_source: https://github.com/agentbody/skills/blob/main/LICENSE
 ---
 
 # People Data
@@ -20,7 +30,7 @@ license_source: "https://github.com/agentbody/skills/blob/main/LICENSE"
 
 Perform authorized professional-profile and public business-contact research through the Agent Body MCP server at `/mcp/people-data`. It covers LinkedIn profile retrieval, email and phone lookup, filtered people search, and YouTube channel business-email discovery.
 
-Read [references/tool-reference.md](references/tool-reference.md) for exact tool names and input fields.
+Read [references/tool-reference.md] for exact tool names and input fields.
 
 ## When to Use This Skill
 

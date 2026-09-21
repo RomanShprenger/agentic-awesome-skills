@@ -1,6 +1,8 @@
 ---
 name: cro
-description: "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms."
+description: When the user wants to optimize, improve, or increase conversions on
+  any marketing page or form — including homepage, landing pages, pricing pages, feature
+  pages, lead capture forms, or contact forms.
 risk: safe
 source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/cro
 source_repo: coreyhaines31/marketingskills
@@ -12,7 +14,6 @@ license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICEN
 
 # Conversion Rate Optimization (CRO)
 ## When to Use
-
 Use this skill when you need when the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't...
 
 
@@ -168,7 +169,7 @@ When recommending experiments, consider tests for:
 - Form optimization
 - Navigation and UX
 
-**For comprehensive experiment ideas by page type**: See [references/experiments.md](references/experiments.md)
+**For comprehensive experiment ideas by page type**: See [references/experiments.md]
 
 ---
 
@@ -193,7 +194,7 @@ When recommending experiments, consider tests for:
 
 ## Form Optimization
 
-For detailed form CRO guidance — including field optimization, multi-step forms, error handling, and form-specific experiments — see [references/form.md](references/form.md).
+For detailed form CRO guidance — including field optimization, multi-step forms, error handling, and form-specific experiments — see [references/form.md].
 
 ## Limitations
 

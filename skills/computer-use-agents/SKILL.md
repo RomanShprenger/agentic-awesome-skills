@@ -1,8 +1,8 @@
 ---
 name: computer-use-agents
-description: Build AI agents that interact with computers like humans do -
-  viewing screens, moving cursors, clicking buttons, and typing text. Covers
-  Anthropic's Computer Use, OpenAI's Operator/CUA, and open-source alternatives.
+description: Build AI agents that interact with computers like humans do - viewing
+  screens, moving cursors, clicking buttons, and typing text. Covers Anthropic's Computer
+  Use, OpenAI's Operator/CUA, and open-sour…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -17,7 +17,7 @@ sandboxing, security, and handling the unique challenges of vision-based control
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - User mentions or implies: computer use

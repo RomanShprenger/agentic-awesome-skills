@@ -1,9 +1,11 @@
 ---
 name: n8n-code-python
-description: Write Python code in n8n Code nodes. Use when writing Python in n8n, using _input/_json/_node syntax, working with standard library, or need to understand Python limitations in n8n Code nodes.
+description: Write Python code in n8n Code nodes. Use when writing Python in n8n,
+  using _input/_json/_node syntax, working with standard library, or need to understand
+  Python limitations in n8n Code nodes.
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # Python Code Node (Beta)
@@ -14,7 +16,7 @@ Expert guidance for writing Python code in n8n Code nodes.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Critical Limitation: No External Libraries
 

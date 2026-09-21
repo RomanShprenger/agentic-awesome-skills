@@ -411,13 +411,12 @@ jobs:
 
 ## Contents
 
-- [Change Freeze Policy](references/details.md)
-- [Change Management Metrics](references/details.md)
-- [Change Management Checklist](references/details.md)
-- [Best Practices](references/details.md)
+- [Change Freeze Policy]
+- [Change Management Metrics]
+- [Change Management Checklist]
+- [Best Practices]
 
 ## When to Use
-
 - Establishing change management processes for production environments
 - Implementing change advisory board (CAB) workflows
 - Defining change classification and approval requirements

@@ -1,6 +1,8 @@
 ---
 name: shipping-and-launch
-description: Prepares production launches. Use when preparing to deploy to production. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.
+description: Prepares production launches. Use when preparing to deploy to production.
+  Use when you need a pre-launch checklist, when setting up monitoring, when planning
+  a staged rollout, or when you need a roll…
 risk: critical
 source: https://github.com/addyosmani/agent-skills/tree/main/skills/shipping-and-launch
 source_repo: addyosmani/agent-skills
@@ -17,7 +19,6 @@ license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 Ship with confidence. The goal is not just to deploy — it's to deploy safely, with monitoring in place, a rollback plan ready, and a clear understanding of what success looks like. Every launch should be reversible, observable, and incremental.
 
 ## When to Use
-
 - Deploying a feature to production for the first time
 - Releasing a significant change to users
 - Migrating data or infrastructure

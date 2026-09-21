@@ -1,9 +1,8 @@
 ---
 name: autonomous-agents
-description: Autonomous agents are AI systems that can independently decompose
-  goals, plan actions, execute tools, and self-correct without constant human
-  guidance. The challenge isn't making them capable - it's making them reliable.
-  Every extra decision multiplies failure probability.
+description: Autonomous agents are AI systems that can independently decompose goals,
+  plan actions, execute tools, and self-correct without constant human guidance. The
+  challenge isn't making them capable - it's…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -27,7 +26,7 @@ not truth.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Track context usage
 class ContextManager:

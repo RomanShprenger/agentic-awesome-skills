@@ -1,0 +1,355 @@
+#!/usr/bin/env python3
+"""test_required_checks.py — a required status check must be able to REPORT.
+
+A required check whose workflow cannot be triggered for a given pull request does
+not fail that PR; it leaves it BLOCKED forever, waiting for a status that can never
+arrive. Waiting does not help and there is no run to re-run. This is an availability
+failure for the whole team, produced by the mechanism that is supposed to protect it.
+
+Observed TWICE in this repository, from two different filters:
+
+1. `paths:` on `pull_request` — a doc-only PR touched nothing under the filter, so
+   `gate tests green` never reported. Fixed by removing the filter; the comment in
+   sdlc-gate-tests.yml records why it must not come back.
+
+2. `branches:` on `pull_request` — the STACKED-PR variant, and the one this suite was
+   written for. PR #53 was opened with base `fix-unbound-approval`. Merging #52
+   auto-retargeted it to `main`, so main's protection began requiring `validate` —
+   but `validate` had never run, because when the event fired the base did not match
+   `branches: [main]`. Retargeting does NOT re-trigger `pull_request` workflows, so no
+   run existed to re-run. The merge box read "Expected — Waiting for status to be
+   reported" indefinitely. Unblocked only by closing and reopening the PR.
+
+Both filters are individually reasonable and both are fatal on a REQUIRED check. The
+tension is inherent: required checks assume the check always reports, conditional
+triggers assume it sometimes should not. For a required check the conditional loses.
+
+This also covers the workflow the skill SHIPS to consumers, which matters more than
+this repo's own CI: the skill's docs tell adopters to make `sdlc-gate` a required
+check, so shipping it with a trigger filter hands them the same deadlock in their own
+repository, where they have none of this context to diagnose it.
+
+No PyYAML: the CI matrix spans five Python versions on three operating systems with
+no guarantee the module is present, and the neighbouring suites parse these files
+textually for the same reason. Adding a dependency to a test that guards CI would be
+its own availability risk.
+"""
+from __future__ import annotations
+
+import pathlib
+import re
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+SKILL = HERE.parent
+
+FAILURES: list[str] = []
+SKIPS: list[str] = []
+
+# The contexts branch protection actually requires on main, read off the live API
+# (repos/{o}/{r}/branches/main/protection -> required_status_checks.contexts) rather
+# than guessed. A required context is spelled with its DISPLAY name: the job id
+# `gate-tests-green` surfaces as the check `gate tests green`, and requiring the wrong
+# spelling is itself a permanent block.
+REQUIRED_CONTEXTS = ("gate tests green", "validate")
+
+# Filters that can stop a pull_request event from ever reaching the workflow. Both
+# have caused a real deadlock here.
+FATAL_ON_REQUIRED = ("branches", "paths", "branches-ignore", "paths-ignore")
+
+
+def check(name: str, cond: bool, detail: str = "") -> None:
+    if cond:
+        print(f"  ok   {name}")
+    else:
+        print(f"  FAIL {name} {detail}")
+        FAILURES.append(name)
+
+
+def find_repo_root() -> pathlib.Path | None:
+    """Walk up for .github/workflows. Absent when the skill is installed standalone."""
+    for parent in [SKILL, *SKILL.parents]:
+        if (parent / ".github" / "workflows").is_dir():
+            return parent
+    return None
+
+
+def indent_of(line: str) -> int:
+    return len(line) - len(line.lstrip())
+
+
+def pull_request_filters(text: str) -> list[str] | None:
+    """Filter keys under the `pull_request:` trigger. None when there is no such trigger.
+
+    Deliberately textual and shallow -- it reads the `on:` mapping, finds the
+    `pull_request:` key inside it, and returns the keys of that block. It does not try
+    to be a YAML parser; it only has to answer "is this trigger conditional".
+    """
+    lines = text.splitlines()
+    on_idx = None
+    for i, ln in enumerate(lines):
+        # `on:` at column 0, allowing the quoted form some linters prefer.
+        if re.match(r"""^(on|["']on["']):\s*$""", ln):
+            on_idx = i
+            break
+    if on_idx is None:
+        return None
+
+    # The on-block is everything more indented than `on:` until the next dedent.
+    pr_idx = None
+    pr_indent = None
+    for i in range(on_idx + 1, len(lines)):
+        ln = lines[i]
+        if not ln.strip() or ln.lstrip().startswith("#"):
+            continue
+        if indent_of(ln) == 0:
+            break
+        if re.match(r"^\s+pull_request:\s*$", ln):
+            pr_idx, pr_indent = i, indent_of(ln)
+            break
+    if pr_idx is None:
+        return None
+
+    keys: list[str] = []
+    for i in range(pr_idx + 1, len(lines)):
+        ln = lines[i]
+        if not ln.strip() or ln.lstrip().startswith("#"):
+            continue
+        if indent_of(ln) <= pr_indent:
+            break
+        m = re.match(r"^\s+([A-Za-z_-]+):", ln)
+        if m:
+            keys.append(m.group(1))
+    return keys
+
+
+root = find_repo_root()
+
+# ---- 1. the workflow the skill SHIPS ---------------------------------------
+# Checked first and unconditionally: it is present wherever the skill is, and a
+# deadlock shipped to a consumer is worse than one in our own CI.
+tpl = SKILL / "templates" / "github-workflows" / "sdlc-gate.yml"
+if not tpl.is_file():
+    FAILURES.append("shipped template sdlc-gate.yml is missing")
+else:
+    keys = pull_request_filters(tpl.read_text(encoding="utf-8"))
+    check("shipped template has a pull_request trigger", keys is not None)
+    if keys is not None:
+        bad = [k for k in keys if k in FATAL_ON_REQUIRED]
+        check(
+            "shipped template's pull_request trigger is unconditional",
+            not bad,
+            f"— found {bad}. The skill tells adopters to make this check REQUIRED, so a "
+            f"filter here deadlocks any of their PRs the filter excludes (a stacked PR, "
+            f"a PR onto a release branch, a doc-only PR).",
+        )
+
+# ---- 2. this repo's own required checks ------------------------------------
+if root is None:
+    SKIPS.append("no .github/workflows above the skill — repo CI not checked")
+else:
+    wfs = sorted((root / ".github" / "workflows").glob("*.yml"))
+    check("repo has workflows to inspect", bool(wfs))
+
+    for ctx in REQUIRED_CONTEXTS:
+        # Find the workflow producing this context. A context is produced either by a
+        # job `name:` or, absent that, by its job id.
+        producers = []
+        for wf in wfs:
+            text = wf.read_text(encoding="utf-8")
+            if re.search(rf"^\s*name:\s*['\"]?{re.escape(ctx)}['\"]?\s*$", text, re.M):
+                producers.append(wf)
+            elif re.search(rf"^  {re.escape(ctx.replace(' ', '-'))}:\s*$", text, re.M):
+                producers.append(wf)
+
+        # A required context nothing produces blocks every PR forever -- the same
+        # failure as a filtered trigger, reached by renaming or deleting a job.
+        check(
+            f"required context {ctx!r} is produced by some workflow",
+            bool(producers),
+            "— branch protection requires a check no workflow reports; every PR is "
+            "blocked permanently until the name is fixed or the requirement dropped.",
+        )
+
+        for wf in producers:
+            keys = pull_request_filters(wf.read_text(encoding="utf-8"))
+            check(
+                f"{wf.name} has a pull_request trigger (required context {ctx!r})",
+                keys is not None,
+                "— a required check whose workflow never runs on pull requests can "
+                "never report.",
+            )
+            if keys is not None:
+                bad = [k for k in keys if k in FATAL_ON_REQUIRED]
+                check(
+                    f"{wf.name}'s pull_request trigger is unconditional",
+                    not bad,
+                    f"— found {bad}. Keep such filters on `push:` (a skipped push run "
+                    f"blocks nothing, because required checks only apply to PRs), never "
+                    f"on `pull_request:`.",
+                )
+
+# ---- 3. the reason must stay written down ----------------------------------
+# The filter was removed once before and the only thing stopping it returning is the
+# comment explaining why. Assert the explanation survives, not merely the absence.
+tests_wf = None if root is None else root / ".github" / "workflows" / "sdlc-gate-tests.yml"
+if tests_wf is not None and tests_wf.is_file():
+    t = tests_wf.read_text(encoding="utf-8")
+    check(
+        "sdlc-gate-tests.yml still explains why pull_request must stay unfiltered",
+        "DO NOT add a paths filter here" in t,
+        "— the warning comment is the only thing preventing a well-meaning "
+        "reintroduction of a permanent block.",
+    )
+
+# ---- 4. the example consumers COPY is an interface, not a comment -----------
+# sdlc-gate-reusable.yml opens with a caller example for consumers to copy. It showed
+#
+#     on:
+#       pull_request:
+#         branches: [main]
+#     uses: ...sdlc-gate-reusable.yml@main
+#
+# Both lines are wrong, and each is wrong in a way this repository has already paid for.
+# `branches:` on `pull_request` is what left PR #53 permanently blocked: a stacked PR was
+# auto-retargeted to main when the branch under it merged, so main's protection began
+# requiring a check that had never been triggered, and retargeting does not re-fire
+# pull_request workflows. The shipped template carries a long comment forbidding exactly
+# this, so the reusable workflow's own example contradicted the template it accompanies.
+# `@main` is contradicted by the next sentence of that same comment, which says to pin.
+#
+# An example is copied verbatim by people who have none of this context, so it is part of
+# the interface and belongs under test. Sections 1 and 2 check the real triggers; this one
+# checks the one consumers actually paste into their own repository.
+reusable = None if root is None else root / ".github" / "workflows" / "sdlc-gate-reusable.yml"
+if reusable is None:
+    SKIPS.append("no repo root — reusable-workflow example not checked")
+elif not reusable.is_file():
+    SKIPS.append("no sdlc-gate-reusable.yml — example not checked")
+else:
+    lines = reusable.read_text(encoding="utf-8").splitlines()
+    # The example lives in the leading comment block: everything before the first line
+    # that is neither blank nor a comment.
+    header: list[str] = []
+    for ln in lines:
+        if ln.strip() and not ln.lstrip().startswith("#"):
+            break
+        header.append(re.sub(r"^\s*#\s?", "", ln))
+    example = "\n".join(header)
+
+    check(
+        "reusable workflow's header shows a caller example",
+        "sdlc-gate-reusable.yml@" in example,
+        "— consumers are told to call this workflow; without an example they invent one.",
+    )
+
+    check(
+        "header example has a pull_request trigger",
+        re.search(r"^\s*pull_request:\s*$", example, re.M) is not None,
+        "— an example whose gate never runs on pull requests teaches a gate that governs "
+        "nothing.",
+    )
+
+    # Any of these keys in the example is fatal: the example's only trigger is
+    # pull_request, and the docs tell adopters to make this check REQUIRED.
+    filt = re.search(
+        rf"^\s*({'|'.join(FATAL_ON_REQUIRED)}):", example, re.M
+    )
+    check(
+        "header example's pull_request trigger is unconditional",
+        filt is None,
+        f"— found `{filt.group(1) if filt else ''}:` in the example. A consumer who copies "
+        f"it gets the PR #53 deadlock in their own repository, where they have none of the "
+        f"context needed to diagnose it, and the shipped template's comment forbids exactly "
+        f"this filter.",
+    )
+
+    ex_ref = re.search(r"sdlc-gate-reusable\.yml@(\S+)", example)
+    ref_val = ex_ref.group(1) if ex_ref else ""
+    check(
+        "header example pins the workflow rather than tracking a branch",
+        bool(ref_val) and ref_val not in ("main", "master", "HEAD"),
+        f"— the example pins @{ref_val or '(none)'}, which the very next sentence of the "
+        f"same comment warns against: a moving ref lets an upstream change alter a "
+        f"consumer's merge criteria with no commit and no review in their repository.",
+    )
+
+# ---- 5. this repository is governed by the gate it ships -------------------
+# The skill told adopters to make `sdlc-gate` a required check while this repository
+# had no caller at all: `sdlc-gate-reusable.yml` declares `workflow_call`, and a
+# `workflow_call` with no caller never runs. Every merge here was authorised by
+# `gate tests green` and `validate`, neither of which asks whether the change was
+# authorised in the first place.
+#
+# These assertions are about the CALLER, not the reusable workflow. They were written
+# before the caller existed and failed for that reason -- the point being that a
+# missing caller is reported as a finding rather than as a passing suite.
+caller = None if root is None else root / ".github" / "workflows" / "sdlc-gate.yml"
+if root is None:
+    SKIPS.append("no repo root — self-governance caller not checked")
+elif not caller.is_file():
+    FAILURES.append(
+        "this repository has no .github/workflows/sdlc-gate.yml — the gate it ships "
+        "governs consumers but not itself, so nothing asks whether a merge here was "
+        "authorised"
+    )
+else:
+    ctext = caller.read_text(encoding="utf-8")
+
+    check(
+        "caller invokes the reusable gate workflow",
+        re.search(r"uses:\s*\S*sdlc-gate-reusable\.yml@\S+", ctext) is not None,
+        "— a caller that does not reference the reusable workflow governs nothing.",
+    )
+
+    # A moving ref means an upstream edit changes this repository's merge criteria
+    # with no commit here and no review here. Pin to an immutable ref instead.
+    m = re.search(r"uses:\s*\S*sdlc-gate-reusable\.yml@(\S+)", ctext)
+    ref = m.group(1) if m else ""
+    check(
+        "caller pins the reusable workflow to an immutable ref",
+        bool(ref) and ref not in ("main", "master", "HEAD"),
+        f"— found @{ref or '(none)'}. A moving ref lets an upstream change alter this "
+        f"repository's merge criteria with no commit and no review here. Assert only "
+        f"THAT it is pinned, never which version, so a deliberate bump needs no test edit.",
+    )
+
+    # The gate's whole purpose is refusing work that no accepted plan authorises.
+    # With require-active off it still checks artifacts but stops asking that question.
+    check(
+        "caller sets require-active so an unauthorised change is refused",
+        re.search(r"require-active:\s*true", ctext) is not None,
+        "— without it the gate no longer requires an active intent, which is the only "
+        "thing tying a diff to an accepted plan.",
+    )
+
+    # Same deadlock as sections 1 and 2, now on the check that matters most: this one
+    # is intended to become required, so a filter would block every PR it excludes.
+    keys = pull_request_filters(ctext)
+    check(
+        "caller has a pull_request trigger",
+        keys is not None,
+        "— a gate that never runs on pull requests cannot govern them.",
+    )
+    if keys is not None:
+        bad = [k for k in keys if k in FATAL_ON_REQUIRED]
+        check(
+            "caller's pull_request trigger is unconditional",
+            not bad,
+            f"— found {bad}. This check is meant to be REQUIRED, so any PR the filter "
+            f"excludes waits forever for a status that never reports.",
+        )
+
+    check(
+        "caller records why its trigger must stay unfiltered",
+        "DO NOT add a paths filter here" in ctext,
+        "— PR #48 was permanently blocked by exactly this filter; the comment is what "
+        "stops it being reintroduced by someone trying to save CI minutes.",
+    )
+
+for s in SKIPS:
+    print(f"  skip {s}")
+print("required-checks:", "FAIL" if FAILURES else "all pass")
+for f in FAILURES:
+    print("  -", f)
+sys.exit(1 if FAILURES else 0)

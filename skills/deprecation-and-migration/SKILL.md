@@ -1,6 +1,8 @@
 ---
 name: deprecation-and-migration
-description: Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when deciding whether to maintain or sunset existing code.
+description: Manages deprecation and migration. Use when removing old systems, APIs,
+  or features. Use when migrating users from one implementation to another. Use when
+  deciding whether to maintain or sunset exist…
 risk: critical
 source: https://github.com/addyosmani/agent-skills/tree/main/skills/deprecation-and-migration
 source_repo: addyosmani/agent-skills
@@ -19,7 +21,6 @@ Code is a liability, not an asset. Every line of code has ongoing maintenance co
 Most engineering organizations are good at building things. Few are good at removing them. This skill addresses that gap.
 
 ## When to Use
-
 - Replacing an old system, API, or library with a new one
 - Sunsetting a feature that's no longer needed
 - Consolidating duplicate implementations

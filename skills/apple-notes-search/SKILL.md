@@ -1,23 +1,33 @@
 ---
 name: apple-notes-search
-description: "Semantic + keyword search and connection-discovery across the user's own Apple Notes via the apple-notes MCP server. Use when the user wants to find, recall, or synthesize something from their notes, or surface non-obvious bridges/related notes. macOS, on-device."
+description: Semantic + keyword search and connection-discovery across the user's
+  own Apple Notes via the apple-notes MCP server. Use when the user wants to find,
+  recall, or synthesize something from their notes,…
 risk: critical
 source: community
 source_repo: connerkward/mcp-apple-notes
 source_type: community
-date_added: "2026-06-16"
+date_added: '2026-06-16'
 author: connerkward
-tags: [apple-notes, search, mcp, macos, semantic-search, knowledge]
-tools: [claude-code]
-license: "MIT"
-license_source: "https://github.com/connerkward/mcp-apple-notes/blob/main/LICENSE"
+tags:
+- apple-notes
+- search
+- mcp
+- macos
+- semantic-search
+- knowledge
+tools:
+- claude-code
+license: MIT
+license_source: https://github.com/connerkward/mcp-apple-notes/blob/main/LICENSE
 plugin:
   targets:
     codex: blocked
     claude: blocked
   setup:
     type: manual
-    summary: "Requires third-party MCP setup and macOS Full Disk Access; keep out of plugin-safe bundles."
+    summary: Requires third-party MCP setup and macOS Full Disk Access; keep out of
+      plugin-safe bundles.
     docs: SKILL.md
 ---
 

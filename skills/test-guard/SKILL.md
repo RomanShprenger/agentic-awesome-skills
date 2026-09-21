@@ -1,12 +1,13 @@
 ---
-name: "test-guard"
-description: "Review generated or changed test code against universal testing rules before it ships or is presented for approval."
-risk: "critical"
-source: "community"
-source_repo: "amElnagdy/guard-skills"
-source_type: "community"
+name: test-guard
+description: Review generated or changed test code against universal testing rules
+  before it ships or is presented for approval.
+risk: critical
+source: community
+source_repo: amElnagdy/guard-skills
+source_type: community
 date_added: 2026-07-13
-author: "community"
+author: community
 tags: []
 tools: []
 ---
@@ -19,7 +20,6 @@ You are reviewing generated or changed test code before it ships. Enforce the ru
 These rules exist because coding agents over-generate tests. The common failure modes: mock-heavy unit tests that assert implementation details, near-duplicate test bodies that differ by one value, and tests that re-verify the framework instead of the project's logic. Each looks productive in a diff and costs maintenance forever.
 
 ## When to Use
-
 Use this skill when reviewing generated or changed test code before it ships. Activate it reactively after an agent writes, edits, generates, or refactors tests — unit tests, integration tests, e2e tests, or snapshot tests in any framework.
 
 ## When this skill activates
@@ -35,10 +35,10 @@ These rules are universal, but their application is not. Before reviewing:
 
 1. Check the project's own agent instructions (CLAUDE.md, AGENTS.md) and testing docs. Project-specific testing rules win over this skill when they conflict.
 2. Identify the test stack, then read the matching reference for concrete patterns:
-   - Python / pytest → [references/pytest.md](references/pytest.md)
-   - PHP / PHPUnit / Pest / WordPress → [references/phpunit.md](references/phpunit.md)
-   - JavaScript / TypeScript / Jest / Vitest → [references/jest.md](references/jest.md)
-3. If the project calls LLM APIs, uses agent frameworks, or wires up observability/telemetry, also read [references/llm-app-testing.md](references/llm-app-testing.md) — it adds three rules specific to LLM applications.
+   - Python / pytest → [references/pytest.md]
+   - PHP / PHPUnit / Pest / WordPress → [references/phpunit.md]
+   - JavaScript / TypeScript / Jest / Vitest → [references/jest.md]
+3. If the project calls LLM APIs, uses agent frameworks, or wires up observability/telemetry, also read [references/llm-app-testing.md] — it adds three rules specific to LLM applications.
 4. Map the project's system boundaries: network calls, databases, filesystem, clock and randomness, third-party SDKs, LLM APIs. Existing fixtures and test helpers usually reveal where the project already draws these lines.
 
 ## What to do
@@ -119,10 +119,10 @@ Not all violations are equal. Use judgment:
 
 ## References
 
-- [references/pytest.md](references/pytest.md) — Python/pytest patterns: parametrize, fixtures, mock boundaries, real Pydantic instances
-- [references/phpunit.md](references/phpunit.md) — PHP/PHPUnit/Pest patterns, including WordPress and WooCommerce test boundaries
-- [references/jest.md](references/jest.md) — Jest/Vitest patterns: test.each, module mocks, msw, snapshot discipline
-- [references/llm-app-testing.md](references/llm-app-testing.md) — three extra rules for LLM applications: prompt contracts, observability wiring, agent-flow transitions
+- [references/pytest.md] — Python/pytest patterns: parametrize, fixtures, mock boundaries, real Pydantic instances
+- [references/phpunit.md] — PHP/PHPUnit/Pest patterns, including WordPress and WooCommerce test boundaries
+- [references/jest.md] — Jest/Vitest patterns: test.each, module mocks, msw, snapshot discipline
+- [references/llm-app-testing.md] — three extra rules for LLM applications: prompt contracts, observability wiring, agent-flow transitions
 
 ## What this skill does NOT do
 

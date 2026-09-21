@@ -1,17 +1,32 @@
 ---
 name: idea-os
-description: "Five-phase pipeline (triage → clarify → research → PRD → plan) that turns a raw idea into four linked files: clarifying questions, deep research, a PRD with non-goals and metrics, and a phased execution plan with mermaid user journey and kill criteria."
+description: 'Five-phase pipeline (triage → clarify → research → PRD → plan) that
+  turns a raw idea into four linked files: clarifying questions, deep research, a
+  PRD with non-goals and metrics, and a phased execut…'
 category: product-management
 risk: safe
 source: community
 source_repo: Slashworks-biz/idea-os
 source_type: community
-date_added: "2026-04-18"
+date_added: '2026-04-18'
 author: Slashworks-biz
-tags: [product-management, prd, market-research, mvp, idea-validation, jtbd, swot, competitor-analysis, founder, non-technical]
-tools: [claude, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/Slashworks-biz/idea-os/blob/main/LICENSE"
+tags:
+- product-management
+- prd
+- market-research
+- mvp
+- idea-validation
+- jtbd
+- swot
+- competitor-analysis
+- founder
+- non-technical
+tools:
+- claude
+- cursor
+- gemini
+license: MIT
+license_source: https://github.com/Slashworks-biz/idea-os/blob/main/LICENSE
 ---
 
 # idea-os
@@ -25,7 +40,6 @@ idea-os is a 5-phase sequential pipeline where each phase's output feeds the nex
 Source: https://github.com/Slashworks-biz/idea-os — full skill, 11 reference files, 4 asset templates, and a 590-line worked example.
 
 ## When to Use
-
 - Use when a user shares a raw product idea or problem statement and wants a structured pipeline from clarifying questions through deep research, PRD, and a phased execution plan.
 - Use when the user says "I have an idea for…", "help me build X", "validate and plan this concept", or "what should I build?" — and wants files they can take forward, not a one-shot answer.
 - Use when a non-technical founder, PM, or hobbyist needs structure to bridge the gap between "idea" and "Monday morning's build queue".

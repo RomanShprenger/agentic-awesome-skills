@@ -421,13 +421,13 @@ Update-MpSignature
 
 ## Contents
 
-- [BitLocker Drive Encryption](references/details.md)
-- [Credential Guard](references/details.md)
-- [AppLocker Configuration](references/details.md)
-- [Security Audit Script](references/details.md)
-- [Troubleshooting](references/details.md)
-- [Best Practices](references/details.md)
-- [Related Skills](references/details.md)
+- [BitLocker Drive Encryption]
+- [Credential Guard]
+- [AppLocker Configuration]
+- [Security Audit Script]
+- [Troubleshooting]
+- [Best Practices]
+- [Related Skills]
 
 ## When to Use This Skill
 

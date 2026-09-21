@@ -1,6 +1,7 @@
 ---
 name: competitor-profiling
-description: "When the user wants to research, profile, or analyze competitors from their URLs."
+description: When the user wants to research, profile, or analyze competitors from
+  their URLs.
 risk: critical
 source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitor-profiling
 source_repo: coreyhaines31/marketingskills
@@ -12,7 +13,6 @@ license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICEN
 
 # Competitor Profiling
 ## When to Use
-
 Use this skill when you need when the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,'...
 
 
@@ -141,7 +141,7 @@ Save each scraped review page to `competitor-profiles/raw/<competitor-slug>/<YYY
 
 ### Phase 2: SEO & Market Data (DataForSEO)
 
-Use DataForSEO MCP tools to gather quantitative competitive intelligence. Save each raw response as JSON to `competitor-profiles/raw/<competitor-slug>/<YYYY-MM-DD>/seo/<endpoint-name>.json` before parsing it into the profile. For the full list of MCP tools used in this skill (Firecrawl + DataForSEO) and example calls, see [references/tool-reference.md](references/tool-reference.md).
+Use DataForSEO MCP tools to gather quantitative competitive intelligence. Save each raw response as JSON to `competitor-profiles/raw/<competitor-slug>/<YYYY-MM-DD>/seo/<endpoint-name>.json` before parsing it into the profile. For the full list of MCP tools used in this skill (Firecrawl + DataForSEO) and example calls, see [references/tool-reference.md].
 
 #### Domain Authority & Backlinks
 
@@ -197,7 +197,7 @@ Generate one markdown file per competitor, saved to a `competitor-profiles/` dir
 
 **Filename**: `competitor-profiles/[competitor-name].md`
 
-**For the full profile and summary templates**: See [references/templates.md](references/templates.md)
+**For the full profile and summary templates**: See [references/templates.md]
 
 Each profile follows this structure:
 

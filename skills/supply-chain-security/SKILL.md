@@ -1,17 +1,18 @@
 ---
 name: supply-chain-security
-description: "Software supply-chain security assessment: SBOM generation, SCA scanning, CI/CD pipeline review, container image audit, build integrity, dependency provenance, and vulnerability reachability verification."
+description: 'Software supply-chain security assessment: SBOM generation, SCA scanning,
+  CI/CD pipeline review, container image audit, build integrity, dependency provenance,
+  and vulnerability reachability verifica…'
 risk: safe
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
+source: https://github.com/zhaoxuya520/reverse-skill
+source_repo: zhaoxuya520/reverse-skill
 source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+date_added: '2026-08-25'
+license: MIT
+license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 # Supply Chain Security Testing
 ## When to Use
-
 - Auditing how software is built, packaged, and depended upon.
 - Verifying whether a disclosed CVE is actually reachable in a project.
 

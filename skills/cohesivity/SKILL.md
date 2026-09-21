@@ -1,17 +1,27 @@
 ---
 name: cohesivity
-description: "Provision headless backend services for AI agents through Cohesivity: hosting, databases, storage, LLMs, and third-party APIs over one HTTP API. Use when a trusted .cohesivity file exists or the user approves a new backend."
+description: 'Provision headless backend services for AI agents through Cohesivity:
+  hosting, databases, storage, LLMs, and third-party APIs over one HTTP API. Use when
+  a trusted .cohesivity file exists or the user…'
 category: backend
 risk: critical
 source: https://github.com/cohesivity-org/cohesivity-skill
 source_repo: cohesivity-org/cohesivity-skill
 source_type: official
-date_added: "2026-07-29"
+date_added: '2026-07-29'
 author: cohesivity-org
 license: MIT
 license_source: https://github.com/cohesivity-org/cohesivity-skill/blob/main/LICENSE
-tags: [backend, infrastructure, database, hosting, auth]
-tools: [claude, cursor, codex]
+tags:
+- backend
+- infrastructure
+- database
+- hosting
+- auth
+tools:
+- claude
+- cursor
+- codex
 ---
 
 # Cohesivity

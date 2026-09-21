@@ -1,8 +1,8 @@
 ---
 name: firebase
-description: Firebase gives you a complete backend in minutes - auth, database,
-  storage, functions, hosting. But the ease of setup hides real complexity.
-  Security rules are your last line of defense, and they're often wrong.
+description: Firebase gives you a complete backend in minutes - auth, database, storage,
+  functions, hosting. But the ease of setup hides real complexity. Security rules
+  are your last line of defense, and they're…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -26,7 +26,7 @@ your data model for your query patterns, not your data relationships.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - User mentions or implies: firebase

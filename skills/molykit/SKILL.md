@@ -1,13 +1,15 @@
 ---
 name: molykit
-description: |
-  CRITICAL: Use for MolyKit AI chat toolkit. Triggers on:
+description: 'CRITICAL: Use for MolyKit AI chat toolkit. Triggers on:
+
   BotClient, OpenAI, SSE streaming, AI chat, molykit,
+
   PlatformSend, spawn(), ThreadToken, cross-platform async,
-  Chat widget, Messages, PromptInput, Avatar, LLM
+
+  Chat widget, Messages, PromptInpu…'
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # MolyKit Skill

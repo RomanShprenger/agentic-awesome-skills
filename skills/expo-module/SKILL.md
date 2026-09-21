@@ -1,6 +1,8 @@
 ---
 name: expo-module
-description: "Guide for creating and writing Expo native modules and views using the Expo Modules API (Swift, Kotlin, TypeScript). Covers module definition DSL, native views, shared objects, config plugins, lifecycle hooks, autolinking, and type system."
+description: Guide for creating and writing Expo native modules and views using the
+  Expo Modules API (Swift, Kotlin, TypeScript). Covers module definition DSL, native
+  views, shared objects, config plugins, lifecy…
 risk: critical
 source: https://github.com/expo/skills/tree/main/plugins/expo/skills/expo-module
 source_repo: expo/skills
@@ -15,7 +17,6 @@ license_source: https://github.com/expo/skills/blob/main/LICENSE
 Complete reference for building native modules and views using the Expo Modules API. Covers Swift (iOS), Kotlin (Android), and TypeScript.
 
 ## When to Use
-
 - Creating a new Expo native module or native view
 - Adding native functionality (camera, sensors, system APIs) to an Expo app
 - Wrapping platform SDKs for React Native consumption
@@ -43,7 +44,7 @@ Prefer `create-expo-module` over manually creating native module files and direc
 
 If an existing Expo module only needs another platform, use `create-expo-module add-platform-support` instead of manually copying native directories.
 
-See [references/create-expo-module.md](references/create-expo-module.md) before scaffolding or extending a module. It covers:
+See [references/create-expo-module.md] before scaffolding or extending a module. It covers:
 
 - local vs standalone modules
 - `--platform`, `--features`, `--barrel`, `--package-manager`, and non-interactive mode

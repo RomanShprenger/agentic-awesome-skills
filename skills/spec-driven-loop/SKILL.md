@@ -1,6 +1,8 @@
 ---
 name: spec-driven-loop
-description: Freeze PRD, technical design, and acceptance criteria before medium-to-large Codex work; coordinate agents with explicit ownership, then judge delivery from diffs, tests, and evidence.
+description: Freeze PRD, technical design, and acceptance criteria before medium-to-large
+  Codex work; coordinate agents with explicit ownership, then judge delivery from
+  diffs, tests, and evidence.
 category: development
 risk: safe
 source: self
@@ -8,16 +10,16 @@ source_repo: Linji-x/spec-driven-loop
 source_type: self
 license: MIT
 license_source: https://github.com/Linji-x/spec-driven-loop/blob/v1.0.0/LICENSE
-date_added: "2026-08-25"
+date_added: '2026-08-25'
 author: Linji-x
 tags:
-  - codex
-  - spec-driven-development
-  - multi-agent
-  - agent-orchestration
-  - acceptance-testing
+- codex
+- spec-driven-development
+- multi-agent
+- agent-orchestration
+- acceptance-testing
 tools:
-  - codex
+- codex
 ---
 
 # Spec-Driven Loop
@@ -25,7 +27,6 @@ tools:
 Turn an uncertain software request into an approved specification, a controlled implementation, and evidence-backed acceptance. Keep project documents in the repository's established location; otherwise use `docs/spec-driven/<feature-slug>/`.
 
 ## When to Use
-
 Use this skill for new products, medium-to-large features, cross-module changes, or requests that need PRD/technical design, active clarification, multi-agent execution, or a main-agent judge. Do not use it for a small single-file change, a tiny bug fix, code explanation, review-only or diagnostic work, pure research, or a simple task whose specification is already complete.
 
 ## Quick Example
@@ -66,7 +67,7 @@ Keep each fact in one authoritative document and reference its stable ID elsewhe
 - `AGENT_PLAN.md`: who performs approved implementation work; owns dependencies, file ownership, validation, and agent task contracts.
 - `LOOP.md`: current recoverable execution state and append-only loop history; owns attempts, evidence, judgments, rework, risks, and next action.
 
-Read [references/document-templates.md](references/document-templates.md) when creating or updating these five documents. Read [references/agent-and-judge-contracts.md](references/agent-and-judge-contracts.md) before assigning implementation tasks, integrating agent work, judging acceptance, or issuing rework.
+Read [references/document-templates.md] when creating or updating these five documents. Read [references/agent-and-judge-contracts.md] before assigning implementation tasks, integrating agent work, judging acceptance, or issuing rework.
 
 ## 1. Inspect the Current System
 
@@ -178,7 +179,7 @@ Each loop records its Loop ID, objective, FR/AC IDs, assignments, dependencies, 
 
 ## 8. Execute Approved Work
 
-Give each subagent only the context required by its task contract. Require the completion-report format from [references/agent-and-judge-contracts.md](references/agent-and-judge-contracts.md). Treat contract deviations, new blockers, interface changes, and ownership conflicts as stop-and-report events.
+Give each subagent only the context required by its task contract. Require the completion-report format from [references/agent-and-judge-contracts.md]. Treat contract deviations, new blockers, interface changes, and ownership conflicts as stop-and-report events.
 
 Integrate in dependency order. Inspect actual changes instead of relying on summaries. Keep `LOOP.md` current with files, checks, results, evidence, risks, and status.
 

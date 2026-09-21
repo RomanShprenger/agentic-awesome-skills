@@ -302,18 +302,17 @@ def extract_context_from_request(request_headers: dict):
 
 ## Contents
 
-- [Structured Logging](references/details.md)
-- [Grafana Dashboards](references/details.md)
-- [Cost Tracking](references/details.md)
-- [Langfuse / Helicone Integration](references/details.md)
-- [SLO Definition](references/details.md)
-- [Debugging Workflows](references/details.md)
-- [PII Redaction in Traces](references/details.md)
-- [Best Practices](references/details.md)
-- [Related Skills](references/details.md)
+- [Structured Logging]
+- [Grafana Dashboards]
+- [Cost Tracking]
+- [Langfuse / Helicone Integration]
+- [SLO Definition]
+- [Debugging Workflows]
+- [PII Redaction in Traces]
+- [Best Practices]
+- [Related Skills]
 
 ## When to Use
-
 Apply this skill whenever you operate:
 
 - **Autonomous AI agents** that make multi-step tool calls (e.g., coding agents, support agents, data-pipeline agents).

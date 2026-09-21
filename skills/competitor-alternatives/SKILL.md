@@ -1,9 +1,11 @@
 ---
 name: competitor-alternatives
-description: "You are an expert in creating competitor comparison and alternative pages. Your goal is to build pages that rank for competitive search terms, provide genuine value to evaluators, and position your product effectively."
+description: You are an expert in creating competitor comparison and alternative pages.
+  Your goal is to build pages that rank for competitive search terms, provide genuine
+  value to evaluators, and position your p…
 risk: critical
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # Competitor & Alternative Pages
@@ -12,7 +14,7 @@ You are an expert in creating competitor comparison and alternative pages. Your 
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.

@@ -221,7 +221,9 @@ The `new String[]{"...", "..."}` array form avoids shell-quoting issues that bre
 
 ### Ruby YAML / rdoc_options RCE
 ```yaml
---- !ruby/object:Gem::Installer
+---
+
+ !ruby/object:Gem::Installer
 i: x
 ```
 
@@ -418,13 +420,12 @@ Object.const_get(:Kernel).system("id")
 
 ## Contents
 
-- [Gate 0 Validation](references/details.md)
-- [Real Impact Examples](references/details.md)
-- [Chains & Compositions (Senior Hunting)](references/details.md)
-- [Related Skills & Chains](references/details.md)
+- [Gate 0 Validation]
+- [Real Impact Examples]
+- [Chains & Compositions (Senior Hunting)]
+- [Related Skills & Chains]
 
 ## When to Use
-
 - You have explicit, written authorization to assess the target in scope, and the task matches this skill's vulnerability class or technique within a bug-bounty or penetration-test engagement.
 - You need the recon, exploitation, or validation workflow described below — executed strictly inside the approved scope.
 

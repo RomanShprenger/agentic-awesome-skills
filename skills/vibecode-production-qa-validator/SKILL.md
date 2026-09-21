@@ -1,14 +1,35 @@
 ---
 name: vibecode-production-qa-validator
-description: "13-phase production QA for fullstack Next.js apps: build verification, SEO tags, OG images, favicon, route regression, API auth, page speed, lazy load, vulnerability scan, UI/UX cards, error boundaries, database, secure rendering, and cleanup."
+description: '13-phase production QA for fullstack Next.js apps: build verification,
+  SEO tags, OG images, favicon, route regression, API auth, page speed, lazy load,
+  vulnerability scan, UI/UX cards, error boundari…'
 category: devops
 risk: safe
 source: self
 source_type: self
-date_added: "2026-05-31"
+date_added: '2026-05-31'
 author: Whoisabhishekadhikari
-tags: [qa, nextjs, production, deployment, seo, authentication, api, performance, favicon, cleanup, lighthouse, database, security, ui-ux]
-tools: [claude, cursor, gemini, claude-code, opencode]
+tags:
+- qa
+- nextjs
+- production
+- deployment
+- seo
+- authentication
+- api
+- performance
+- favicon
+- cleanup
+- lighthouse
+- database
+- security
+- ui-ux
+tools:
+- claude
+- cursor
+- gemini
+- claude-code
+- opencode
 version: 2.0.0
 ---
 
@@ -17,7 +38,6 @@ version: 2.0.0
 Run phases in order. Fix failures before moving to next.
 
 ## When to Use
-
 - Use before shipping or promoting a fullstack Next.js app to production.
 - Use after large UI, SEO, auth, API, database, or dependency changes need a concrete launch-readiness pass.
 - Use when you need a compact command-driven checklist for build, route, metadata, performance, security, and cleanup checks.

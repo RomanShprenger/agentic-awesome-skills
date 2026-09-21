@@ -368,12 +368,11 @@ def detect_overprivileged_roles():
 
 ## Contents
 
-- [Certification Workflow Automation](references/details.md)
-- [Access Review Checklist](references/details.md)
-- [Best Practices](references/details.md)
+- [Certification Workflow Automation]
+- [Access Review Checklist]
+- [Best Practices]
 
 ## When to Use
-
 - Conducting quarterly or annual access reviews for compliance (SOC 2, HIPAA, PCI DSS, ISO 27001)
 - Identifying and removing stale accounts and unused credentials
 - Certifying that current access levels match job responsibilities

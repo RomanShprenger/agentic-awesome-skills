@@ -4,14 +4,14 @@ description: 分析心理健康数据、识别心理模式、评估心理健康�
 allowed-tools: Read, Grep, Glob, Write, Edit
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # 心理健康分析技能
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - 需要分析情绪、焦虑、抑郁评分、治疗进展或危机风险时使用。

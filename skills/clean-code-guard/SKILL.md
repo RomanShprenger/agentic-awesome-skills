@@ -1,12 +1,13 @@
 ---
-name: "clean-code-guard"
-description: "Review generated or changed production code with Clean Code, SOLID, DRY, KISS, YAGNI, and LLM-specific failure-mode checks."
-risk: "critical"
-source: "community"
-source_repo: "amElnagdy/guard-skills"
-source_type: "community"
+name: clean-code-guard
+description: Review generated or changed production code with Clean Code, SOLID, DRY,
+  KISS, YAGNI, and LLM-specific failure-mode checks.
+risk: critical
+source: community
+source_repo: amElnagdy/guard-skills
+source_type: community
 date_added: 2026-07-13
-author: "community"
+author: community
 tags: []
 tools: []
 ---
@@ -17,14 +18,13 @@ tools: []
 You are reviewing generated or changed code before it ships. Apply the rules below as a guard pass after the first implementation pass — and once this skill is active, keep applying it to every later code change in the same session, re-running the self-check before delivery after each edit rather than reverting to unguarded output because the skill loaded earlier. If the user explicitly invokes this skill before writing code, use the same rules while writing and still run the self-check before delivery.
 
 ## When to Use
-
 Use this skill when reviewing generated or changed code before it ships. Activate it reactively after an agent writes, edits, or refactors production code — especially after a first implementation pass. Re-run the guard pass before delivery after each edit.
 
 ## Compatibility
 
 This is a portable instruction skill. It requires no MCP server, network access,
 API key, shell command, local executable, or bundled script. It can be used in
-any runtime that supports `SKILL.md` plus directly linked [references/](references/)
+any runtime that supports `SKILL.md` plus directly linked [references/]
 files; `agents/openai.yaml` is lightweight display metadata.
 
 This skill does not replace project linters, formatters, type checkers, or test
@@ -39,29 +39,29 @@ This skill has three modes — pick based on the user's request.
 
 **Live mode** (explicit): when the user invokes this skill before a risky code edit, apply the same imperatives while writing, then run the *Self-check before delivery* checklist. If you violate any rule, fix it before showing the user.
 
-**Review mode** (triggered when the user asks you to review, audit, critique, or rate code): walk [references/review-checklist.md](references/review-checklist.md) against the target file(s) and produce a structured findings report. Do not edit code in review mode unless asked.
+**Review mode** (triggered when the user asks you to review, audit, critique, or rate code): walk [references/review-checklist.md] against the target file(s) and produce a structured findings report. Do not edit code in review mode unless asked.
 
-Across all three modes, the rule bodies live in [references/](references/). Read the relevant reference file when:
+Across all three modes, the rule bodies live in [references/]. Read the relevant reference file when:
 - You hit a rule you don't fully remember the reasoning for.
 - The user pushes back on a rule and you need the source citation.
 - You're in review mode and need the full checklist.
-- The code under review touches a specific principle (e.g., subclassing → [references/solid.md](references/solid.md); deduplication → [references/dry-kiss-yagni.md](references/dry-kiss-yagni.md)).
+- The code under review touches a specific principle (e.g., subclassing → [references/solid.md]; deduplication → [references/dry-kiss-yagni.md]).
 
 The reference files are:
-- [references/naming-and-functions.md](references/naming-and-functions.md) — names, function size, parameters, command/query separation.
-- [references/comments-and-formatting.md](references/comments-and-formatting.md) — when to comment, when to delete, matching neighbor style.
-- [references/solid.md](references/solid.md) — SRP, OCP, LSP, ISP, DIP with the modern phrasings and detection smells.
-- [references/dry-kiss-yagni.md](references/dry-kiss-yagni.md) — knowledge vs code duplication, Sandi Metz's re-inline rule, McCabe complexity, Fowler's YAGNI cost categories.
-- [references/ai-failure-modes.md](references/ai-failure-modes.md) — the 14 systematic ways LLMs produce bad code. **Read this one first if you are an AI agent reading this skill.** It is the highest-leverage file in the skill.
-- [references/review-checklist.md](references/review-checklist.md) — structured walk-through for review mode.
-- [references/sources.md](references/sources.md) — central bibliography for source URLs. Read it only when you need to verify or cite an external source.
+- [references/naming-and-functions.md] — names, function size, parameters, command/query separation.
+- [references/comments-and-formatting.md] — when to comment, when to delete, matching neighbor style.
+- [references/solid.md] — SRP, OCP, LSP, ISP, DIP with the modern phrasings and detection smells.
+- [references/dry-kiss-yagni.md] — knowledge vs code duplication, Sandi Metz's re-inline rule, McCabe complexity, Fowler's YAGNI cost categories.
+- [references/ai-failure-modes.md] — the 14 systematic ways LLMs produce bad code. **Read this one first if you are an AI agent reading this skill.** It is the highest-leverage file in the skill.
+- [references/review-checklist.md] — structured walk-through for review mode.
+- [references/sources.md] — central bibliography for source URLs. Read it only when you need to verify or cite an external source.
 
 ## Examples
 
 - A coding agent implements an endpoint: use guard-pass mode on the diff before
   the work is presented or committed.
 - User asks "review this PR" or "should I merge this?": use review mode and
-  report findings from [references/review-checklist.md](references/review-checklist.md); do not edit unless
+  report findings from [references/review-checklist.md]; do not edit unless
   asked.
 - User asks "implement this endpoint using clean-code-guard": use live mode
   while writing, then run the self-check before delivery.
@@ -128,7 +128,7 @@ These are the rules to follow on every code change. They are imperative, not sug
 20. **Enumerate boundary cases before writing them.** For any range, off-by-one, null/empty/one/many, even/odd, or unicode/byte boundary, write the case list in a comment first. Cover each case in code before moving on.
 21. **Strip dead code before delivery.** Run a linter or grep pass for unused imports, unused symbols, unreachable branches, and "just in case" exports. Remove them. A function that nothing calls today does not get to live for "someday."
 22. **Read before write.** Before writing in an unfamiliar repo, read the file you'll edit, one neighbor, and any project rules file (CLAUDE.md, AGENTS.md, README's "conventions" section). Use the project's existing helpers, error types, and logging.
-23. **No new dependency for what a few lines cover.** Before adding a package, check the standard library, the already-installed dependencies, and whether a few lines of local code do the job. A new dependency is permanent maintenance and supply-chain surface; add one only when it owns real complexity you should not re-implement (cryptography, parsing, time zones — illustrative, not exhaustive), never to save ten lines. See [references/dry-kiss-yagni.md](references/dry-kiss-yagni.md).
+23. **No new dependency for what a few lines cover.** Before adding a package, check the standard library, the already-installed dependencies, and whether a few lines of local code do the job. A new dependency is permanent maintenance and supply-chain surface; add one only when it owns real complexity you should not re-implement (cryptography, parsing, time zones — illustrative, not exhaustive), never to save ten lines. See [references/dry-kiss-yagni.md].
 
 ### The floor — never cut these for simplicity
 
@@ -162,14 +162,14 @@ After the guard pass, surface it so the user can see it ran (guard-pass and live
 
 ## When the user pushes back on a rule
 
-Refer them to the source name in the relevant [references/](references/) file and use [references/sources.md](references/sources.md) only when the URL is needed. The rules are defensible — they come from primary sources (Uncle Bob, Fowler, Hunt & Thomas, McCabe, Metz) and from published 2024–2026 research on LLM code generation. If the user has a context-specific reason to override (e.g., a constructor genuinely needs 8 params for a config DTO), document the exception in a code comment that names the principle being overridden, the reason, and a revisit trigger — the condition under which it should be reconsidered. An exception comment with no revisit trigger is itself a finding on the next pass: a tradeoff with no exit is just deferred debt.
+Refer them to the source name in the relevant [references/] file and use [references/sources.md] only when the URL is needed. The rules are defensible — they come from primary sources (Uncle Bob, Fowler, Hunt & Thomas, McCabe, Metz) and from published 2024–2026 research on LLM code generation. If the user has a context-specific reason to override (e.g., a constructor genuinely needs 8 params for a config DTO), document the exception in a code comment that names the principle being overridden, the reason, and a revisit trigger — the condition under which it should be reconsidered. An exception comment with no revisit trigger is itself a finding on the next pass: a tradeoff with no exit is just deferred debt.
 
 ## Troubleshooting
 
 - If the task is conceptual rather than code-producing, do not apply this skill;
   answer the concept directly.
 - If review mode starts producing style-only feedback, use
-  [references/review-checklist.md](references/review-checklist.md) and prioritize behavioral bugs, brittleness,
+  [references/review-checklist.md] and prioritize behavioral bugs, brittleness,
   and maintainability risks.
 - If a rule conflicts with an explicit project convention, follow the project
   convention and document the exception only when it would otherwise surprise a

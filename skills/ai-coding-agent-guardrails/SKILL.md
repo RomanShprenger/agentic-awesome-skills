@@ -393,21 +393,20 @@ docker run \
 
 ## Contents
 
-- [Code Review Gates](references/details.md)
-- [Repository Configuration](references/details.md)
-- [Security Rules](references/details.md)
-- [File Restrictions](references/details.md)
-- [Code Quality](references/details.md)
-- [Git Behavior](references/details.md)
-- [Rules](references/details.md)
-- [Network Controls](references/details.md)
-- [Audit Trail](references/details.md)
-- [Team Policies](references/details.md)
-- [Testing Agent Output](references/details.md)
-- [Quick Reference](references/details.md)
+- [Code Review Gates]
+- [Repository Configuration]
+- [Security Rules]
+- [File Restrictions]
+- [Code Quality]
+- [Git Behavior]
+- [Rules]
+- [Network Controls]
+- [Audit Trail]
+- [Team Policies]
+- [Testing Agent Output]
+- [Quick Reference]
 
 ## When to Use
-
 Apply these guardrails when:
 
 - Onboarding AI coding agents into an engineering team for the first time

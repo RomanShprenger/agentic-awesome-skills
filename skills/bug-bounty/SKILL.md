@@ -371,63 +371,62 @@ curl -s "https://hackerone.com/graphql" \
 
 ## Contents
 
-- [Source Code Recon](references/details.md)
-- [Read Disclosed Reports](references/details.md)
-- ["What Changed" Method](references/details.md)
-- [Threat Model Template](references/details.md)
-- [6 Key Patterns from Top Reports](references/details.md)
-- [Note-Taking System (Never Hunt Without This)](references/details.md)
-- [Interesting Leads (not confirmed bugs yet)](references/details.md)
-- [Dead Ends (don't revisit)](references/details.md)
-- [Anomalies](references/details.md)
-- [Rabbit Holes (time-boxed, max 15 min each)](references/details.md)
-- [Confirmed Bugs](references/details.md)
-- [Subdomain Type -> Hunt Strategy](references/details.md)
-- [CVE-Seeded Audit Approach](references/details.md)
-- [Rust/Blockchain Source Code (Hard-Won Lessons)](references/details.md)
-- [IDOR -- Insecure Direct Object Reference](references/details.md)
-- [SSRF -- Server-Side Request Forgery](references/details.md)
-- [OAuth / OIDC](references/details.md)
-- [File Upload](references/details.md)
-- [Race Conditions](references/details.md)
-- [Business Logic](references/details.md)
-- [XSS -- Cross-Site Scripting](references/details.md)
-- [SQL Injection](references/details.md)
-- [GraphQL](references/details.md)
-- [LLM / AI Features](references/details.md)
-- [Cache Poisoning / Web Cache Deception](references/details.md)
-- [HTTP Request Smuggling](references/details.md)
-- [Android / Mobile Hunting](references/details.md)
-- [CI/CD Pipeline — GitHub Actions Security](references/details.md)
-- [SSTI -- Server-Side Template Injection](references/details.md)
-- [Subdomain Takeover](references/details.md)
-- [ATO -- Account Takeover (Complete Taxonomy)](references/details.md)
-- [Cloud / Infra Misconfigs](references/details.md)
-- [The 7-Question Gate (Run BEFORE Writing ANY Report)](references/details.md)
-- [4 Pre-Submission Gates](references/details.md)
-- [CVSS 3.1 Quick Guide](references/details.md)
-- [Conditionally Valid With Chain](references/details.md)
-- [HackerOne Report Template](references/details.md)
-- [Summary](references/details.md)
-- [Steps To Reproduce](references/details.md)
-- [Supporting Material](references/details.md)
-- [Impact](references/details.md)
-- [Severity Assessment](references/details.md)
-- [Bugcrowd Report Template](references/details.md)
-- [Human Tone Rules (Avoid AI-Sounding Writing)](references/details.md)
-- [Report Title Formula](references/details.md)
-- [Impact Statement Formula (First Paragraph)](references/details.md)
-- [The 60-Second Pre-Submit Checklist](references/details.md)
-- [Severity Escalation Language](references/details.md)
-- [Bug Bounty Platforms](references/details.md)
-- [Learning](references/details.md)
-- [Wordlists](references/details.md)
-- [Payload Databases](references/details.md)
-- [Related Skills & Chains](references/details.md)
-- [Operator Notes (Claude-BugHunter)](references/details.md)
+- [Source Code Recon]
+- [Read Disclosed Reports]
+- ["What Changed" Method]
+- [Threat Model Template]
+- [6 Key Patterns from Top Reports]
+- [Note-Taking System (Never Hunt Without This)]
+- [Interesting Leads (not confirmed bugs yet)]
+- [Dead Ends (don't revisit)]
+- [Anomalies]
+- [Rabbit Holes (time-boxed, max 15 min each)]
+- [Confirmed Bugs]
+- [Subdomain Type -> Hunt Strategy]
+- [CVE-Seeded Audit Approach]
+- [Rust/Blockchain Source Code (Hard-Won Lessons)]
+- [IDOR -- Insecure Direct Object Reference]
+- [SSRF -- Server-Side Request Forgery]
+- [OAuth / OIDC]
+- [File Upload]
+- [Race Conditions]
+- [Business Logic]
+- [XSS -- Cross-Site Scripting]
+- [SQL Injection]
+- [GraphQL]
+- [LLM / AI Features]
+- [Cache Poisoning / Web Cache Deception]
+- [HTTP Request Smuggling]
+- [Android / Mobile Hunting]
+- [CI/CD Pipeline — GitHub Actions Security]
+- [SSTI -- Server-Side Template Injection]
+- [Subdomain Takeover]
+- [ATO -- Account Takeover (Complete Taxonomy)]
+- [Cloud / Infra Misconfigs]
+- [The 7-Question Gate (Run BEFORE Writing ANY Report)]
+- [4 Pre-Submission Gates]
+- [CVSS 3.1 Quick Guide]
+- [Conditionally Valid With Chain]
+- [HackerOne Report Template]
+- [Summary]
+- [Steps To Reproduce]
+- [Supporting Material]
+- [Impact]
+- [Severity Assessment]
+- [Bugcrowd Report Template]
+- [Human Tone Rules (Avoid AI-Sounding Writing)]
+- [Report Title Formula]
+- [Impact Statement Formula (First Paragraph)]
+- [The 60-Second Pre-Submit Checklist]
+- [Severity Escalation Language]
+- [Bug Bounty Platforms]
+- [Learning]
+- [Wordlists]
+- [Payload Databases]
+- [Related Skills & Chains]
+- [Operator Notes (Claude-BugHunter)]
 
 ## When to Use
-
 - You have explicit, written authorization to assess the target in scope, and the task matches this skill's vulnerability class or technique within a bug-bounty or penetration-test engagement.
 - You need the recon, exploitation, or validation workflow described below — executed strictly inside the approved scope.
 

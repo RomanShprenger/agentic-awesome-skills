@@ -1,8 +1,9 @@
 ---
-source: "https://github.com/huggingface/skills/tree/main/skills/huggingface-jobs"
-date_added: "2026-09-04"
+source: https://github.com/huggingface/skills/tree/main/skills/huggingface-jobs
+date_added: '2026-09-04'
 name: hugging-face-jobs
-description: Run workloads on Hugging Face Jobs with managed CPUs, GPUs, TPUs, secrets, and Hub persistence.
+description: Run workloads on Hugging Face Jobs with managed CPUs, GPUs, TPUs, secrets,
+  and Hub persistence.
 license: Complete terms in LICENSE.txt
 risk: critical
 ---
@@ -11,7 +12,7 @@ risk: critical
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

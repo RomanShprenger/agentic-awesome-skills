@@ -1,6 +1,8 @@
 ---
 name: junit-5-skill
-description: "Generates production-grade JUnit 5 unit and integration tests in Java. Covers assertions, parameterized tests, lifecycle hooks, mocking with Mockito, and nested tests. Use when user mentions \"JUnit\", \"JUnit 5\", \"@Test\", \"assertEquals\", \"Assertions\", \"Java unit test\"."
+description: Generates production-grade JUnit 5 unit and integration tests in Java.
+  Covers assertions, parameterized tests, lifecycle hooks, mocking with Mockito, and
+  nested tests. Use when user mentions "JUnit",…
 risk: critical
 source: https://github.com/LambdaTest/agent-skills/tree/main/junit-5-skill
 source_repo: LambdaTest/agent-skills
@@ -12,7 +14,6 @@ license_source: https://github.com/LambdaTest/agent-skills/blob/main/LICENSE
 
 # JUnit 5 Testing Skill
 ## When to Use
-
 Use this skill when you need generates production-grade JUnit 5 unit and integration tests in Java. Covers assertions, parameterized tests, lifecycle hooks, mocking with Mockito, and nested tests. Use when user mentions "JUnit", "JUnit 5", "@Test", "assertEquals", "Assertions", "Java unit test". Triggers on:...
 
 

@@ -324,11 +324,11 @@ resource "cloudflare_ruleset" "waf_custom" {
 
 ## Contents
 
-- [ModSecurity with Nginx](references/details.md)
-- [WAF Tuning Workflow](references/details.md)
-- [Troubleshooting](references/details.md)
-- [Best Practices](references/details.md)
-- [Related Skills](references/details.md)
+- [ModSecurity with Nginx]
+- [WAF Tuning Workflow]
+- [Troubleshooting]
+- [Best Practices]
+- [Related Skills]
 
 ## When to Use This Skill
 

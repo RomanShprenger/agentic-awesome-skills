@@ -1,14 +1,25 @@
 ---
 name: liuguang-banlan-ui
-description: Builds two parameterized UI modes—流光溢彩白 (iridescent white) and 五彩斑斓黑 (colorful black)—with OKLCH, WebGL/CSS fallback, vision gating, screenshot QA, and total/per-color intensity reports. Use when a UI request names either mode or needs measured color parameters.
+description: Builds two parameterized UI modes—流光溢彩白 (iridescent white) and 五彩斑斓黑
+  (colorful black)—with OKLCH, WebGL/CSS fallback, vision gating, screenshot QA, and
+  total/per-color intensity reports. Use when a U…
 category: creative
 risk: critical
 source: self
 source_type: self
-date_added: "2026-08-15"
+date_added: '2026-08-15'
 author: 3516027002att-ui
-tags: [ui, frontend, oklch, webgl, accessibility]
-tools: [codex, claude, cursor, gemini]
+tags:
+- ui
+- frontend
+- oklch
+- webgl
+- accessibility
+tools:
+- codex
+- claude
+- cursor
+- gemini
 ---
 
 # 流光斑斓 UI 工坊
@@ -17,10 +28,9 @@ tools: [codex, claude, cursor, gemini]
 
 Use one skill with two explicit modes, not a generic material library. Preserve a stable information workspace while treating the spectral field as a controlled environmental layer. Keep the implementation parameterized so every output can report total color intensity, per-color intensity, OKLCH values, peak opacity, spatial scale, phase, and measured coverage.
 
-Read [style-contract.md](references/style-contract.md) before choosing a mode or changing palette semantics. Read [verification.md](references/verification.md) before claiming visual or screenshot validation.
+Read [style-contract.md] before choosing a mode or changing palette semantics. Read [verification.md] before claiming visual or screenshot validation.
 
 ## When to Use
-
 - Use when a user names 流光溢彩白 or 五彩斑斓黑, asks for one unified skill covering both, or needs a reusable parameterized starter.
 - Use when the final report must include total color intensity, each color's intensity, OKLCH values, and screenshot measurements.
 - Do not use for a generic theme-token library or an unparameterized visual mockup.

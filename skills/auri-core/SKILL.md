@@ -1,6 +1,8 @@
 ---
 name: auri-core
-description: "Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805). Visao do produto, persona Vitoria Neural, stack AWS, modelo Free/Pro/Business/Enterprise, roadmap 4 fases, GTM, north star WAC e analise competitiva."
+description: 'Auri: assistente de voz inteligente (Alexa + Claude claude-opus-4-20250805).
+  Visao do produto, persona Vitoria Neural, stack AWS, modelo Free/Pro/Business/Enterprise,
+  roadmap 4 fases, GTM, north star…'
 risk: none
 source: community
 date_added: '2026-03-06'
@@ -22,7 +24,7 @@ tools:
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

@@ -1,7 +1,7 @@
 ---
 name: clerk-auth
-description: Expert patterns for Clerk auth implementation, middleware,
-  organizations, webhooks, and user sync
+description: Expert patterns for Clerk auth implementation, middleware, organizations,
+  webhooks, and user sync
 risk: safe
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -13,7 +13,7 @@ Expert patterns for Clerk auth implementation, middleware, organizations, webhoo
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - User mentions or implies: adding authentication

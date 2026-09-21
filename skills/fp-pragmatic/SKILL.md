@@ -1,18 +1,19 @@
 ---
 name: fp-pragmatic
-description: A practical, jargon-free guide to functional programming - the 80/20 approach that gets results without the academic overhead
+description: A practical, jargon-free guide to functional programming - the 80/20
+  approach that gets results without the academic overhead
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 version: 1.0.0
 author: kadu
 tags:
-  - fp-ts
-  - functional-programming
-  - typescript
-  - pragmatic
-  - beginner-friendly
-  - best-practices
+- fp-ts
+- functional-programming
+- typescript
+- pragmatic
+- beginner-friendly
+- best-practices
 ---
 
 # Pragmatic Functional Programming
@@ -21,7 +22,7 @@ tags:
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - You want a pragmatic starting point for fp-ts or functional programming in TypeScript.

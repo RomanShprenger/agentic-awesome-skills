@@ -1,9 +1,11 @@
 ---
 name: review-multi-agent-orchestration
-description: "Use when a supervisor, swarm, graph, planner-worker system, or parallel agent workflow needs review for task boundaries, shared state, branch joins, retries, cancellation, context handoffs, budgets, deadlocks, or human escalation before implementation or production rollout."
+description: Use when a supervisor, swarm, graph, planner-worker system, or parallel
+  agent workflow needs review for task boundaries, shared state, branch joins, retries,
+  cancellation, context handoffs, budgets,…
 risk: safe
 source: self
-date_added: "2026-08-19"
+date_added: '2026-08-19'
 ---
 
 # Review Multi-Agent Orchestration
@@ -15,7 +17,6 @@ Review an orchestration as a distributed state machine, not as a list of agent r
 This skill reviews a design or implementation. Do not launch workers, mutate queues, cancel runs, change production configuration, or deploy fixes unless the user separately requests implementation.
 
 ## When to Use
-
 - Reviewing supervisor/worker, planner/executor, debate, swarm, graph, or hierarchical Agent designs.
 - Introducing parallel branches, subagents, MCP tools, durable execution, memory, checkpoints, or human-in-the-loop gates.
 - Diagnosing duplicate work, stale context, deadlocks, livelocks, branch races, runaway retries, or ambiguous ownership.

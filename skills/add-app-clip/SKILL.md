@@ -1,6 +1,8 @@
 ---
 name: add-app-clip
-description: Add an iOS App Clip target to an Expo app. Use when the user mentions App Clip, AASA, apple-app-site-association, appclips, smart app banner, or wants to ship a lightweight iOS Clip invoked from a URL alongside their parent app.
+description: Add an iOS App Clip target to an Expo app. Use when the user mentions
+  App Clip, AASA, apple-app-site-association, appclips, smart app banner, or wants
+  to ship a lightweight iOS Clip invoked from a UR…
 risk: critical
 source: https://github.com/expo/skills/tree/main/plugins/expo/skills/add-app-clip
 source_repo: expo/skills
@@ -12,7 +14,6 @@ license_source: https://github.com/expo/skills/blob/main/LICENSE
 
 # Add an App Clip to an Expo App
 ## When to Use
-
 Use this skill when you need add an iOS App Clip target to an Expo app. Use when the user mentions App Clip, AASA, apple-app-site-association, appclips, smart app banner, or wants to ship a lightweight iOS Clip invoked from a URL alongside their parent app.
 
 
@@ -284,7 +285,7 @@ Once Apple invokes the Clip from a URL on the domain, iOS opens `targets/clip/`'
 
 To let JS detect when it's running inside an App Clip and present an install prompt for the full app, create a local Expo module (`bunx create-expo-module --local`) that exposes `navigator.appClip.prompt()`.
 
-See [./references/native-module.md](./references/native-module.md) for the Swift module, TypeScript interface, and usage.
+See [./references/native-module.md] for the Swift module, TypeScript interface, and usage.
 
 ## References
 

@@ -1,34 +1,34 @@
 ---
 name: writing-great-skills
-description: Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.
+description: Reference for writing and editing skills well — the vocabulary and principles
+  that make a skill predictable.
 disable-model-invocation: true
-category: "skill-authoring"
-risk: "safe"
-source: "community"
-source_repo: "mattpocock/skills"
-source_type: "community"
-date_added: "2026-06-19"
-author: "Matt Pocock"
-license: "MIT"
-license_source: "https://github.com/mattpocock/skills/blob/main/LICENSE"
+category: skill-authoring
+risk: safe
+source: community
+source_repo: mattpocock/skills
+source_type: community
+date_added: '2026-06-19'
+author: Matt Pocock
+license: MIT
+license_source: https://github.com/mattpocock/skills/blob/main/LICENSE
 tags:
-  - skill-authoring
-  - workflow
-  - coding-agents
+- skill-authoring
+- workflow
+- coding-agents
 tools:
-  - claude-code
-  - codex-cli
-  - cursor
+- claude-code
+- codex-cli
+- cursor
 ---
 
 ## When to Use
-
 Use when this workflow matches the user request: Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable.
 
 
 _Source: [mattpocock/skills](https://github.com/mattpocock/skills) (MIT)._A skill exists to wrangle determinism out of a stochastic system. **Predictability** — the agent taking the same _process_ every run, not producing the same output — is the root virtue; every lever below serves it.
 
-**Bold terms** are defined in [`GLOSSARY.md`](GLOSSARY.md); look them up there for the full meaning.
+**Bold terms** are defined in [`GLOSSARY.md`; look them up there for the full meaning.
 
 ## Invocation
 

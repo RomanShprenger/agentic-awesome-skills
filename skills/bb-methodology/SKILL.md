@@ -426,12 +426,11 @@ Before pushing back with "I think we're done because X," do this:
 
 ## Contents
 
-- [PART 4: METHODOLOGY DISCIPLINE (False-Positive Prevention)](references/details.md)
-- [Related Skills & Chains](references/details.md)
-- [Operator Notes (Claude-BugHunter)](references/details.md)
+- [PART 4: METHODOLOGY DISCIPLINE (False-Positive Prevention)]
+- [Related Skills & Chains]
+- [Operator Notes (Claude-BugHunter)]
 
 ## When to Use
-
 - You have explicit, written authorization to assess the target in scope, and the task matches this skill's vulnerability class or technique within a bug-bounty or penetration-test engagement.
 - You need the recon, exploitation, or validation workflow described below — executed strictly inside the approved scope.
 

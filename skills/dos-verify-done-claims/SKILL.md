@@ -1,24 +1,35 @@
 ---
 name: dos-verify-done-claims
-description: "Before accepting an agent's 'done / shipped / fixed' claim, verify it against ground truth (git ancestry + the commit's own diff) using the DOS kernel's `dos verify` and `dos commit-audit` — never the agent's own narration."
+description: Before accepting an agent's 'done / shipped / fixed' claim, verify it
+  against ground truth (git ancestry + the commit's own diff) using the DOS kernel's
+  `dos verify` and `dos commit-audit` — never th…
 category: quality
 risk: critical
 source: community
 source_repo: anthony-chaudhary/dos-kernel
 source_type: community
-date_added: "2026-06-12"
+date_added: '2026-06-12'
 author: anthony-chaudhary
-tags: [verification, git, ai-agents, trust, quality-gate]
-tools: [claude, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/anthony-chaudhary/dos-kernel/blob/master/LICENSE"
+tags:
+- verification
+- git
+- ai-agents
+- trust
+- quality-gate
+tools:
+- claude
+- cursor
+- gemini
+license: MIT
+license_source: https://github.com/anthony-chaudhary/dos-kernel/blob/master/LICENSE
 plugin:
   targets:
     codex: blocked
     claude: blocked
   setup:
     type: manual
-    summary: "Setup installs and executes an external PyPI CLI; keep out of plugin-safe bundles."
+    summary: Setup installs and executes an external PyPI CLI; keep out of plugin-safe
+      bundles.
     docs: SKILL.md
 ---
 

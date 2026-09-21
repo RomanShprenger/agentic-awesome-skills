@@ -1,16 +1,17 @@
 ---
 name: android-dev
-description: "Production-grade Android app development guide covering native (Kotlin/Java), cross-platform (Flutter, RN, KMM), and hybrid architectures."
+description: Production-grade Android app development guide covering native (Kotlin/Java),
+  cross-platform (Flutter, RN, KMM), and hybrid architectures.
 risk: safe
 source: community
-date_added: "2026-06-08"
+date_added: '2026-06-08'
 ---
 
 # Android App Development Skill
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

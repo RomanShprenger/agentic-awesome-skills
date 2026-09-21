@@ -1,10 +1,12 @@
 ---
 name: top-web-vulnerabilities
-description: "Provide a comprehensive, structured reference for the 100 most critical web application vulnerabilities organized by category. This skill enables systematic vulnerability identification, impact assessment, and remediation guidance across the full spectrum of web security threats."
+description: Provide a comprehensive, structured reference for the 100 most critical
+  web application vulnerabilities organized by category. This skill enables systematic
+  vulnerability identification, impact asses…
 risk: offensive
 source: community
 author: zebbern
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 > **⚠️ AUTHORIZED USE ONLY**
@@ -25,7 +27,7 @@ date_added: "2026-02-27"
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Prerequisites
 

@@ -1,23 +1,31 @@
 ---
 name: skill-porter
-description: "Preview conservative tool-name translations and copy complete local skill bundles for manual adaptation to Google Antigravity."
+description: Preview conservative tool-name translations and copy complete local skill
+  bundles for manual adaptation to Google Antigravity.
 category: developer-tools
 risk: critical
 source: community
 source_repo: Pranav-Nexus/antigravity-skill-porter
 source_type: community
-date_added: "2026-09-07"
+date_added: '2026-09-07'
 author: Pranav-Nexus
-tags: [antigravity, claude, skills, migration, agent]
-tools: [claude, cursor, gemini]
-license: "MIT"
-license_source: "https://github.com/Pranav-Nexus/antigravity-skill-porter/blob/7a5b42c0fe1be283ae9f5b5fe70792aa78733af7/LICENSE"
+tags:
+- antigravity
+- claude
+- skills
+- migration
+- agent
+tools:
+- claude
+- cursor
+- gemini
+license: MIT
+license_source: https://github.com/Pranav-Nexus/antigravity-skill-porter/blob/7a5b42c0fe1be283ae9f5b5fe70792aa78733af7/LICENSE
 ---
 
 # Skill Porter for Google Antigravity
 
 ## When to Use
-
 Use when adapting a locally obtained Claude Code, Cursor, Codex, or generic agent
 skill bundle for Google Antigravity. The utility preserves support files and
 previews limited tool-name substitutions; it does not prove client compatibility.
@@ -97,4 +105,4 @@ PYTHONDONTWRITEBYTECODE=1 python3 -m unittest scripts/test_port_skill.py -v
 ## Source and license
 
 Adapted from Pranav-Nexus/antigravity-skill-porter. The upstream MIT notice is
-preserved in [LICENSE](LICENSE).
+preserved in [LICENSE.

@@ -1,6 +1,7 @@
 ---
 name: geoffrey-hinton
-description: "Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio Turing 2018, criador do backpropagation e das Deep Belief Networks."
+description: Agente que simula Geoffrey Hinton — Godfather of Deep Learning, Prêmio
+  Turing 2018, criador do backpropagation e das Deep Belief Networks.
 risk: safe
 source: community
 date_added: '2026-03-06'
@@ -22,7 +23,7 @@ tools:
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

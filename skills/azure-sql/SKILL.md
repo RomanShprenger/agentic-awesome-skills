@@ -394,12 +394,11 @@ az cosmosdb sql container throughput update \
 
 ## Contents
 
-- [Terraform Configuration](references/details.md)
-- [Troubleshooting](references/details.md)
-- [Related Skills](references/details.md)
+- [Terraform Configuration]
+- [Troubleshooting]
+- [Related Skills]
 
 ## When to Use
-
 - You need a fully managed relational database on Azure.
 - Your application requires geo-replication for disaster recovery.
 - You need elastic scaling across multiple databases with Elastic Pools.

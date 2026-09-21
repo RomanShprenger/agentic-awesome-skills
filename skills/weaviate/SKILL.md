@@ -1,17 +1,25 @@
 ---
 name: weaviate
-description: "Search, query, inspect, create, and import data into Weaviate vector database collections using official scripts and references."
+description: Search, query, inspect, create, and import data into Weaviate vector
+  database collections using official scripts and references.
 category: databases
 risk: critical
 source: community
 source_repo: weaviate/agent-skills
 source_type: official
-date_added: "2026-06-29"
+date_added: '2026-06-29'
 author: Weaviate
-tags: [weaviate, vector-database, semantic-search, hybrid-search, data-import]
-tools: [python, weaviate]
-license: "BSD-3-Clause"
-license_source: "https://github.com/weaviate/agent-skills/blob/main/LICENSE"
+tags:
+- weaviate
+- vector-database
+- semantic-search
+- hybrid-search
+- data-import
+tools:
+- python
+- weaviate
+license: BSD-3-Clause
+license_source: https://github.com/weaviate/agent-skills/blob/main/LICENSE
 ---
 
 # Weaviate Database Operations
@@ -37,30 +45,30 @@ If the user does not have an instance yet, direct them to the cloud console to r
 - `WEAVIATE_API_KEY` - Your Weaviate API key
 
 **External Provider Keys (auto-detected):**
-Set only the keys your collections use, refer to [Environment Requirements](references/environment_requirements.md) for more information.
+Set only the keys your collections use, refer to [Environment Requirements] for more information.
 
 ## Script Index
 
 ### Search & Query
 
-- [Query Agent - Ask Mode](references/ask.md): Use when the user wants a **direct answer** to a question based on collection data. The Query Agent synthesizes information from one or more collections and returns a structured response with source citations (collection name and object ID).
-- [Query Agent - Search Mode](references/query_search.md): Use when the user wants to **explore or browse raw objects** across one or more collections. Unlike ask mode, this returns the actual data objects rather than a synthesized answer.
-- [Hybrid Search](references/hybrid_search.md): **Default choice for most searches.** Provides a good balance of semantic understanding and exact keyword matching. Use this when you are unsure which search type to pick.
-- [Semantic Search](references/semantic_search.md): Use for finding **conceptually similar content** regardless of exact wording. Best when the intent matters more than specific keywords.
-- [Keyword Search](references/keyword_search.md): Use for finding **exact terms, IDs, SKUs, or specific text patterns**. Best when precise keyword matching is needed rather than semantic similarity.
+- [Query Agent - Ask Mode]: Use when the user wants a **direct answer** to a question based on collection data. The Query Agent synthesizes information from one or more collections and returns a structured response with source citations (collection name and object ID).
+- [Query Agent - Search Mode]: Use when the user wants to **explore or browse raw objects** across one or more collections. Unlike ask mode, this returns the actual data objects rather than a synthesized answer.
+- [Hybrid Search]: **Default choice for most searches.** Provides a good balance of semantic understanding and exact keyword matching. Use this when you are unsure which search type to pick.
+- [Semantic Search]: Use for finding **conceptually similar content** regardless of exact wording. Best when the intent matters more than specific keywords.
+- [Keyword Search]: Use for finding **exact terms, IDs, SKUs, or specific text patterns**. Best when precise keyword matching is needed rather than semantic similarity.
 
 ### Collection Management
 
-- [List Collections](references/list_collections.md): Use to **discover what collections exist** in the Weaviate instance. This should typically be the first step before performing any search or data operation.
-- [Get Collection Details](references/get_collection.md): Use to **understand a collection's schema** — its properties, data types, vectorizer configuration, replication factor, and multi-tenancy status. Helpful before running searches or imports.
-- [Explore Collection](references/explore_collection.md): Use to **analyze data distribution, top values, and inspect actual content** in a collection. Helpful for understanding what data looks like before querying.
-- [Create Collection](references/create_collection.md): Use to **create new collections with custom schemas** before importing data. Do not specify a vectorizer unless the user explicitly requests one (the default `text2vec_weaviate` is used).
+- [List Collections]: Use to **discover what collections exist** in the Weaviate instance. This should typically be the first step before performing any search or data operation.
+- [Get Collection Details]: Use to **understand a collection's schema** — its properties, data types, vectorizer configuration, replication factor, and multi-tenancy status. Helpful before running searches or imports.
+- [Explore Collection]: Use to **analyze data distribution, top values, and inspect actual content** in a collection. Helpful for understanding what data looks like before querying.
+- [Create Collection]: Use to **create new collections with custom schemas** before importing data. Do not specify a vectorizer unless the user explicitly requests one (the default `text2vec_weaviate` is used).
 
 ### Data Operations
 
-- [Fetch and Filter](references/fetch_filter.md): Use to **retrieve specific objects by ID** or **strictly filtered subsets** of data. Best for precise data retrieval rather than search.
-- [Import Data](references/import_data.md): **Use this when the user asks to import, load, or ingest a file (CSV, JSON, JSONL, PDF) into a collection.** 
-- [Create Example Data](references/example_data.md): Use to create example data for immediate use of other skills, if no data is available or user requests some toy data.
+- [Fetch and Filter]: Use to **retrieve specific objects by ID** or **strictly filtered subsets** of data. Best for precise data retrieval rather than search.
+- [Import Data]: **Use this when the user asks to import, load, or ingest a file (CSV, JSON, JSONL, PDF) into a collection.** 
+- [Create Example Data]: Use to create example data for immediate use of other skills, if no data is available or user requests some toy data.
 
 ## Recommendations
 

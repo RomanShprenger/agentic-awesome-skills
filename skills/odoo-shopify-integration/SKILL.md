@@ -29,7 +29,9 @@ This skill guides you through integrating Odoo with Shopify — syncing your pro
 
 ```
 SHOPIFY                          ODOO
---------                         ----
+---
+
+-----                         ----
 Product Catalog <──────sync──────  Product Templates + Variants
 Inventory Level <──────sync──────  Stock Quants (real-time)
 New Order       ───────push──────> Sale Order (auto-confirmed)

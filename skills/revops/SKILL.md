@@ -1,9 +1,11 @@
 ---
 name: revops
-description: "Design and improve revenue operations, lead lifecycle rules, scoring, routing, handoffs, and CRM process automation. Use when marketing, sales, and customer success workflows need clearer operational structure."
+description: Design and improve revenue operations, lead lifecycle rules, scoring,
+  routing, handoffs, and CRM process automation. Use when marketing, sales, and customer
+  success workflows need clearer operational…
 risk: critical
-source: "https://github.com/coreyhaines31/marketingskills"
-date_added: "2026-03-21"
+source: https://github.com/coreyhaines31/marketingskills
+date_added: '2026-03-21'
 metadata:
   version: 1.1.0
 ---
@@ -82,7 +84,7 @@ Define response times and document them:
 - Rep qualifies or rejects within **48 hours**
 - Rejected MQLs go to recycling nurture with reason code
 
-**For complete lifecycle stage templates and SLA examples**: See [references/lifecycle-definitions.md](references/lifecycle-definitions.md)
+**For complete lifecycle stage templates and SLA examples**: See [references/lifecycle-definitions.md]
 
 ---
 
@@ -123,7 +125,7 @@ Define response times and document them:
 - Setting and forgetting (buyer behavior changes; recalibrate quarterly)
 - Scoring all page visits equally (pricing page ≠ blog post)
 
-**For detailed scoring templates and example models**: See [references/scoring-models.md](references/scoring-models.md)
+**For detailed scoring templates and example models**: See [references/scoring-models.md]
 
 ---
 
@@ -154,7 +156,7 @@ Response time is the single biggest factor in lead conversion:
 
 Build routing rules that prioritize speed. Alert reps immediately. Escalate if SLA is missed.
 
-**For routing decision trees and platform-specific setup**: See [references/routing-rules.md](references/routing-rules.md)
+**For routing decision trees and platform-specific setup**: See [references/routing-rules.md]
 
 ---
 
@@ -214,7 +216,7 @@ Build routing rules that prioritize speed. Alert reps immediately. Escalate if S
 - **Pre-meeting enrichment** — Auto-populate CRM record before the call
 - **No-show workflows** — Auto-follow-up if prospect misses meeting
 
-**For platform-specific workflow recipes**: See [references/automation-playbooks.md](references/automation-playbooks.md)
+**For platform-specific workflow recipes**: See [references/automation-playbooks.md]
 
 ---
 

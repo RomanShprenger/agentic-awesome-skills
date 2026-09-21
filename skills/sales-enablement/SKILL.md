@@ -1,9 +1,11 @@
 ---
 name: sales-enablement
-description: "Create sales collateral such as decks, one-pagers, objection docs, demo scripts, playbooks, and proposal templates. Use when a sales team needs assets that help reps move deals forward and close."
+description: Create sales collateral such as decks, one-pagers, objection docs, demo
+  scripts, playbooks, and proposal templates. Use when a sales team needs assets that
+  help reps move deals forward and close.
 risk: safe
-source: "https://github.com/coreyhaines31/marketingskills"
-date_added: "2026-03-21"
+source: https://github.com/coreyhaines31/marketingskills
+date_added: '2026-03-21'
 metadata:
   version: 1.1.0
 ---
@@ -92,7 +94,7 @@ Every claim connects to revenue, efficiency, or risk reduction. Features mean no
 | Economic buyer | ROI, payback period, total cost, risk | Technical details, implementation specifics |
 | Champion | Internal selling points, quick wins, peer proof | Deep technical or financial detail |
 
-**For full slide-by-slide guidance**: See [references/deck-frameworks.md](references/deck-frameworks.md)
+**For full slide-by-slide guidance**: See [references/deck-frameworks.md]
 
 ---
 
@@ -119,7 +121,7 @@ Every claim connects to revenue, efficiency, or risk reduction. Features mean no
 - Include your logo, website, and a specific contact (not info@).
 - Match your brand but keep it clean — this is a sales tool, not a brand piece.
 
-**For templates by use case**: See [references/one-pager-templates.md](references/one-pager-templates.md)
+**For templates by use case**: See [references/one-pager-templates.md]
 
 ---
 
@@ -151,7 +153,7 @@ For each objection, document:
 - **Quick-reference table** for live calls — objection, one-line response, proof point. Fits on one screen.
 - **Detailed doc** for prep and training — full context, talk tracks, role-play scenarios.
 
-**For the full objection library**: See [references/objection-library.md](references/objection-library.md)
+**For the full objection library**: See [references/objection-library.md]
 
 ---
 
@@ -217,7 +219,7 @@ For each objection, document:
 - **Customize to their use case.** Use their terminology, their data (if possible), their workflow.
 - **Leave time for questions.** A demo where the prospect doesn't talk is a demo that doesn't close.
 
-**For full script templates**: See [references/demo-scripts.md](references/demo-scripts.md)
+**For full script templates**: See [references/demo-scripts.md]
 
 ---
 

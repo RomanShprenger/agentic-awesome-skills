@@ -1,13 +1,15 @@
 ---
 name: api-security
-description: "Authorized security assessment of REST, GraphQL, WebSocket, and SOAP APIs: discovery, authentication and authorization flaws (BOLA/IDOR, JWT/OAuth), rate-limit testing, and a structured multi-phase methodology."
+description: 'Authorized security assessment of REST, GraphQL, WebSocket, and SOAP
+  APIs: discovery, authentication and authorization flaws (BOLA/IDOR, JWT/OAuth),
+  rate-limit testing, and a structured multi-phase m…'
 risk: offensive
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
+source: https://github.com/zhaoxuya520/reverse-skill
+source_repo: zhaoxuya520/reverse-skill
 source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+date_added: '2026-08-25'
+license: MIT
+license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 > **⚠️ AUTHORIZED USE ONLY**
 > This skill is for educational purposes or authorized security assessments only.
@@ -25,7 +27,6 @@ license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
 
 # API 安全测试
 ## When to Use
-
 - An authorized assessment covers API endpoints and you need a structured discovery-to-report workflow.
 - Testing API authentication, authorization, or rate-limiting behavior within an approved scope.
 

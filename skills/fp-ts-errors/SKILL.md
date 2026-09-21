@@ -1,9 +1,11 @@
 ---
 name: fp-ts-errors
-description: "Handle errors as values using fp-ts Either and TaskEither for cleaner, more predictable TypeScript code. Use when implementing error handling patterns with fp-ts."
+description: Handle errors as values using fp-ts Either and TaskEither for cleaner,
+  more predictable TypeScript code. Use when implementing error handling patterns
+  with fp-ts.
 risk: safe
-source: "https://github.com/whatiskadudoing/fp-ts-skills"
-date_added: "2026-02-27"
+source: https://github.com/whatiskadudoing/fp-ts-skills
+date_added: '2026-02-27'
 ---
 
 # Practical Error Handling with fp-ts
@@ -12,7 +14,7 @@ This skill teaches you how to handle errors without try/catch spaghetti. No acad
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

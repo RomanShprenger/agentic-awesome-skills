@@ -1,17 +1,18 @@
 ---
 name: diagram-generator
-description: "Generate, refine, validate, and render diagrams from natural language, notes, code, schemas, or existing diagram sources: flowcharts, swimlanes, attack-path graphs, data-flow diagrams, architecture, and state machines."
+description: 'Generate, refine, validate, and render diagrams from natural language,
+  notes, code, schemas, or existing diagram sources: flowcharts, swimlanes, attack-path
+  graphs, data-flow diagrams, architecture,…'
 risk: safe
-source: "https://github.com/zhaoxuya520/reverse-skill"
-source_repo: "zhaoxuya520/reverse-skill"
+source: https://github.com/zhaoxuya520/reverse-skill
+source_repo: zhaoxuya520/reverse-skill
 source_type: community
-date_added: "2026-08-25"
-license: "MIT"
-license_source: "https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE"
+date_added: '2026-08-25'
+license: MIT
+license_source: https://github.com/zhaoxuya520/reverse-skill/blob/main/LICENSE
 ---
 # Diagram Generator
 ## When to Use
-
 - Turning textual analysis into Mermaid/Graphviz/PlantUML visuals.
 - Producing attack-path or architecture diagrams for reports.
 

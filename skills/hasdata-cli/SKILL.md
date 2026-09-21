@@ -6,8 +6,8 @@ source: official
 source_type: official
 source_repo: HasData/hasdata-cli
 license: MIT
-license_source: "https://github.com/HasData/hasdata-cli/blob/main/LICENSE"
-date_added: "2026-06-04"
+license_source: https://github.com/HasData/hasdata-cli/blob/main/LICENSE
+date_added: '2026-06-04'
 ---
 
 # hasdata
@@ -15,7 +15,6 @@ date_added: "2026-06-04"
 Use the `hasdata` CLI for real-time web data. One subcommand per API — flags, enums, defaults are derived from the live schema at `api.hasdata.com/apis`.
 
 ## When to Use
-
 Use this skill when:
 
 - The user wants to use the HasData CLI.
@@ -149,16 +148,16 @@ For real-estate / e-commerce results, the array shape is API-specific — read a
 
 ## References
 
-- [`references/enrichment.md`](references/enrichment.md) — **person and company enrichment** (LinkedIn lookup, emails, HQ/funding/news, CSV-row enrichment, reverse-lookup) — the highest-leverage cross-API workflows
-- [`references/search.md`](references/search.md) — Google SERP / Bing / News / Trends flag catalog
-- [`references/web-scraping.md`](references/web-scraping.md) — `web-scraping` flags, JS scenarios, AI extraction
-- [`references/real-estate.md`](references/real-estate.md) — Zillow / Redfin filters and bracketed params
-- [`references/travel.md`](references/travel.md) — Airbnb / Booking / Google Flights (lodging + transport)
-- [`references/ecommerce.md`](references/ecommerce.md) — Amazon / Shopify
-- [`references/local-business.md`](references/local-business.md) — Maps (search/place/reviews/photos/posts) / Yelp / YellowPages
-- [`references/jobs.md`](references/jobs.md) — Indeed / Glassdoor
-- [`references/youtube.md`](references/youtube.md) — search / video / channel / transcript
-- [`references/all-commands.md`](references/all-commands.md) — full subcommand index with credit costs
+- [`references/enrichment.md`] — **person and company enrichment** (LinkedIn lookup, emails, HQ/funding/news, CSV-row enrichment, reverse-lookup) — the highest-leverage cross-API workflows
+- [`references/search.md`] — Google SERP / Bing / News / Trends flag catalog
+- [`references/web-scraping.md`] — `web-scraping` flags, JS scenarios, AI extraction
+- [`references/real-estate.md`] — Zillow / Redfin filters and bracketed params
+- [`references/travel.md`] — Airbnb / Booking / Google Flights (lodging + transport)
+- [`references/ecommerce.md`] — Amazon / Shopify
+- [`references/local-business.md`] — Maps (search/place/reviews/photos/posts) / Yelp / YellowPages
+- [`references/jobs.md`] — Indeed / Glassdoor
+- [`references/youtube.md`] — search / video / channel / transcript
+- [`references/all-commands.md`] — full subcommand index with credit costs
 
 
 ## Limitations

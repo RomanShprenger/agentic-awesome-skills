@@ -1,6 +1,7 @@
 ---
 name: ab-testing
-description: "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program."
+description: When the user wants to plan, design, or implement an A/B test or experiment,
+  or build a growth experimentation program.
 risk: critical
 source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-testing
 source_repo: coreyhaines31/marketingskills
@@ -12,7 +13,6 @@ license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICEN
 
 # A/B Test Setup
 ## When to Use
-
 Use this skill when you need when the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions "A/B test," "split test," "experiment," "test this change," "variant copy," "multivariate test," "hypothesis," "should I test this,"...
 
 
@@ -100,7 +100,7 @@ We'll know this is true when [metrics].
 - [Evan Miller's](https://www.evanmiller.org/ab-testing/sample-size.html)
 - [Optimizely's](https://www.optimizely.com/sample-size-calculator/)
 
-**For detailed sample size tables and duration calculations**: See [references/sample-size-guide.md](references/sample-size-guide.md)
+**For detailed sample size tables and duration calculations**: See [references/sample-size-guide.md]
 
 ---
 
@@ -234,7 +234,7 @@ Document every test with:
 - Results (sample, metrics, significance)
 - Decision and learnings
 
-**For templates**: See [references/test-templates.md](references/test-templates.md)
+**For templates**: See [references/test-templates.md]
 
 ---
 

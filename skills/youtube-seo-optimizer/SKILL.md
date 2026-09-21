@@ -1,14 +1,15 @@
 ---
 name: youtube-seo-optimizer
-description: >
-  Generate complete YouTube & podcast SEO packages with live-researched keywords —
-  titles, descriptions, tags, hashtags, chapters, and audit fixes. Use for new or
-  underperforming content.
+description: 'Generate complete YouTube & podcast SEO packages with live-researched
+  keywords — titles, descriptions, tags, hashtags, chapters, and audit fixes. Use
+  for new or underperforming content.
+
+  '
 risk: safe
 source: community
 source_type: community
 author: whoisabhishekadhikari
-date_added: "2026-06-15"
+date_added: '2026-06-15'
 allowed-tools: web_search web_fetch
 ---
 
@@ -16,7 +17,7 @@ allowed-tools: web_search web_fetch
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - User wants a title/description/tags/hashtags package for a new upload

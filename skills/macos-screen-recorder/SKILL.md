@@ -1,37 +1,39 @@
 ---
 name: macos-screen-recorder
-description: "macOS screen recorder that captures the main display PLUS system audio via ScreenCaptureKit — no BlackHole/loopback driver, no sudo, just the standard Screen Recording permission. CLI-driven; fills the headless-screen-recording-with-system-sound gap QuickTime and `screencapture -v` can't."
+description: macOS screen recorder that captures the main display PLUS system audio
+  via ScreenCaptureKit — no BlackHole/loopback driver, no sudo, just the standard
+  Screen Recording permission. CLI-driven; fills t…
 risk: critical
 source: community
 source_type: community
 source_repo: connerkward/macos-screen-recorder-system-audio
-date_added: "2026-06-16"
+date_added: '2026-06-16'
 author: Conner K Ward
 license: MIT
 tags:
-  - macos
-  - screen-recording
-  - system-audio
-  - screencapturekit
-  - cli
-  - swift
+- macos
+- screen-recording
+- system-audio
+- screencapturekit
+- cli
+- swift
 tools:
-  - claude-code
-  - antigravity
-  - cursor
-  - gemini-cli
-  - codex-cli
+- claude-code
+- antigravity
+- cursor
+- gemini-cli
+- codex-cli
 plugin:
   targets:
     codex: blocked
     claude: blocked
   setup:
     type: manual
-    summary: "Screen/audio/input capture requires sensitive macOS permissions; keep out of plugin-safe bundles."
+    summary: Screen/audio/input capture requires sensitive macOS permissions; keep
+      out of plugin-safe bundles.
     docs: SKILL.md
 ---
 ## When to Use
-
 Use when you need to script a screen recording WITH system sound on macOS from the CLI (demos, captures, voice-demo recording) — the case QuickTime and `screencapture -v` can't cover without a virtual audio device.
 
 _Source: [connerkward/macos-screen-recorder-system-audio](https://github.com/connerkward/macos-screen-recorder-system-audio) (MIT)._

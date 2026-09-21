@@ -1,6 +1,7 @@
 ---
 name: public-relations
-description: "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests)."
+description: When the user wants help with public relations, earned media, press coverage,
+  journalist outreach, or media strategy (not pull requests).
 risk: critical
 source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/public-relations
 source_repo: coreyhaines31/marketingskills
@@ -12,7 +13,6 @@ license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICEN
 
 # Public Relations & Earned Media
 ## When to Use
-
 Use this skill when you need when the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release,' 'press coverage,' 'media outreach,' 'pitch a journalist,' 'get...
 
 
@@ -59,13 +59,13 @@ Four modes. Most teams over-index on one. Run at least three.
 | **Inbound (press requests)** | Respond to journalist queries on HARO/Qwoted/Featured | Low | Days to weeks |
 | **Owned (press page + media kit)** | Make it easy for journalists to find you | One-time setup | N/A |
 
-**For the reactive newsjacking workflow** — see [references/newsjacking.md](references/newsjacking.md)
+**For the reactive newsjacking workflow** — see [references/newsjacking.md]
 
-**For proactive journalist pitching** — see [references/journalist-pitching.md](references/journalist-pitching.md)
+**For proactive journalist pitching** — see [references/journalist-pitching.md]
 
-**For inbound press-request platforms (HARO, Qwoted, etc.)** — see [references/press-platforms.md](references/press-platforms.md)
+**For inbound press-request platforms (HARO, Qwoted, etc.)** — see [references/press-platforms.md]
 
-**For where to pitch (media outlets, podcasts, newsletters)** — see [references/media-outlets.md](references/media-outlets.md). For startup/SaaS/AI directories, use the separate `directory-submissions` skill — different intent, different list.
+**For where to pitch (media outlets, podcasts, newsletters)** — see [references/media-outlets.md]. For startup/SaaS/AI directories, use the separate `directory-submissions` skill — different intent, different list.
 
 ---
 
@@ -125,16 +125,16 @@ What not to obsess over: AVE (advertising value equivalency) — it's a vanity m
 ## Common Workflows
 
 ### "Help me newsjack [trending story]"
-Go to [newsjacking.md](references/newsjacking.md), run the scoring rubric, draft 2–3 angles, pick the best, draft the pitch.
+Go to [newsjacking.md], run the scoring rubric, draft 2–3 angles, pick the best, draft the pitch.
 
 ### "Find journalists who cover [beat]"
-Go to [journalist-pitching.md](references/journalist-pitching.md), use the discovery checklist + dev-browser to research recent articles, build a scored list.
+Go to [journalist-pitching.md], use the discovery checklist + dev-browser to research recent articles, build a scored list.
 
 ### "What's worth pitching this week?"
 Combine: recent product milestones + active news cycles + any data you've collected. Score each potential story by the quality bar above.
 
 ### "Respond to this HARO query"
-Go to [press-platforms.md](references/press-platforms.md), use the response template, keep it under 200 words.
+Go to [press-platforms.md], use the response template, keep it under 200 words.
 
 ### "Build my press page"
 Use the checklist above. Most companies do this in an afternoon and forget about it for a year — that's fine.

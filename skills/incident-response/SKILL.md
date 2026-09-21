@@ -417,11 +417,11 @@ Expected at: YYYY-MM-DD HH:MM UTC
 
 ## Contents
 
-- [Notice of Data Security Incident](references/details.md)
-- [IR Playbook: Compromised Credentials](references/details.md)
-- [Troubleshooting](references/details.md)
-- [Best Practices](references/details.md)
-- [Related Skills](references/details.md)
+- [Notice of Data Security Incident]
+- [IR Playbook: Compromised Credentials]
+- [Troubleshooting]
+- [Best Practices]
+- [Related Skills]
 
 ## When to Use This Skill
 

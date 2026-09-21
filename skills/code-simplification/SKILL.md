@@ -1,6 +1,8 @@
 ---
 name: code-simplification
-description: Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity.
+description: Simplifies code for clarity. Use when refactoring code for clarity without
+  changing behavior. Use when code works but is harder to read, maintain, or extend
+  than it should be. Use when reviewing code…
 risk: critical
 source: https://github.com/addyosmani/agent-skills/tree/main/skills/code-simplification
 source_repo: addyosmani/agent-skills
@@ -19,7 +21,6 @@ license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 Simplify code by reducing complexity while preserving exact behavior. The goal is not fewer lines — it's code that is easier to read, understand, modify, and debug. Every simplification must pass a simple test: "Would a new team member understand this faster than the original?"
 
 ## When to Use
-
 - After a feature is working and tests pass, but the implementation feels heavier than it needs to be
 - During code review when readability or complexity issues are flagged
 - When you encounter deeply nested logic, long functions, or unclear names

@@ -1,9 +1,10 @@
 ---
 name: autonomous-agent-patterns
-description: "Design patterns for building autonomous coding agents, inspired by [Cline](https://github.com/cline/cline) and [OpenAI Codex](https://github.com/openai/codex)."
+description: Design patterns for building autonomous coding agents, inspired by [Cline](https://github.com/cline/cline)
+  and [OpenAI Codex](https://github.com/openai/codex).
 risk: critical
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # 🕹️ Autonomous Agent Patterns
@@ -12,7 +13,7 @@ date_added: "2026-02-27"
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

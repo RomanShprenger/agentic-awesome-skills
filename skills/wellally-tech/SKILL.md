@@ -1,9 +1,11 @@
 ---
 name: wellally-tech
-description: "Integrate multiple digital health data sources, connect to [WellAlly.tech](https://www.wellally.tech/) knowledge base, providing data import and knowledge reference for personal health management systems."
+description: Integrate multiple digital health data sources, connect to [WellAlly.tech](https://www.wellally.tech/)
+  knowledge base, providing data import and knowledge reference for personal health
+  management sys…
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # WellAlly Digital Health Integration
@@ -12,7 +14,7 @@ Integrate multiple digital health data sources, connect to [WellAlly.tech](https
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - You need to import or normalize health data from sources like Apple Health, Fitbit, Oura, or CSV/JSON exports.

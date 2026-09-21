@@ -1,33 +1,34 @@
 ---
 name: yao-meta-skill
-description: Create, refactor, evaluate, and package agent skills from workflows, prompts, transcripts, docs, or notes. Use for skill creation, reusable workflow packaging, skill improvement, evals, and team-ready distribution.
+description: Create, refactor, evaluate, and package agent skills from workflows,
+  prompts, transcripts, docs, or notes. Use for skill creation, reusable workflow
+  packaging, skill improvement, evals, and team-read…
 metadata:
   author: Yao Team
-category: "skill-authoring"
-risk: "safe"
-source: "community"
-source_repo: "yaojingang/yao-meta-skill"
-source_type: "community"
-date_added: "2026-06-19"
-author: "Yao Team"
-license: "MIT"
-license_source: "https://github.com/yaojingang/yao-meta-skill/blob/main/LICENSE"
+category: skill-authoring
+risk: safe
+source: community
+source_repo: yaojingang/yao-meta-skill
+source_type: community
+date_added: '2026-06-19'
+author: Yao Team
+license: MIT
+license_source: https://github.com/yaojingang/yao-meta-skill/blob/main/LICENSE
 tags:
-  - skill-authoring
-  - agent-skills
-  - evaluation
-  - packaging
+- skill-authoring
+- agent-skills
+- evaluation
+- packaging
 tools:
-  - claude-code
-  - codex-cli
-  - cursor
-  - gemini-cli
+- claude-code
+- codex-cli
+- cursor
+- gemini-cli
 ---
 
 # Yao Meta Skill
 
 ## When to Use
-
 Use when this workflow matches the user request: Create, refactor, evaluate, and package agent skills from workflows, prompts, transcripts, docs, or notes. Use for skill creation, reusable workflow packaging, skill improvement, evals, and team-ready distribution.
 
 
@@ -42,7 +43,7 @@ _Source: [yaojingang/yao-meta-skill](https://github.com/yaojingang/yao-meta-skil
 ## Modes
 
 - `Scaffold`: exploratory/personal. `Production`: team reuse. `Library`: shared infrastructure. `Governed`: high-trust, policy-sensitive, or release-critical.
-- Rules: [Method](references/skill-engineering-method.md), [Operating Modes](references/operating-modes.md), [Resource Boundaries](references/resource-boundaries.md).
+- Rules: [Method], [Operating Modes], [Resource Boundaries].
 
 ## Compact Workflow
 
@@ -52,7 +53,7 @@ _Source: [yaojingang/yao-meta-skill](https://github.com/yaojingang/yao-meta-skil
 4. Write `description` early, test route quality, then add only earned folders and gates.
 5. Add output-risk, artifact-design, prompt-quality, system-model, and next directions only when useful.
 
-Playbooks: [Method](references/skill-engineering-method.md), [Intent](references/intent-dialogue.md), [Skill IR](references/skill-ir-method.md), [Output Eval](references/output-eval-method.md), [Review Studio](references/review-studio-method.md).
+Playbooks: [Method], [Intent], [Skill IR], [Output Eval], [Review Studio].
 
 ## Skill OS 2.0 Gates
 
@@ -68,7 +69,7 @@ Preserve audit labels literally when they apply: `file-backed fixture`, `input_f
 
 - Start from the user's work/outcome before structure.
 - Ask only `2-3` key questions unless enough detail exists.
-- In Chinese, sound soft and companion-like; use [Intent Dialogue](references/intent-dialogue.md).
+- In Chinese, sound soft and companion-like; use [Intent Dialogue].
 
 ## Output Contract
 
@@ -76,7 +77,7 @@ Unless asked otherwise, produce `SKILL.md`, aligned `agents/interface.yaml`, jus
 
 ## Reference Map
 
-Primary: [Method](references/skill-engineering-method.md), [Artifact Design](references/artifact-design-doctrine.md), [Systems Thinking](references/systems-thinking-doctrine.md), [Governance](references/governance.md), [SkillOps Decision](references/skillops-decision-policy.md).
+Primary: [Method], [Artifact Design], [Systems Thinking], [Governance], [SkillOps Decision].
 
 
 ## Limitations

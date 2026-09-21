@@ -1,9 +1,8 @@
 ---
 name: notion-template-business
-description: Expert in building and selling Notion templates as a business - not
-  just making templates, but building a sustainable digital product business.
-  Covers template design, pricing, marketplaces, marketing, and scaling to real
-  revenue.
+description: Expert in building and selling Notion templates as a business - not just
+  making templates, but building a sustainable digital product business. Covers template
+  design, pricing, marketplaces, marketin…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -33,7 +32,7 @@ You build systems that turn templates into scalable digital products.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - User mentions or implies: notion template

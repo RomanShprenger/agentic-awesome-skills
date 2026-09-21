@@ -1,22 +1,23 @@
 ---
 name: vercel-optimize
-description: "Audit deployed Vercel apps for cost and performance issues using metrics, project config, code scans, and version-aware recommendations."
+description: Audit deployed Vercel apps for cost and performance issues using metrics,
+  project config, code scans, and version-aware recommendations.
 risk: safe
-source: "https://github.com/vercel-labs/agent-skills"
-date_added: "2026-06-02"
+source: https://github.com/vercel-labs/agent-skills
+date_added: '2026-06-02'
 ---
 
 # Vercel Optimize
 
 Run an observability-first Vercel optimization audit. Do not inspect source files until `signals.json` exists and a deterministic gate points to a route, file, or project setting.
 
-Core doctrine: read [references/doctrine.md](references/doctrine.md) if any rule is unclear.
+Core doctrine: read [references/doctrine.md] if any rule is unclear.
 
 - Metrics first. Recommendations start from Vercel production signals, not repo-wide grep.
 - Deterministic gates. `scripts/gate-investigations.mjs` decides what deserves investigation.
 - Candidate-bound scope. Read only files named by a candidate or a route-local import chain.
 - Version-aware citations. Use only `references/docs-library.json`; invalid or version-mismatched citations are stripped.
-- Customer copy. Read [references/voice.md](references/voice.md) before writing report text or chat output.
+- Customer copy. Read [references/voice.md] before writing report text or chat output.
 
 ## When to Use
 - Use this skill when the task matches this description: Audit deployed Vercel apps for cost and performance issues using metrics, project config, code scans, and version-aware recommendations.
@@ -76,7 +77,7 @@ node scripts/scan-codebase.mjs <repo-root> > "$RUN_DIR/codebase.json"
 node scripts/merge-signals.mjs "$RUN_DIR/vercel-signals.json" "$RUN_DIR/codebase.json" --out "$RUN_DIR/signals.json"
 ```
 
-Collection details, schemas, metric IDs, and degradation behavior live in [references/data-collection.md](references/data-collection.md). The metric registry is [lib/queries.mjs](lib/queries.mjs); keep all queries on the shared 14-day window.
+Collection details, schemas, metric IDs, and degradation behavior live in [references/data-collection.md]. The metric registry is [lib/queries.mjs; keep all queries on the shared 14-day window.
 
 `collect-signals.mjs` resolves the linked project owner to `commandScope.cliScope` and verifies that the resolved account can read the resolved project before it checks Observability Plus. Downstream scripts reuse that scope for every Vercel CLI command that accepts `--scope`. Do not run `vercel usage`, `vercel metrics`, or `vercel contract` manually without the same scope; unscoped usage can report the user's personal organization while route metrics come from the team project.
 
@@ -104,7 +105,7 @@ Required actions:
 - `PROJECT_SCOPE_UNRESOLVED`, `SCOPE_UNRESOLVED`, or `PROJECT_SCOPE_MISMATCH`: stop and ask which Vercel project and team/personal scope the user wants audited. For team projects, rerun after `vercel link --yes --project <project-name-or-id> --team <team-slug>`; for personal projects, rerun after linking under the intended user account or after setting both `VERCEL_PROJECT_ID` and `VERCEL_ORG_ID`.
 - `observabilityPlusBlocker === null`: continue.
 - `no_traffic`: tell the user route metrics are sparse; continue only if they accept limited output.
-- `payment_required` or `no_oplus_probe`: render [references/observability-plus.md](references/observability-plus.md) verbatim and ask.
+- `payment_required` or `no_oplus_probe`: render [references/observability-plus.md] verbatim and ask.
 - `project_disabled`: tell the user to enable Observability Plus for the project or accept a limited audit.
 - `daily_quota_exceeded`: stop and tell the user the Observability query quota is exhausted; retry after the next UTC midnight reset, or ask whether to continue with a limited code-only audit.
 - `not_linked`: link the app directory, then rerun Step 1. If app path and project are known:
@@ -145,7 +146,7 @@ node scripts/gate-investigations.mjs "$RUN_DIR/signals.json" --max-candidates 12
 node scripts/gate-investigations.mjs "$RUN_DIR/signals.json" --max-candidates all > "$RUN_DIR/gate.json"
 ```
 
-Generated candidate docs: [references/candidates.md](references/candidates.md).
+Generated candidate docs: [references/candidates.md].
 
 ### 2.1 Ask about audit scope when needed
 
@@ -212,7 +213,7 @@ Sub-agent contract:
 
 - The brief is the whole prompt.
 - Read only files listed in the brief, plus route-local imports when needed.
-- Emit one JSON recommendation or one JSON no-change finding using [references/recommendations.md](references/recommendations.md).
+- Emit one JSON recommendation or one JSON no-change finding using [references/recommendations.md].
 - Do not cite URLs outside the provided citation subset.
 - Do not recommend framework features unavailable in the detected version.
 
@@ -242,7 +243,7 @@ node scripts/verify-and-regen.mjs "$RUN_DIR/recommendations.json" \
 
 This script extracts claims, verifies files/citations/version fit, grades quality, applies sanitizers, emits `verifiedRecommendations`, `withheldRecommendations`, `renderableRecommendations`, and creates `regenPlan` for failed or unsafe recommendations.
 
-Recommendation schema, writing rules, sanitizer order, and grading rules: [references/recommendations.md](references/recommendations.md). Verification rules: [references/verification.md](references/verification.md).
+Recommendation schema, writing rules, sanitizer order, and grading rules: [references/recommendations.md]. Verification rules: [references/verification.md].
 
 For each `regenPlan` entry, rerun the same brief with a `Previous attempt failed these checks` section listing `topFailures`. Keep the regenerated output only if verification improves without gutting citations.
 
@@ -259,7 +260,7 @@ Use `--debug-out "$RUN_DIR/debug.json"` only when developing the skill. Customer
 
 After rendering, print `final-message.json.body` verbatim and stop. Do not add highlights, debug notes, raw counts, sub-agent summaries, or extra explanation. Render-time dedupe, platform caps, and hard-safety drops can change the customer-visible count, so never summarize from raw `verify.json`.
 
-Report structure and impact framing: [references/scoring.md](references/scoring.md).
+Report structure and impact framing: [references/scoring.md].
 
 ## Recommendation Rules
 
@@ -285,7 +286,7 @@ Scanner findings are supplementary. Drop findings annotated `COLD-PATH` or `NO-R
 
 Traffic-independent examples: middleware matcher, source maps, React Compiler config, build settings. Route-local cache or data-fetch patterns need route-level traffic evidence.
 
-Scanner docs: [references/scanner-patterns.md](references/scanner-patterns.md).
+Scanner docs: [references/scanner-patterns.md].
 
 ## Final Customer Terms
 
@@ -315,7 +316,7 @@ Use these messages without adding sales copy or process detail.
 
 **Route-level metrics unavailable:**
 
-> Use the verbatim choice template in [references/observability-plus.md](references/observability-plus.md). Do not silently fall back to code-only mode; present the two-path choice: enable Observability Plus and rerun the metric-backed audit, or accept a limited code-only run.
+> Use the verbatim choice template in [references/observability-plus.md]. Do not silently fall back to code-only mode; present the two-path choice: enable Observability Plus and rerun the metric-backed audit, or accept a limited code-only run.
 
 **Project is not linked:**
 

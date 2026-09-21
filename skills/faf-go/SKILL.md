@@ -1,6 +1,8 @@
 ---
 name: faf-go
-description: Guided interview to Gold Code (100% AI-Readiness). Use when helping users improve their .faf file through questions. Leverages Claude Code's AskUserQuestion for seamless integration. Just type /faf-go and answer questions till done.
+description: Guided interview to Gold Code (100% AI-Readiness). Use when helping users
+  improve their .faf file through questions. Leverages Claude Code's AskUserQuestion
+  for seamless integration. Just type /faf-g…
 risk: critical
 source: https://github.com/Wolfe-Jam/faf-skills/tree/main/skills/faf-go
 source_repo: Wolfe-Jam/faf-skills

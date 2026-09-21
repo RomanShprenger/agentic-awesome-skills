@@ -1,9 +1,11 @@
 ---
 name: threejs-skills
-description: "Create 3D scenes, interactive experiences, and visual effects using Three.js. Use when user requests 3D graphics, WebGL experiences, 3D visualizations, animations, or interactive 3D elements."
+description: Create 3D scenes, interactive experiences, and visual effects using Three.js.
+  Use when user requests 3D graphics, WebGL experiences, 3D visualizations, animations,
+  or interactive 3D elements.
 risk: safe
-source: "https://github.com/CloudAI-X/threejs-skills"
-date_added: "2026-02-27"
+source: https://github.com/CloudAI-X/threejs-skills
+date_added: '2026-02-27'
 ---
 
 # Three.js Skills
@@ -12,7 +14,7 @@ Systematically create high-quality 3D scenes and interactive experiences using T
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - Requests 3D visualizations or graphics ("create a 3D model", "show in 3D")

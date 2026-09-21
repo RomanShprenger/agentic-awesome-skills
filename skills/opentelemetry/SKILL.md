@@ -409,10 +409,10 @@ metadata:
 
 ## Contents
 
-- [Sampling Strategies](references/details.md)
-- [Best Practices](references/details.md)
-- [Troubleshooting](references/details.md)
-- [Related Skills](references/details.md)
+- [Sampling Strategies]
+- [Best Practices]
+- [Troubleshooting]
+- [Related Skills]
 
 ## When to Use This Skill
 

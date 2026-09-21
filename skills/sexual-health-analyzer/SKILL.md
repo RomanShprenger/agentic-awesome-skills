@@ -3,14 +3,14 @@ name: sexual-health-analyzer
 description: Sexual Health Analyzer
 risk: safe
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # 性健康分析技能
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - 需要分析性健康记录、筛查情况、避孕效果或相关风险模式时使用。

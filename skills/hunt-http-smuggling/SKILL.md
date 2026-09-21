@@ -65,7 +65,7 @@ The classic CL.TE / TE.CL payloads are NOT universally exploitable in 2026. Mode
 
 | Front-end | CL.TE | TE.CL | H2.CL | H2.TE | Notes |
 |---|---|---|---|---|---|
-| **Nginx ≥ 1.21** | NO | NO | partial (H2 ingress) | partial | RFC-strict; rejects CL+TE with HTTP 400. Verified locally on Nginx 1.27 — all 9 documented variants killed by front-end ([docs/verification/phase2h-smuggling-cachepoison.md](references/phase2h-smuggling-cachepoison.md)). |
+| **Nginx ≥ 1.21** | NO | NO | partial (H2 ingress) | partial | RFC-strict; rejects CL+TE with HTTP 400. Verified locally on Nginx 1.27 — all 9 documented variants killed by front-end ([docs/verification/phase2h-smuggling-cachepoison.md]). |
 | **Caddy 2.x** | NO | NO | — | — | Hardened by default |
 | **Envoy ≥ 1.20** | NO | NO | partial | partial | Hardened in most paths |
 | **HAProxy ≤ 2.4** | ✓ | ✓ | — | — | **Vulnerable**, see CVE-2021-40346 |
@@ -109,7 +109,6 @@ The highest-impact smuggling outcome needs no per-victim interaction. Instead of
 - **`triage-validation`** — Run the Pre-Severity Gate before claiming Critical: the smuggled-request effect MUST land on a request issued by a different client/session, not your own follow-up. A timing delta in your own browser alone is parser disagreement, not exploitable smuggling.
 
 ## When to Use
-
 - You have explicit, written authorization to assess the target in scope, and the task matches this skill's vulnerability class or technique within a bug-bounty or penetration-test engagement.
 - You need the recon, exploitation, or validation workflow described below — executed strictly inside the approved scope.
 

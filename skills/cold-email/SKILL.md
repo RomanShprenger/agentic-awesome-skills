@@ -1,9 +1,11 @@
 ---
 name: cold-email
-description: "Write B2B cold emails and follow-up sequences that earn replies. Use when creating outbound prospecting emails, SDR outreach, personalized opening lines, subject lines, CTAs, and multi-touch follow-up sequences."
+description: Write B2B cold emails and follow-up sequences that earn replies. Use
+  when creating outbound prospecting emails, SDR outreach, personalized opening lines,
+  subject lines, CTAs, and multi-touch follow-u…
 risk: safe
-source: "https://github.com/coreyhaines31/marketingskills"
-date_added: "2026-03-21"
+source: https://github.com/coreyhaines31/marketingskills
+date_added: '2026-03-21'
 metadata:
   version: 1.1.0
 ---
@@ -48,7 +50,7 @@ Cold email is ruthlessly short. If a sentence doesn't move the reader toward rep
 
 If you remove the personalized opening and the email still makes sense, the personalization isn't working. The observation should naturally lead into why you're reaching out.
 
-See [personalization.md](references/personalization.md) for the 4-level system and research signals.
+See [personalization.md] for the 4-level system and research signals.
 
 ### Lead with their world, not yours
 
@@ -90,7 +92,7 @@ There's no single right structure. Choose a framework that fits the situation, o
 - **Trigger → Insight → Ask** — Congrats on X. That usually creates Y challenge. We've helped similar companies with that. Curious?
 - **Story → Bridge → Ask** — [Similar company] had [problem]. They [solved it this way]. Relevant to you?
 
-For the full catalog of frameworks with examples, see [frameworks.md](references/frameworks.md).
+For the full catalog of frameworks with examples, see [frameworks.md].
 
 ---
 
@@ -102,7 +104,7 @@ Short, boring, internal-looking. The subject line's only job is to get the email
 - Should look like it came from a colleague ("reply rates," "hiring ops," "Q2 forecast")
 - No product pitches, no urgency, no emojis, no prospect's first name
 
-See [subject-lines.md](references/subject-lines.md) for the full data.
+See [subject-lines.md] for the full data.
 
 ---
 
@@ -114,7 +116,7 @@ Each follow-up should add something new — a different angle, fresh proof, a us
 - Each email should stand alone (they may not have read the previous ones)
 - The breakup email is your last touch — honor it
 
-See [follow-up-sequences.md](references/follow-up-sequences.md) for cadence, angle rotation, and breakup email templates.
+See [follow-up-sequences.md] for cadence, angle rotation, and breakup email templates.
 
 ---
 
@@ -147,11 +149,11 @@ Before presenting, gut-check:
 
 The references contain performance data if you need to make informed choices:
 
-- [benchmarks.md](references/benchmarks.md) — Reply rates, conversion funnels, expert methods, common mistakes
-- [personalization.md](references/personalization.md) — 4-level personalization system, research signals
-- [subject-lines.md](references/subject-lines.md) — Subject line data and optimization
-- [follow-up-sequences.md](references/follow-up-sequences.md) — Cadence, angles, breakup emails
-- [frameworks.md](references/frameworks.md) — All copywriting frameworks with examples
+- [benchmarks.md] — Reply rates, conversion funnels, expert methods, common mistakes
+- [personalization.md] — 4-level personalization system, research signals
+- [subject-lines.md] — Subject line data and optimization
+- [follow-up-sequences.md] — Cadence, angles, breakup emails
+- [frameworks.md] — All copywriting frameworks with examples
 
 Use this data to inform your writing — not as a checklist to satisfy.
 

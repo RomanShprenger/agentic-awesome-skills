@@ -1,6 +1,8 @@
 ---
 name: design-system
-description: "Mechanical implementation invariants for frontend design: token architecture, typography hierarchy, loading order, FOUT prevention, chrome stability, motion timing, color semantics. Use with design when building components, pages, or design systems."
+description: 'Mechanical implementation invariants for frontend design: token architecture,
+  typography hierarchy, loading order, FOUT prevention, chrome stability, motion timing,
+  color semantics. Use with design w…'
 risk: critical
 source: https://github.com/connerkward/ckw-design-skill/tree/main/design-system
 source_repo: connerkward/ckw-design-skill
@@ -13,7 +15,6 @@ author: Conner K Ward
 
 # Design system
 ## When to Use
-
 Use this skill when you need mechanical implementation invariants for frontend design: token architecture, typography hierarchy, loading order, FOUT prevention, chrome stability, motion timing, color semantics. Use with design when building components, pages, or design systems. (Aesthetic direction lives in...
 
 
@@ -93,7 +94,7 @@ Only the content area should move while chrome stays fixed; layout shift from tr
 
 - Keep timing consistent and purposeful; one well-orchestrated moment (staggered page load with `animation-delay`) beats scattered micro-interactions. Prefer CSS-only for HTML; Motion library for React. (Honor `prefers-reduced-motion` for public/multi-user projects.)
 - **Defaults for restrained/professional UIs** (a starting point, not law): micro-interactions ~150ms, larger transitions 200–250ms, ease-out. A playful/toy-like tone (design-thinking) may want spring/bounce and longer beats — match motion feel to the chosen direction rather than defaulting to these numbers.
-- **Choreography** — for anything beyond a single micro-interaction (route/page transitions, list reorder, reveals, shared elements), load [references/motion-choreography.md](references/motion-choreography.md): when a transition earns its keep (it must *communicate* something or get cut), which kinds to implement and in what order, **style by navigation type** (directional slide only for hierarchical/ordered — a slide between peers lies about depth; laterals fade), a duration table, and craft (compositor-only props, motion-blur on morphs, never raster-scale text, persistent-chrome isolation). Framework-agnostic.
+- **Choreography** — for anything beyond a single micro-interaction (route/page transitions, list reorder, reveals, shared elements), load [references/motion-choreography.md]: when a transition earns its keep (it must *communicate* something or get cut), which kinds to implement and in what order, **style by navigation type** (directional slide only for hierarchical/ordered — a slide between peers lies about depth; laterals fade), a duration table, and craft (compositor-only props, motion-blur on morphs, never raster-scale text, persistent-chrome isolation). Framework-agnostic.
 
 ### Scroll-driven narrative (scrollytelling)
 
@@ -106,7 +107,7 @@ For **explanatory / editorial / data-walkthrough** content, prefer **scroll-driv
 
 ## Spatial composition & layout
 
-Grid systems, the 8-point spacing scale, visual-weight balance, alignment, and the render-then-critique loop live in **design-spatial** ([../design-spatial/SKILL.md](../design-spatial/SKILL.md)) — the mechanical counterpart to this file's tokens/type/color. Load it whenever composing pages, dashboards, or components. (Direction nugget that belongs here: match composition ambition to the vision — maximalist earns elaborate/layered code; minimal/refined demands restraint and precise spacing.)
+Grid systems, the 8-point spacing scale, visual-weight balance, alignment, and the render-then-critique loop live in **design-spatial** ([../design-spatial/SKILL.md]) — the mechanical counterpart to this file's tokens/type/color. Load it whenever composing pages, dashboards, or components. (Direction nugget that belongs here: match composition ambition to the vision — maximalist earns elaborate/layered code; minimal/refined demands restraint and precise spacing.)
 
 ## Nested radii (only when one rounded element sits inside another)
 

@@ -1,6 +1,7 @@
 ---
 name: power-user-cultivation
-description: "When the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists."
+description: When the user wants to identify and nurture developer advocates, build
+  champion programs, or turn active users into contributors and evangelists.
 risk: safe
 source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/power-user-cultivation
 source_repo: jonathimer/devmarketing-skills
@@ -14,10 +15,9 @@ license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICE
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
-
 Use this skill when you need when the user wants to identify and nurture developer advocates, build champion programs, or turn active users into contributors and evangelists. Trigger phrases include "power users," "developer advocates," "ambassador program," "champion program," "community contributors," "referral...
 
 

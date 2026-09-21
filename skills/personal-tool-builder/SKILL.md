@@ -1,8 +1,8 @@
 ---
 name: personal-tool-builder
-description: Expert in building custom tools that solve your own problems first.
-  The best products often start as personal tools - scratch your own itch, build
-  for yourself, then discover others have the same itch.
+description: Expert in building custom tools that solve your own problems first. The
+  best products often start as personal tools - scratch your own itch, build for yourself,
+  then discover others have the same itc…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -34,7 +34,7 @@ what proves useful.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Security in Personal Tools
 

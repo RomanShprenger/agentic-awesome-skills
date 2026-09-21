@@ -1,6 +1,7 @@
 ---
 name: pricing
-description: "When the user wants help with pricing decisions, packaging, or monetization strategy."
+description: When the user wants help with pricing decisions, packaging, or monetization
+  strategy.
 risk: safe
 source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing
 source_repo: coreyhaines31/marketingskills
@@ -12,7 +13,6 @@ license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICEN
 
 # Pricing Strategy
 ## When to Use
-
 Use this skill when you need when the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much...
 
 
@@ -122,7 +122,7 @@ Ask: "As a customer uses more of [metric], do they get more value?"
 - **Support level** — Email → Priority → Dedicated
 - **Access** — API, SSO, custom branding
 
-**For detailed tier structures and persona-based packaging**: See [references/tier-structure.md](references/tier-structure.md)
+**For detailed tier structures and persona-based packaging**: See [references/tier-structure.md]
 
 ---
 
@@ -145,7 +145,7 @@ Identifies which features customers value most:
 - Ask: Most important? Least important?
 - Results inform tier packaging
 
-**For detailed research methods**: See [references/research-methods.md](references/research-methods.md)
+**For detailed research methods**: See [references/research-methods.md]
 
 ---
 

@@ -30,8 +30,7 @@ report_count: 12
 >
 > Without that confirmation, remain read-only and provide defensive guidance only. Prefer a sandbox, disposable VM, or controlled lab.
 
-## When to use
-
+## When to Use
 Trigger when:
 - Target has a public GitHub organization (find via OSINT)
 - JS bundles reference internal-looking package names (`@target-internal/...`, `target-utils`, `target-shared`)
@@ -428,14 +427,14 @@ Reference: polyfill.io was compromised in 2024 to serve malicious payloads. Pres
 
 ## Contents
 
-- [Severity scoring guidance](references/details.md)
-- [Anti-patterns](references/details.md)
-- [What constitutes a deliverable finding](references/details.md)
-- [Bridge to neighboring skills](references/details.md)
-- [External-only boundary check](references/details.md)
-- [Real-world references](references/details.md)
-- [Disclosed-case catalogue (citations)](references/details.md)
-- [Related Skills & Chains](references/details.md)
+- [Severity scoring guidance]
+- [Anti-patterns]
+- [What constitutes a deliverable finding]
+- [Bridge to neighboring skills]
+- [External-only boundary check]
+- [Real-world references]
+- [Disclosed-case catalogue (citations)]
+- [Related Skills & Chains]
 
 ## Limitations
 

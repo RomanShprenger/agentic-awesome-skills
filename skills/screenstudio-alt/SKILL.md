@@ -1,37 +1,39 @@
 ---
 name: screenstudio-alt
-description: "Open-source headless Screen Studio alternative: auto speed-up of idle, auto-zoom on click clusters, keystroke overlay chips, smoothed synthetic cursor, and 9:16 vertical export that follows the action — post-production for screen recordings from the CLI."
+description: 'Open-source headless Screen Studio alternative: auto speed-up of idle,
+  auto-zoom on click clusters, keystroke overlay chips, smoothed synthetic cursor,
+  and 9:16 vertical export that follows the actio…'
 risk: critical
 source: community
 source_type: community
 source_repo: connerkward/screenstudio-alternative-skill
-date_added: "2026-06-16"
+date_added: '2026-06-16'
 author: Conner K Ward
 license: MIT
 tags:
-  - screen-recording
-  - video
-  - post-production
-  - auto-zoom
-  - vertical-video
-  - ffmpeg
+- screen-recording
+- video
+- post-production
+- auto-zoom
+- vertical-video
+- ffmpeg
 tools:
-  - claude-code
-  - antigravity
-  - cursor
-  - gemini-cli
-  - codex-cli
+- claude-code
+- antigravity
+- cursor
+- gemini-cli
+- codex-cli
 plugin:
   targets:
     codex: blocked
     claude: blocked
   setup:
     type: manual
-    summary: "Screen/input capture requires sensitive local permissions; keep out of plugin-safe bundles."
+    summary: Screen/input capture requires sensitive local permissions; keep out of
+      plugin-safe bundles.
     docs: SKILL.md
 ---
 ## When to Use
-
 Use when polishing a screen recording / demo video for sharing, when the user mentions Screen Studio, auto-zoom, idle speed-up, or vertical/social video from a screen capture, and for any social-facing demo (vertical output is the default for those).
 
 _Source: [connerkward/screenstudio-alternative-skill](https://github.com/connerkward/screenstudio-alternative-skill) (MIT)._

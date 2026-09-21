@@ -1,9 +1,11 @@
 ---
 name: audit-agent-run-evidence
-description: "Use when an agent, harness, gateway, MCP workflow, or multi-step automation claims completion and the available traces, checkpoints, approvals, tool calls, or deployment records must be judged without trusting self-reported success."
+description: Use when an agent, harness, gateway, MCP workflow, or multi-step automation
+  claims completion and the available traces, checkpoints, approvals, tool calls,
+  or deployment records must be judged withou…
 risk: safe
 source: self
-date_added: "2026-08-19"
+date_added: '2026-08-19'
 ---
 
 # Audit Agent Run Evidence
@@ -15,7 +17,6 @@ Turn an end-to-end success statement into independently decidable claims. Recons
 This is a read-only audit. Do not rerun tools, approve actions, resume workers, deploy artifacts, or modify evidence unless the user separately authorizes those actions.
 
 ## When to Use
-
 - Auditing a completed or interrupted agent run from traces and artifacts.
 - Checking whether an agent's end-to-end success claim is actually supported.
 - Reviewing MCP, gateway, sandbox, checkpoint, retry, memory, approval, or deployment evidence.

@@ -1,17 +1,28 @@
 ---
 name: pptx-deck-creation
-description: "Create editable, production-ready PPTX decks with narrative planning, explicit layout specs, asset guidance, and quality checks."
+description: Create editable, production-ready PPTX decks with narrative planning,
+  explicit layout specs, asset guidance, and quality checks.
 category: office-productivity
 risk: critical
 source: community
 source_repo: kimtth/agent-pptify-kit
 source_type: community
-date_added: "2026-07-14"
+date_added: '2026-07-14'
 author: kimtth
-tags: [powerpoint, pptx, presentation, slide-design, document-generation]
-tools: [claude, cursor, gemini, codex, antigravity]
-license: "MIT"
-license_source: "https://github.com/kimtth/agent-pptify-kit/blob/main/LICENSE"
+tags:
+- powerpoint
+- pptx
+- presentation
+- slide-design
+- document-generation
+tools:
+- claude
+- cursor
+- gemini
+- codex
+- antigravity
+license: MIT
+license_source: https://github.com/kimtth/agent-pptify-kit/blob/main/LICENSE
 ---
 
 # PPTX Deck Creation
@@ -87,7 +98,7 @@ slides with their own explicit coordinates. Do not copy, mutate, or use the
 source PPTX as a template for generated content.
 
 Select a documented design profile from
-[design profiles](references/design-profiles.md). Use the user's named profile
+[design profiles]. Use the user's named profile
 first. Use a reference deck when one is available. Otherwise, use Fluent UI
 Design Token Guidance by default, use Primer Primitives for GitHub-focused
 technical decks, and use a broader style catalog only when the user requests
@@ -168,7 +179,7 @@ requires an existing-file or OOXML workflow.
 
 ### Step 6: Validate and repair
 
-Apply the [manual audit checklist](references/audit-checklist.md) before and
+Apply the [manual audit checklist] before and
 after building. Check collisions, text capacity, font sizes, safe margins,
 group containment, table fit, object bounds, design context, and native
 editability. Reopen the PPTX to verify slide count, package structure, hidden
@@ -196,15 +207,15 @@ only the context needed for the task:
 * Folder-level diagnostics with one result per deck and a manifest
 * Style-master analysis with colors, fonts, layout usage, and flow patterns
 
-Use [reference-deck analysis recipes](references/reference-deck-analysis.md)
-and [reference-deck analysis patterns](references/reference-deck-analysis-patterns.md) as static implementation
+Use [reference-deck analysis recipes]
+and [reference-deck analysis patterns] as static implementation
 references. Use the bundled `references/ooxml-parsing.md` guidance for the
 package-part map, relationship resolution, namespace, and secure parsing
 requirements. Keep all extraction read-only.
 
 ## Visual Assets
 
-Use [visual asset guidelines](references/visual-asset-adapters.md) when an icon,
+Use [visual asset guidelines] when an icon,
 image, SVG, or user-managed infographic is needed. Confirm image licensing
 before placing it. Record asset provenance, local path, and alt text. Never ask
 users to provide secrets in chat, and never use a placeholder when acquisition

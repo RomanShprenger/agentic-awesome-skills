@@ -1,30 +1,31 @@
 ---
 name: setup-matt-pocock-skills
-description: Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.
+description: Configure this repo for the engineering skills — set up its issue tracker,
+  triage label vocabulary, and domain doc layout. Run once before first use of the
+  other engineering skills.
 disable-model-invocation: true
-category: "development"
-risk: "safe"
-source: "community"
-source_repo: "mattpocock/skills"
-source_type: "community"
-date_added: "2026-06-19"
-author: "Matt Pocock"
-license: "MIT"
-license_source: "https://github.com/mattpocock/skills/blob/main/LICENSE"
+category: development
+risk: safe
+source: community
+source_repo: mattpocock/skills
+source_type: community
+date_added: '2026-06-19'
+author: Matt Pocock
+license: MIT
+license_source: https://github.com/mattpocock/skills/blob/main/LICENSE
 tags:
-  - engineering
-  - workflow
-  - coding-agents
+- engineering
+- workflow
+- coding-agents
 tools:
-  - claude-code
-  - codex-cli
-  - cursor
+- claude-code
+- codex-cli
+- cursor
 ---
 
 # Setup Matt Pocock's Skills
 
 ## When to Use
-
 Use when this workflow matches the user request: Configure this repo for the engineering skills — set up its issue tracker, triage label vocabulary, and domain doc layout. Run once before first use of the other engineering skills.
 
 
@@ -138,11 +139,11 @@ The block:
 
 Then write the three docs files using the seed templates in this skill folder as a starting point:
 
-- [issue-tracker-github.md](./issue-tracker-github.md) — GitHub issue tracker
-- [issue-tracker-gitlab.md](./issue-tracker-gitlab.md) — GitLab issue tracker
-- [issue-tracker-local.md](./issue-tracker-local.md) — local-markdown issue tracker
-- [triage-labels.md](./triage-labels.md) — label mapping
-- [domain.md](./domain.md) — domain doc consumer rules + layout
+- [issue-tracker-github.md — GitHub issue tracker
+- [issue-tracker-gitlab.md — GitLab issue tracker
+- [issue-tracker-local.md — local-markdown issue tracker
+- [triage-labels.md — label mapping
+- [domain.md — domain doc consumer rules + layout
 
 For "other" issue trackers, write `docs/agents/issue-tracker.md` from scratch using the user's description.
 

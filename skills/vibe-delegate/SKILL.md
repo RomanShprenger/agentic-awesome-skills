@@ -16,7 +16,6 @@ metadata:
 # Vibe Delegate
 
 ## When to Use
-
 - You want to delegate a bounded coding task to a separate `vibe` implementer (`Mistral Vibe`) and then review its diff yourself.
 - The user explicitly asked for delegation to this implementer.
 
@@ -48,7 +47,7 @@ Run these five steps per task. Steps 1, 4, and 5 require judgment; 2 and 3 are m
 Vibe sees only the text you send plus what it can inspect in the workspace — no chat history or shared
 context. Include the goal, current state, what to change, what to leave untouched, the project's
 **actual** gates, and a report contract. Tell Vibe not to commit. Keep one task per brief. See
-[references/writing-the-brief.md](references/writing-the-brief.md).
+[references/writing-the-brief.md].
 
 Default mode cannot approve most shell commands headlessly, so the orchestrator runs the gates. Ask
 Vibe to run them only when the human explicitly authorized `--full-access`.
@@ -70,7 +69,7 @@ node "<skill-dir>/scripts/relay.mjs" --brief brief.txt --cd /path/to/repo
 ```
 
 The child process's cwd pins the workspace. The relay writes artifacts under the system temp dir by
-default and never commits. See [references/dispatch-and-poll.md](references/dispatch-and-poll.md).
+default and never commits. See [references/dispatch-and-poll.md].
 
 ### 3. Wait for completion
 
@@ -92,7 +91,7 @@ Treat Vibe's final message and gate claims as claims:
 - Run relevant guard skills if installed.
 - Round-trip migrations and grep for dangling references after removals or renames.
 
-See [references/review-and-land.md](references/review-and-land.md).
+See [references/review-and-land.md].
 
 ### 5. Land it
 
@@ -125,17 +124,17 @@ Delegation is something the human opts into. Once they have ("run this queue", "
 verified, gate-passing work is the agreed contract. Two limits remain: **surface, don't absorb**
 (report Vibe's design decisions, defensible-but-unasked turns, and non-blocking nitpicks) and **stop
 for scope changes** (if correct completion needs going beyond the brief, ask instead of expanding the
-mandate). See [references/review-and-land.md](references/review-and-land.md).
+mandate). See [references/review-and-land.md].
 
 ## References
 
-- [references/writing-the-brief.md](references/writing-the-brief.md) — structure, report contract,
+- [references/writing-the-brief.md] — structure, report contract,
   real gates, argv delivery, and delta briefs.
-- [references/dispatch-and-poll.md](references/dispatch-and-poll.md) — flags, artifacts,
+- [references/dispatch-and-poll.md] — flags, artifacts,
   `result.json`, polling, and failure recovery.
-- [references/review-and-land.md](references/review-and-land.md) — review checklist, commit boundary,
+- [references/review-and-land.md] — review checklist, commit boundary,
   and rework through Vibe sessions.
-- [references/multi-task-queues.md](references/multi-task-queues.md) — sequential queues, constraint
+- [references/multi-task-queues.md] — sequential queues, constraint
   carry-forward, progress tracking, and the final coherence pass.
 
 

@@ -1,6 +1,8 @@
 ---
 name: developer-sandbox
-description: "Design and build interactive playgrounds that let developers experience your product without commitment. This skill covers playground architecture, pre-populated examples, embedding strategies, gating decisions, and converting playground users to signups."
+description: Design and build interactive playgrounds that let developers experience
+  your product without commitment. This skill covers playground architecture, pre-populated
+  examples, embedding strategies, gatin…
 risk: critical
 source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/developer-sandbox
 source_repo: jonathimer/devmarketing-skills
@@ -14,10 +16,9 @@ license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICE
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
-
 Use this skill when you need design and build interactive playgrounds that let developers experience your product without commitment. This skill covers playground architecture, pre-populated examples, embedding strategies, gating decisions, and converting playground users to signups. Trigger phrases: "developer...
 
 

@@ -1,9 +1,11 @@
 ---
 name: chat-widget
-description: Build a real-time support chat system with a floating widget for users and an admin dashboard for support staff. Use when the user wants live chat, customer support chat, real-time messaging, or in-app support.
+description: Build a real-time support chat system with a floating widget for users
+  and an admin dashboard for support staff. Use when the user wants live chat, customer
+  support chat, real-time messaging, or in-a…
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # Live Support Chat Widget
@@ -12,7 +14,7 @@ Build a real-time support chat system with a floating widget for users and an ad
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

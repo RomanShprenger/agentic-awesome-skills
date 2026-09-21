@@ -1,9 +1,8 @@
 ---
 name: graphql
-description: GraphQL gives clients exactly the data they need - no more, no
-  less. One endpoint, typed schema, introspection. But the flexibility that
-  makes it powerful also makes it dangerous. Without proper controls, clients
-  can craft queries that bring down your server.
+description: GraphQL gives clients exactly the data they need - no more, no less.
+  One endpoint, typed schema, introspection. But the flexibility that makes it powerful
+  also makes it dangerous. Without proper cont…
 risk: safe
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -27,7 +26,7 @@ GraphQL when you have complex data relationships and diverse client needs.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - User mentions or implies: graphql

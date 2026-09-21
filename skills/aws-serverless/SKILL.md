@@ -1,8 +1,8 @@
 ---
 name: aws-serverless
-description: Specialized skill for building production-ready serverless
-  applications on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS
-  event-driven patterns, SAM/CDK deployment, and cold start optimization.
+description: Specialized skill for building production-ready serverless applications
+  on AWS. Covers Lambda functions, API Gateway, DynamoDB, SQS/SNS event-driven patterns,
+  SAM/CDK deployment, and cold start optim…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -16,7 +16,7 @@ SAM/CDK deployment, and cold start optimization.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Monitor memory usage
 

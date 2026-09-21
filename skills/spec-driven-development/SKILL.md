@@ -1,6 +1,8 @@
 ---
 name: spec-driven-development
-description: Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague idea.
+description: Creates specs before coding. Use when starting a new project, feature,
+  or significant change and no specification exists yet. Use when requirements are
+  unclear, ambiguous, or only exist as a vague id…
 risk: critical
 source: https://github.com/addyosmani/agent-skills/tree/main/skills/spec-driven-development
 source_repo: addyosmani/agent-skills
@@ -17,7 +19,6 @@ license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 Write a structured specification before writing any code. The spec is the shared source of truth between you and the human engineer — it defines what we're building, why, and how we'll know it's done. Code without a spec is guessing.
 
 ## When to Use
-
 - Starting a new project or feature
 - Requirements are ambiguous or incomplete
 - The change touches multiple files or modules

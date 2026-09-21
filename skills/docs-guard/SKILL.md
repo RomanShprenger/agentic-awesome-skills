@@ -1,12 +1,13 @@
 ---
-name: "docs-guard"
-description: "Review generated or changed documentation before it ships, including READMEs, API references, docstrings, changelogs, tutorials, and documentation sites."
-risk: "critical"
-source: "community"
-source_repo: "amElnagdy/guard-skills"
-source_type: "community"
+name: docs-guard
+description: Review generated or changed documentation before it ships, including
+  READMEs, API references, docstrings, changelogs, tutorials, and documentation sites.
+risk: critical
+source: community
+source_repo: amElnagdy/guard-skills
+source_type: community
 date_added: 2026-07-13
-author: "community"
+author: community
 tags: []
 tools: []
 ---
@@ -19,7 +20,6 @@ You are reviewing generated or changed documentation before it ships. Apply the 
 These rules exist because AI agents document from memory of how APIs *usually* look, not from the code in front of them. Published research: half of AI answers to programming questions contain incorrect information, and models produce valid invocations for infrequent APIs barely a third of the time — yet the prose sounds authoritative either way. Readers cannot tell verified docs from hallucinated docs. You can, because you have the source.
 
 ## When to Use
-
 Use this skill when reviewing generated or changed documentation before it ships. Activate it reactively after an agent writes or updates READMEs, API references, docstrings, PHPDoc/JSDoc, changelogs, tutorials, or doc sites.
 
 ## How to use this skill
@@ -28,7 +28,7 @@ Use this skill when reviewing generated or changed documentation before it ships
 
 **Live mode** (explicit): when the user invokes this skill before writing docs, verify before you write — read the actual implementation, then document what it does. Run the self-check before delivery.
 
-**Review mode** (the user asks you to review, audit, or fact-check docs): walk [references/review-checklist.md](references/review-checklist.md) against the target docs and produce a findings report with file:line evidence. Do not rewrite in review mode unless asked.
+**Review mode** (the user asks you to review, audit, or fact-check docs): walk [references/review-checklist.md] against the target docs and produce a findings report with file:line evidence. Do not rewrite in review mode unless asked.
 
 ## Adapt to the project first
 
@@ -40,9 +40,9 @@ Use this skill when reviewing generated or changed documentation before it ships
 
 ### Accuracy — must fix
 
-1. **Every referenced symbol must exist.** Every function, method, class, hook, CLI command, flag, endpoint, config key, env var, and file path mentioned in the docs gets verified against the actual source, CLI help output, route table, or schema — by reading it, not recalling it. The verification procedure is in [references/verification.md](references/verification.md). An unverifiable reference does not ship.
+1. **Every referenced symbol must exist.** Every function, method, class, hook, CLI command, flag, endpoint, config key, env var, and file path mentioned in the docs gets verified against the actual source, CLI help output, route table, or schema — by reading it, not recalling it. The verification procedure is in [references/verification.md]. An unverifiable reference does not ship.
 
-2. **Every code sample must work.** Imports resolve, APIs exist with the documented signatures (names, argument order, defaults, return shape), and the sample runs outside the author's machine — no hardcoded local paths, no real credentials, no implicit prior state. Sample rules: [references/code-samples.md](references/code-samples.md).
+2. **Every code sample must work.** Imports resolve, APIs exist with the documented signatures (names, argument order, defaults, return shape), and the sample runs outside the author's machine — no hardcoded local paths, no real credentials, no implicit prior state. Sample rules: [references/code-samples.md].
 
 3. **Document the code's actual behavior, not its intended behavior.** Read the implementation before describing it. Where code and comments/specs disagree, the code is the truth — and flag the disagreement to the user instead of silently picking a side.
 
@@ -96,11 +96,11 @@ Lead with Rule 1–4 findings (false claims), then drift, then substance. If a d
 
 ## References
 
-- [references/verification.md](references/verification.md) — the mechanical procedure: extracting claims, verifying symbols, signatures, CLI flags, endpoints, config keys, links
-- [references/code-samples.md](references/code-samples.md) — what makes a sample shippable: runnability, realistic data, secrets hygiene, error paths
-- [references/docstrings.md](references/docstrings.md) — docstring/PHPDoc/JSDoc-specific rules: when one is justified, what it must contain, paraphrase detection
-- [references/review-checklist.md](references/review-checklist.md) — structured walk-through for review mode
-- [references/sources.md](references/sources.md) — research and style-guide URLs; read only when citing a source
+- [references/verification.md] — the mechanical procedure: extracting claims, verifying symbols, signatures, CLI flags, endpoints, config keys, links
+- [references/code-samples.md] — what makes a sample shippable: runnability, realistic data, secrets hygiene, error paths
+- [references/docstrings.md] — docstring/PHPDoc/JSDoc-specific rules: when one is justified, what it must contain, paraphrase detection
+- [references/review-checklist.md] — structured walk-through for review mode
+- [references/sources.md] — research and style-guide URLs; read only when citing a source
 
 ## What this skill does not do
 

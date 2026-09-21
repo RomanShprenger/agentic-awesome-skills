@@ -1,6 +1,8 @@
 ---
 name: huggingface-local-models
-description: Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving.
+description: Use to select models to run locally with llama.cpp and GGUF on CPU, Mac
+  Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact
+  GGUF file lookup, conversion, and OpenAI-co…
 risk: critical
 source: https://github.com/huggingface/skills/tree/main/skills/huggingface-local-models
 source_repo: huggingface/skills
@@ -12,7 +14,6 @@ license_source: https://github.com/huggingface/skills/blob/main/LICENSE
 
 # Hugging Face Local Models
 ## When to Use
-
 Use this skill when you need use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving.
 
 
@@ -111,9 +112,9 @@ curl http://localhost:8080/v1/chat/completions \
 
 ## Load References
 
-- Read [hub-discovery.md](references/hub-discovery.md) for URL-first workflows, model search, tree API extraction, and command reconstruction.
-- Read [quantization.md](references/quantization.md) for format tables, model scaling, quality tradeoffs, and `imatrix`.
-- Read [hardware.md](references/hardware.md) for Metal, CUDA, ROCm, or CPU build and acceleration details.
+- Read [hub-discovery.md] for URL-first workflows, model search, tree API extraction, and command reconstruction.
+- Read [quantization.md] for format tables, model scaling, quality tradeoffs, and `imatrix`.
+- Read [hardware.md] for Metal, CUDA, ROCm, or CPU build and acceleration details.
 
 ## Resources
 

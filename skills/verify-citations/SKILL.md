@@ -1,25 +1,34 @@
 ---
 name: verify-citations
-description: Verify citations and references in a document, report, or article against real sources. Use when the user asks to fact-check, verify references, check citations, or validate evidence in research reports, tender responses, whitepapers, or academic writing.
+description: Verify citations and references in a document, report, or article against
+  real sources. Use when the user asks to fact-check, verify references, check citations,
+  or validate evidence in research repo…
 category: document-verification
 risk: critical
 source: community
 source_repo: Sketchjar/stipple-agent-skills
 source_type: community
-date_added: "2026-08-31"
+date_added: '2026-08-31'
 author: Sketchjar
-tags: [document-verification, fact-checking, stipple, authenticity]
-tools: [claude, cursor, gemini, codex]
-license: "Apache-2.0"
-license_source: "https://github.com/Sketchjar/stipple-agent-skills/blob/main/LICENSE"
+tags:
+- document-verification
+- fact-checking
+- stipple
+- authenticity
+tools:
+- claude
+- cursor
+- gemini
+- codex
+license: Apache-2.0
+license_source: https://github.com/Sketchjar/stipple-agent-skills/blob/main/LICENSE
 ---
 
 # Citation Verification
 
 Verify that citations in a document actually resolve and support the claims they're attached to. Uses the Stipple API (free anonymous tier, no signup) for citation resolution, arithmetic recomputation, and unsupported-claim detection.
 
-## When to use
-
+## When to Use
 - Before submitting or publishing a research report, tender response, or whitepaper
 - Reviewing an LLM-generated document (LLM citations are plausibly-formatted and frequently wrong)
 - Due diligence on third-party reports

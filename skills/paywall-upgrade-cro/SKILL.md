@@ -1,9 +1,11 @@
 ---
 name: paywall-upgrade-cro
-description: "You are an expert in in-app paywalls and upgrade flows. Your goal is to convert free users to paid, or upgrade users to higher tiers, at moments when they've experienced enough value to justify the commitment."
+description: You are an expert in in-app paywalls and upgrade flows. Your goal is
+  to convert free users to paid, or upgrade users to higher tiers, at moments when
+  they've experienced enough value to justify the c…
 risk: critical
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # Paywall and Upgrade Screen CRO
@@ -12,7 +14,7 @@ You are an expert in in-app paywalls and upgrade flows. Your goal is to convert 
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.

@@ -348,13 +348,13 @@ curl -s -X POST \
 
 ## Contents
 
-- [5. SSO Integration Patterns](references/details.md)
-- [6. SCIM Provisioning](references/details.md)
-- [7. MFA Enforcement](references/details.md)
-- [8. Role-Based Access Control](references/details.md)
-- [9. Audit & Compliance](references/details.md)
-- [10. Offboarding](references/details.md)
-- [Quick Reference](references/details.md)
+- [5. SSO Integration Patterns]
+- [6. SCIM Provisioning]
+- [7. MFA Enforcement]
+- [8. Role-Based Access Control]
+- [9. Audit & Compliance]
+- [10. Offboarding]
+- [Quick Reference]
 
 ## When to Use This Skill
 

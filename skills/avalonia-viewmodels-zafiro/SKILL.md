@@ -1,9 +1,10 @@
 ---
 name: avalonia-viewmodels-zafiro
-description: "Optimal ViewModel and Wizard creation patterns for Avalonia using Zafiro and ReactiveUI."
+description: Optimal ViewModel and Wizard creation patterns for Avalonia using Zafiro
+  and ReactiveUI.
 risk: none
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # Avalonia ViewModels with Zafiro
@@ -20,10 +21,10 @@ This skill provides a set of best practices and patterns for creating ViewModels
 
 ## Guides
 
-- [ViewModels & Commands](viewmodels.md): Creating robust ViewModels and handling commands.
-- [Wizards & Flows](wizards.md): Building multi-step wizards with `SlimWizard`.
-- [Navigation & Sections](navigation_sections.md): Managing navigation and section-based UIs.
-- [Composition & Mapping](composition.md): Best practices for View-ViewModel wiring and DI.
+- [ViewModels & Commands: Creating robust ViewModels and handling commands.
+- [Wizards & Flows: Building multi-step wizards with `SlimWizard`.
+- [Navigation & Sections: Managing navigation and section-based UIs.
+- [Composition & Mapping: Best practices for View-ViewModel wiring and DI.
 
 ## Example Reference
 

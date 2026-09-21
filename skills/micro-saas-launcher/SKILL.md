@@ -1,9 +1,8 @@
 ---
 name: micro-saas-launcher
-description: Expert in launching small, focused SaaS products fast - the indie
-  hacker approach to building profitable software. Covers idea validation, MVP
-  development, pricing, launch strategies, and growing to sustainable revenue.
-  Ship in weeks, not months.
+description: Expert in launching small, focused SaaS products fast - the indie hacker
+  approach to building profitable software. Covers idea validation, MVP development,
+  pricing, launch strategies, and growing to…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -33,7 +32,7 @@ focus on sustainable, profitable businesses - not unicorn hunting.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - User mentions or implies: micro saas

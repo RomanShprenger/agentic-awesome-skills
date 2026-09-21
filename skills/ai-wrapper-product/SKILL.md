@@ -1,8 +1,8 @@
 ---
 name: ai-wrapper-product
-description: Expert in building products that wrap AI APIs (OpenAI, Anthropic,
-  etc. ) into focused tools people will pay for. Not just "ChatGPT but
-  different" - products that solve specific problems with AI.
+description: Expert in building products that wrap AI APIs (OpenAI, Anthropic, etc.
+  ) into focused tools people will pay for. Not just "ChatGPT but different" - products
+  that solve specific problems with AI.
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -33,7 +33,7 @@ experience. You create AI products people actually pay for and use daily.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - User mentions or implies: AI wrapper

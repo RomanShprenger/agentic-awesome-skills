@@ -7,6 +7,48 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [18.0.0] - 2026-09-21 - "Upstream Credit Sync and Jev Social"
+
+> Synchronizes **1,500+** skills from README-credited upstream repositories,
+> adds `jev-social`, refreshes maintainer import tooling, and repairs README
+> attribution links where upstream repositories moved or disappeared.
+
+A major catalog release for Claude Code, Cursor, Codex CLI and Gemini CLI.
+It imports missing skills from official and community source repositories
+listed in README credits (vendor packs including Microsoft, Expo, BrowserAct,
+Browserbase, Hugging Face, Remotion, and community collections), merges
+`jev-social` (#1537), and converges canonical indexes through the protected
+workflow for **3,819** skills. Existing installation interfaces remain
+supported.
+
+### Start here
+
+- Install: `npx agentic-awesome-skills@18.0.0`
+- [Choose your tool](README.md#choose-your-tool)
+- [Best skills by tool](README.md#best-skills-by-tool)
+- [Bundles](docs/users/bundles.md)
+- [Workflows](docs/users/workflows.md)
+
+### Added
+
+- **Upstream credit import batch** — maintainer import from README-credited
+  GitHub sources with metadata repair, security doc allowlisting, and validation
+  fixes (`tools/scripts/import_upstream_credit_gaps.py`,
+  `tools/scripts/repair_bulk_import.py`).
+- **`jev-social` (#1537)** — read-only Jev/socai social research routing skill.
+
+### Improved
+
+- README credit hygiene for repositories that returned 404 during the upstream audit.
+
+### Validation scope
+
+Maintainer attestation on the exact merge head, `npm run validate`,
+`npm run security:docs`, protected CI, CodeQL, canonical synchronization, and
+release-only Pages deploy from the immutable `v18.0.0` tag.
+
+---
+
 ## [17.8.4] - 2026-09-20 - "Core SearchAction for Pages SEO"
 
 > Aligns the Pages SEO verifier SearchAction expectation with `/core` so the

@@ -1,6 +1,8 @@
 ---
 name: api-and-interface-design
-description: Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.
+description: Guides stable API and interface design. Use when designing APIs, module
+  boundaries, or any public interface. Use when creating REST or GraphQL endpoints,
+  defining type contracts between modules, or e…
 risk: none
 source: https://github.com/addyosmani/agent-skills/tree/main/skills/api-and-interface-design
 source_repo: addyosmani/agent-skills
@@ -17,7 +19,6 @@ license_source: https://github.com/addyosmani/agent-skills/blob/main/LICENSE
 Design stable, well-documented interfaces that are hard to misuse. Good interfaces make the right thing easy and the wrong thing hard. This applies to REST APIs, GraphQL schemas, module boundaries, component props, and any surface where one piece of code talks to another.
 
 ## When to Use
-
 - Designing new API endpoints
 - Defining module boundaries or contracts between teams
 - Creating component prop interfaces

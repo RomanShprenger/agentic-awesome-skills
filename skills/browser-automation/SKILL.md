@@ -1,6 +1,7 @@
 ---
 name: browser-automation
-description: Build reliable browser checks using observed UI state, semantic locators, bounded waits, isolated test data and explicit outcome verification.
+description: Build reliable browser checks using observed UI state, semantic locators,
+  bounded waits, isolated test data and explicit outcome verification.
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -14,7 +15,7 @@ Separate tests of applications you control from interaction with an existing aut
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Playwright Test Example
 """
@@ -72,7 +73,6 @@ await page.locator('[data-v-12345]').click();
 """
 
 ## When to Use
-
 Use to verify a real browser workflow, diagnose a UI timing failure or collect explicitly authorized page data. Inspect the current page and available tool APIs before selecting locators or actions.
 
 ## Worked example and prerequisites

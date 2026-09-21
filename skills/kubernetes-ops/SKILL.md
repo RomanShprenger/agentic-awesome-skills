@@ -419,11 +419,11 @@ spec:
 
 ## Contents
 
-- [Resource Quotas](references/details.md)
-- [Rolling Updates](references/details.md)
-- [Common Issues](references/details.md)
-- [Best Practices](references/details.md)
-- [Related Skills](references/details.md)
+- [Resource Quotas]
+- [Rolling Updates]
+- [Common Issues]
+- [Best Practices]
+- [Related Skills]
 
 ## When to Use This Skill
 

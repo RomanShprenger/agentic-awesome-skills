@@ -1,17 +1,32 @@
 ---
 name: de-ai-writer
-description: "Chinese AI-smell removal engine: 35 Chinese AI-tell patterns (赋能/闭环), AI-smell scoring, de-AI rewriting, style clone. Use when a Chinese draft reads machine-written or the user asks 去AI味."
+description: 'Chinese AI-smell removal engine: 35 Chinese AI-tell patterns (赋能/闭环),
+  AI-smell scoring, de-AI rewriting, style clone. Use when a Chinese draft reads machine-written
+  or the user asks 去AI味.'
 category: content-writing
 risk: safe
 source: community
 source_repo: jiawood2006/hermes-skills
 source_type: community
-date_added: "2026-09-14"
+date_added: '2026-09-14'
 author: jiawood2006
-license: "MIT"
-license_source: "https://github.com/jiawood2006/hermes-skills/blob/main/LICENSE"
-tags: [chinese, writing, editing, humanize, de-ai, copywriting, style-clone, ai-detection]
-tools: [claude, cursor, codex, gemini, hermes]
+license: MIT
+license_source: https://github.com/jiawood2006/hermes-skills/blob/main/LICENSE
+tags:
+- chinese
+- writing
+- editing
+- humanize
+- de-ai
+- copywriting
+- style-clone
+- ai-detection
+tools:
+- claude
+- cursor
+- codex
+- gemini
+- hermes
 ---
 
 # De-AI Writer — Chinese AI-Smell Removal
@@ -140,5 +155,5 @@ Pattern 31 (聊天机器人残留) — the wrapper adds nothing; the content sta
 
 ## Reference
 
-- [`references/ai-patterns-zh.md`](references/ai-patterns-zh.md) — the full 35-pattern Chinese AI-smell catalog, grouped into 摆姿势 / 机械节奏 / 注水借势 / 格式装饰 / 助手残留, each entry giving 识别特征 → 为什么假 → 改前/改后.
+- [`references/ai-patterns-zh.md`] — the full 35-pattern Chinese AI-smell catalog, grouped into 摆姿势 / 机械节奏 / 注水借势 / 格式装饰 / 助手残留, each entry giving 识别特征 → 为什么假 → 改前/改后.
 - Source repository (MIT, optional runnable engine): https://github.com/jiawood2006/hermes-skills

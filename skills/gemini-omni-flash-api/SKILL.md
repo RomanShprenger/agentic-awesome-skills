@@ -1,6 +1,8 @@
 ---
 name: gemini-omni-flash-api
-description: "Use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK."
+description: Use this skill for generative video editing, text-to-video, image-referenced
+  video generation, and first-frame-to-video transition animations using the official
+  google-genai SDK.
 risk: critical
 source: https://github.com/google-gemini/gemini-skills/tree/main/skills/gemini-omni-flash-api
 source_repo: google-gemini/gemini-skills
@@ -12,7 +14,6 @@ license_source: https://github.com/google-gemini/gemini-skills/blob/main/LICENSE
 
 # Gemini Omni Flash Skill
 ## When to Use
-
 Use this skill when you need use this skill for generative video editing, text-to-video, image-referenced video generation, and first-frame-to-video transition animations using the official google-genai SDK. Includes workflows for pre-processing/optimizing high-resolution or long source videos with ffmpeg,...
 
 
@@ -57,13 +58,13 @@ This skill uses the Gemini Omni Flash model (`gemini-omni-flash-preview`) to per
 
 Use the following Python scripts to upload media with the Files API, prepare input videos with ffmpeg, and generate video outputs using the Interactions API.
 
-1. **[upload_file.py](scripts/upload_file.py)**: Uploads local media (images and videos) to the Files API and polls until `ACTIVE`. If uploading a video larger than 25MB, it prints an informative warning/tip highlighting that Gemini Omni Flash is optimized for editing 10s videos at 720p/24fps, and recommends pre-processing with `prep_video.py` first to speed up the upload.
+1. **[upload_file.py**: Uploads local media (images and videos) to the Files API and polls until `ACTIVE`. If uploading a video larger than 25MB, it prints an informative warning/tip highlighting that Gemini Omni Flash is optimized for editing 10s videos at 720p/24fps, and recommends pre-processing with `prep_video.py` first to speed up the upload.
 
    ```bash
    ./scripts/upload_file.py path/to/image.png
    ```
 
-2. **[generate_video.py](scripts/video/generate_video.py)**: Performs end-to-end video generation and downloads the output video. It detects and uploads local media references (images or videos) before calling the Interactions API. Large video assets (>25MB) will trigger informative pre-processing recommendations without blocking the upload.
+2. **[generate_video.py**: Performs end-to-end video generation and downloads the output video. It detects and uploads local media references (images or videos) before calling the Interactions API. Large video assets (>25MB) will trigger informative pre-processing recommendations without blocking the upload.
 
    * **Text to video**:
 
@@ -136,7 +137,7 @@ Use the following Python scripts to upload media with the Files API, prepare inp
      ]
      ```
 
-3. **[inspect_video.py](scripts/video/inspect_video.py)**: Inspects a local video file (using `ffprobe`) to check its duration, resolution, frame rate (FPS), audio stream presence, and format details.
+3. **[inspect_video.py**: Inspects a local video file (using `ffprobe`) to check its duration, resolution, frame rate (FPS), audio stream presence, and format details.
 
    ```bash
    ./scripts/video/inspect_video.py media/output.mp4
@@ -154,7 +155,7 @@ Use the following Python scripts to upload media with the Files API, prepare inp
      ./scripts/video/inspect_video.py media/output.mp4 --raw
      ```
 
-4. **[prep_video.py](scripts/video/prep_video.py)**: Normalizes, trims, and formats any video file to fit standard Gemini Omni Flash generation and editing limits. It handles timecode-based trimming, optional frame rate conversion, and proportional scaling of large videos (max 1280x720 for landscape, 720x1280 for portrait) to optimize upload times without stretching. If the video is longer than 10 seconds and the script is run interactively (in a TTY), it prompts the user to select the first 10s, last 10s, or enter a custom timecode (defaulting to the first 10s).
+4. **[prep_video.py**: Normalizes, trims, and formats any video file to fit standard Gemini Omni Flash generation and editing limits. It handles timecode-based trimming, optional frame rate conversion, and proportional scaling of large videos (max 1280x720 for landscape, 720x1280 for portrait) to optimize upload times without stretching. If the video is longer than 10 seconds and the script is run interactively (in a TTY), it prompts the user to select the first 10s, last 10s, or enter a custom timecode (defaulting to the first 10s).
 
    * **Trim first 10s (default)**:
 

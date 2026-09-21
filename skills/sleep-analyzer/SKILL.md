@@ -4,7 +4,7 @@ description: 分析睡眠数据、识别睡眠模式、评估睡眠质量，并�
 allowed-tools: Read, Grep, Glob, Write
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # 睡眠分析器技能
@@ -13,7 +13,7 @@ date_added: "2026-09-04"
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - 需要分析睡眠时长、效率、作息规律或睡眠质量时使用。

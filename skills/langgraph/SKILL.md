@@ -1,9 +1,8 @@
 ---
 name: langgraph
-description: Expert in LangGraph - the production-grade framework for building
-  stateful, multi-actor AI applications. Covers graph construction, state
-  management, cycles and branches, persistence with checkpointers,
-  human-in-the-loop patterns, and the ReAct agent pattern.
+description: Expert in LangGraph - the production-grade framework for building stateful,
+  multi-actor AI applications. Covers graph construction, state management, cycles
+  and branches, persistence with checkpointe…
 risk: critical
 source: vibeship-spawner-skills (Apache 2.0)
 date_added: 2026-02-27
@@ -37,7 +36,7 @@ and how to prevent infinite loops.
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Prerequisites
 

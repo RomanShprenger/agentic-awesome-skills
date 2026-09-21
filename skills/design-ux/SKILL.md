@@ -1,6 +1,8 @@
 ---
 name: design-ux
-description: "UX / usability audit — heuristic evaluation of INTERACTIVE UIs (not just visual polish). Load with design when a UI \"feels off\", \"sucks to use\", is hard to learn, needs an instruction wall, or before shipping an interactive tool/editor/app."
+description: UX / usability audit — heuristic evaluation of INTERACTIVE UIs (not just
+  visual polish). Load with design when a UI "feels off", "sucks to use", is hard
+  to learn, needs an instruction wall, or before…
 risk: critical
 source: https://github.com/connerkward/ckw-design-skill/tree/main/deterministic-design/design-ux
 source_repo: connerkward/ckw-design-skill
@@ -13,7 +15,6 @@ author: Conner K Ward
 
 # design-ux — usability audit (heuristic evaluation)
 ## When to Use
-
 Use this skill when you need uX / usability audit — heuristic evaluation of INTERACTIVE UIs (not just visual polish). Load with design when a UI "feels off", "sucks to use", is hard to learn, needs an instruction wall, or before shipping an interactive tool/editor/app. Scores the RENDERED UI against Nielsen's 10 +...
 
 

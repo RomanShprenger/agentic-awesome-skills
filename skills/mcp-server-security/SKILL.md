@@ -315,13 +315,13 @@ export function authorizedToolHandler(server: any) {
 
 ## Contents
 
-- [6. Input Validation](references/details.md)
-- [7. Resource Access Control](references/details.md)
-- [8. Rate Limiting](references/details.md)
-- [9. Audit Logging](references/details.md)
-- [10. Deployment Hardening](references/details.md)
-- [11. Testing](references/details.md)
-- [Quick Reference Checklist](references/details.md)
+- [6. Input Validation]
+- [7. Resource Access Control]
+- [8. Rate Limiting]
+- [9. Audit Logging]
+- [10. Deployment Hardening]
+- [11. Testing]
+- [Quick Reference Checklist]
 
 ## When to Use This Skill
 

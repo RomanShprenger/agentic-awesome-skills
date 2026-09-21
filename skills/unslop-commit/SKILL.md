@@ -1,6 +1,8 @@
 ---
 name: unslop-commit
-description: "Rewrites commit messages so they sound like a careful human engineer wrote them. Strips AI/marketing slop (\"comprehensive solution\", \"robust implementation\", \"leverage\", \"enhance\", \"seamlessly\", \"This commit...\"). Keeps Conventional Commits format."
+description: Rewrites commit messages so they sound like a careful human engineer
+  wrote them. Strips AI/marketing slop ("comprehensive solution", "robust implementation",
+  "leverage", "enhance", "seamlessly", "Thi…
 risk: critical
 source: https://github.com/MohamedAbdallah-14/unslop/tree/main/plugins/unslop/skills/unslop-commit
 source_repo: MohamedAbdallah-14/unslop
@@ -12,7 +14,6 @@ license_source: https://github.com/MohamedAbdallah-14/unslop/blob/main/LICENSE
 
 # Unslop Commit
 ## When to Use
-
 Use this skill when you need rewrites commit messages so they sound like a careful human engineer wrote them. Strips AI/marketing slop ("comprehensive solution", "robust implementation", "leverage", "enhance", "seamlessly", "This commit..."). Keeps Conventional Commits format. Subject ≤72 chars (aim ≤50),...
 
 

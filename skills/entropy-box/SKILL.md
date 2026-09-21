@@ -1,33 +1,37 @@
 ---
 name: entropy-box
-description: "Entropy Box knowledge-compiler for embodied-AI: turns bounded requirements into grounded workflows via Solution Consult, Search, Lookup, and Evidence. Do not use it to control physical robots."
+description: 'Entropy Box knowledge-compiler for embodied-AI: turns bounded requirements
+  into grounded workflows via Solution Consult, Search, Lookup, and Evidence. Do not
+  use it to control physical robots.'
 license: CC-BY-4.0
 license_source: https://github.com/sickn33/agentic-awesome-skills/blob/main/LICENSE-CONTENT
-compatibility: Public pages and REST API require network access to Entropy Box. No credentials are required. Direct API use needs an HTTP client; allow at least 180 seconds for /api/consult.
+compatibility: Public pages and REST API require network access to Entropy Box. No
+  credentials are required. Direct API use needs an HTTP client; allow at least 180
+  seconds for /api/consult.
 category: research
 risk: critical
 source: community
 source_repo: chenli-yy/entropy-box-public
 source_type: community
-date_added: "2026-09-02"
+date_added: '2026-09-02'
 author: Yuqi Wang
 tags:
-  - robotics
-  - embodied-ai
-  - knowledge-graph
-  - knowledge-compiler
-  - research
+- robotics
+- embodied-ai
+- knowledge-graph
+- knowledge-compiler
+- research
 tools:
-  - claude
-  - codex
-  - cursor
-  - gemini
+- claude
+- codex
+- cursor
+- gemini
 metadata:
-  version: "2.4"
+  version: '2.4'
   skill-author: Yuqi Wang
   repository: https://github.com/chenli-yy/entropy-box-public
-  upstream-api-version: "2.0.0"
-  last-reviewed: "2026-09-04"
+  upstream-api-version: 2.0.0
+  last-reviewed: '2026-09-04'
 ---
 # Entropy Box
 
@@ -54,7 +58,6 @@ vertical topic libraries. These counts evolve; verify the live site before quoti
 them.
 
 ## When to Use
-
 - Use when you need a grounded, source-linked implementation path for an embodied-AI task (manipulation, navigation, perception, control, planning, simulation, and related systems).
 - Use when selecting or comparing methods, capabilities, assets, dependencies, or evidence for a bounded technical requirement.
 - Use when mapping a problem to the embodied-AI field, tracing task chains, or assembling a development workflow from retrieved structure.
@@ -117,7 +120,7 @@ them. A mobile manipulator, for example, may require perception, localization,
 navigation, planning, manipulation, motion control, safety, simulation, and system
 infrastructure.
 
-Read [references/panorama.md](references/panorama.md) when mapping a field, traversing
+Read [references/panorama.md] when mapping a field, traversing
 graph layers, or producing a capability landscape.
 
 ## Route each question correctly
@@ -255,7 +258,7 @@ Evidence for selection rationale, comparisons, deployment failures, and benchmar
 claims. If a name lookup is ambiguous, inspect candidates rather than silently choosing
 the first match.
 
-Read [references/api.md](references/api.md) only for direct API or MCP work.
+Read [references/api.md] only for direct API or MCP work.
 
 Preserve exact IDs, names, source URLs, provenance fields, constraints, and negative
 results. Distinguish directly retrieved evidence from the agent's inference and final
@@ -300,7 +303,7 @@ explaining or applying the system, preserve these distinctions:
 - Agents assist research and assembly, while deterministic admission and validation
   protect the persistent substrate.
 
-Read [references/knowledge-compiler.md](references/knowledge-compiler.md) when the user
+Read [references/knowledge-compiler.md] when the user
 asks what Entropy Box is, how it is built, how it differs from RAG or a conventional
 knowledge graph, or how to design similar infrastructure.
 

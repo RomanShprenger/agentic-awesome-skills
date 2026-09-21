@@ -1,14 +1,25 @@
 ---
 name: client-secret-exposure-audit
-description: "Audit a deployed web app for secrets exposed to the browser: hardcoded API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable source/config/deploy files, and header/CORS misconfig."
+description: 'Audit a deployed web app for secrets exposed to the browser: hardcoded
+  API keys/tokens in JS, secrets in HTML meta/attributes/comments, publicly reachable
+  source/config/deploy files, and header/CORS…'
 category: security
 risk: safe
 source: self
 source_type: self
-date_added: "2026-09-10"
+date_added: '2026-09-10'
 author: siddanta-ar1
-tags: [security, secrets, owasp, reconnaissance, web, headers]
-tools: [claude, cursor, gemini]
+tags:
+- security
+- secrets
+- owasp
+- reconnaissance
+- web
+- headers
+tools:
+- claude
+- cursor
+- gemini
 ---
 
 # Client-Side Secret & Sensitive-File Exposure Audit
@@ -136,7 +147,7 @@ key the same way — report the pattern.
 ### Step 6: Report
 
 Write findings as Markdown using the format in
-[references/example-report.md](references/example-report.md): one row/section per finding with
+[references/example-report.md]: one row/section per finding with
 `Severity · Category (OWASP/CWE) · Location · Evidence (redacted) · Impact ·
 Remediation`. Redact real secret material to a prefix + length. End with
 prioritized remediation and a note on which secrets must be **rotated**, not just
@@ -175,7 +186,7 @@ done
 #    real files, not the SPA catch-all page.
 ```
 
-A full worked report for this target is in [references/example-report.md](references/example-report.md).
+A full worked report for this target is in [references/example-report.md].
 
 ## Best Practices
 

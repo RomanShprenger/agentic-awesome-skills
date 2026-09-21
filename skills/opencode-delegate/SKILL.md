@@ -19,7 +19,6 @@ metadata:
 # OpenCode Delegate
 
 ## When to Use
-
 - You want to delegate a bounded coding task to a separate `opencode` implementer (`OpenCode`) and then review its diff yourself.
 - The user explicitly asked for delegation to this implementer.
 
@@ -65,7 +64,7 @@ model is the one decision a single-model backend like codex-delegate never had, 
 - **If no usable set is stated, ask — don't guess.** Guessing from the catalog risks a metered model and
   a surprise bill. Name the constraint to the human and let them choose.
 
-More depth: [references/writing-the-brief.md](references/writing-the-brief.md).
+More depth: [references/writing-the-brief.md].
 
 ## The loop
 
@@ -78,7 +77,7 @@ no shared context. Everything the task needs goes in the brief: the goal, the cu
 change, what to leave untouched, the project's **actual** gate commands (discover them from the repo's
 AGENTS.md/CLAUDE.md/Makefile — do not assume), and a report contract. Tell OpenCode it will **not**
 commit (you will). Keep one task per brief. Full guidance and a template:
-[references/writing-the-brief.md](references/writing-the-brief.md).
+[references/writing-the-brief.md].
 
 ### 2. Dispatch
 
@@ -101,7 +100,7 @@ node "<skill-dir>/scripts/relay.mjs" --brief brief.txt --model <provider/model> 
 
 The helper defaults to the write-capable `build` agent and writes its artifacts to a temp dir, so the
 repo under review stays clean. It **never commits** — see step 5. Mechanics, flags, and the
-`result.json` shape: [references/dispatch-and-poll.md](references/dispatch-and-poll.md).
+`result.json` shape: [references/dispatch-and-poll.md].
 
 ### 3. Wait for completion
 
@@ -132,7 +131,7 @@ OpenCode's `result.json` includes its own final message and any gate claims. **R
   test-guard, etc. from `guard-skills`) — this skill produces the work; those skills judge it.
 - For schema/migration changes, round-trip them; for removals, grep for dangling references.
 
-Full checklist: [references/review-and-land.md](references/review-and-land.md).
+Full checklist: [references/review-and-land.md].
 
 ### 5. Land it
 
@@ -167,17 +166,17 @@ verified, gate-passing work is the agreed contract — that is the whole point. 
 mandate: **surface, don't absorb** (report OpenCode's design decisions, defensible-but-unasked turns,
 and non-blocking nitpicks rather than silently keeping them) and **stop for scope changes** (if correct
 completion needs going beyond the brief, ask — don't expand the mandate yourself). The full treatment
-is in [references/review-and-land.md](references/review-and-land.md).
+is in [references/review-and-land.md].
 
 ## References
 
-- [references/writing-the-brief.md](references/writing-the-brief.md) — how to write a brief OpenCode can
+- [references/writing-the-brief.md] — how to write a brief OpenCode can
   execute blind: structure, XML blocks, the report contract, embedding the real gate commands.
-- [references/dispatch-and-poll.md](references/dispatch-and-poll.md) — `relay.mjs` flags, the
+- [references/dispatch-and-poll.md] — `relay.mjs` flags, the
   `result.json` contract, backgrounding per orchestrator, and recovery when a run misbehaves.
-- [references/review-and-land.md](references/review-and-land.md) — the review checklist, the commit
+- [references/review-and-land.md] — the review checklist, the commit
   boundary, and the rework cycle via `--resume-last`.
-- [references/multi-task-queues.md](references/multi-task-queues.md) — running a sequential queue:
+- [references/multi-task-queues.md] — running a sequential queue:
   carrying constraints forward, progress tracking, and the end-of-run coherence check.
 
 

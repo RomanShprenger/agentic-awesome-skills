@@ -1,6 +1,8 @@
 ---
 name: hugging-face-vision-trainer
-description: "Train object detection, image classification, and SAM or SAM2 segmentation models locally or on Hugging Face Jobs, with dataset validation and results saved to the Hub."
+description: Train object detection, image classification, and SAM or SAM2 segmentation
+  models locally or on Hugging Face Jobs, with dataset validation and results saved
+  to the Hub.
 risk: critical
 source: https://github.com/huggingface/skills/tree/main/skills/huggingface-vision-trainer
 source_repo: huggingface/skills
@@ -16,7 +18,7 @@ Train object detection, image classification, and SAM/SAM2 segmentation models o
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

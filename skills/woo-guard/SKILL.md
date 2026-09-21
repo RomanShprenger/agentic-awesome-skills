@@ -1,12 +1,13 @@
 ---
-name: "woo-guard"
-description: "Review generated or changed WooCommerce extensions, payment and shipping integrations, checkout customizations, and order or product logic."
-risk: "critical"
-source: "community"
-source_repo: "amElnagdy/guard-skills"
-source_type: "community"
+name: woo-guard
+description: Review generated or changed WooCommerce extensions, payment and shipping
+  integrations, checkout customizations, and order or product logic.
+risk: critical
+source: community
+source_repo: amElnagdy/guard-skills
+source_type: community
 date_added: 2026-07-13
-author: "community"
+author: community
 tags: []
 tools: []
 ---
@@ -19,7 +20,6 @@ You are reviewing generated or changed WooCommerce code before it ships. Apply t
 These rules exist because AI agents produce WooCommerce code with systematic failures: order meta read through `get_post_meta()` (broken on HPOS stores), products updated by direct meta writes that skip lookup tables and hooks, checkout validated only in JavaScript, prices computed in floats, and `woocommerce_*` hooks registered before confirming WooCommerce is active.
 
 ## When to Use
-
 Use this skill when reviewing generated or changed WooCommerce code — extensions, payment and shipping integrations, checkout customizations, and order/product logic — before it ships. Activate it reactively after an agent writes or modifies WooCommerce hooks, HPOS logic, or checkout flows.
 
 ## How to use this skill
@@ -28,7 +28,7 @@ Use this skill when reviewing generated or changed WooCommerce code — extensio
 
 **Live mode** (explicit): when the user invokes this skill before writing WooCommerce code, apply the same rules while writing, then run the self-check before delivery.
 
-**Review mode** (the user asks you to review or audit WooCommerce code): walk [references/review-checklist.md](references/review-checklist.md) and produce a structured findings report. Do not edit code in review mode unless asked.
+**Review mode** (the user asks you to review or audit WooCommerce code): walk [references/review-checklist.md] and produce a structured findings report. Do not edit code in review mode unless asked.
 
 **Security floor** — these hold in all WooCommerce code, at maximum severity, because money is on the line:
 
@@ -50,7 +50,7 @@ If wp-guard is installed, run it alongside for the full WordPress layer.
 
 ### Order and product data — must fix
 
-1. **Orders are not posts.** Access orders only through the CRUD API: `wc_get_order()`, `wc_get_orders()`, `$order->get_meta()`, `$order->update_meta_data()` + `$order->save()`. Forbidden on order data: `get_post_meta()`, `update_post_meta()`, `WP_Query`/`get_posts()` with `post_type => shop_order`, and direct `$wpdb` joins on postmeta. These work on legacy stores and silently break on HPOS stores. Details: [references/hpos-and-crud.md](references/hpos-and-crud.md).
+1. **Orders are not posts.** Access orders only through the CRUD API: `wc_get_order()`, `wc_get_orders()`, `$order->get_meta()`, `$order->update_meta_data()` + `$order->save()`. Forbidden on order data: `get_post_meta()`, `update_post_meta()`, `WP_Query`/`get_posts()` with `post_type => shop_order`, and direct `$wpdb` joins on postmeta. These work on legacy stores and silently break on HPOS stores. Details: [references/hpos-and-crud.md].
 
 2. **CRUD objects, getters/setters, then save.** Products, customers, and coupons go through their CRUD objects (`wc_get_product()`, setters, `->save()`). Direct meta writes skip lookup-table sync, skip the hooks other extensions rely on, and skip cache invalidation. Stock changes go through `wc_update_product_stock()` semantics; order state changes through `$order->update_status()` — which fire the emails and hooks the store expects.
 
@@ -101,10 +101,10 @@ Group by file, lead with Rules 1–5 findings. If a file is clean, don't mention
 
 ## References
 
-- [references/hpos-and-crud.md](references/hpos-and-crud.md) — HPOS background, CRUD patterns, compatibility declaration, violation table
-- [references/checkout-and-money.md](references/checkout-and-money.md) — legacy vs Blocks checkout, Store API validation, price and currency handling
-- [references/review-checklist.md](references/review-checklist.md) — structured walk-through for review mode
-- [references/sources.md](references/sources.md) — WooCommerce developer documentation URLs; read only when citing
+- [references/hpos-and-crud.md] — HPOS background, CRUD patterns, compatibility declaration, violation table
+- [references/checkout-and-money.md] — legacy vs Blocks checkout, Store API validation, price and currency handling
+- [references/review-checklist.md] — structured walk-through for review mode
+- [references/sources.md] — WooCommerce developer documentation URLs; read only when citing
 
 ## What this skill does not do
 

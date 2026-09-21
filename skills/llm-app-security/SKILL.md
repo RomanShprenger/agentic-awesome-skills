@@ -352,16 +352,15 @@ async def safe_output(raw_response: str) -> dict:
 
 ## Contents
 
-- [Secure RAG Pipeline](references/details.md)
-- [Tenant Isolation](references/details.md)
-- [Rate Limiting](references/details.md)
-- [Monitoring and Alerting](references/details.md)
-- [Compliance](references/details.md)
-- [Baseline Security Checklist](references/details.md)
-- [Related Skills](references/details.md)
+- [Secure RAG Pipeline]
+- [Tenant Isolation]
+- [Rate Limiting]
+- [Monitoring and Alerting]
+- [Compliance]
+- [Baseline Security Checklist]
+- [Related Skills]
 
 ## When to Use
-
 Apply this skill whenever you are building or operating:
 
 - **Customer-facing chatbots** -- support bots, sales assistants, or any conversational UI backed by an LLM.

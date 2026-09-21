@@ -20,7 +20,6 @@ metadata:
 # Copilot Delegate
 
 ## When to Use
-
 - You want to delegate a bounded coding task to a separate `copilot` implementer (`GitHub Copilot CLI`) and then review its diff yourself.
 - The user explicitly asked for delegation to this implementer.
 
@@ -69,7 +68,7 @@ Run these five steps per task. Steps 1, 4, and 5 require judgment; 2 and 3 are m
 Copilot sees only the text you send. It cannot read your conversation: the brief must stand alone
 with the goal, current state, what to change, what to leave untouched, the project's **real**
 gates, and a report contract. Keep each brief to a single task. Write it to a file and pass it as
-the relay's `--brief`. See [references/writing-the-brief.md](references/writing-the-brief.md).
+the relay's `--brief`. See [references/writing-the-brief.md].
 
 ### 2. Dispatch
 
@@ -88,7 +87,7 @@ node "<skill-dir>/scripts/relay.mjs" --brief brief.txt --cd /path/to/repo
 ```
 
 The child's cwd pins the workspace. The relay writes artifacts under the system temp dir by
-default and never commits. See [references/dispatch-and-poll.md](references/dispatch-and-poll.md).
+default and never commits. See [references/dispatch-and-poll.md].
 
 ### 3. Wait for completion
 
@@ -106,7 +105,7 @@ field of `result.json`.
 - Read the diff against the brief, starting with `touchedFiles`.
 - Run relevant guard skills if installed.
 
-See [references/review-and-land.md](references/review-and-land.md).
+See [references/review-and-land.md].
 
 ### 5. Land it
 
@@ -141,13 +140,13 @@ the human first instead of encoding it in a brief.
 
 ## References
 
-- [references/writing-the-brief.md](references/writing-the-brief.md) — structure, scope, gates,
+- [references/writing-the-brief.md] — structure, scope, gates,
   brief delivery.
-- [references/dispatch-and-poll.md](references/dispatch-and-poll.md) — flags, artifacts,
+- [references/dispatch-and-poll.md] — flags, artifacts,
   `result.json`, and failure recovery.
-- [references/review-and-land.md](references/review-and-land.md) — what to verify before calling
+- [references/review-and-land.md] — what to verify before calling
   the diff done, at the end of a run.
-- [references/multi-task-queues.md](references/multi-task-queues.md) — sequential queues,
+- [references/multi-task-queues.md] — sequential queues,
   constraint carry-forward, progress tracking, and the final coherence pass.
 
 

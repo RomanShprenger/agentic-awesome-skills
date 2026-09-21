@@ -1,10 +1,13 @@
 ---
 name: professional-proofreader
-description: >
-    Use when a user asks to "proofread", "review and correct", "fix grammar", "improve readability while keeping my voice", and to proofread a document file and save an updated version.
+description: 'Use when a user asks to "proofread", "review and correct", "fix grammar",
+  "improve readability while keeping my voice", and to proofread a document file and
+  save an updated version.
+
+  '
 risk: safe
 source: original
-date_added: "2026-03-04"
+date_added: '2026-03-04'
 ---
 
 # Professional Proofreader
@@ -31,7 +34,7 @@ This skill operates in two modes:
 
 ### MODE 1: Inline Text
 
-Refer [markdown](references/inline-text-mode.md) for complete inline text mode.
+Refer [markdown] for complete inline text mode.
 
 ### MODE 2: File Processing
 
@@ -44,7 +47,7 @@ Trigger when user says:
 - "Add prefix UPDATED_"
 - "Return corrected .[extension]"
 
-Refer [markdown](references/file-processing-mode.md) for complete file processing mode.
+Refer [markdown] for complete file processing mode.
 
 ---
 

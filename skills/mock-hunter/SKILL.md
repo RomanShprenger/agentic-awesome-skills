@@ -1,17 +1,28 @@
 ---
 name: mock-hunter
-description: "Audit a live web page in five phases (catalog, click, trace, classify, report) to identify mock data, hardcoded values, LLM-generated metrics, and broken endpoints. Outputs a markdown report with REAL/MOCK/LLM/HARDCODED/BROKEN/UNKNOWN verdicts per visible value."
+description: Audit a live web page in five phases (catalog, click, trace, classify,
+  report) to identify mock data, hardcoded values, LLM-generated metrics, and broken
+  endpoints. Outputs a markdown report with REA…
 category: testing
 risk: critical
 source: community
 source_repo: CodeShuX/mockhunter
 source_type: community
-date_added: "2026-05-07"
+date_added: '2026-05-07'
 author: CodeShuX
-tags: [testing, qa, playwright, mock-detection, web-audit, ai-testing, vibe-coding, claude-code]
-tools: [claude]
-license: "MIT"
-license_source: "https://github.com/CodeShuX/mockhunter/blob/main/LICENSE"
+tags:
+- testing
+- qa
+- playwright
+- mock-detection
+- web-audit
+- ai-testing
+- vibe-coding
+- claude-code
+tools:
+- claude
+license: MIT
+license_source: https://github.com/CodeShuX/mockhunter/blob/main/LICENSE
 plugin:
   targets:
     codex: blocked

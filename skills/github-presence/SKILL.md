@@ -1,6 +1,8 @@
 ---
 name: github-presence
-description: When the user wants to optimize their GitHub profile, README, or project discoverability. Trigger phrases include "GitHub README," "README optimization," "GitHub profile," "GitHub stars," "GitHub discoverability," "awesome lists," or "GitHub marketing."
+description: When the user wants to optimize their GitHub profile, README, or project
+  discoverability. Trigger phrases include "GitHub README," "README optimization,"
+  "GitHub profile," "GitHub stars," "GitHub dis…
 risk: critical
 source: https://github.com/jonathimer/devmarketing-skills/tree/main/skills/github-presence
 source_repo: jonathimer/devmarketing-skills
@@ -12,7 +14,6 @@ license_source: https://github.com/jonathimer/devmarketing-skills/blob/main/LICE
 
 # GitHub Presence
 ## When to Use
-
 Use this skill when you need when the user wants to optimize their GitHub profile, README, or project discoverability. Trigger phrases include "GitHub README," "README optimization," "GitHub profile," "GitHub stars," "GitHub discoverability," "awesome lists," or "GitHub marketing.".
 
 
@@ -182,7 +183,7 @@ MIT © [Your Name](https://yoursite.com)
 [![Downloads](https://img.shields.io/npm/dm/package-name.svg)](https://www.npmjs.com/package/package-name)
 
 <!-- License -->
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 <!-- Discord -->
 [![Discord](https://img.shields.io/discord/SERVER_ID?color=7289da&logo=discord&logoColor=white)](https://discord.gg/invite)

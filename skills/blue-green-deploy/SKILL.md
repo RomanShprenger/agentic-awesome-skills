@@ -423,11 +423,11 @@ def ready():
 
 ## Contents
 
-- [Rollback Procedures](references/details.md)
-- [Rollback Checklist](references/details.md)
-- [Common Issues](references/details.md)
-- [Best Practices](references/details.md)
-- [Related Skills](references/details.md)
+- [Rollback Procedures]
+- [Rollback Checklist]
+- [Common Issues]
+- [Best Practices]
+- [Related Skills]
 
 ## When to Use This Skill
 

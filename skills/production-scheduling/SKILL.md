@@ -1,6 +1,7 @@
 ---
 name: production-scheduling
-description: Codified expertise for production scheduling, job sequencing, line balancing, changeover optimisation, and bottleneck resolution in discrete and batch manufacturing.
+description: Codified expertise for production scheduling, job sequencing, line balancing,
+  changeover optimisation, and bottleneck resolution in discrete and batch manufacturing.
 risk: safe
 source: https://github.com/ai-evos/agent-skills
 date_added: '2026-02-27'
@@ -135,7 +136,7 @@ When a disruption invalidates the current schedule:
 
 ## Key Edge Cases
 
-Brief summaries here. Full analysis in [edge-cases.md](references/edge-cases.md).
+Brief summaries here. Full analysis in [edge-cases.md].
 
 1. **Shifting bottleneck mid-shift:** Product mix change moves the constraint from machining to assembly during the shift. The schedule that was optimal at 6:00 AM is wrong by 10:00 AM. Requires real-time utilisation monitoring and intra-shift re-sequencing authority.
 
@@ -164,7 +165,7 @@ Brief summaries here. Full analysis in [edge-cases.md](references/edge-cases.md)
 - **Customer delivery impact notice:** Never surprise the customer. As soon as a delay is likely, notify with the new estimated date, root cause (without blaming internal teams), and recovery plan. "Due to an equipment issue, order #12345 will ship [new date] vs. the original [old date]. We are running overtime to minimise the delay."
 - **Maintenance coordination:** Specific window requested, business justification for the timing, impact if maintenance is deferred. "Requesting PM window on Line 3, Tuesday 06:00–10:00. This avoids the Thursday changeover peak. Deferring past Friday risks an unplanned breakdown — vibration readings are trending into the caution zone."
 
-Brief templates above. Full versions with variables in [communication-templates.md](references/communication-templates.md).
+Brief templates above. Full versions with variables in [communication-templates.md].
 
 ## Escalation Protocols
 
@@ -202,9 +203,9 @@ Track per shift and trend weekly:
 
 ## Additional Resources
 
-- For detailed decision frameworks, scheduling algorithms, and optimisation methodologies, see [decision-frameworks.md](references/decision-frameworks.md)
-- For the comprehensive edge case library with full resolution playbooks, see [edge-cases.md](references/edge-cases.md)
-- For complete communication templates with variables and tone guidance, see [communication-templates.md](references/communication-templates.md)
+- For detailed decision frameworks, scheduling algorithms, and optimisation methodologies, see [decision-frameworks.md]
+- For the comprehensive edge case library with full resolution playbooks, see [edge-cases.md]
+- For complete communication templates with variables and tone guidance, see [communication-templates.md]
 
 ### When to Use
 Use this skill when you need to **design or adjust production schedules and constraint‑focused execution plans**:

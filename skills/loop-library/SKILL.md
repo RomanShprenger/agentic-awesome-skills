@@ -1,27 +1,28 @@
 ---
 name: loop-library
-description: "Find, compare, adapt, and design bounded AI-agent feedback loops with explicit checks, stop rules, guardrails, and handoffs."
+description: Find, compare, adapt, and design bounded AI-agent feedback loops with
+  explicit checks, stop rules, guardrails, and handoffs.
 category: ai-agents
 risk: safe
 source: official
 source_repo: Forward-Future/loop-library
 source_type: official
-date_added: "2026-06-19"
+date_added: '2026-06-19'
 author: Forward Future
 license: MIT
-license_source: "https://github.com/Forward-Future/loop-library/blob/main/LICENSE"
+license_source: https://github.com/Forward-Future/loop-library/blob/main/LICENSE
 tags:
-  - ai-agents
-  - workflows
-  - loops
-  - automation
-  - evaluation
+- ai-agents
+- workflows
+- loops
+- automation
+- evaluation
 tools:
-  - claude-code
-  - antigravity
-  - cursor
-  - gemini-cli
-  - codex-cli
+- claude-code
+- antigravity
+- cursor
+- gemini-cli
+- codex-cli
 ---
 
 # Loop Library
@@ -32,7 +33,6 @@ loop as a feedback system with terminal states, not as permission for endless
 autonomy.
 
 ## When to Use
-
 Use when the user asks for a loop, recurring agent workflow, automation cadence,
 iterative improvement process, existing Loop Library recommendation, or help
 turning an outcome into a bounded copy-ready loop through a short question-led
@@ -57,7 +57,7 @@ begin with: "What would you like the agent to get done?"
 
 ## Find a published loop
 
-1. Start from [references/catalog.md](references/catalog.md), the reviewed
+1. Start from [references/catalog.md], the reviewed
    offline catalog bundled with this skill.
 2. Read the live
    [catalog.md](https://signals.forwardfuture.ai/loop-library/catalog.md) or

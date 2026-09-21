@@ -1,15 +1,27 @@
 ---
 name: markstream-install
-description: "Install and configure Markstream streaming Markdown renderers for Vue, React, Svelte, Angular, Nuxt, Next.js, and Vue 2 applications."
+description: Install and configure Markstream streaming Markdown renderers for Vue,
+  React, Svelte, Angular, Nuxt, Next.js, and Vue 2 applications.
 category: frontend
 risk: critical
 source: https://github.com/Simon-He95/markstream-vue/tree/main/.agents/skills/markstream-install
 source_repo: Simon-He95/markstream-vue
 source_type: official
-date_added: "2026-07-19"
+date_added: '2026-07-19'
 author: Simon-He95
-tags: [markdown, streaming, vue, react, svelte, angular, ai-chat]
-tools: [claude, cursor, gemini, codex]
+tags:
+- markdown
+- streaming
+- vue
+- react
+- svelte
+- angular
+- ai-chat
+tools:
+- claude
+- cursor
+- gemini
+- codex
 license: MIT
 license_source: https://github.com/Simon-He95/markstream-vue/blob/main/license
 ---
@@ -20,10 +32,9 @@ license_source: https://github.com/Simon-He95/markstream-vue/blob/main/license
 
 Integrate the correct [Markstream](https://github.com/Simon-He95/markstream-vue) streaming Markdown renderer into an existing frontend application. This skill selects the framework package, installs only requested optional peers, preserves safe HTML and Mermaid defaults, and handles CSS, streaming state, and SSR boundaries.
 
-Read [references/scenarios.md](references/scenarios.md) before selecting packages or optional peers.
+Read [references/scenarios.md] before selecting packages or optional peers.
 
 ## When to Use
-
 Use this skill when the user asks to:
 
 - add streaming Markdown rendering to an AI chat or document interface;

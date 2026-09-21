@@ -401,14 +401,13 @@ sudo bpftrace -e 'kprobe:__alloc_pages { @pages[cgroup] = count(); }
 
 ## Contents
 
-- [6. Prometheus Integration](references/details.md)
-- [7. Network Observability](references/details.md)
-- [8. Security Monitoring](references/details.md)
-- [9. Performance Profiling](references/details.md)
-- [10. Troubleshooting](references/details.md)
+- [6. Prometheus Integration]
+- [7. Network Observability]
+- [8. Security Monitoring]
+- [9. Performance Profiling]
+- [10. Troubleshooting]
 
 ## When to Use
-
 Use eBPF-based observability when you need:
 
 - **Deep performance debugging** -- trace kernel-level latency, syscall overhead, and scheduling delays that application-level metrics cannot reveal.

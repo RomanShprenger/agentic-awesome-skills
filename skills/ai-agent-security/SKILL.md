@@ -356,16 +356,16 @@ class ToolGatekeeper:
 
 ## Contents
 
-- [Permission Boundaries](references/details.md)
-- [Output Filtering](references/details.md)
-- [Audit Logging](references/details.md)
-- [Rate Limiting and Abuse Prevention](references/details.md)
-- [Kill Switches and Circuit Breakers](references/details.md)
-- [Red Team Checklist](references/details.md)
-- [Incident Response Playbook](references/details.md)
-- [Troubleshooting](references/details.md)
-- [Best Practices](references/details.md)
-- [Related Skills](references/details.md)
+- [Permission Boundaries]
+- [Output Filtering]
+- [Audit Logging]
+- [Rate Limiting and Abuse Prevention]
+- [Kill Switches and Circuit Breakers]
+- [Red Team Checklist]
+- [Incident Response Playbook]
+- [Troubleshooting]
+- [Best Practices]
+- [Related Skills]
 
 ## When to Use This Skill
 

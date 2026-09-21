@@ -1,6 +1,7 @@
 ---
 name: web-scraper
-description: Web scraping inteligente multi-estrategia. Extrai dados estruturados de paginas web (tabelas, listas, precos). Paginacao, monitoramento e export CSV/JSON.
+description: Web scraping inteligente multi-estrategia. Extrai dados estruturados
+  de paginas web (tabelas, listas, precos). Paginacao, monitoramento e export CSV/JSON.
 risk: safe
 source: community
 date_added: '2026-03-06'
@@ -22,7 +23,7 @@ tools:
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

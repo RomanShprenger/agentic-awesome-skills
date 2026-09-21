@@ -1,9 +1,10 @@
 ---
 name: react-flow-architect
-description: "Build production-ready ReactFlow applications with hierarchical navigation, performance optimization, and advanced state management."
+description: Build production-ready ReactFlow applications with hierarchical navigation,
+  performance optimization, and advanced state management.
 risk: critical
 source: community
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 # ReactFlow Architect
@@ -12,7 +13,7 @@ Build production-ready ReactFlow applications with hierarchical navigation, perf
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Complete Example
 

@@ -1,10 +1,11 @@
 ---
 name: windows-privilege-escalation
-description: "Provide systematic methodologies for discovering and exploiting privilege escalation vulnerabilities on Windows systems during penetration testing engagements."
+description: Provide systematic methodologies for discovering and exploiting privilege
+  escalation vulnerabilities on Windows systems during penetration testing engagements.
 risk: offensive
 source: community
 author: zebbern
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 > **⚠️ AUTHORIZED USE ONLY**
@@ -27,7 +28,7 @@ date_added: "2026-02-27"
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Constraints and Limitations
 

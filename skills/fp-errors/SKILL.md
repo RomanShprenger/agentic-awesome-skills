@@ -1,19 +1,20 @@
 ---
 name: fp-errors
-description: Stop throwing everywhere - handle errors as values using Either and TaskEither for cleaner, more predictable code
+description: Stop throwing everywhere - handle errors as values using Either and TaskEither
+  for cleaner, more predictable code
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 version: 1.0.0
 author: kadu
 tags:
-  - fp-ts
-  - error-handling
-  - either
-  - task-either
-  - typescript
-  - validation
-  - practical
+- fp-ts
+- error-handling
+- either
+- task-either
+- typescript
+- validation
+- practical
 ---
 
 # Practical Error Handling with fp-ts
@@ -24,7 +25,7 @@ The core idea: **Errors are just data**. Instead of throwing them into the void 
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use
 - You need to replace exception-heavy code with `Either` or `TaskEither`.

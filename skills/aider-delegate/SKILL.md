@@ -22,7 +22,6 @@ metadata:
 # Aider Delegate
 
 ## When to Use
-
 - You want to delegate a bounded coding task to a separate `aider` implementer (`Aider`) and then review its diff yourself.
 - The user explicitly asked for delegation to this implementer.
 
@@ -114,7 +113,7 @@ Run these five steps per task. Steps 1, 4, and 5 require judgment; 2 and 3 are m
 Aider sees only the text you send plus the files in its editing scope - no chat history or shared
 context. Include the goal, current state, what to change, what to leave untouched, the project's
 **actual** gates, and a report contract. Keep one task per brief. See
-[references/writing-the-brief.md](references/writing-the-brief.md).
+[references/writing-the-brief.md].
 
 ### 2. Dispatch
 
@@ -135,7 +134,7 @@ node "<skill-dir>/scripts/relay.mjs" --brief brief.txt --cd /path/to/repo
 The child process's cwd pins the workspace. The brief is delivered with `--message-file`, so it never
 rides argv: it stays out of the host process list and clear of the OS argument size cap. The relay
 writes artifacts under the system temp dir by default and never commits. See
-[references/dispatch-and-poll.md](references/dispatch-and-poll.md).
+[references/dispatch-and-poll.md].
 
 ### 3. Wait for completion
 
@@ -162,7 +161,7 @@ Treat Aider's final message and gate claims as claims:
 
 Aider's `--auto-lint` is on by default, so it may have already run a linter and fixed its own
 complaints. That is Aider's lint, not your gates - run yours anyway. See
-[references/review-and-land.md](references/review-and-land.md).
+[references/review-and-land.md].
 
 ### 5. Land it
 
@@ -186,7 +185,7 @@ a throwaway worktree, because no flag in this relay will give you that.
 
 **File selection is not a security boundary.** `--file`, `--read`, and `--subtree-only` set what Aider
 puts in its chat context, which is a scoping and token-cost decision. They do not confine what it can
-reach. See [references/writing-the-brief.md](references/writing-the-brief.md).
+reach. See [references/writing-the-brief.md].
 
 `--read-only` maps to Aider's `--dry-run`, which performs the run without modifying files. The relay
 does not independently verify that claim - it reports what `git status --porcelain` shows and warns if
@@ -205,17 +204,17 @@ Delegation is something the human opts into. Once they have ("run this queue", "
 verified, gate-passing work is the agreed contract. Two limits remain: **surface, don't absorb**
 (report Aider's design decisions, defensible-but-unasked turns, and non-blocking nitpicks) and **stop
 for scope changes** (if correct completion needs going beyond the brief, ask instead of expanding the
-mandate). See [references/review-and-land.md](references/review-and-land.md).
+mandate). See [references/review-and-land.md].
 
 ## References
 
-- [references/writing-the-brief.md](references/writing-the-brief.md) - structure, report contract,
+- [references/writing-the-brief.md] - structure, report contract,
   real gates, file scope, and delta briefs.
-- [references/dispatch-and-poll.md](references/dispatch-and-poll.md) - flags, artifacts,
+- [references/dispatch-and-poll.md] - flags, artifacts,
   `result.json`, polling, and failure recovery.
-- [references/review-and-land.md](references/review-and-land.md) - review checklist, the commit
+- [references/review-and-land.md] - review checklist, the commit
   boundary, and rework through Aider's chat history.
-- [references/multi-task-queues.md](references/multi-task-queues.md) - sequential queues, constraint
+- [references/multi-task-queues.md] - sequential queues, constraint
   carry-forward, progress tracking, and the final coherence pass.
 
 

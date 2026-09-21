@@ -1,13 +1,11 @@
 ---
 name: comprehensive-review-pr-enhance
-description: >
-  Generate structured PR descriptions from diffs, add review checklists,
-  risk assessments, and test coverage summaries. Use when the user says
-  "write a PR description", "improve this PR", "summarize my changes",
-  "PR review", "pull request", or asks to document a diff for reviewers.
+description: Generate structured PR descriptions from diffs, add review checklists,
+  risk assessments, and test coverage summaries. Use when the user says "write a PR
+  description", "improve this PR", "summarize my…
 risk: critical
 source: community
-date_added: "2026-09-04"
+date_added: '2026-09-04'
 ---
 
 # Pull Request Enhancement

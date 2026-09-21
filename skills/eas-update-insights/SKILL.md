@@ -1,6 +1,8 @@
 ---
 name: eas-update-insights
-description: "Check the health of published EAS Updates: crash rates, install/launch counts, unique users, payload size, and the split between embedded and OTA users per channel."
+description: 'Check the health of published EAS Updates: crash rates, install/launch
+  counts, unique users, payload size, and the split between embedded and OTA users
+  per channel.'
 risk: critical
 source: https://github.com/expo/skills/tree/main/plugins/expo/skills/eas-update-insights
 source_repo: expo/skills
@@ -105,7 +107,7 @@ eas update:insights 03d5dfcf-736c-475a-8730-af039c3f4d06
 
 Top level: `groupId`, `timespan` (`start`, `end`, `daysBack`), and `platforms[]` with one entry per platform the group was published to. Each platform entry has `updateId`, `totals` (`uniqueUsers`, `installs`, `failedInstalls`, `crashRatePercent`), `payload` (`launchAssetCount`, `averageUpdatePayloadBytes`), and a `daily[]` time series of `{ date, installs, failedInstalls }`.
 
-For the complete schema and field reference, see [references/update-insights-schema.md](./references/update-insights-schema.md).
+For the complete schema and field reference, see [references/update-insights-schema.md].
 
 Fields that matter for health assessment:
 
@@ -158,7 +160,7 @@ eas channel:insights --channel production --runtime-version 1.0.6
 
 Top level: `channel`, `runtimeVersion`, `timespan`, `embeddedUpdateTotalUniqueUsers`, `otaTotalUniqueUsers`, `mostPopularUpdates[]` (each with `rank`, `groupId`, `message`, `platform`, `totalUniqueUsers`), `cumulativeMetricsAtLastTimestamp[]`, plus chart-shaped `uniqueUsersOverTime` and `cumulativeMetricsOverTime` objects with `labels` and `datasets`.
 
-For the complete schema and field reference, see [references/channel-insights-schema.md](./references/channel-insights-schema.md).
+For the complete schema and field reference, see [references/channel-insights-schema.md].
 
 Fields that matter:
 

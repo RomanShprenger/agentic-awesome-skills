@@ -36,19 +36,18 @@ This inverts a core assumption of traditional SEO. In traditional SEO, a backlin
 
 ## Contents
 
-- [Platform Importance Ranking for AI Citations](references/details.md)
-- [Composite Brand Authority Score](references/details.md)
-- [Analysis Procedure](references/details.md)
-- [Output Format](references/details.md)
-- [Brand Authority Score: [X]/100 ([Rating])](references/details.md)
-- [Platform Detail](references/details.md)
-- [Recommendations](references/details.md)
-- [Competitive Context](references/details.md)
-- [Key Takeaway](references/details.md)
-- [Reference Data](references/details.md)
+- [Platform Importance Ranking for AI Citations]
+- [Composite Brand Authority Score]
+- [Analysis Procedure]
+- [Output Format]
+- [Brand Authority Score: [X]/100 ([Rating])]
+- [Platform Detail]
+- [Recommendations]
+- [Competitive Context]
+- [Key Takeaway]
+- [Reference Data]
 
 ## When to Use
-
 - You need a Generative Engine Optimization task for a website: audit, citability, crawlers, schema, llms.txt, content, platform tuning, or client reporting.
 - Run read-only analysis first; propose site changes before making any.
 

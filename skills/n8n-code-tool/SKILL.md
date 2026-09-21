@@ -1,11 +1,12 @@
 ---
 name: n8n-code-tool
-description: Write and debug JavaScript or Python for the AI-callable n8n Custom Code Tool, including schemas, sandbox limits, and return formats.
+description: Write and debug JavaScript or Python for the AI-callable n8n Custom Code
+  Tool, including schemas, sandbox limits, and return formats.
 risk: critical
 source: https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-code-tool
 source_repo: czlonkowski/n8n-skills
 source_type: community
-date_added: "2026-07-21"
+date_added: '2026-07-21'
 author: Romuald Czlonkowski
 license: MIT
 license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
@@ -14,7 +15,6 @@ license_source: https://github.com/czlonkowski/n8n-skills/blob/main/LICENSE
 # n8n Custom Code Tool
 
 ## When to Use
-
 Use this skill specifically for code executed by the AI-agent-callable n8n Custom Code Tool. Use the separate JavaScript or Python Code-node skills for ordinary workflow Code nodes.
 
 Do not hardcode secrets or accept arbitrary executable code from untrusted input. Constrain inputs with a schema, validate outputs, allowlist any network destinations, and ask before testing a tool whose code can write data or invoke an external service.
@@ -119,7 +119,7 @@ Schema is defined via either:
 
 **Best for**: production tools with multiple typed parameters (calculators, API wrappers, anything with numeric fields the LLM tends to stringify).
 
-**See**: [references/INPUT_SCHEMA.md](references/INPUT_SCHEMA.md) for complete schema setup.
+**See**: [references/INPUT_SCHEMA.md] for complete schema setup.
 
 ---
 
@@ -239,7 +239,7 @@ monthly cost, total credit cost, or loan breakdown.
 
 **Fix**: either (a) include a concrete JSON example in the description, or (b) switch to `specifyInputSchema: true` so the LLM gets a typed schema.
 
-**See**: [references/ERROR_PATTERNS.md](references/ERROR_PATTERNS.md) for full catalog with reproductions.
+**See**: [references/ERROR_PATTERNS.md] for full catalog with reproductions.
 
 ---
 
@@ -339,8 +339,8 @@ Before deploying a Code Tool:
 
 ## Additional Resources
 
-- [references/INPUT_SCHEMA.md](references/INPUT_SCHEMA.md) — structured input (DynamicStructuredTool) in depth
-- [references/ERROR_PATTERNS.md](references/ERROR_PATTERNS.md) — full error catalog with causes and fixes
+- [references/INPUT_SCHEMA.md] — structured input (DynamicStructuredTool) in depth
+- [references/ERROR_PATTERNS.md] — full error catalog with causes and fixes
 
 ### Official sources
 - [n8n Custom Code Tool docs](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolcode/)

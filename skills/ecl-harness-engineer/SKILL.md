@@ -1,17 +1,28 @@
 ---
 name: ecl-harness-engineer
-description: "Create or audit ECL Agent Harness infrastructure: AGENTS.md, change tracking, repository guidance, lint checks, CI gates, and agent handoff docs."
+description: 'Create or audit ECL Agent Harness infrastructure: AGENTS.md, change
+  tracking, repository guidance, lint checks, CI gates, and agent handoff docs.'
 category: development
 risk: safe
 source: community
 source_repo: qinghui316/ecl-harness-engineer
 source_type: community
-date_added: "2026-06-13"
+date_added: '2026-06-13'
 author: qinghui316
-tags: [codex, agent-harness, ecl, workflow, ci]
-tools: [codex, claude, cursor, gemini, antigravity]
+tags:
+- codex
+- agent-harness
+- ecl
+- workflow
+- ci
+tools:
+- codex
+- claude
+- cursor
+- gemini
+- antigravity
 license: MIT
-license_source: "https://github.com/qinghui316/ecl-harness-engineer/blob/main/LICENSE"
+license_source: https://github.com/qinghui316/ecl-harness-engineer/blob/main/LICENSE
 ---
 
 # ECL Harness Engineer
@@ -21,7 +32,7 @@ Design and create Harness Engineering infrastructure so AI agents can work relia
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## When to Use This Skill
 

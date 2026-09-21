@@ -1,6 +1,7 @@
 ---
 name: analytics
-description: "When the user wants to set up, improve, or audit analytics tracking and measurement."
+description: When the user wants to set up, improve, or audit analytics tracking and
+  measurement.
 risk: critical
 source: https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics
 source_repo: coreyhaines31/marketingskills
@@ -12,7 +13,6 @@ license_source: https://github.com/coreyhaines31/marketingskills/blob/main/LICEN
 
 # Analytics Tracking
 ## When to Use
-
 Use this skill when you need when the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions "set up tracking," "GA4," "Google Analytics," "conversion tracking," "event tracking," "UTM parameters," "tag manager," "GTM," "analytics implementation," "tracking...
 
 
@@ -61,7 +61,9 @@ Before implementing tracking, understand:
 
 ```
 Event Name | Category | Properties | Trigger | Notes
----------- | -------- | ---------- | ------- | -----
+---
+
+------- | -------- | ---------- | ------- | -----
 ```
 
 ### Event Types
@@ -73,7 +75,7 @@ Event Name | Category | Properties | Trigger | Notes
 | System Events | Signup completed, purchase, subscription changed |
 | Custom Conversions | Goal completions, funnel stages |
 
-**For comprehensive event lists**: See [references/event-library.md](references/event-library.md)
+**For comprehensive event lists**: See [references/event-library.md]
 
 ---
 
@@ -118,7 +120,7 @@ checkout_payment_completed
 | purchase_completed | plan, value |
 | subscription_cancelled | reason |
 
-**For full event library by business type**: See [references/event-library.md](references/event-library.md)
+**For full event library by business type**: See [references/event-library.md]
 
 ---
 
@@ -160,7 +162,7 @@ gtag('event', 'signup_completed', {
 });
 ```
 
-**For detailed GA4 implementation**: See [references/ga4-implementation.md](references/ga4-implementation.md)
+**For detailed GA4 implementation**: See [references/ga4-implementation.md]
 
 ---
 
@@ -184,7 +186,7 @@ dataLayer.push({
 });
 ```
 
-**For detailed GTM implementation**: See [references/gtm-implementation.md](references/gtm-implementation.md)
+**For detailed GTM implementation**: See [references/gtm-implementation.md]
 
 ---
 

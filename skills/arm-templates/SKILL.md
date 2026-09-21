@@ -419,12 +419,11 @@ az deployment group delete \
 
 ## Contents
 
-- [Linked and Nested Templates](references/details.md)
-- [Troubleshooting](references/details.md)
-- [Related Skills](references/details.md)
+- [Linked and Nested Templates]
+- [Troubleshooting]
+- [Related Skills]
 
 ## When to Use
-
 - You need Azure-native Infrastructure as Code without third-party tooling.
 - Your organization standardizes on Azure and wants tight portal integration.
 - You need What-If analysis before deploying changes.

@@ -1,15 +1,23 @@
 ---
 name: fedora-hyprland-installer
-description: Install, configure, verify, repair, update, and uninstall Hyprland on Fedora Linux with GPU-aware detection (NVIDIA/AMD/Intel).
+description: Install, configure, verify, repair, update, and uninstall Hyprland on
+  Fedora Linux with GPU-aware detection (NVIDIA/AMD/Intel).
 category: devops
 risk: critical
 source: community
 source_repo: maleksaadi0109/hyprfedora
 source_type: community
-date_added: "2026-07-26"
+date_added: '2026-07-26'
 author: maleksaadi0109
-tags: [fedora, hyprland, wayland, linux]
-tools: [claude, cursor, gemini]
+tags:
+- fedora
+- hyprland
+- wayland
+- linux
+tools:
+- claude
+- cursor
+- gemini
 license: MIT
 license_source: https://github.com/maleksaadi0109/hyprfedora/blob/3ec6d4fc5eecdb188613dd841dce9926ae5c8319/LICENSE
 ---
@@ -28,7 +36,6 @@ Invoke bundled shell files explicitly with `bash` and a quoted path, for
 example `bash "$SKILL_DIR/scripts/detect-system.sh"`.
 
 ## When to Use
-
 - Use when installing or updating a Fedora-packaged Hyprland desktop stack.
 - Use when verifying a Hyprland session, portals, PipeWire, or WirePlumber on Fedora.
 - Use when diagnosing the limited repair cases documented below or removing the Hyprland-specific packages installed by this workflow.
@@ -82,14 +89,14 @@ When the user asks to **"Uninstall Hyprland"**:
 
 ## Reference Manuals
 
-- [Fedora Details](references/fedora.md)
-- [Hyprland Config Guide](references/hyprland.md)
-- [NVIDIA Setup & Wayland](references/nvidia.md)
-- [AMD Mesa Stack](references/amd.md)
-- [Intel Mesa Stack](references/intel.md)
-- [Wayland & Environment](references/wayland.md)
-- [Portals & PipeWire](references/portals.md)
-- [Troubleshooting Matrix](references/troubleshooting.md)
+- [Fedora Details]
+- [Hyprland Config Guide]
+- [NVIDIA Setup & Wayland]
+- [AMD Mesa Stack]
+- [Intel Mesa Stack]
+- [Wayland & Environment]
+- [Portals & PipeWire]
+- [Troubleshooting Matrix]
 
 ## Examples
 

@@ -1,10 +1,12 @@
 ---
 name: xss-html-injection
-description: "Execute comprehensive client-side injection vulnerability assessments on web applications to identify XSS and HTML injection flaws, demonstrate exploitation techniques for session hijacking and credential theft, and validate input sanitization and output encoding mechanisms."
+description: Execute comprehensive client-side injection vulnerability assessments
+  on web applications to identify XSS and HTML injection flaws, demonstrate exploitation
+  techniques for session hijacking and crede…
 risk: offensive
 source: community
 author: zebbern
-date_added: "2026-02-27"
+date_added: '2026-02-27'
 ---
 
 > **⚠️ AUTHORIZED USE ONLY**
@@ -27,7 +29,7 @@ date_added: "2026-02-27"
 
 ## Detailed Guide
 
-Read [the detailed guide](references/detailed-guide.md) before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
+Read [the detailed guide] before executing this skill. It retains the complete procedure and reference material. Treat its safety, prerequisites, and validation requirements as mandatory. For focused work, load the relevant sections; for end-to-end work, read the guide completely.
 
 ## Constraints and Guardrails
 
