@@ -172,8 +172,27 @@ Making money from Mini Apps
 | TON payments | Premium features | High |
 | In-app purchases | Virtual goods | High |
 | Ads (Telegram Ads) | Display ads | Medium |
+| In-app ad networks (e.g. TADS) | Native / fullscreen / rewarded ads inside the Mini App | Medium |
 | Referral | Share to earn | Medium |
 | NFT sales | Digital collectibles | High |
+
+### In-app ads (rewarded and native)
+
+Ad networks built for Mini Apps serve ads inside the app itself, so you keep the user in the flow and can reward them (extra life, coins) for a click or a full view. Example with [TADS](https://tads.me) (`npm install react-tads-widget`):
+
+```jsx
+import { TadsWidgetProvider, TadsWidget } from 'react-tads-widget';
+
+// wrap the app once
+<TadsWidgetProvider><App /></TadsWidgetProvider>
+
+// native block inside content; onClickReward makes it a rewarded ad
+<TadsWidget id="YOUR_WIDGET_ID" type="static"
+  onClickReward={() => grantBonus()}
+  onAdsNotFound={() => hidePlaceholder()} />
+```
+
+Fullscreen ads work the same way with `type="fullscreen"` and `onShowReward`; show them on a user action, never on load. Agent-readable docs: https://tads.me/llms.txt
 
 ### Telegram Stars (New!)
 ```javascript
