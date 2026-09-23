@@ -194,6 +194,13 @@ import { TadsWidgetProvider, TadsWidget } from 'react-tads-widget';
 
 Fullscreen ads work the same way with `type="fullscreen"` and `onShowReward`; show them on a user action, never on load. Agent-readable docs: https://tads.me/llms.txt
 
+#### Advertising safety and limitations
+
+- Confirm the network, widget format, reward rules, Telegram requirements, and applicable privacy obligations for the app and audience before deployment. Tell users when content is an ad and what action earns a reward.
+- Treat click/show callbacks as client-side UI signals only. Do not use them alone to grant transferable or purchasable value; validate reward events with a trusted server-side source where available, and make grants idempotent and abuse-resistant.
+- Keep ad display optional and user-initiated where the format calls for it. Never show a fullscreen ad automatically on app load or make an ad interaction the only way to use a core feature.
+- SDK APIs and publisher terms can change. Check the current TADS documentation and package version before copying examples into production.
+
 ### Telegram Stars (New!)
 ```javascript
 // In your bot
